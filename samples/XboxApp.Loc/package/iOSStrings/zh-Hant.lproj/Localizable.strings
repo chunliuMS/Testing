@@ -1,0 +1,3623 @@
+    //
+    // version 1.0
+    //
+    /* WINDOWS,iOS,ANDROID, Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language */
+    "ResourceFlowDirection" = "LeftToRight";
+    /* WINDOWS,iOS,ANDROID, Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language. */
+    "ResourceLanguage" = "zh-TW";
+    /* WINDOWS,iOS,ANDROID, If we don't find a valid rating to string mapping, we'll return this string. */
+    "PARENTAL_RATING_NOT_RATED" = "未分級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_EC" = "幼童";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E" = "普遍級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10" = "普遍級 10+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10_RP" = "待分級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_T" = "青少年";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_M" = "成人";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_AO" = "限制級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_RP" = "待分級或未分級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_A" = "CERO A / CERO All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_B" = "CERO B / CERO 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_C" = "CERO C / CERO 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_D" = "CERO D / CERO 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_Z" = "CERO Z";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_ALL_AGES" = "USK 0";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_6" = "USK 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_12" = "USK 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_16" = "USK 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_NO_YOUTH" = "USK 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_4" = "PEGI 4";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_6" = "PEGI 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_11" = "PEGI 11";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_12" = "PEGI 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_15" = "PEGI 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_18" = "PEGI 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_U" = "BBFC U";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_PG" = "BBFC PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_12" = "PEGI 12 / BBFC 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_15" = "BBFC 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_18" = "PEGI 18 / BBFC 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_E" = "E - 不分級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G" = "G - 一般";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G8" = "建議由家長陪同觀賞";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M15" = "適合成人觀賞";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_MA15" = "MA 15+ - 須有成人陪同觀賞";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_PG" = "PG - 家長陪同";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M" = "M - 輔導級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_R18" = "R 18+ - 限制級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_X18" = "X 18+ - 敏感";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_REFUSED" = "未分類";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_G" = "一般";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_PG" = "建議由家長陪同觀賞";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_M" = "適合 16 歲以上的觀眾";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R15" = "限 15 歲以上的觀眾";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R" = "限制級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R13" = "限 13 歲以上的觀眾";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R16" = "限 16 歲以上的觀眾";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R18" = "限 18 歲以上的觀眾";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_ALL" = "GRB All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_12" = "GRB 12+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_15" = "GRB 15+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_18" = "GRB 18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_A" = "FPB A";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_PG" = "FPB PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_10" = "FPB 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_13" = "FPB 13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_16" = "FPB 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_18" = "FPB 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_ER" = "DJCTQ ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_L" = "DJCTQ L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_10" = "DJCTQ 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_12" = "DJCTQ 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_14" = "DJCTQ 14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_16" = "DJCTQ 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_18" = "DJCTQ 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_GENERAL" = "一般";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PROTECTED" = "保護級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PG" = "家長陪同";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_RESTRICTED" = "限制級";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_GENERAL" = "一般";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_AGE_ADVISORY" = "建議年齡";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_MATURE_18" = "18 歲成人";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING" = "已分級為 %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GAME" = "分級: %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_EXPLICIT_EXPLICIT" = "敏感內容";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG13" = "PG-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_NC17" = "NC-17";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_AO" = "AO";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_14" = "14A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_18" = "18A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_R18" = "MA18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_X18" = "X18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_UC" = "Uc";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_15A" = "15A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_BTL" = "Btl";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_ST" = "S/T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K3" = "K-3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K7" = "K-7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K11" = "K-11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K13" = "K-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K15" = "K-15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K18" = "K-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_MATURE" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R13" = "R13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R15" = "R15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R16" = "R16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_1" = "1";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_2" = "2";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_3" = "3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_4" = "4";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_5" = "5";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_8" = "8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_0" = "0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_10" = "10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_14" = "14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK0" = "FSK 0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK6" = "FSK 6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK12" = "FSK 12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK16" = "FSK 16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK18" = "FSK 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_SPIO_JK" = "SPIO/JK";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_TP" = "TP/ALL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_13" = "13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_T" = "T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM14" = "VM14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM18" = "VM18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_AL" = "AL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_9" = "9";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y" = "TV-Y";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7" = "TV-Y7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7FV" = "TV-Y7-FV";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_G" = "TV-G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_PG" = "TV-PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_14" = "TV-14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_MA" = "TV-MA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C8" = "C8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_14" = "14+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_18" = "18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_10" = "-10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_P" = "P";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_AV15" = "AV15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_R18" = "R18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_ER" = "ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_L" = "L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_10" = "10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_12" = "12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_14" = "14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_16" = "16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_18" = "18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_MINOR" = "適合兒童";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_GP" = "全部";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_7" = "+7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_13" = "+13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_18" = "+18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_X" = "X";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_MINOR" = "綠色";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_14" = "黃色";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_ADULT" = "紅色";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED" = "未分級";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED_OR_PENDING" = "待分級或未分級";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_0" = "飲酒涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_1" = "血腥動畫";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2" = "血腥";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_3" = "血腥與暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4" = "卡通暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5" = "鬧劇";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6" = "粗俗幽默";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_7" = "毒品涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_8" = "教育娛樂";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_9" = "奇幻暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10" = "資訊內容";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_11" = "極端暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_12" = "語言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_13" = "情愛";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14" = "成人笑話";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_15" = "輕微暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_16" = "裸露";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_17" = "部分裸露";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_18" = "真實賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_19" = "情色主題";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_20" = "情色暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_21" = "模擬賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_22" = "可能需要成人在旁陪同指導";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_23" = "強烈語言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_24" = "富含情愛";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_25" = "強烈情色內容";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_26" = "暗示性主題";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_27" = "抽煙涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_28" = "使用毒品";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_29" = "使用酒精";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_30" = "使用香菸";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_31" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_32" = "情色內容";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_33" = "輕微飲酒涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_34" = "輕微血腥動畫";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_35" = "輕微血腥";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_36" = "輕微血腥與暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_37" = "輕微卡通暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_38" = "輕微鬧劇";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_39" = "輕微粗俗幽默";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_40" = "輕微毒品涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_41" = "輕微奇幻暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_42" = "輕微粗鄙語言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_43" = "輕微情愛";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_44" = "輕微成人笑話";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_45" = "輕微裸露";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_46" = "輕微部分裸露";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_47" = "輕微真實賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_48" = "輕微情色主題";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_49" = "輕微情色暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_50" = "輕微模擬賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_51" = "輕微暗示性主題";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_52" = "輕微抽煙涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_53" = "輕微使用毒品";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_54" = "輕微使用酒精";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_55" = "輕微使用香菸";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_56" = "輕微暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_57" = "輕微情色內容";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_58" = "暴力涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_59" = "輕微暴力涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_60" = "使用毒品和酒精";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_61" = "使用酒精和香菸";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_62" = "觸及酒精和香菸";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_63" = "模擬暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_64" = "輕微模擬暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_65" = "模擬血腥與暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_66" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_67" = "輕微使用毒品和飲酒涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_68" = "輕微使用毒品和抽菸涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_69" = "輕微飲酒和抽菸涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_70" = "輕微使用毒品, 飲酒和抽菸涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_71" = "毒品和飲酒涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_72" = "輕微毒品和飲酒涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_73" = "毒品和抽菸涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_74" = "輕微毒品和抽菸涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_75" = "毒品, 飲酒和抽菸涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_76" = "輕微毒品, 飲酒和抽菸涵意";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_77" = "成人情色主題";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_78" = "賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_79" = "實際遊戲經驗可能依線上狀況而有所差異";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_100" = "愛情";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_101" = "情色";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_102" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_103" = "驚悚";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_104" = "賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_105" = "犯罪";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_106" = "飲酒";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_107" = "抽煙";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_108" = "毒品";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_109" = "語言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_110" = "飲酒和抽煙";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2283" = "範例 RatingDescriptor";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4000" = "髒話";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4001" = "歧視";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4002" = "毒品";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4003" = "恐懼";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4004" = "情色";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4005" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4006" = "賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4999" = "CWS Sample RatingDescriptor";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5000" = "髒話";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5001" = "歧視";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5002" = "毒品";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5003" = "恐懼";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5004" = "情色";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5005" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5006" = "賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6000" = "髒話";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6001" = "歧視";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6002" = "毒品";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6003" = "恐懼";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6004" = "情色";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6005" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6006" = "賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10001" = "成人內容";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10002" = "短暫裸露";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10003" = "圖像語言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10004" = "圖像暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10005" = "語言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10006" = "輕微暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10007" = "裸露";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10008" = "性犯罪";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10009" = "強烈情色內容";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10010" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14000" = "髒話";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14001" = "歧視";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14002" = "毒品";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14003" = "恐懼";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14004" = "情色";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14005" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14006" = "賭博";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320010" = "歧視";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320020" = "藥物和酒精濫用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320030" = "恐懼";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320040" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320050" = "粗話";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320060" = "情色";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_ALL" = "全部";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when the Search service returns an error. */
+    "Search_ErrorText" = "我們目前無法取得搜尋結果。";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_All" = "全部";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Apps" = "應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Games" = "遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Movies" = "電影";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Music" = "音樂";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_TV" = "電視節目";
+    /* WINDOWS,iOS,ANDROID, Failed to retrieve data from the service */
+    "LRC_Error_Code_FailedToRetrieveData" = "無法使用";
+    /* iOS,ANDROID,WINDOWS, */
+    "RelatedItems_NoResultsFound" = "我們目前無法取得相關的項目。";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_FilterHeader" = "顯示";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_PageTitle" = "結果";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResult_BusyIndicatorText" = "搜尋中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Bio_Header" = "簡歷";
+    /* WINDOWS,iOS,ANDROID, */
+    "Related_Header" = "相關";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotFind" = "找不到您的主機";
+    /* WINDOWS,iOS,ANDROID, displayed while waiting for data to load */
+    "BusyIndicator_LoadingText" = "載入中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_DescriptionHeader" = "說明";
+    /* WINDOWS,iOS,ANDROID, */
+    "TVDetails_SeasonsHeader" = "季";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Text" = "若要繼續，您將需要更新此應用程式。";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Title" = "需要更新";
+    /* WINDOWS,iOS,ANDROID, Shown as header when more than 1 director is involved. */
+    "Directors_Header" = "導演";
+    /* iOS,ANDROID,WINDOWS, */
+    "Actors_Header" = "演員";
+    /* iOS,ANDROID,WINDOWS, */
+    "Synopsis_Header" = "說明";
+    /* iOS,ANDROID,WINDOWS, */
+    "Writers_Header" = "作者";
+    /* WINDOWS,iOS,ANDROID, */
+    "NowPlaying_MoreInfo" = "更多";
+    /* WINDOWS,iOS,ANDROID, */
+    "Search_PlayOnXbox" = "在 Xbox 上進行";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launch_DifferentTitle_Warning_Message" = "這會取代正在主機上進行的項目。確定嗎？";
+    /* WINDOWS,iOS,ANDROID, */
+    "OK_Text" = "確定";
+    /* WINDOWS,iOS,ANDROID, */
+    "Warning_Title" = "離開？";
+    /* WINDOWS,iOS,ANDROID, Title for the popular search terms list. */
+    "SearchTerms_Title" = "目前最熱門的";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotConnect" = "找不到您的主機";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotSignIn" = "無法登入";
+    /* WINDOWS,iOS,ANDROID, used for grouping details, example:  Year Released - Parent Rating - Movie Duration.  (1992 - PG - 124 min) */
+    "Search_DetailsSeparator" = "|";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_BasicPrompt" = "搜尋 Xbox 中的";
+    /* WINDOWS,iOS,ANDROID, indicates the album, song contains explicit content. */
+    "Content_Explicit" = "敏感內容";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category1" = "搜尋 Xbox 中的電影，";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category2" = "搜尋 Xbox 中的專輯，";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category3" = "搜尋 Xbox 中的遊戲，";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category1" = "搜尋 Xbox 中的電影、電視...";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category2" = "搜尋 Xbox 中的專輯、演出者...";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category3" = "搜尋 Xbox 中的遊戲、應用程式...";
+    /* WINDOWS,iOS,ANDROID, Shown Provider offers this media for free viewing. */
+    "ProviderOffer_Free" = "免費";
+    /* WINDOWS,iOS,ANDROID, */
+    "Achievements_SecretDescription" = "繼續玩此遊戲以解除鎖定此秘密成就。";
+    /* WINDOWS,iOS,ANDROID, */
+    "FamilyPasscode_Header" = "輸入您家庭設定密碼以繼續。";
+    /* iOS,ANDROID,WINDOWS, ghost text for empty address bar */
+    "WebBrowser_GhostText" = "在您的 Xbox 上瀏覽";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_fastforward" = "快轉";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_pause" = "暫停";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_play" = "進行";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_rewind" = "倒轉";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Providers" = "用於以下應用程式：";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_RequiresGold" = "需要金會員";
+    /* WINDOWS,iOS,ANDROID, Play command */
+    "Activity_Play" = "啟動";
+    /* iOS,ANDROID,WINDOWS, header/title used on the activity tile */
+    "Activity_SmartGlass_Title" = "Xbox One SmartGlass 小幫手";
+    /* WINDOWS,iOS,ANDROID, Controller activity */
+    "Activity_Controller" = "遙控";
+    /* WINDOWS,iOS,ANDROID, */
+    "MediaState_DragInstruction" = "若要更細微的控制，用您的手指在滑條上滑動";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_ProviderSpecific" = "用於以下應用程式：";
+    /* WINDOWS,iOS,ANDROID, Title for the Settings page */
+    "Settings_Title" = "設定";
+    /* iOS,ANDROID,WINDOWS, Text for hyperlink in settings page to launch what's new page */
+    "Settings_WhatsNew" = "開始啟動";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Purchased" = "已購買";
+    /* iOS,ANDROID,WINDOWS, Text shown while loading smart glass activity. */
+    "Activity_LoadingText" = "正在啟動此 Xbox One SmartGlass 小幫手...";
+    /* iOS,ANDROID,WINDOWS, Error text shown when an activity fails to load. */
+    "Activity_ErrorText" = "糟糕，我們無法啟動這個小幫手。 :(";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_ItemDescription1" = "瞭解 Xbox One SmartGlass 可以做什麼。";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription2" = "輸入、撥動和點選您最愛的電影、音樂、遊戲和應用程式。";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription3" = "從您的裝置中點選、捏合和播動網頁。";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle1" = "拓展 Xbox";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle2" = "控制 Xbox";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle3" = "瀏覽網頁";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl1" = "http://go.microsoft.com/fwlink/?LinkID=266351&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl2" = "http://go.microsoft.com/fwlink/?LinkID=266352&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl3" = "http://go.microsoft.com/fwlink/?LinkID=266353&clcid=0x409";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_Header" = "開始啟動";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_0" = "0";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_1" = "1";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_2" = "2";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_3" = "3";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_4" = "4";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_5" = "5";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_6" = "6";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_7" = "7";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_8" = "8";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_9" = "9";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_Cancel" = "取消";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate" = "撥動以移動。點選以選取。用兩根手指捲動。";
+    /* WINDOWS,iOS,ANDROID, */
+    "Controller_HelpSelect" = "點選任何地方以選取";
+    /* WINDOWS,iOS,ANDROID, */
+    "TextInput_Help" = "點選這裡以關掉鍵盤。";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpNavigate" = "用一根手指移動和點選。";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpSelect" = "用兩根手指縮放。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ControllerMode_Guide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "XboxSmartGlass" = "Xbox One SmartGlass";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToMain" = "";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToPrevious" = "取消";
+    /* WINDOWS,iOS,ANDROID, */
+    "Off" = "關閉";
+    /* WINDOWS,iOS,ANDROID, */
+    "On" = "開啟";
+    /* iOS,ANDROID,WINDOWS, */
+    "PivotHeaderFontSize" = "42";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Disconnected" = "連線至您的 Xbox";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting" = "連線中...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting_Tablet" = "連線中...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected" = "已連線";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected_Tablet" = "已連線";
+    /* iOS,ANDROID,WINDOWS, */
+    "MainPage_Connection_State_NoNetwork" = "網路已中斷連線";
+    /* iOS,ANDROID,WINDOWS, Text for the EPG button */
+    "NowPlaying_DiscoverEPGText" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignIn" = "登入";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignOut" = "登出";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppBar_Remote" = "遙控";
+    /* WINDOWS,iOS,ANDROID, output log location, no need to localize */
+    "TraceService_OutputFile" = "outputFile.log";
+    /* WINDOWS,iOS,ANDROID, Text shown for the calendar app bar button for jumping to a day in the future in the EPG */
+    "AppBar_EpgCalendar" = "跳至日期";
+    /* WINDOWS,iOS,ANDROID, Text shown for the Jump to Now app bar button for the EPG */
+    "AppBar_JumpToNow" = "現在";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Cancel" = "取消";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_OK" = "確定";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Confirm" = "確認";
+    /* WINDOWS,iOS,ANDROID, button for tuning to a TV channel from the details page or EPG */
+    "Epg_TuneToChannel" = "調換到頻道";
+    /* WINDOWS,iOS,ANDROID, Label for details button on EPG */
+    "Epg_Details" = "詳細資料";
+    /* WINDOWS,iOS,ANDROID, header for upcoming showtimes on a TV details page */
+    "TVDetails_Upcoming" = "即將推出";
+    /* WINDOWS,iOS,ANDROID, The content of the retry button when we hit an error loading EPG content. */
+    "Epg_Retry" = "重試";
+    /* WINDOWS,iOS,ANDROID, */
+    "Epg_NowButton_Text" = "現在";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STARRING" = "主演：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDITIONAL" = "更多詳細資料";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GENRES" = "類型：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RELEASEDATE" = "發行日期：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STUDIOS" = "工作室：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_AWARDS" = "獎項";
+    /* iOS,ANDROID,WINDOWS, */
+    "FORWARD_SLASH_SEPARATOR" = "/";
+    /* iOS,ANDROID,WINDOWS, */
+    "COMMA_SEPARATOR" = ",";
+    /* iOS,ANDROID,WINDOWS, */
+    "VERTICAL_BAR_SEPARATOR" = "|";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_ON_XBOX" = "在 Xbox One 上進行";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TRAILER" = "播放預告片";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE" = "最新影集";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_MORE" = "更多";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_RATE" = "評分";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ALL_SEASONS" = "所有季別";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NEXT_EPISODE" = "下一集";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PREVIOUS_EPISODE" = "上一集";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PIN" = "釘選";
+    /* iOS,ANDROID,WINDOWS, */
+    "EXTRAS_HEADER" = "額外項目";
+    /* iOS,ANDROID,WINDOWS, */
+    "REVIEWS_HEADER" = "評論";
+    /* iOS,ANDROID,WINDOWS, */
+    "OVERVIEW_HEADER" = "概觀";
+    /* WINDOWS,iOS,ANDROID */
+    "DETAILS_TV_MULTIPLE_SEASON_FORMAT_OTHERS" = "%1$d 季";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_OOBE_MESSAGE_TEXT" = "請在您使用此應用程式前登入您的 Xbox 並設定您的電視連線。您只需要設定一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Challenges_Header" = "挑戰";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_UNPIN" = "取消釘選";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_NoPins" = "您沒有任何釘選。去釘選一些項目吧！";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle" = "我的釘選";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_DeleteFailed" = "無法移除釘選。請再試一次";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_GeneralError" = "抱歉，我們無法取得此資訊。請再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_Title" = "粉絲";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_List_Empty" = "沒有粉絲";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameConsumables_Header" = "DLC";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Loading" = "載入中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title" = "展示櫃";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title_Tablet" = "展示櫃";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Data_Empty" = "沒有展示的資料";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Full" = "您的展示櫃已滿。如果您仍想要新增此內容，請前往您的展示櫃並清除一兩項內容。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ADD_TO_NOW_PLAYING" = "新增至現正播放";
+    /* iOS,ANDROID,WINDOWS, */
+    "Crews_Header" = "製作群";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressTitle" = "進度";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressMostRecent" = "最近的";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressXbox360Games" = "Xbox 360 遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedTitle" = "精選";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedChallenges" = "精選挑戰";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsAchievementsHeader" = "好友的成就";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAlbumTitle" = "音樂";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingTVTitle" = "電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAppTitle" = "應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingDashTitle" = "儀表板";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingErrorTitle" = "錯誤";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingGameTitle" = "遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingMovieTitle" = "影片";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsError" = "目前無法取得您最近的成就。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostRecent" = "最近的";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_HighestRated" = "評分最高";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostViewed" = "最多檢視次數";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileRecentTitle" = "最近";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileTitle" = "設定檔";
+    /* iOS,ANDROID,WINDOWS, */
+    "Root_Drawer" = "抽屜";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotPlay360" = "此項目只適用於 Xbox 360，我們無法在此播放。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotLaunchInDisconnected" = "您目前未連線。連線至您的主機並再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_ChangeTitleQuestion" = "這會取代正在主機上進行的項目。確定嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Movie_Title" = "電影詳細資料";
+    /* iOS,ANDROID,WINDOWS, */
+    "Minute_Text" = "分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Series_Title" = "連續劇標題";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying_Close" = "關掉現正播放";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying" = "現正播放";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_ARTIST_FORMAT_STRING" = "由 {0} 演出";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_HELP_BUTTON_TEXT" = "說明";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_COMPANION_BUTTON_TEXT" = "小幫手";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_BackButton" = "返回";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsReward" = "獎勵";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsProgress" = "進度";
+    /* iOS,WINDOWS, */
+    "NowPlaying_Tertiary" = "由 %1$@ 演出";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Clear" = "清除";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Save" = "儲存";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_TvHeader" = "電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_MovieHeader" = "電影";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_TvListings" = "電視清單";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_Favorites" = "我的最愛";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_NetworkError" = "偵測不到網際網路連線。請連線至無線網路或行動電話通訊網路以使用此應用程式。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_ConsoleConnect" = "選取一台 Xbox One 以連線";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Showtime_iOS" = "%1$@-%2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_Showtime_With_ParentalRating" = "%1$@ | %2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_EpisodeName_With_Description" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_AppChannels" = "應用程式頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdateAvailable_Title" = "應用程式有可用的更新";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateAvailable_Text" = "有一個更新可供此應用程式使用。";
+    /* iOS,ANDROID,WINDOWS, */
+    "General_RemindMe" = "提醒我";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdate_GetItNow" = "立即取得";
+    /* iOS,ANDROID,WINDOWS, Profile page Profile pivot header */
+    "Profile_Profile_HeaderTitle" = "設定檔";
+    /* iOS,ANDROID,WINDOWS, Header for the number of friends that the current user has */
+    "Profile_Profile_Friends" = "好友";
+    /* iOS,ANDROID,WINDOWS, Header for the number of followers that the current user has */
+    "Profile_Profile_Followers" = "粉絲";
+    /* iOS,ANDROID,WINDOWS, You profile page send message button text */
+    "Profile_Profile_SendMessage" = "傳送訊息";
+    /* iOS,ANDROID,WINDOWS, You profile page favorites button text */
+    "Profile_Profile_Favorite" = "新增至我的最愛";
+    /* iOS,ANDROID,WINDOWS, You profile page unfavorites button text */
+    "Profile_Profile_Unfavorite" = "從我的最愛中移除";
+    /* iOS,ANDROID,WINDOWS, You profile page add friend button text */
+    "Profile_Profile_AddFriend" = "新增好友";
+    /* iOS,ANDROID,WINDOWS, You profile page remove friend button text */
+    "Profile_Profile_RemoveFriend" = "移除好友";
+    /* iOS,ANDROID,WINDOWS, You profile page block button text */
+    "Profile_Profile_Block" = "封鎖";
+    /* iOS,ANDROID,WINDOWS, You profile page unblock button text */
+    "Profile_Profile_Unblock" = "解除封鎖";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Unknown" = "未知";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation" = "評價";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_AvoidMe" = "避開我吧";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Needs_Improvement" = "尚有改進空間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Good_Player" = "好玩家";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Super_Star" = "超級巨星";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Just_You_Count" = "您";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header title cased */
+    "Profile_Recents_HeaderTitle_Phone" = "近期的活動";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header upper cased */
+    "Profile_Recents_HeaderTitle_Tablet" = "近期的活動";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Android" = "上次進行為 %s";
+    /* iOS,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_iOS" = "上次進行為 %1$@";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Windows" = "上次進行為 {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_GameProgressText" = "遊戲進度";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_AppProgressText" = "應用程式進度";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Recents no data string */
+    "Profile_Recents_NoData_Me" = "當您在您的 Xbox One 上進行任何項目時，將會在此顯示。";
+    /* iOS,ANDROID,WINDOWS, You Profile page Recents no data string */
+    "Profile_Recents_NoData_You" = "當他們在他們的 Xbox One 上進行任何項目時，將會在此顯示。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_Stats_You" = "您";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_Me_Phone" = "我的遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_You_Phone" = "遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_Me_Tablet" = "我的遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_You_Tablet" = "遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_Me_Tablet" = "我的遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_You_Tablet" = "遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_iOSAndroid" = "%1$d 播放次數";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_Windows" = "{0} 播放次數";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_Me" = "您還未錄製任何遊戲短片。您應該試試看，很好玩的！";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_You" = "看起來他們還未發佈任何遊戲短片。";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header title cased */
+    "Profile_Achievements_HeaderTitle_Phone" = "成就";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header upper cased */
+    "Profile_Achievements_HeaderTitle_Tablet" = "成就";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Achievements no data string */
+    "Profile_Achievements_NoData_Me" = "玩遊戲並解除鎖定成就！";
+    /* iOS,ANDROID,WINDOWS, You Profile page Achievements no data string */
+    "Profile_Achievements_NoData_You" = "您的好友最近還未解除鎖定任何成就。";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header title cased */
+    "Profile_Friends_HeaderTitle_Phone" = "好友";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header upper cased */
+    "Profile_Friends_HeaderTitle_Tablet" = "好友";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_HeaderTitle" = "好友";
+    /* iOS,ANDROID,WINDOWS, friends hub pivot header */
+    "FriendsHub_HeaderTitle_Phone" = "好友";
+    /* iOS,ANDROID,WINDOWS, friends hub header */
+    "FriendsHub_HeaderTitle_Tablet" = "好友";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Phone" = "活動摘要";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Tablet" = "活動摘要";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderFriendsList_Phone" = "好友清單";
+    /* iOS,ANDROID,WINDOWS, friends hub friends pivot search button text, phone only */
+    "FriendsHub_SearchButton_Phone" = "尋找好友";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFavorites" = "我的最愛";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFriends" = "好友";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFollowers" = "粉絲";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_NoData" = "當您的好友解除鎖定成就、錄影遊戲短片和新增好友時，您都可以在此查看！";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Friends_NoData" = "這裡沒任何人可顯示。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Favorite_NoData" = "從好友的設定檔中將他們設為我的最愛以在此查看。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Follower_NoData" = "這裡沒任何人可顯示。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_CouldNotFindGamer" = "無法找到此使用者。您輸入他們完整的玩家代號了嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchBoxHint" = "請輸入完整的玩家代號";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchingText" = "搜尋中...";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Phone" = "訊息";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Tablet" = "訊息";
+    /* iOS,ANDROID,WINDOWS, messages list section header */
+    "Messages_SectionHeaderAllMessages_Tablet" = "全部訊息";
+    /* iOS,ANDROID,WINDOWS, new message button text */
+    "Messages_NewMessageButton" = "新增";
+    /* iOS,ANDROID,WINDOWS, reply message button text */
+    "Messages_ReplyMessageButton" = "回覆";
+    /* iOS,ANDROID,WINDOWS, delete message button text */
+    "Messages_DeleteMessageButton" = "刪除";
+    /* iOS,ANDROID,WINDOWS, block user button text */
+    "Messages_BlockButton" = "封鎖";
+    /* iOS,ANDROID,WINDOWS, unblock user button text */
+    "Messages_UnblockButton" = "解除封鎖";
+    /* iOS,ANDROID,WINDOWS, view sender profile button text */
+    "Messages_ViewProfileButton" = "設定檔";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Phone" = "新訊息";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Tablet" = "新訊息";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Phone" = "回覆";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Tablet" = "回覆";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ConfirmDeleteMessage" = "您確定要刪除此訊息嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToDeleteMessage" = "無法刪除訊息";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToBlockUser" = "無法封鎖使用者";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToUnblockUser" = "無法解除封鎖使用者";
+    /* iOS,ANDROID,WINDOWS, new message add a recipient control hint text */
+    "Messages_ComposeMessage_AddRecipientHintText" = "新增收件者";
+    /* iOS,ANDROID,WINDOWS, new message enter message control hint text */
+    "Messages_ComposeMessage_EnterMessageHintText" = "輸入訊息";
+    /* iOS,ANDROID,WINDOWS, new message send button */
+    "Messages_ComposeMessage_SendButton" = "傳送";
+    /* iOS,ANDROID,WINDOWS, new message cancel button */
+    "Messages_ComposeMessage_CancelButton" = "取消";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Phone" = "選擇收件者";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Tablet" = "選擇收件者";
+    /* iOS,ANDROID,WINDOWS, choose recipients done button text */
+    "Messages_ComposeMessage_ChooseRecipients_DoneButton" = "完成";
+    /* iOS,ANDROID,WINDOWS, generic error for failing to send a message */
+    "Messages_ComposeMessage_GenericError" = "無法傳送此訊息。請稍後再試一次。";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_iOS" = "已選取 %1$d 位";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_Windows" = "已選取 {0} 位";
+    /* iOS,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_Windows" = "{0}/{1}";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogTitle" = "捨棄變更？";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogBody" = "您還未儲存您的變更。如果您繼續，所做的變更將會遺失。";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError_DialogTitle" = "無法傳送訊息";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError" = "我們無法傳送訊息。收件者可能不存在、不是好友或我們無法連線至服務。";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogTitle" = "您確定嗎？";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogBody" = "您確定想要封鎖此傳送者嗎？";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported message */
+    "Messages_Error_ViewUnsupportedMessage" = "在您的主機上檢視此訊息。";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported legacy message */
+    "Messages_Error_ViewUnsupportedLegacyMessage" = "在您的 Xbox 360 或 Xbox One 上檢視此訊息。";
+    /* iOS,ANDROID,WINDOWS, error message for no messages retrieved */
+    "Messages_Error_NoMessages" = "這裡有點安靜喔。嘗試傳送訊息吧！";
+    /* iOS,ANDROID,WINDOWS, Drawer - Home */
+    "Drawer_Home" = "首頁";
+    /* iOS,ANDROID,WINDOWS, Drawer - TV Program Guide */
+    "Drawer_TV" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Drawer - Friends */
+    "Drawer_Friends" = "好友";
+    /* iOS,ANDROID,WINDOWS, Drawer - Achievements */
+    "Drawer_Achievements" = "成就";
+    /* iOS,ANDROID,WINDOWS, Drawer - Pins */
+    "Drawer_Pins" = "釘選";
+    /* iOS,ANDROID,WINDOWS, Drawer - Messages */
+    "Drawer_Messages" = "訊息";
+    /* iOS,ANDROID,WINDOWS, Drawer - SmartGlass Settings */
+    "Drawer_Settings" = "設定";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Now" = "現在";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_iOSAndroid" = "%1$d 小時前";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_Windows" = "{0} 小時前";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_iOSAndroid" = "%1$d 分鐘前";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_Windows" = "{0} 分鐘前";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_iOSAndroid" = "%1$d 天前";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_Windows" = "{0} 天前";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE" = "線上";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_OFFLINE" = "本機";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE_OFFLINE" = "線上和本機";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_NONE" = "無";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TryAgain" = "再試一次";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PairingErrorMessage" = "我們現在無法連線至您的主機。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterPin" = "輸入 PIN:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ApplyPin" = "套用";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NoConsolesFound" = "無法找到可連線的 Xbox One。您的主機是否已開啟並連線至與 SmartGlass 相同的網路？";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect" = "連線";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Cap" = "連線";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Tablet" = "連線至 XBOX ONE";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Disconnect" = "中斷連線";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConnectAutomatically" = "自動連線";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_Exit" = "關閉";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsoleWarning" = "您在主機上未登入。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsolePrompt" = "您想要登入主機或以訪客身份繼續？";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_SignInOnConsole" = "登入";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ContinueAsGuest" = "繼續";
+    /* iOS,ANDROID,WINDOWS, secret achievement title */
+    "Achievement_SecretAchievement_Title" = "秘密成就";
+    /* iOS,ANDROID,WINDOWS, secret achievement description */
+    "Achievement_SecretAchievement_Description" = "繼續玩此遊戲以解除鎖定此秘密成就。";
+    /* iOS,ANDROID,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_Windows" = "{0}/{1}";
+    /* iOS,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_Windows" = "{0} %";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_iOS" = "%1$d %%";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_Windows" = "{0} 天";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_iOSAndroid" = "%1$d 天";
+    /* iOS,ANDROID,WINDOWS, 1 day */
+    "Challenge_Countdown_OneDay" = "1 天";
+    /* iOS,ANDROID,WINDOWS, 02:34:56 */
+    "Challenge_Countdown_Timer_Windows" = "{0:hh\:mm\:ss}";
+    /* iOS,ANDROID,WINDOWS, challenge time remaining */
+    "Global_Challenge_TimeRemaining" = "剩餘時間";
+    /* iOS,ANDROID,WINDOWS, challenge starts in */
+    "Global_Challenge_StartsIn" = "挑戰進入倒數";
+    /* iOS,ANDROID,WINDOWS, achievements home title */
+    "AchievementsHome_HeaderTitle_Phone" = "成就";
+    /* iOS,ANDROID,WINDOWS, achievements home title for tablet */
+    "AchievementsHome_HeaderTitle_Tablet" = "成就";
+    /* iOS,ANDROID,WINDOWS, achievements home summary page */
+    "AchievementsHome_Summary_HeaderTitle_Phone" = "摘要";
+    /* iOS,ANDROID,WINDOWS, achievements home last game played */
+    "AchievementsHome_LastGamePlayed" = "最近玩過的遊戲";
+    /* iOS,ANDROID,WINDOWS, achievements progress */
+    "AchievementsHome_Progress_HeaderTitle_Phone" = "進度";
+    /* iOS,ANDROID,WINDOWS, achievement progress */
+    "AchievementsHome_Progress_HeaderTitle_Tablet" = "進度";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent" = "最近的";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecentDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent360" = "其他";
+    /* iOS,ANDROID,WINDOWS, achievement progress gallery */
+    "AchievementsHome_ProgressGallery_HeaderTitle_Tablet" = "進度";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent_Tablet" = "最近的";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecentDurango_Tablet" = "XBOX ONE";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent360_Tablet" = "其他";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Android" = "上次進行為 %s";
+    /* iOS,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_iOS" = "上次進行為 %1$@";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Windows" = "上次進行為 {0}";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Phone" = "精選挑戰";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Tablet" = "精選挑戰";
+    /* iOS,ANDROID,WINDOWS, featured challenge gallery title */
+    "AchievementsHome_ChallengesGallery_HeaderTitle_Tablet" = "精選挑戰";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Phone" = "好友的成就";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Tablet" = "好友的成就";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_LastGamePlayed_NoData" = "玩遊戲並解除鎖定成就！";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Challenges_NoData" = "目前無法取得挑戰。";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Progress_NoData" = "玩遊戲並解除鎖定成就！";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_FriendsAchievements_NoData" = "您的好友最近還未解除鎖定任何成就。";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Phone" = "進度";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Tablet" = "進度";
+    /* iOS,ANDROID,WINDOWS, game progress - game clips header title */
+    "GameProgress_Channel_HeaderTitle_Phone" = "遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Upload CHANNEL */
+    "GameProgress_Channel_HeaderTitle_Tablet" = "遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Windows" = "檢視 {0} 次";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_iOS" = "檢視 %1$@ 次";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Android" = "檢視 %s 次";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Windows" = "檢視 {0} 次";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_iOS" = "檢視 %1$@ 次";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Android" = "檢視 %s 次";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData" = "沒有影片可以展示！開始遊戲並錄影精彩內容。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_Community" = "還沒有此遊戲的遊戲短片。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_CommunityButtonText" = "查看社群短片";
+    /* iOS,ANDROID,WINDOWS, Number of views. My Channel filter */
+    "GameProgress_Channel_FilterOptionMyChannel" = "我的遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Number of views. Community filter */
+    "GameProgress_Channel_FilterOptionCommunity" = "社群短片";
+    /* iOS,ANDROID,WINDOWS, Game details */
+    "GameProgress_GameDetails_Button_Text" = "遊戲詳細資料";
+    /* iOS,ANDROID,WINDOWS, App details */
+    "GameProgress_AppDetails_Button_Text" = "應用程式詳細資料";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Phone" = "挑戰";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Tablet" = "挑戰";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Phone" = "成就";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Tablet" = "成就";
+    /* iOS,ANDROID,WINDOWS, earned achievement filter for phone */
+    "GameProgress_Achievements_FilterOptionEarned" = "已獲得";
+    /* iOS,ANDROID,WINDOWS, locked achievement filter for phone {locked}  */
+    "GameProgress_Achievements_FilterOptionLocked" = "已鎖定";
+    /* iOS,ANDROID,WINDOWS, achievements gallery */
+    "GameProgress_AchievementsGallery_HeaderTitle_Tablet" = "成就";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Challenges_NoData" = "目前沒有可闖的挑戰。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_NoData" = "玩遊戲並解除鎖定成就！";
+    /* iOS,ANDROID,WINDOWS, User doesn't have any earned achievements for this game */
+    "GameProgress_Achievements_NoEarned" = "玩遊戲並解除鎖定成就！";
+    /* iOS,ANDROID,WINDOWS, User has earned all achievements for this game */
+    "GameProgress_Achievements_NoLocked" = "太棒了！您已解除鎖定所有成就！";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Phone" = "進度";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Tablet" = "進度";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Achievements_HeaderTitle" = "成就";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Android" = "上次進行為 %s";
+    /* iOS,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_iOS" = "上次進行為 %1$@";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Windows" = "上次進行為 {0}";
+    /* iOS,ANDROID,WINDOWS, achievement completion: Completed */
+    "Global_Achievements_Completed" = "已完成";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementDetail_Achievement_HeaderTitle" = "成就";
+    /* iOS,ANDROID,WINDOWS, Game progress button */
+    "AchievementDetail_GameProgress_Button_Text" = "遊戲進度";
+    /* iOS,ANDROID,WINDOWS, App progress button */
+    "AchievementDetail_AppProgress_Button_Text" = "應用程式進度";
+    /* iOS,ANDROID,WINDOWS, in game reward page header */
+    "AchievementDetail_Reward_InGame" = "遊戲中的獎勵";
+    /* iOS,ANDROID,WINDOWS, in app reward page header */
+    "AchievementDetail_Reward_InApp" = "應用程式中的獎勵";
+    /* iOS,ANDROID,WINDOWS, art reward page header */
+    "AchievementDetail_Reward_Art" = "圖像獎勵";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-game reward description {locked}  */
+    "AchievementDetail_Reward_InGame_LockedDescription" = "解除鎖定此成就以揭開此獎勵。";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-app reward description {locked}  */
+    "AchievementDetail_Reward_InApp_LockedDescription" = "解除鎖定此成就以揭開此獎勵。";
+    /* iOS,ANDROID,WINDOWS, achievement locked art reward description {locked}  */
+    "AchievementDetail_Reward_Art_LockedDescription" = "解除鎖定此成就以揭開此圖像獎勵。";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Android" = "已解除鎖定 %s";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_iOS" = "已解除鎖定 %1$@";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Windows" = "已解除鎖定 {0}";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_Locked" = "已鎖定";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_InProgress" = "進行中";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-game reward description {locked}  */
+    "ChallengeDetail_Reward_InGame_LockedDescription" = "解除鎖定此挑戰以揭開此獎勵。";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-app reward description {locked}  */
+    "ChallengeDetail_Reward_InApp_LockedDescription" = "解除鎖定此挑戰以揭開此獎勵。";
+    /* iOS,ANDROID,WINDOWS, challenge locked art reward description {locked}  */
+    "ChallengeDetail_Reward_Art_LockedDescription" = "解除鎖定挑戰就以揭開此圖像獎勵。";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALBUM_TITLE" = "專輯";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOPLAYLIST" = "新增至播放清單";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Cancel" = "取消";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Yes" = "是";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_SwitchToDeveloperMode" = "您正要啟用開發人員模式。確認以繼續，或取消以回到目前的設定。";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_ExitDeveloperMode" = "您想要停用開發人員模式嗎？確認以繼續，或取消以回到目前的設定。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Page_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_TV" = "熱門電視節目點播";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_Movies" = "熱門電影點播";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_AppsHeader" = "應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_TvListings" = "連線至您的 Xbox 以檢視電視清單。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites" = "連線到您的 Xbox 以檢視您最愛的頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_AppChannels_Windows" = "連線至您的 Xbox 以檢視您最愛的應用程式頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_AppChannels" = "連線到您的 Xbox 以檢視應用程式頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_RecentChannels" = "連線到您的 Xbox 以檢視您最近看過的頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Tune" = "連線到您的 Xbox 以觀看此節目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Add" = "目前無法將此新增至您的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Remove" = "目前無法將此從您的最愛中移除。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Remote" = "連線到您的 Xbox 以將此裝置用為您的電視遙控器。";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_EXPLICIT_CONTENT" = "敏感內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header" = "即將上映時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat" = "{0}-{1} {2}";
+    /* iOS,WINDOWS, */
+    "FutureShowtimes_TimeFormat_iOS" = "%1$@-%2$@ %3$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowTimes_OnNow" = "播映中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Percentage_Windows" = "{0}%";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is smartglass companion. */
+    "Home_BAT_SmartGlassCompanion" = "小幫手";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is remote control. */
+    "Home_BAT_RemoteControl" = "遙控";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is local detail page. */
+    "Home_BAT_Details" = "詳細資料";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is tv guide. */
+    "Home_BAT_TVGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Text displayed in media tray when TV guide option is displayed to the user. */
+    "NOWPLAYING_TVGUIDE_BUTTON_TEXT" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on pins destination or homepage when pins for the user could not be retrieved from service. */
+    "Pins_Error" = "我們目前無法取得您的釘選。請稍後再試一次。";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when app failed to retrieved the featured items for homepage. */
+    "Home_Featured_Error" = "我們目前無法取得任何精選項目。";
+    /* iOS,ANDROID,WINDOWS, Text displayed instead of title on BAT/Console Bar when we could not load the detail for the title. */
+    "NowPlaying_Unavailable" = "未知項目";
+    /* iOS,ANDROID,WINDOWS, OOBE string displayed on homepage when user has no recents */
+    "HOME_OOBE" = "歡迎使用 Xbox One";
+    /* iOS,ANDROID,WINDOWS, Featured section title for homepage */
+    "Home_Featured_PageTitle" = "精選";
+    /* iOS,ANDROID,WINDOWS, Recents section title for homepage */
+    "Home_Recents_PageTitle" = "最近";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LearnMore" = "深入瞭解";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist" = "演出者";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist_Tablet" = "演出者";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game" = "遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game_Tablet" = "遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App" = "應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App_Tablet" = "應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie" = "電影";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie_Tablet" = "電影";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV" = "電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV_Tablet" = "電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album" = "專輯";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album_Tablet" = "專輯";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Tablet" = "熱門歌曲";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Phone" = "熱門歌曲";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Tablet" = "專輯";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Phone" = "專輯";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Tablet" = "相關";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Phone" = "相關";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Tablet" = "附加內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Phone" = "附加內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Tablet" = "更多詳細資料";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Phone" = "更多詳細資料";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv" = "第 {0} 季，第 {1} 集正在 {2} 播映";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv" = "第 {0} 季，第 {1} 集在 {2} 於 {3} 播映";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic" = "{1} 即將播出 {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic" = "現正於 {0} 播映";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_LABEL" = "標籤：";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Biography_Phone" = "簡歷";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Tablet" = "曲目清單";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Phone" = "曲目清單";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DURATION" = "時長：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RATING" = "分級：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION" = "解析度：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD" = "高解析度";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD" = "標準解析度";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HDANDSD" = "HD 和 SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Overview_Phone" = "概觀";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Tablet" = "演員與製作群";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Phone" = "演員與製作群";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Tablet" = "影集";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Phone" = "影集";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Tablet" = "影像";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Phone" = "影像";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DEVELOPER" = "開發商：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_PUBLISHER" = "發行者：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_MULTIPLAYER" = "多人遊戲：";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_COOP" = "合作玩家：";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_GET_ON_XBOX" = "開始使用 Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE_WINDOWS" = "前往最新影集 (S{0} Ep{1})";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_NETWORKS" = "網路：";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmpty" = "近期的活動將顯示在這裡";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Pins_PageTitle" = "我的釘選";
+    /* iOS,ANDROID,WINDOWS, */
+    "TextInput_Confirm" = "完成";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstRun_ContentTitle" = "查看 Xbox One 的新功能";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmptyDesc" = "觀看或進行您喜愛的項目以再此看見這些項目。";
+    /* iOS,ANDROID,WINDOWS, Settings page title */
+    "Settings_PageTitle" = "設定";
+    /* iOS,ANDROID,WINDOWS, Settings page account section header */
+    "Settings_Account_SectionHeader" = "帳戶";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text */
+    "Settings_SignOutButton" = "登出";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section header */
+    "Settings_Preferences_SectionHeader" = "喜好設定";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option */
+    "Settings_Preferences_StayAwakeOption" = "保持甦醒";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option description */
+    "Settings_Preferences_StayAwakeOptionDescription" = "當 SmartGlass 開啟時，鎖定畫面將不會啟動 (減短電池使用時間)。";
+    /* iOS,ANDROID,WINDOWS, Settings page sound section header */
+    "Settings_Sound_SectionHeader" = "音效";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option */
+    "Settings_Sound_DisableSoundOption" = "停用音效";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option description */
+    "Settings_Sound_DisableSoundOptionDescription" = "停用 SmartGlass 應用程式的音效。";
+    /* iOS,ANDROID,WINDOWS, Settings page about section header */
+    "Settings_About_SectionHeader" = "關於";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Windows */
+    "Settings_About_Version_Windows" = "版本 {0}";
+    /* iOS,WINDOWS, Settings page about version, iOS */
+    "Settings_About_Version_iOS" = "版本 %1$@";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Android */
+    "Settings_About_Version_Android" = "版本 %s";
+    /* iOS,ANDROID,WINDOWS, Settings page get started button text */
+    "Settings_GetStartedButton" = "開始啟動";
+    /* iOS,ANDROID,WINDOWS, Settings page get started description */
+    "Settings_GetStartedDescription" = "查看 Xbox One SmartGlass 能做些什麼。";
+    /* iOS,ANDROID,WINDOWS, Settings page help button text */
+    "Settings_HelpButton_WindowsAndroid" = "說明";
+    /* iOS,ANDROID,WINDOWS, Settings page privacy button text */
+    "Settings_PrivacyButton_WindowsAndroid" = "隱私權";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy section title */
+    "Settings_HelpAndPrivacySectionTitle_iOS" = "說明和隱私權";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy description */
+    "Settings_HelpAndPrivacyDescription_iOS" = "請造訪 Xbox 網站以取得 Xbox One SmartGlass 說明和管理您的隱私權設定。";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader" = "開發商";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader_Windows" = "開發商";
+    /* iOS,ANDROID,WINDOWS, Settings page developer sandbox ID */
+    "Settings_Developer_SandboxId" = "Sandbox ID";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DIRECTOR" = "導演：";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SmartGlassCompanion" = "SmartGlass 小幫手";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALLOWEDPROVIDERS" = "適用於：";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv_iOS" = "第 %1$d 季，第 %2$d 集正在 %3$@ 播映。";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic_iOS" = "現正於 %1$@ 播映";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic_iOS" = "即將在 %2$@ 播出 %1$@。";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv_iOS" = "第 %1$d 季，第 %2$d 集即將在 %4$@ 播出 %3$@。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_AchievementProgress_Phone" = "成就進度";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Challenges_Phone" = "挑戰";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Phone" = "遊戲短片";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameAchievementProgress_Tablet" = "成就進度";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameChallenges_Tablet" = "挑戰";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Tablet" = "遊戲短片";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU_IOS" = "我們已更新 Xbox 使用規定。請前往 Xbox.com 讀取。";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU" = "我們已更新 Xbox 使用規定。請前往 Xbox.com 讀取。";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to displayed whenever we could not log him into app for all the reasons except xsts 401 cases */
+    "Auth_GenericError" = "我們目前無法將您登入。請再試一次。";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError_IOS" = "您的帳戶發生問題。更多資訊，請登入 xbox.com。";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError" = "您的帳戶發生問題。更多資訊，請登入 xbox.com。";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation_IOS" = "在 Xbox.com 上設定您的 Xbox Live 帳戶。";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation" = "在 Xbox.com 上設定您的 Xbox Live 帳戶。";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user while they are signing in. This will allow them to cancel the sign in process. */
+    "SignIn_Cancel" = "取消";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user to prompt them to go to xbox.com */
+    "SignIn_Troubleshoot" = "前往 Xbox.com";
+    /* iOS,ANDROID,WINDOWS, Button text for sign in page button's first try. (after that it switches to try again) */
+    "SignIn_SignIn" = "登入";
+    /* WINDOWS,iOS,ANDROID, Status text shown while trying to sign in. */
+    "SignIn_SigningIn" = "登入中";
+    /* WINDOWS,iOS,ANDROID, Shown while making service calls to get state of console to decide what to do next. */
+    "SignIn_GettingData" = "連線至 Xbox 服務中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season" = "電視節目季別";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season_Tablet" = "電視節目季別";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity" = "Xbox One SmartGlass 小幫手";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity_Tablet" = "XBOX ONE SMARTGLASS 小幫手";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series" = "電視連續劇";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series_Tablet" = "電視連續劇";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode" = "電視影集";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode_Tablet" = "電視影集";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show" = "電視節目";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show_Tablet" = "電視節目";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC" = "附加內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC_Tablet" = "附加內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_Studios" = "工作室";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRating" = "家長分級";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRatingColon" = "家長分級：";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_TVText" = "瀏覽 OneGuide 或搜尋 Xbox 以找尋新增電視節目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_MoviesText" = "瀏覽 OneGuide 或搜尋 Xbox 以找尋新增電影。選取一部電影，然後點選星型圖示以新增。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Today" = "今天";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_GeneralError" = "無法新增至我的頻道。請再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteShow_GeneralError" = "無法新增至我的節目。請再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteShow_GeneralError" = "無法從我的節目中移除。請再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteChannel_GeneralError" = "無法從我的頻道中移除。請再試一次。";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a page fails to load */
+    "ErrorState_PageError" = "載入此頁面時發生問題。 :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a pivot pane or a section of the panorama fails to load */
+    "ErrorState_PaneError" = "載入此部份時發生問題。 :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the retry button */
+    "ErrorState_RetryButton" = "再試一次";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the network setting button */
+    "ErrorState_NetworkButton" = "開啟網路設定";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToXboxOne" = "在 Xbox One 上進行";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SmartGlassCompanionAvailable" = "小幫手可供使用";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFull" = "在 Xbox One 上進行";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToSnap" = "在貼齊狀態播放";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Title" = "遙控";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Xbox_Title" = "Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Universal_Title" = "寬頻/電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchSuggestions_Title" = "建議";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Windows" = "\"{0}\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Skip_Title" = "略過";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFill" = "在 Xbox One 上進行";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track" = "追蹤";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track_Tablet" = "曲目";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras" = "額外項目";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras_Tablet" = "額外項目";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TOP_SONGS_ON_XBOX" = "在 Xbox One 上進行";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_SEASON_EPISODES" = "季別影集";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LAUNCH_IN_IE" = "在 Xbox 上開啟";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NoProvidersOrShowTimesAvailable" = "目前在 Xbox One 上還未有任何應用程式可播放此項目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title" = "歡迎";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText" = "撥動以繼續。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_TitleText" = "該開始啟動了";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DoneText" = "開始使用 Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DescriptionText" = "請造訪 xbox.com/smartglass 以深入瞭解或取得說明。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title" = "控制您的 Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Description" = "點選 [進行中] 橫條以控制您的媒體和已貼齊的應用程式、取得遊戲說明以及更多。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Description" = "在您的客廳或隨時隨地取得遊戲說明、成就和訊息。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Title" = "保持連線";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Title" = "尋找並釘選";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Description" = "搜尋內容，在 Xbox One SmartGlass 釘選您的最愛，這些項目就會在 Xbox One 等您。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Description" = "OneGuide 將您所有的電視節目集在一起。在您的主機上設定電視以查看您的節目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Select" = "撥動以控制，點選以選取。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Error_CanNotPlayVideo" = "抱歉，無法播放此影片。";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppChannel_Favorite" = "我的最愛";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNow" = "現正播映";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_ConnectedTo" = "連線至";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConsolesOnYourNetwork" = "您網路上的主機：";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_PlayNow" = "立即播放";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_XboxOneSmartGlass" = "Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Message_Detail_Message" = "訊息";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_0" = "0";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_1" = "1";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_2" = "2";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_3" = "3";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_4" = "4";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_5" = "5";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_6" = "6";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_7" = "7";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_8" = "8";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_9" = "9";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_PAGE" = "頁面";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CH" = "頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_VOL" = "音量";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_ENTER" = "輸入";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DASH" = "儀表板";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_INFO" = "資訊";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_EXIT" = "離開";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_SELECT" = "選取";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANGE_LAYOUT" = "變更版面配置";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_MENU" = "選單";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_GUIDE" = "節目表";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DVR" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.back" = "返回";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.cancel" = "取消";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.ch_enter" = "輸入";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.clear" = "清除";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_minus" = "日期-";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_plus" = "日期+";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.delimiter" = "儀表板";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.dvr" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.exit" = "離開";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.format" = "格式";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_a" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_b" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_c" = "C";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_d" = "D";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.guide" = "節目表";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.help" = "說明";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.home" = "首頁";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.info" = "資訊";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.interactive" = "互動";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.last" = "上一個";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.live" = "直播";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.menu" = "選單";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.options" = "選項";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.plus_100" = "+100";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.sap" = "SAP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.select" = "選取";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.services" = "服務";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.setup" = "設定";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.slow" = "慢放";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.subtitle" = "字幕";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.tools" = "工具";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.vod" = "VOD";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.all" = "全部";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.avr" = "AV 擴大機";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.stb" = "有線/衛星";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.tv" = "電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.onoff" = "開 / 關";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.on" = "開";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.off" = "關";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.ON" = "完成";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.OFF" = "變更版面配置";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcStatus.ErrorLabel" = "錯誤：";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneHour_Text" = "1 小時";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHoursText_iOSAndroid" = "%1$d 小時";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneMinute" = "1 分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinutesText_iOSAndroid" = "%1$d 分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DESCRIPTION" = "說明";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameHelp" = "遊戲說明";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOMYSHOWS" = "新增至我的節目";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Parent_Title" = "家長";
+    /* iOS,WINDOWS, */
+    "SearchResults_PageTitle_iOS" = "「%1$@」的結果";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Phone_iOS" = "搜尋下列的結果";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_NoResult" = "沒有找到結果";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SeasonPicker_AllOption" = "全部";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on homepage when application failed to retreive the recents */
+    "Home_Recents_RecentsError" = "我們目前無法取得您近期的活動。";
+    /* iOS,WINDOWS, Detail string format used by iOS clients while displaying details text along with media type. Example such as playto, media tray etc */
+    "MediaDetails_Format_iOS" = "%1$@ 詳細資料";
+    /* iOS,WINDOWS, */
+    "Launcher_CurrentlyPlaying_iOS" = "現正播放： %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_ProvidersOrShowTimesError" = "無法找到可播放此項目的應用程式。請稍後再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_RecentChannels" = "最近看過的頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_Reload" = "重新整理";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogTitle" = "精選的存取權限已封鎖";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogBody" = "您帳戶的設定讓您無法存取此功能。您可以透過修改您的隱私權設定進行變更此設定。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_PlaceHolderText" = "搜尋";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Phone" = "進行中";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Tablet" = "在 Xbox One 進行中";
+    /* WINDOWS,iOS,ANDROID, */
+    "CloseButtonText" = "關閉";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_RefreshText" = "重新整理";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_UnknownValue_Dash" = "--";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call EDS to get the detail about the media returned no data. */
+    "Launcher_DataNotIngested_Error" = "沒有找到任何資料。";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call to EDS failed to retrieve the information about the media */
+    "Launcher_ErrorToRetrieveDetail" = "我們目前無法取得詳細資料。請稍後再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Unavailable" = "沒有可用資訊";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit" = "您有太多頻道了。請移除其中一個以新增 {0}。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add" = "{0} 已新增至您的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove" = "{0} 已從您的最愛中移除。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add_iOS" = "%1$@ 已新增至您的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove_iOS" = "%1$@ 已從您的最愛中移除。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_AppChannels_NoFavorites_iOS" = "選取一個應用程式頻道並點選 %1$@ 圖示以將該頻道設為最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GeneralError" = "目前無法取得您的頻道。選取重新整理按紐再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Unavailable" = "無法使用。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Disconnected" = "離線";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Load" = "載入設定中";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HD" = "僅顯示 HD 頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_All" = "顯示所有頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HideSD" = "隱藏重複的 SD 頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_HD" = "高解析度";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_SD" = "標準解析度";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Header" = "從您所有的應用程式中尋找節目和電影";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Text" = "在您的 Xbox 上安裝並啟動應用程式以取得新頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_BtnText" = "在 Xbox 上取得應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Header" = "為您個人化的進階電視體驗";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_BtnText" = "設定電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_GoldUpsell_BtnText" = "取得 Xbox Live 金會員";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_RecentChannels_Header" = "在您的 Xbox 上觀看電視以查看您最近看過的頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_AddFailed" = "無法新增釘選。請再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ComposeMessage_Sending" = "傳送中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_MessageDetail_Deleting" = "刪除中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVSeason_Aired_Title" = "開播日：";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_ListFullError" = "您已達200 個最愛上限。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Busy_Wait" = "請稍候...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connect_Reconnecting" = "重新連線中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Title" = "這將會離開目前的小幫手...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Description" = "您確定您想要離開目前的小幫手？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MinutesText_Android" = "分鐘";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add favorite */
+    "Profile_Profile_Failed_Add_Favorite" = "無法將使用者新增至我的最愛清單。";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove favorite */
+    "Profile_Profile_Failed_Remove_Favorite" = "無法將使用者從我的最愛清單中移除。";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add friend */
+    "Profile_Profile_Failed_Add_Friend" = "無法將使用者新增至好友清單。";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove friend */
+    "Profile_Profile_Failed_Remove_Friend" = "無法將使用者從好友清單中移除。";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_OneGuideAvailable" = "OneGuide 可供使用";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_ShowCompanion" = "小幫手";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConsoleBar_NowPlaying_SubTitle" = "進行中";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_UnconfiguredMessage" = "您的電視未設定可接收遠端訊息";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_SeasonsHeader_Tablet" = "季";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Gold_Message" = "在您的 Xbox 或 Xbox 網站取得金會員資格以檢視電視節目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayOnSmartGlass" = "在 SmartGlass 上進行";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Season" = "季";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Episode" = "集";
+    /* iOS,ANDROID,WINDOWS, */
+    "Dialog_Attention_Title_Android" = "注意";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Got_Gold_Question" = "有金會員嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message" = "在您的 Xbox 或 Xbox.com 取得金會員資格以檢視電視節目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message_iOS" = "在您的 Xbox 或 Xbox 網站取得金會員資格以檢視電視節目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title_Phone" = "歡迎使用 Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_Phone" = "撥動以繼續。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title_Phone" = "連線至 Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_SignIn_Phone" = "登入";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Background_Title" = "XBOX ONE SMARTGLASS";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPlay" = "選取一個應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPin" = "選取一個應用程式以從其釘選";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_ConsoleNotListed" = "主機未列出？";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_EnterIPAddress" = "輸入 IP 位址";
+    /* iOS,ANDROID,WINDOWS, This is the text shown when user tries to pin a media from detail page and there are no providers associated with it. */
+    "Launcher_NoProvidersAvailableForPin" = "在 Xbox One 上還未有任何應用程式可將用於釘選此媒體。";
+    /* iOS,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_iOS" = "%1$@ 由 %2$@ 演出";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show details option in launcher */
+    "ACTION_DETAILS" = "詳細資料";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show the option to launch remote. */
+    "Launcher_ShowRemote" = "遙控";
+    /* iOS,ANDROID,WINDOWS, This is the string shown in launcher when OneGuide is the default companion. */
+    "Launcher_ShowOneGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ChannelDialog_Description" = "頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_iOS" = "您想要在此裝置上啟動 %1$@ 應用程式嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_iOS" = "是，啟動 %1$@ 應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Windows" = "您想要在此裝置上啟動 {0} 應用程式嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Windows" = "是，啟動 {0} 應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Android" = "您想要在此裝置上啟動 %s 應用程式嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Android" = "是，啟動 %s 應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_No" = "否，停留在 SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_No" = "否";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressTitle" = "輸入您主機的 IP 位址：";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_IPAddressLocationOnConsole" = "若要尋找您主機的 IP 位址，請開啟您主機的 [設定] > [網路] > [進階設定]。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressGhostText" = "例如：192.168.0.1";
+    /* iOS,ANDROID,WINDOWS, Title for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Title" = "您已達好友人數上限";
+    /* iOS,ANDROID,WINDOWS, Message for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Message" = "若要新增好友，您需要將您目前的其中一位好友移除。";
+    /* iOS,ANDROID,WINDOWS, */
+    "CONNECTION_REQ_TEXT" = "此應用程式需要網路連線。在繼續前請檢查您的連線設定。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Explicit" = "敏感內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowMore" = "顯示更多";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowLess" = "顯示較少";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Providers" = "應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Tablet" = "與下列相容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Phone" = "與下列相容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Tablet" = "附加內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Phone" = "附加內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Released" = "已發行";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Languages" = "語言";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GetOnXboxOne" = "開始使用 Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Genre" = "類型";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Help" = "說明";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Disconnected" = "連線至 Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connecting" = "連線中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connected" = "已連線";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SearchIcon" = "搜尋";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RefreshIcon" = "重新整理";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BackIcon" = "返回";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_IEPlayHere" = "在此開啟網頁";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeIcon" = "音量";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeUp" = "提高音量";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeDown" = "降低音量";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Mute" = "靜音";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Unmute" = "解除靜音";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ClearText" = "清除文字";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemoteIcon" = "遙控";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIcon" = "播放";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PauseIcon" = "暫停";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FFW" = "快轉";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RWD" = "倒轉";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipForward" = "跳過快轉";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipBack" = "跳過倒轉";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Seek" = "搜尋";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Close" = "關閉";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ViewButton" = "檢視";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MenuButton" = "選單";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XboxButton" = "Xbox 按鈕";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AButton" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BButton" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XButton" = "X";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YButton" = "Y";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowUp" = "上";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowDown" = "下";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowLeft" = "左";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowRight" = "右";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PowerButton" = "電源";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageUp" = "向上翻頁";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageDown" = "向下翻頁";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoButton" = "資訊";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SelectButton" = "選取";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelUp" = "上一個頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelDown" = "下一個頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RedButton" = "紅色";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BlueButton" = "藍色";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YellowButton" = "黃色";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GreenButton" = "綠色";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RecordButton" = "錄音";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InputButton" = "來源";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PreviousChannel" = "上一個";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_OnOff" = "開/ 關";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddtoFavorites" = "新增至我的最愛";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemovefromFavorties" = "從我的最愛中移除";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoIcon" = "詳細資料";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIconOneGuide" = "在 Xbox One 上進行";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_NewMessage" = "新訊息";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddRecipient" = "新增收件者";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MoreIcon" = "更多";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GotoLive" = "前往 live";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_FirstRun" = "連線至 Xbox One 並與您的最愛電視節目、電影、音樂和遊戲互動。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Tablet" = "我的釘選";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Phone" = "我的釘選";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber" = "頻道 {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_iOS" = "頻道 %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_Android" = "頻道 %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ParentalControls_BlockedTitle" = "敏感節目";
+    /* iOS,ANDROID,WINDOWS, {locked}  */
+    "EPG_ParentalControls_BlockedDetails" = "此資訊已被封鎖。若要變更此設定，請前往您 Xbox 上的 [設定] > [隱私權和線上安全]。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Settings" = "無法載入您的電視設定。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Channels" = "目前無法取得您的頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TryAgain" = "選取重新整理按鈕以再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Shows_Generic" = "目前無法取得節目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_NoShows" = "此頻道沒有任何節目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_NoShowInfo" = "無節目相關資訊";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_iOS" = "您已有太多頻道。請移除其中一個以新增 %1$@。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_Android" = "您已有太多頻道。請移除其中一個以新增 %1$s。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Channels" = "目前無法取得您的應用程式頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Remote_Console_Setup" = "在您的 Xbox 上設定電視。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Console_Setup_Directions_STB" = "請在您的 Xbox 上前往 [設定] > [電視和 OneGuide] > [寬頻或衛星電視盒型號]";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_Header" = "您最愛的應用程式頻道都放在同一個地方";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_AppChannels_Text_First" = "點選應用程式頻道中的一個頻道，然後點選";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_AppChannels_Text_Second" = "將其設為我的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_TextIcon_iOS" = "點選應用程式頻道中的一個頻道，然後點選 %1$@ 將該頻道設為我的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_iOS" = "點選電視清單或應用程式頻道中的一個節目，然後點選 %1$@ 將該節目設為我的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_Android" = "點選電視清單或應用程式頻道中的電視節目，然後點選 %1$s 以新增至我的最愛。";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_Text_First" = "點選電視清單或應用程式頻道中的一個節目，然後點選";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_Text_Second" = "將其設為我的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Header" = "把您最愛的電視頻道都放在同一個地方";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_TvListings_Text_First" = "點選電視清單中的一個節目，然後點選";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_TvListings_Text_Second" = "將其設為我的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Code_iOS" = "錯誤 %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header_NotAllCaps" = "即將上映時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_FirstLine" = "撥動以移動，點選以選取。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_SecondLine" = "用兩根手指捲動。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateSwipe" = "撥動以移動。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateTap" = "點選以選取。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Unsupported" = "Internet Explorer 搖控不支援非觸控式裝置。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_DefaultText" = "尋找遊戲、電影、電視、音樂和應用程式。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Header" = "有金會員嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_Offline" = "離線";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Windows" = "上次上線：{0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_iOS" = "上次上線：%1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Android" = "上次上線：%s";
+    /* iOS,ANDROID,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_Windows" = "在 {1} 直播 {0}";
+    /* iOS,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_iOS" = "在 %2$@ 直播 %1$@";
+    /* iOS,ANDROID,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_iOS" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Windows" = "{0} (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_iOS" = "%1$@ (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Android" = "%s (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Windows" = "新增於 {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_iOS" = "新增於 %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Android" = "新增於 %s";
+    /* iOS,ANDROID,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_iOS" = "%1$@ - %2$@";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsOption" = "允許通知";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsDescription" = "允許此應用程式顯示通知。";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptTitle" = "允許通知？";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptDescription" = "允許此應用程式顯示通知。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_FilterOptionAll" = "全部";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionBroadcasting" = "直播";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionRecentPlayers" = "近期的玩家";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_OnlineFriendsCount_iOSAndroid" = "%1$d 位上線";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_NewFollowersCount_iOSAndroid" = "%1$d 位新的";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_Unsnap" = "解除貼齊";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_RecentPlayers_NoData" = "當您與其他玩家在多人遊戲中相遇時，您將可在此查看他們。";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Today" = "今天";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_iOSAndroid" = "%1$d 年前";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_Windows" = "{0} 年前";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_ChallengesGallery_HeaderTitle_Tablet" = "挑戰";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Phone" = "進度";
+    /* iOS,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_2_iOS" = "如果您有 Windows 8、Windows Phone 或 Xbox 360，您只要用您現有的帳戶登入。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_Wifi_Needed_Error" = "將此裝置連線至與 Xbox One 相同的網路。SmartGlass 需要無線網路連線，行動數據網路無法使用。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_GameClips" = "遊戲短片";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text when signing out */
+    "Settings_SignOutButton_SigningOut" = "正在登出";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_Windows" = "{0} 正在 {2} 上直播 {1}";
+    /* iOS,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_iOS" = "%1$@ 正在 %3$@ 上直播 %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LinktoFAQ" = "如需詳細資訊，點選以開啟疑難排解指南";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FeedbackIcon" = "意見回饋";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epgl_NHoursText_iOSAndroid" = "%1$d 小時";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_iOSAndroid" = "%1$d 分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat_Android" = "%1$s-%2$s %3$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NHoursText_Android" = "%d 小時";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_Android" = "%d 分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_OneHour_Text" = "1 小時";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgDetails_Showtime_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Recents" = "正在載入您最近看過的頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_AppChannels" = "正在載入應用程式頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TVListings" = "正在載入電視清單。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Favorites" = "正在載入您最愛的頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TakeSomeTime" = "可能需要幾分鐘。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddedFavoriteChannel_Message_Text" = "您已將此頻道新增至您的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_SectionHeader" = "ONEGUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Message_Text" = "OneGuide 是一個方便使用又可自訂的節目導覽功能，並將您所有的電視節目集在同一個清單。在您的主機上設定即時電視以在此檢視您的電視清單。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_iOSAndroid" = "%1$d 小時";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_iOSAndroid" = "%1$d 小時";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_iOSAndroid" = "%1$d 分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_iOSAndroid" = "%1$d 分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_iOSAndroid" = "%1$d 秒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_iOSAndroid" = "%1$d 秒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_Windows" = "{0} 秒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_Windows" = "{0} 秒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_Windows" = "{0} 分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_Windows" = "{0} 分鐘";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_Windows" = "{0} 小時";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_Windows" = "{0} 小時";
+    /* iOS,WINDOWS, */
+    "Global_NHrsMMinsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Windows" = "{0} {1}";
+    /* iOS,WINDOWS, */
+    "Global_NMinsMSecsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Windows" = "{0} {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_Broadcasting" = "實況直播";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_WatchBroadcast" = "觀看直播";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_Error_MovePin" = "我們無法移動您的釘選。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Header" = "您最愛的電視和應用程式頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title" = "通知";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description_iOS" = "此 iOS 設定將會把關閉中的設定覆蓋。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Description" = "在最愛中的好友開始直播時收到通知。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Title" = "Twitch 直播已開始";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Description" = "在最愛中的好友上線時收到通知。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Title" = "我的最愛上線中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Description" = "在訊息清單有出現新訊息時收到通知。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Title" = "訊息";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_iOS" = "%1$@ 正在直播中";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Android" = "%s 正在直播中";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Windows" = "{0} 正在直播中";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_iOS" = "%1$@ 已上線";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Android" = "%s 已上線";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Windows" = "{0} 已上線";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_PageTitle" = "比較";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_NoAchievementsAvailable" = "此項目沒有可闖的成就 ... 好可惜";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_YouGamertagDisplayText" = "您";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_TimePlayed" = "遊戲時長";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_GameProgress" = "進度";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_UnlockedWithTime_Tablet_iOS" = "已解除鎖定 %1$@";
+    /* iOS,ANDROID,WINDOWS, Locked */
+    "CompareGame_AchievementItem_Locked_Tablet" = "已鎖定";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_LockedWithPercentage_Tablet_iOSAndroid" = "已鎖定 (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, - - (20%) */
+    "CompareGame_AchievementItem_LockedWithPercentage_Phone_iOSAndroid" = "-- (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialTitle" = "您現在可以重新排列您的釘選！";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialText" = "按住釘選並拖曳至您想要的地方。釘選會同時在您的  Xbox One 上更新。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackTitleText" = "傳送意見";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashTitleText" = "糟糕，發生問題。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_NoThanksButtonText" = "不，謝謝";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashBodyText" = "這看起來是我們的錯。請幫助我們瞭解發生什麼事。請將意見反應傳送給我們，我們也將需要下列資訊：";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ScreenshotText" = "螢幕擷取畫面";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ProcessorArchitectureText" = "裝置處理器架構";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SGVersionText" = "SmartGlass 版本";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_OSVersionText" = "裝置 OS 版本";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareManufacturerText" = "裝置硬體製造商";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareModelText" = "裝置硬體型號";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CurrentCultureText" = "目前文化特性";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LayoutOrientationText" = "版面配置方向";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_GamerTagText" = "您的玩家代號";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LogFileDataText" = "記錄資料";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_MailBodyStep1Text" = "步驟 1：輸入您的意見反應。";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneNoScreenshotText" = "在此輸入您的意見反應。";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8MailBodyStep2Text" = "步驟 2：請將您的意見反應傳送至：";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneStep2Text" = "步驟 2：請附上螢幕擷取畫面：{0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Windows" = "Xbox One SmartGlass 搶鮮版意見反應：{0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_iOS" = "Xbox One SmartGlass 搶鮮版意見反應：%1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Android" = "Xbox One SmartGlass 搶鮮版意見反應：%1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashSubject" = "Xbox One SmartGlass 損毀報告";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8Description" = "將關於 Windows 上的 Xbox One SmartGlass 意見反應傳送給 Microsoft。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Phone" = "排行榜";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Tablet" = "排行榜";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoData" = "抱歉，沒有這個遊戲或應用程式的排行。立刻使用或玩遊戲成為排行第一！";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoStats" = "抱歉，沒有這個遊戲或應用程式的排行。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Friends_Online_Windows" = "{0} 位上線";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Messages_Unread_Windows" = "{0} 封未讀";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_PrivacyStatement" = "請不要將可辨識個人的資訊或秘密資訊包含在意見反應中。Microsoft 在軟體意見反應中絕不會尋問密碼、信用卡資訊或政府 ID 號碼。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Featured" = "精選";
+    /* iOS,ANDROID,WINDOWS, */
+    "Featured_Landing_PageTitle" = "精選";
+    /* iOS,ANDROID,WINDOWS, */
+    "TOU_Accept" = "接受";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description" = "關閉您裝置中的通知也會將 SmartGlass 中的通知關閉。";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD_BRACKETED" = "[HD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD_BRACKETED" = "[SD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Buy" = "購買";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Preorder" = "預購";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_GetItFree" = "免費取得";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Purchased" = "已購買";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Available_Header" = "可購買";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete" = "購買完成";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue" = "安裝";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Done" = "完成";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Message" = "這項目會新增至您 Xbox One 上的 [遊戲和應用程式]。如果您的 Xbox 是開啟著或待機狀態，而您也有足夠的空間，那該項目將會自動安裝。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Andriod" = "在您的 Xbox One 上安裝 %s 嗎?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Windows" = "在您的 Xbox One 上安裝 {0} 嗎?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_iOS" = "在您的 Xbox One 上安裝 %1$@ 嗎?";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Recent" = "社群短片 - 近期";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Saved" = "社群短片 - 已儲存";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Saved" = "我的遊戲短片 - 已儲存";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Recent" = "我的遊戲短片 - 近期";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Recent" = "遊戲短片 - 近期";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Saved" = "遊戲短片 - 已儲存";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogTitle" = "您確定嗎？";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogBody" = "這會將他們從您的好友清單上移除。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_NoData" = "沒有可查看的好友。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_NoData" = "沒有可查看的好友。";
+    /* iOS,ANDROID,WINDOWS, number of allowable recipient left */
+    "Messages_ComposeMessage_ChooseRecipients_NumRemaining_iOSAndroid" = "剩下 %1$d 位";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Thanks" = "謝謝您!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Collection" = "若要尋找，請前往您 Xbox One 中的 [遊戲和應用程式]。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Popular" = "熱門";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Recent" = "最近";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Popular" = "熱門";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Recent" = "最近";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Tablet" = "市集";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Phone" = "市集";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Games_Store" = "市集";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Featured" = "精選";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackBodyText" = "成為一位英雄吧！傳送意見反應給我們將可以改善 SmartGlass。當您傳送意見反應時，我們將收集下列：";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableTVProviderText" = "有線電視供應商";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableBoxText" = "纜線轉換器型號";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ZipCodeText" = "郵遞區號";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_RateText" = "您想要如何為您的體驗評分？";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ChooseOneText" = "選擇一個";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CategoryText" = "您想要告訴我們什麼？";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ReportProblemText" = "我想要回報一個問題";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SuggestionText" = "我有一個建議或新的功能要求";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationHeaderText" = "已傳送意見反應！";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationText_iOSAndroid" = "謝謝您的意見反應！如果我們需要更多資訊，我們將會傳送一個 Xbox Live 訊息給您。我們絕不會尋問密碼或帳單資訊，所以請不要將這些資訊給任何人！\n誠摯地,\nSmartGlass 團隊";
+    /* iOS,WINDOWS, */
+    "FirstRun_Favorites_Channel_TextIcon_iOS" = "點選電視清單或應用程式頻道中的一個頻道，然後點選 %1$@ 將該頻道設為我的最愛。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Channel_Text_First" = "點選電視清單或應用程式頻道中的一個頻道，然後點選";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Channel_Text_First" = "點選電視清單中的一個頻道，然後點選";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Phone" = "包括";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Tablet" = "包括";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Phone" = "同捆";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Tablet" = "同捆";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_AttachmentFailed" = "抱歉，我們無法顯示附件。請稍後再試。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Me" = "您還未錄製任何遊戲短片。您應該試試看，很好玩的！";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_DeviceTime_Incorrect" = "請確認您的時間和日期是正確後再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Millions" = "M";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Thousands" = "K";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_ServiceFailure_Playback_Error" = "請稍後再試。我們目前無法播放該項目。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_DeletedClip_Playback_Error" = "抱歉，該短片已無法使用";
+    /* iOS, */
+    "Purchase_Title_Purchased_iOS" = "您已購買 %1$@";
+    /* iOS,WINDOWS */
+    "Purchase_Confirmation_NoHome" = "您已成功購買。若要下載此內容，請在您的主機上，前往 [我的遊戲和應用程式] 並從「安裝準備就緒」清單中選擇。(在最右邊！)。如果您想要在未來自動安裝下載購買項目，請前往 [設定] > [我的主要 Xbox] 中將此主機設為您的主要 Xbox。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Queued" = "這會在您的主要 Xbox 上自動安裝。如果您的 Xbox 是開啟或是設為即時開啟，自動更新和購買也設為開啟，並且有足夠的空間，該項目現在就會立刻開始下載。如果您想要變更您的主要 Xbox，在該主機上，前往 [設定] > [我的主要 Xbox]。若要變更您的電源選項，前往 [設定] > [電源和開機]。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Consumable" = "這樣的項目可以依您喜好重覆購買。您可在任何時候回來再次購買。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Error_NoResults" = "未找到任何項目";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse" = "瀏覽";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons" = "附加內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games" = "遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse_Tablet" = "瀏覽";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Tablet" = "附加內容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Tablet" = "遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Popular" = "最熱門";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Recent" = "發行日期";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader" = "保持甦醒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader_Windows" = "保持甦醒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOption" = "永遠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOptionDescription" = "當 SmartGlass 開啟的時候螢幕不會處於休眠 (低電池使用時間)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOption" = "只限於遙控狀態";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOptionDescription" = "當螢幕用為 Xbox 的遙控器時，螢幕不會處於休眠狀態 (電池使用時間較長)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOption" = "使用裝置設定";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOptionDescription" = "正常螢幕休眠狀態 (最佳的電池使用時間)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title_Windows" = "通知";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackForm_CrashTellUsText" = "您當時在做什麼呢？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_SupportLink" = "若要瞭解更多，請點選這裡";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Them" = "沒有已儲存的短片";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase" = "在完成購買前要求我登入。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase_Header" = "購買";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NOT_AIRING" = "目前未播映";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Description" = "看電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANNEL" = "頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Coming_Soon" = "即將推出";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Error_Not_Supported" = "主機上的電視節目串流未開啟。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Copy_Text" = "複製文字";
+    /* iOS,ANDROID,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_Windows" = "由 {1} 演唱的 {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_EntryText" = "想要說什麼嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Header" = "捨棄訊息嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Body" = "您還未儲存您的訊息。如果繼續，您的訊息將會遺失。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Send_ErrorText" = "目前無法傳送。點選以再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_Profile_NoData" = "當您解除鎖定成就、錄影遊戲短片和新增好友時，您都可以在此查看！";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionsScreen_HeaderText" = "分享至...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ActivityFeedText" = "活動摘要";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_MessageText" = "訊息";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_HeaderText" = "分享至活動摘要";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_TextEntryWatermark" = "新增標題";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShareButtonText" = "分享";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Header" = "不想分享嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Body" = "您還未分享這個內容。如果您繼續，此內容將不會被分享。";
+    /* iOS, */
+    "ActivityFeed_YouLikedText_iOS" = "您與其他 %1$@ 位使用者為此按讚";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1LikeText" = "1 讚";
+    /* iOS, */
+    "ActivityFeed_LikesText_iOS" = "%1$@ 讚";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1ShareText" = "1 分享";
+    /* iOS, */
+    "ActivityFeed_SharesText_iOS" = "%1$@ 分享";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1CommentText" = "1 意見";
+    /* iOS, */
+    "ActivityFeed_CommentsText_iOS" = "%1$@ 意見";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_TextEntryWatermark" = "留下意見";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorText" = "發生問題。請稍後再試。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Share_ServiceFailure" = "抱歉，我們現在無法分享這個內容，請稍後再試。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Post_ServiceFailure" = "我們目前無法張貼您的意見。請再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_Filter_Header" = "讚";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_Filter_Header" = "分享";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_Filter_Header" = "意見";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_HeaderText" = "活動提醒";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_LikedText" = "在您的活動上按讚";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_SharedText" = "分享了您的活動";
+    /* iOS, */
+    "ActivityAlerts_List_2People_iOS" = "%1$@ + 1 位其他使用者";
+    /* iOS, */
+    "ActivityAlerts_List_NPeople_iOS" = "%1$@ + %2$@ 位其他使用者";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_Empty" = "提醒";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_1Alert" = "1 個新提醒";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_iOS" = "%1$@ 個新提醒";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_Header_iOS" = "活動摘要 (%1$@)";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedText_iOS" = "已對您的活動做出回應：「%1$@」";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedOthersText_iOS" = "已在 %1$@ 的活動中回應：「%2$@」";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_AddedFriendText" = "已將您加入為好友";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Header" = "刪除摘要內容嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Body" = "您確定想要刪除這個摘要內容嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Header" = "刪除意見？";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Body" = "您確定想要刪除這個意見嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_ServiceFailure" = "抱歉，我們目前無法取得您的活動提醒。請稍後再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityItem_ServiceFailure" = "抱歉，我們目前無法取得您的活動內容。請稍後再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_NoData" = "當使用者在您的活動摘要中按讚、分享並回應，或者將您新增為好友時，您都可以在此看到。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_List_NoData" = "成為第一位按讚的人";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_List_NoData" = "成為第一位分享的人";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_List_NoData" = "成為第一位發表意見回應的人";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Confirmation_Success" = "這個內容已被移除";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Header" = "發生問題";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Body" = "我們現在無法刪除此內容，請稍後再試。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_Failure_Body" = "我們目前無法張貼您的意見。請稍後再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_DisplayError_Body" = "我們目前無法顯示這個內容。";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header" = "熱門遊戲 (10 天)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header_Tablet" = "熱門遊戲 (10 天)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Plays_1Friend" = "已經有 1 位好友玩過";
+    /* iOS, */
+    "PopularGames_Plays_NFriends_iOS" = "已經有 %1$@ 位好友玩過";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Playing_1Friend" = "1 位好友正在玩遊戲";
+    /* iOS, */
+    "PopularGames_Playing_NFriends_iOS" = "%1$@ 位好友正在玩遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_ServiceError" = "抱歉，我們現在無法顯示熱門遊戲。重新整理以再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_NoData" = "您和您的好友最近尚未玩任何遊戲。";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header" = "熱門遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header_Tablet" = "熱門遊戲";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Played_Once" = "玩過 1 次";
+    /* iOS, */
+    "TopGames_PlayedN_iOS" = "玩過 %1$@ 次";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Header" = "刪除對話嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Body" = "您確定要刪除此對話嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Delete_MenuText" = "刪除對話";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Reply_Failure" = "無法將此傳送。點選以再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Link" = "有什麼新的功能";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Description" = "查看此次更新的新功能";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_title" = "九月份有什麼新的功能";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_features" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Windows" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_WindowsPhone" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_iOS" = "檢視、留下意見、分享並儲存您和您好友的螢幕擷取畫面";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Android" = "檢視、留下意見、分享並儲存您和您好友的螢幕擷取畫面";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_bug_fixes" = "問題修正";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_caveat" = "有些功能可能尚未在所有市場中提供使用";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ERROR" = "抱歉，SmartGlass 無法開始錄影";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ACCESSIBILITY" = "錄下來";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Providers" = "提供者";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Provider" = "選擇一個提供者：";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_General_Error" = "目前無法取得您的頻道。重新整理以再試一次，或選擇不同的提供者：";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Different_Provider" = "選擇不同的提供者：";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Select_a_Provider" = "選擇一個提供者：";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Connection_Error" = "連線至您的 Xbox 以檢視電視清單，或者選擇不同的提供者：";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_All_Providers" = "全部提供者";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Start_Error" = "抱歉，無法開始您的電視串流。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDCP_Error" = "目前的節目已受 HDCP 保護並無法串流。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Error" = "在您的主機上登入以在此裝置看電視。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Console_Error" = "您的主機發生問題，導至您無法串流電視節目。請稍後再試。如果問題仍然存在，您可能需要重新開啟您的主機。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connection_Error" = "我們已遺失與您主機的連線。請重新連線。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Error" = "抱歉，我們無法連線至您的主機以開始串流電視節目。檢查您的網路並再試一次。如果問題仍然存在，您可能須要重新開啟您的路由器。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Parental_Controls_Block" = "抱歉，這個節目已被封鎖。若要變更此設定，請在您的 Xbox 上前往 [設定] > [隱私權和線上安全]。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Too_Slow_Error" = "因為您的網路速度太慢或過度壅塞，所以無法支援電視節目串流。請檢查您的網路。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Interrupted_Error" = "您的電視節目串流已被中斷。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signed_Out_Error" = "因為您已在主機上登出，所以您的電視節目串流已停止。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error" = "串流發生問題。請稍後再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Device_Not_Supported_Error" = "此裝置並不支援電視節目串流。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Not_Supported_Error" = "此網路並不支援電視節目串流。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Version_Not_Supported_Error" = "抱歉，此 SmartGlass 版本並不支援電視節目串流。請更新您的 SmartGlass 應用程式並再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Region_Not_Supported_Error" = "您的地區並不支援電視節目串流。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signal_Lost_Error" = "您的 Xbox 已遺失電視訊號。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Restart" = "串流發生問題。請重新啟動 SmartGlass 並再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Resources_Error" = "此裝置已執行太多項目。關閉一些應用程式並再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_By_User_Error" = "您的串流已被您主機上的某些使用者停止。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_Error" = "您已與主機中斷連線。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Lost_Network_Error" = "您已與主機中斷連線。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnect_To_Stream" = "重新連線以繼續看電視。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Try_Again_Later" = "請稍後再試。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Header" = "電視節目串流";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Begin_Header" = "開始觀看";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_TV" = "看電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_Header" = "電視串流";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Currently_Playing" = "播映中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_On_Next" = "稍後播出";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Close_Stream" = "停止觀看";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Restart_Stream" = "重新啟動電視節目串流";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDMI_In" = "HDMI - 輸入";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_TV_Tuner" = "Xbox One 數位電視選台器";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Video" = "串流影片";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Current_Source" = "目前來源：";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Choose_a_Source" = "選擇一個來源：";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connecting" = "連線中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnecting" = "重新連線中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Attempting_Reconnect" = "重新連線中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Buffering" = "緩衝處理中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Quality" = "您的網路已影響了您的電視節目串流品質。請檢查您的網路。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Remote_Cannot_Control_Source" = "目前的來源無法用 SmartGlass 控制器控制。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Stop" = "停止觀看";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Before_Streaming" = "若要設定電視節目串流，用您在這裡所使用的相同帳戶登入主機。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Header" = "為我們的應用程式評分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Body" = "如果您很享受 SmartGlass 的體驗，請花幾分鐘為我們的應用程式評分。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_RemindButton" = "稍後提醒我";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_DontAskButton" = "不用再詢問我";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_DeleteError" = "我們目前無法取得此活動摘要項目。該項目可能目前無法使用或者已被刪除。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Resume" = "繼續觀看";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Long" = "您的串流發生問題。請嘗試停止並重新開啟。如果問題仍存在，關閉並重新開啟 SmartGlass，重新開啟您的主機或者重新開啟您的路由器。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MHEG_Error" = "抱歉，您無法播放互動內容。請嘗試其他頻道。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Content_Error" = "此頻道目前無法使用。使用 OneGuide 以查看其他頻道中有什麼內容。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MTC_Live" = "直播";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_NewMarkets" = "電視和 OneGuide 可在新市場使用";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_Streaming" = "從 Xbox One 數位電視選台器串流直播電視節目";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Phone" = "玩過的好友";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Tablet" = "玩過的好友";
+    /* iOS,ANDROID,WINDOWS, */
+    "Radio_NoVideo_Error" = "播放廣播頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps" = "應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps_Tablet" = "應用程式";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold" = "金會員";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold_Tablet" = "金會員";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold" = "Games with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold" = "Deals with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold_Tablet" = "GAMES WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold_Tablet" = "DEALS WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_ComingSoon" = "即將推出";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ShowcaseText" = "展示櫃";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShowcaseHeaderText" = "分享至展示櫃";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteHeader" = "刪除展示櫃內容嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteBody" = "您確定想要將此項目從您的展示櫃中移除嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataMeText" = "從您的活動摘要或成就詳細資料中分享您最棒的遊戲短片和成就。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataYouText" = "您的好友尚未將任何成就或遊戲短片分享至他們的展示櫃。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_BioHeader" = "簡歷";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_LocationHeader" = "位置";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_High_Quality" = "高品質";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Best_Quality" = "最佳品質";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Medium_Quality" = "中品質";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Quality" = "低品質";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_New_Feature" = "新功能：在 SmartGlass 上看電視";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Signal" = "我們無法偵測您電視選台器的訊號。請查看您的天線。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_No_Info_Available" = "沒有可用資訊";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Other_User_Changed_Quality" = "其他人已變更所有 SmartGlass 連線的串流品質。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Playing_Radio_Channel" = "播放廣播頻道";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Cannot_Find_Tuner" = "我們無法找到您的電視選台器。請確認您的電視選台器已連接到您的 Xbox 並再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOn" = "開啟";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOff" = "關閉";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOn" = "開機...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOff" = "關機...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOnFailure" = "我們無法開啟您的主機。請確認此裝置的網路與您的主機相同，並且主機設定為「即時啟動」。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOffFailure" = "我們無法關閉您的 Xbox。請確定已連接並且您已登入主機，然後再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestNetworkStreaming" = "測試串流";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_ConnectToTest" = "連接到您的 Xbox 以測試多媒體網路";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_BeginTest" = "開始測試";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestInProgress" = "進行測試中。請勿關閉或離開此頁。測試時間可達 5 分鐘。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestComplete" = "測試完成！謝謝您幫助最佳化串流！";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_SignInToTest" = "若要開始測試，請使用您在此所用的相同帳戶登入主機。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_CancelTest" = "取消測試";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NeedStopGameStreamingError" = "請在開始測試網路之前停止遊戲串流。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_StopGameStreamingWarning" = "開始網路測試會結束目前的遊戲串流階段，您確定要繼續嗎？";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_Proceed" = "是";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NotProceed" = "否";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_ResumeTest" = "繼續測試";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_GenericError" = "在測試時發生問題，請再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RetryTest" = "重試";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RebootConsole" = "我們無法在主機上開始串流，請重新開機並再試一次。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ThirdPartyNotice_Header" = "第三方通知";
+    /* iOS,ANDROID, */
+    "Drawer_Captures" = "捕捉畫面";
+    /* iOS,ANDROID, Profile page My Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Phone" = "我的捕捉畫面";
+    /* iOS,ANDROID, Profile page Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Phone" = "捕捉畫面";
+    /* iOS,ANDROID, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Tablet" = "我的捕捉畫面";
+    /* iOS,ANDROID, Profile page Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Tablet" = "捕捉畫面";
+    /* iOS,ANDROID, Used by activity incase screenshot cannot be opened */
+    "Error_CanNotOpenScreenshot" = "抱歉，無法開啟螢幕擷取畫面。";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Me" = "您還未擷取任何螢幕擷取畫面。您應該試看看，很好玩喔！";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_Me" = "您還未錄影任何螢幕擷取畫面。您應該試看看，很好玩喔！";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Them" = "沒有已儲存的螢幕擷取畫面";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_You" = "看起來他們還未分享任何螢幕擷取畫面。";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Saved" = "我的螢幕擷取畫面 - 已儲存";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Recent" = "我的螢幕擷取畫面 - 最近";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Recent" = "螢幕擷取畫面 - 最近";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Saved" = "螢幕擷取畫面 - 已儲存";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataMeText" = "從您的活動摘要或成就詳細資料中分享您最棒的遊戲短片、螢幕擷取畫面和成就。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataYouText" = "您的好友還未將任何成就、螢幕擷取畫面或遊戲短片分享至他們的展示櫃中。";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_Me_Tablet" = "我的捕捉畫面";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_You_Tablet" = "捕捉畫面";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Phone" = "遊戲捕捉畫面";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Tablet" = "遊戲捕捉畫面";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData" = "沒有可展示的螢幕擷取畫面！開始玩遊戲並擷取一些螢幕擷取畫面。";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_Community" = "還未有此遊戲的螢幕擷取畫面。";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_CommunityButtonText" = "查看社群螢幕擷取畫面";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Saved" = "社群螢幕擷取畫面 - 已儲存";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Recent" = "社群螢幕擷取畫面 - 最近";
+    /* iOS,ANDROID, */
+    "Screenshot_Saving" = "儲存中...";
+    /* iOS,ANDROID, */
+    "Screenshot_ChooseAction" = "選擇";
+    /* iOS,ANDROID, */
+    "Screenshot_Sharing" = "分享...";
+    /* iOS,ANDROID, */
+    "Screenshot_Share" = "分享";
+    /* iOS,ANDROID, */
+    "Screenshots_Saved" = "螢幕擷取畫面已儲存";
+    /* iOS,ANDROID, */
+    "Screenshots_SavedError" = "無法儲存螢幕擷取畫面，請再試一次";
+    /* iOS,ANDROID, */
+    "Screenshots_ShareError" = "無法儲存螢幕擷取畫面，請再試一次";
+    /* iOS,ANDROID, */
+    "Screenshot_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Share" = "Share real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Update" = "Name sharing settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateRealNameSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_TryAgain" = "Try again in a while";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChooseWhoSeesYourName" = "Choose who sees your name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_WhatYouChose" = "Here's what you chose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description1" = "You can share your real name with your friends on Xbox - you choose who to share it with. Your name doesn't show up in games, and you can always change these settings in your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description2" = "Choose Set up name sharing to pick the people you want to share your name with.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EnforcementBanned_Description" = "You can't share your real name because of your past behavior.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ErrorAtStartup_Description" = "We can't set up or change your real name sharing settings right now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLook_Description" = "This is how you'll appear to other people on Xbox, using the real name from your Microsoft account. If it doesn't look right, you can edit it now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EditHowYouLook" = "This will change the name on the Microsoft account for {0}. This name is used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithFriendsOfFriends" = "When you share your name with friends, their friends see it, too. You can change these settings any time from your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveName" = "Sorry, we can't change your name right now. Click Save to try again or go back.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveSharing" = "Sorry, we can't save your name sharing settings right now. Select Done to try saving again.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Everyone" = "Everyone on Xbox";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChosenFriends" = "Only friends I choose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWith" = "Share with: {0}";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ZeroFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_OneFriend" = "{0} friend";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ManyFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NextWithSelectedCount" = "Next ({0} selected)";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Edit" = "Edit";
+    /* iOS,ANDROID, */
+    "RealNameSharing_FirstName" = "First name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_LastName" = "Last name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSettings" = "Update settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NoThanks" = "No, thanks";
+    /* iOS,ANDROID, */
+    "RealNameSharing_SetUpNameSharing" = "Set up name sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StopSharing" = "Stop sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_GoBack" = "Go back";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Next" = "Next";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithSettings" = "Share with";
+    /* iOS,ANDROID, (Used to indicate how your name appears to others) */
+    "RealNameSharing_HowYouLook" = "How you look";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLookDetail" = "The name is from the Microsoft account and used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, (First placeholder is for the users First Name, the second placeholder is for their Last Name) */
+    "RealNameSharing_SettingsRealNameConcatentation" = "%1$@ %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_ChangeFriendship" = "Change friendship";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorRealNameSave" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorAddingFriend" = "Sorry, we can't add this person right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorChangeRemove" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorPartialFail" = "Sorry, we could only save some of your changes. Try saving again.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Friend" = "Friend";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Favorite" = "Favorite";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_FriendsofFriends" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_AddFriendDescription" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Favorite" = "Favorite friends go first on your friends list. You'll see when they go online or start broadcasting.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Friend" = "Friends show up on your friends list and activity feed. They see you as a new follower.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Everyone" = "Your real name is shared with everyone on Xbox. You can make changes in Settings.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName" = "Let {0} see my real name. It might help them recognize who you are.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Alt" = "{0} may not recognize you as {1}. They're sharing their name with you. Check the box to share with them.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Friends" = "Your real name is shared with all your friends on Xbox. You can make changes in Settings.";

@@ -1,0 +1,3623 @@
+    //
+    // version 1.0
+    //
+    /* WINDOWS,iOS,ANDROID, Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language */
+    "ResourceFlowDirection" = "LeftToRight";
+    /* WINDOWS,iOS,ANDROID, Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language. */
+    "ResourceLanguage" = "fi-FI";
+    /* WINDOWS,iOS,ANDROID, If we don't find a valid rating to string mapping, we'll return this string. */
+    "PARENTAL_RATING_NOT_RATED" = "Ei luokitusta";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_EC" = "Aikainen lapsuus";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E" = "Kaikki";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10" = "Kaikki yli 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10_RP" = "Luokitus odottaa";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_T" = "Teini";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_M" = "Aikuisille";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_AO" = "Aikuisille ainoastaan";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_RP" = "Luokitus odottaa tai ei luokitusta";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_A" = "CERO A / CERO All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_B" = "CERO B / CERO 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_C" = "CERO C / CERO 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_D" = "CERO D / CERO 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_Z" = "CERO Z";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_ALL_AGES" = "USK 0";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_6" = "USK 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_12" = "USK 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_16" = "USK 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_NO_YOUTH" = "USK 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_4" = "PEGI 4";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_6" = "PEGI 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_11" = "PEGI 11";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_12" = "PEGI 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_15" = "PEGI 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_18" = "PEGI 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_U" = "BBFC U";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_PG" = "BBFC PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_12" = "PEGI 12 / BBFC 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_15" = "BBFC 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_18" = "PEGI 18 / BBFC 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_E" = "E - Ei tarvitse luokitusta";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G" = "G - Yleinen";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G8" = "Vanhempien valvonta suositeltavaa";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M15" = "Sisältöä suositellaan vaan aikuisille";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_MA15" = "MA Ikäsuositus 15+ -Aikuisen mukana";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_PG" = "PG - Vanhempien valvonta";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M" = "M - Aikuisille";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_R18" = "R-Rajoitettu 18v+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_X18" = "Ikäraja 18v - aikuissisältöä";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_REFUSED" = "Ei luokitusta";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_G" = "Yleinen";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_PG" = "Vanhempien valvonta suositeltavaa";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_M" = "Aikuiselle yleisölle sopiva, sallittu yli 16v.";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R15" = "Rajoitettu 15v+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R" = "Rajoitukset";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R13" = "Rajoitettu 13v+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R16" = "Rajoitettu 16v+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R18" = "Rajoitettu 18v+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_ALL" = "GRB All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_12" = "GRB 12+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_15" = "GRB 15+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_18" = "GRB 18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_A" = "FPB A";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_PG" = "FPB PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_10" = "FPB 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_13" = "FPB 13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_16" = "FPB 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_18" = "FPB 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_ER" = "DJCTQ ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_L" = "DJCTQ L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_10" = "DJCTQ 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_12" = "DJCTQ 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_14" = "DJCTQ 14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_16" = "DJCTQ 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_18" = "DJCTQ 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_GENERAL" = "Yleinen";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PROTECTED" = "Suojattu";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PG" = "Ikärajoitusten asetukset";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_RESTRICTED" = "Rajoitukset";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_GENERAL" = "Yleinen";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_AGE_ADVISORY" = "Ikäsuositukset";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_MATURE_18" = "Aikuisviihde 18v.";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING" = "Luokitus %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GAME" = "Luokitus: %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_EXPLICIT_EXPLICIT" = "AIKUISSISÄLTÖ";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG13" = "PG-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_NC17" = "NC-17";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_AO" = "AO";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_14" = "14A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_18" = "18A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_R18" = "MA18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_X18" = "X18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_UC" = "Uc";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_15A" = "15A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_BTL" = "Btl";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_ST" = "S/T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K3" = "K-3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K7" = "K-7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K11" = "K-11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K13" = "K-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K15" = "K-15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K18" = "K-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_MATURE" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R13" = "R13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R15" = "R15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R16" = "R16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_1" = "1";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_2" = "2";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_3" = "3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_4" = "4";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_5" = "5";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_8" = "8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_0" = "0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_10" = "10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_14" = "14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK0" = "FSK 0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK6" = "FSK 6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK12" = "FSK 12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK16" = "FSK 16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK18" = "FSK 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_SPIO_JK" = "SPIO/JK";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_TP" = "TP/ALL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_13" = "13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_T" = "T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM14" = "VM14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM18" = "VM18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_AL" = "AL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_9" = "9";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y" = "TV-Y";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7" = "TV-Y7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7FV" = "TV-Y7-FV";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_G" = "TV-G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_PG" = "TV-PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_14" = "TV-14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_MA" = "TV-MA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C8" = "C8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_14" = "14+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_18" = "18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_10" = "-10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_P" = "P";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_MA15" = "not used if Finland, remove or replace. We use PEGI rating system in Europe/Finland.";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_AV15" = "AV15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_R18" = "R18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_ER" = "ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_L" = "L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_10" = "10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_12" = "12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_14" = "14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_16" = "16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_18" = "18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_MINOR" = "Lapsille";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_GP" = "Kaikki";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_7" = "+7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_13" = "+13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_18" = "+18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_X" = "X";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_MINOR" = "Vihreä";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_14" = "Keltainen";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_ADULT" = "Punainen";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED" = "Ei luokitusta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED_OR_PENDING" = "Luokitus odottaa tai ei luokitusta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_0" = "Alkoholiviittaukset";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_1" = "Epätodellinen veri";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2" = "Veri";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_3" = "Veri ja vammat";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4" = "Sarjakuvamainen väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5" = "Komiikkaan sisältyvä ilkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6" = "Alatyylinen huumori";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_7" = "Huumeviittaukset";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_8" = "Viihteellinen oppiminen";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_9" = "Fantasiaväkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10" = "epävirallinen";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_11" = "Raaka väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_12" = "Kieli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_13" = "Sanoitukset";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14" = "Aikuishuumori";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_15" = "Lievä väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_16" = "Alastomuus";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_17" = "Osittainen alastomuus";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_18" = "Varsinaiset uhkapelit";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_19" = "Eroottinen viihde";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_20" = "Seksuaalinen väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_21" = "Simuloidut uhkapelit";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_22" = "Vanhempien läsnäoloa suositellaan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_23" = "Loukkaava kielenkäyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_24" = "Loukkaavat sanoitukset";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_25" = "Voimakkaasti seksuaalinen sisältö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_26" = "Lievästi provokatiiviset aiheet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_27" = "Viittaukset tupakointiin";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_28" = "Huumeet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_29" = "Alkoholi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_30" = "Tupakka";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_31" = "Väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_32" = "Seksuaalinen sisältö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_33" = "Lievä alkoholiviittaukset";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_34" = "Lievä epätodellinen veri";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_35" = "Lievä veri";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_36" = "Lievä veri ja vammat";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_37" = "Lievä sarjakuvamainen väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_38" = "Lievä komiikkaan sisältyvä ilkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_39" = "Lievä alatyylinen huumori";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_40" = "Lievät huumeviittaukset";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_41" = "Lievä fantasiaväkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_42" = "Lievästi sopimaton kielenkäyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_43" = "Lievästi sopimattomat sanoitukset";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_44" = "Lievä aikuishuumori";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_45" = "Lievä alastomuus";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_46" = "Osittainen alastomuus";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_47" = "Lievä varsinaiset uhkapelit";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_48" = "Lievästi eroottinen aikuisviihde";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_49" = "Lievää seksuaalista väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_50" = "Lievästi simuloidut uhkapelit";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_51" = "Lievästi provokatiiviset aiheet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_52" = "Lievät Viittaukset tupakointiin";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_53" = "Lievä huumeiden käyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_54" = "Lievä alkoholin käyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_55" = "Lievä tupakan käyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_56" = "Lievä väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_57" = "Lievä seksuaalinen sisältö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_58" = "Viittaukset väkivaltaan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_59" = "Lievät viittaukset väkivaltaan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_60" = "Lievät viittaukset huumeisiin ja alkoholiin";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_61" = "Alkoholi ja tupakka";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_62" = "Viittaukset alkoholiin ja tupakkaan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_63" = "Epätodellinen väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_64" = "Lievä epätodellinen väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_65" = "Epätodellinen veri ja vammat";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_66" = "Vamma";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_67" = "Lievä alkoholin ja huumeiden käyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_68" = "Lievä huumeiden ja tupakan käyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_69" = "Lievä alkoholin ja tupakan käyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_70" = "Lievä huumeiden, tupakan ja alkoholin käyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_71" = "Viittaukset alkoholiin ja huumeisiin";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_72" = "Lievät viittaukset alkoholiin ja huumeisiin";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_73" = "Viittaukset huumeisiin ja tupakkaan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_74" = "Lievät viittaukset huumeisiin ja tupakkaan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_75" = "Viittaukset huumeisiin alkoholiin ja tupakkaan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_76" = "Lievät viittaukset huumeisiin, alkoholiin ja tupakkaan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_77" = "Eroottinen viihde";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_78" = "Uhkapeli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_79" = "Peli voi muuttua online-pelin aikana";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_100" = "Rakkaus";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_101" = "Seksuaalinen";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_102" = "Väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_103" = "Kauhu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_104" = "Uhkapeli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_105" = "Rikokset";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_106" = "Alkoholi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_107" = "Tupakka";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_108" = "Huumeet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_109" = "Kieli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_110" = "Juominen & Tupakointi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2283" = "Näyte RatingDescriptor";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4000" = "Huono kielenkäyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4001" = "Syrjintä";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4002" = "Huumeet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4003" = "Kauhu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4004" = "Seksi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4005" = "Väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4006" = "Uhkapeli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4999" = "CWS Sample RatingDescriptor";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5000" = "Huono kielenkäyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5001" = "Syrjintä";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5002" = "Huumeet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5003" = "Kauhu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5004" = "Seksi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5005" = "Väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5006" = "Uhkapeli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6000" = "Huono kielenkäyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6001" = "Syrjintä";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6002" = "Huumeet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6003" = "Kauhu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6004" = "Seksi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6005" = "Väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6006" = "Uhkapeli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10001" = "Aikuisille tarkoitettu sisältö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10002" = "Hetkittäistä alastomuutta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10003" = "Karkeaa kielenkäyttöä";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10004" = "Raakaa väkivaltaa";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10005" = "Kieli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10006" = "Lievä väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10007" = "Alastomuus";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10008" = "Raiskaus";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10009" = "Voimakkaasti seksuaalinen sisältö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10010" = "Väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14000" = "Huono kielenkäyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14001" = "Syrjintä";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14002" = "Huumeet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14003" = "Kauhu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14004" = "Seksi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14005" = "Väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14006" = "Uhkapeli";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320010" = "Syrjintä";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320020" = "Huumeiden ja alkoholi väärinkäyttö";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320030" = "Kauhu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320040" = "Väkivalta";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320050" = "Kiroilu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320060" = "Seksi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_ALL" = "KAIKKI";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when the Search service returns an error. */
+    "Search_ErrorText" = "Haun tuloksia ei nyt löytynyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_All" = "Kaikki";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Apps" = "Sovellukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Games" = "Pelit";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Movies" = "Elokuvat";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Music" = "Musiikki";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_TV" = "TV-ohjelmat";
+    /* WINDOWS,iOS,ANDROID, Failed to retrieve data from the service */
+    "LRC_Error_Code_FailedToRetrieveData" = "Ei saatavilla";
+    /* iOS,ANDROID,WINDOWS, */
+    "RelatedItems_NoResultsFound" = "Aiheeseen liittyvät kohteita ei saatu.";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_FilterHeader" = "Ohjelma";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_PageTitle" = "tulokset";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResult_BusyIndicatorText" = "Haetaan...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Bio_Header" = "Elämäkerta";
+    /* WINDOWS,iOS,ANDROID, */
+    "Related_Header" = "liittyvät";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotFind" = "konsoliasi ei löytynyt";
+    /* WINDOWS,iOS,ANDROID, displayed while waiting for data to load */
+    "BusyIndicator_LoadingText" = "Ladataan...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_DescriptionHeader" = "Kuvaus";
+    /* WINDOWS,iOS,ANDROID, */
+    "TVDetails_SeasonsHeader" = "tuotantokaudet";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Text" = "Jatkaaksesi, sinun täytyy päivittää tämä sovellus.";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Title" = "Edellyttää päivitystä";
+    /* WINDOWS,iOS,ANDROID, Shown as header when more than 1 director is involved. */
+    "Directors_Header" = "ohjaajat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Actors_Header" = "NÄYTTELIJÄT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Synopsis_Header" = "Kuvaus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Writers_Header" = "Kirjoittajat";
+    /* WINDOWS,iOS,ANDROID, */
+    "NowPlaying_MoreInfo" = "Lisää";
+    /* WINDOWS,iOS,ANDROID, */
+    "Search_PlayOnXbox" = "Toista Xboxissa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launch_DifferentTitle_Warning_Message" = "Tämä korvaa käynnissä olevan ohjelman konsolissa. Ok?";
+    /* WINDOWS,iOS,ANDROID, */
+    "OK_Text" = "OK";
+    /* WINDOWS,iOS,ANDROID, */
+    "Warning_Title" = "Poistu?";
+    /* WINDOWS,iOS,ANDROID, Title for the popular search terms list. */
+    "SearchTerms_Title" = "suosittuja nyt";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotConnect" = "Konsoliasi ei löydy";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotSignIn" = "Kirjautuminen epäonnistui";
+    /* WINDOWS,iOS,ANDROID, used for grouping details, example:  Year Released - Parent Rating - Movie Duration.  (1992 - PG - 124 min) */
+    "Search_DetailsSeparator" = "|";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_BasicPrompt" = "hae Xboxista:";
+    /* WINDOWS,iOS,ANDROID, indicates the album, song contains explicit content. */
+    "Content_Explicit" = "aikuissisältö";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category1" = "Hae Xboxista elokuvia,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category2" = "Hae Xboxista albumeja,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category3" = "Hae Xboxista pelejä,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category1" = "Hae Xboxista elokuvia, TV…";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category2" = "Hae Xboxista albumeja, esittäjiä…";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category3" = "Hae Xboxista pelejä, sovelluksia…";
+    /* WINDOWS,iOS,ANDROID, Shown Provider offers this media for free viewing. */
+    "ProviderOffer_Free" = "Ilmainen";
+    /* WINDOWS,iOS,ANDROID, */
+    "Achievements_SecretDescription" = "Jatka pelaamista avataksesi salaisen saavutuksen.";
+    /* WINDOWS,iOS,ANDROID, */
+    "FamilyPasscode_Header" = "Kirjoita perheasetusten koodi jatkaaksesi.";
+    /* iOS,ANDROID,WINDOWS, ghost text for empty address bar */
+    "WebBrowser_GhostText" = "Selaa Xboxissa";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_fastforward" = "kelaa eteenpäin";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_pause" = "keskeytä";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_play" = "toista";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_rewind" = "siirry taaksepäin";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Providers" = "näihin sovelluksiin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_RequiresGold" = "Tarvitsee Gold-jäsenyyden";
+    /* WINDOWS,iOS,ANDROID, Play command */
+    "Activity_Play" = "Käynnistä";
+    /* iOS,ANDROID,WINDOWS, header/title used on the activity tile */
+    "Activity_SmartGlass_Title" = "Xbox One SmartGlass -oheistoiminto";
+    /* WINDOWS,iOS,ANDROID, Controller activity */
+    "Activity_Controller" = "Kaukosäädin";
+    /* WINDOWS,iOS,ANDROID, */
+    "MediaState_DragInstruction" = "Vedä sormea poispäin palkista ohjataksesi tarkemmin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_ProviderSpecific" = "Näihin sovelluksiin:";
+    /* WINDOWS,iOS,ANDROID, Title for the Settings page */
+    "Settings_Title" = "asetukset";
+    /* iOS,ANDROID,WINDOWS, Text for hyperlink in settings page to launch what's new page */
+    "Settings_WhatsNew" = "Aloita";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Purchased" = "Ostettu";
+    /* iOS,ANDROID,WINDOWS, Text shown while loading smart glass activity. */
+    "Activity_LoadingText" = "Xbox One SmartGlass -oheistoiminto käynnistyy…";
+    /* iOS,ANDROID,WINDOWS, Error text shown when an activity fails to load. */
+    "Activity_ErrorText" = "Hups, emme voineet käynnistää tätä oheistoimintoa :(";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_ItemDescription1" = "Opi mitä kaikkea Xbox One SmartGlass voi tehdä.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription2" = "Näppäile, pyyhkäise, ja napauta päästäksesi suosikkielokuviin, musiikkiin, peleihin ja sovelluksiin.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription3" = "Kosketa, nipistä ja pyyhkäise nettiin laitteestasi";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle1" = "Laajenna Xboxia";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle2" = "Hallitse Xboxia";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle3" = "Selaa nettiä";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl1" = "http://go.microsoft.com/fwlink/?LinkID=266351&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl2" = "http://go.microsoft.com/fwlink/?LinkID=266352&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl3" = "http://go.microsoft.com/fwlink/?LinkID=266353&clcid=0x409";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_Header" = "Aloita";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_0" = "0";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_1" = "1";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_2" = "2";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_3" = "3";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_4" = "4";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_5" = "5";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_6" = "6";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_7" = "7";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_8" = "8";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_9" = "9";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_Cancel" = "Peruuta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate" = "Sipaise liikkuaksesi. Napauta valitaksesi. Käytä kahta sormea vierittääksesi.";
+    /* WINDOWS,iOS,ANDROID, */
+    "Controller_HelpSelect" = "Napauta minne vaan valitaksesi";
+    /* WINDOWS,iOS,ANDROID, */
+    "TextInput_Help" = "Napauta sulkeaksesi näppäimistön.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpNavigate" = "Siirrä ja napauta yhdellä sormella.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpSelect" = "Zoomaa kahdella sormella.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ControllerMode_Guide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "XboxSmartGlass" = "Xbox One SmartGlass";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToMain" = "Ok";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToPrevious" = "Peruuta";
+    /* WINDOWS,iOS,ANDROID, */
+    "Off" = "Ei käytössä";
+    /* WINDOWS,iOS,ANDROID, */
+    "On" = "Käytössä";
+    /* iOS,ANDROID,WINDOWS, */
+    "PivotHeaderFontSize" = "42";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Disconnected" = "Yhdistä Xboxiin";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting" = "Yhdistetään...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting_Tablet" = "YHDISTETÄÄN...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected" = "Yhdistetty";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected_Tablet" = "YHDISTETTY";
+    /* iOS,ANDROID,WINDOWS, */
+    "MainPage_Connection_State_NoNetwork" = "Verkkoyhteys katkesi";
+    /* iOS,ANDROID,WINDOWS, Text for the EPG button */
+    "NowPlaying_DiscoverEPGText" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignIn" = "Kirjaudu sisään";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignOut" = "Kirjaudu ulos";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppBar_Remote" = "kaukosäädin";
+    /* WINDOWS,iOS,ANDROID, output log location, no need to localize */
+    "TraceService_OutputFile" = "outputFile.log";
+    /* WINDOWS,iOS,ANDROID, Text shown for the calendar app bar button for jumping to a day in the future in the EPG */
+    "AppBar_EpgCalendar" = "siirry päivään";
+    /* WINDOWS,iOS,ANDROID, Text shown for the Jump to Now app bar button for the EPG */
+    "AppBar_JumpToNow" = "nyt";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Cancel" = "Peruuta";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_OK" = "OK";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Confirm" = "Vahvista";
+    /* WINDOWS,iOS,ANDROID, button for tuning to a TV channel from the details page or EPG */
+    "Epg_TuneToChannel" = "siirry kanavalle";
+    /* WINDOWS,iOS,ANDROID, Label for details button on EPG */
+    "Epg_Details" = "tiedot";
+    /* WINDOWS,iOS,ANDROID, header for upcoming showtimes on a TV details page */
+    "TVDetails_Upcoming" = "tulossa";
+    /* WINDOWS,iOS,ANDROID, The content of the retry button when we hit an error loading EPG content. */
+    "Epg_Retry" = "Yritä uudelleen";
+    /* WINDOWS,iOS,ANDROID, */
+    "Epg_NowButton_Text" = "Nyt";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STARRING" = "Pääosassa:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDITIONAL" = "Lisätietoja";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GENRES" = "Tyylilaji:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RELEASEDATE" = "Julkaisupäivä:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STUDIOS" = "Studio:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_AWARDS" = "Palkinnot";
+    /* iOS,ANDROID,WINDOWS, */
+    "FORWARD_SLASH_SEPARATOR" = "/";
+    /* iOS,ANDROID,WINDOWS, */
+    "COMMA_SEPARATOR" = ",";
+    /* iOS,ANDROID,WINDOWS, */
+    "VERTICAL_BAR_SEPARATOR" = "|";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_ON_XBOX" = "Toista Xbox Onessa";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TRAILER" = "Toista traileri";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE" = "Uusin jakso";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_MORE" = "Lisää";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_RATE" = "Arvostele";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ALL_SEASONS" = "Kaikki kaudet";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NEXT_EPISODE" = "Seuraava jakso";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PREVIOUS_EPISODE" = "Edellinen jakso";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PIN" = "Kiinnitä";
+    /* iOS,ANDROID,WINDOWS, */
+    "EXTRAS_HEADER" = "Ekstrat";
+    /* iOS,ANDROID,WINDOWS, */
+    "REVIEWS_HEADER" = "arvostelut";
+    /* iOS,ANDROID,WINDOWS, */
+    "OVERVIEW_HEADER" = "yleiskatsaus";
+    /* WINDOWS,iOS,ANDROID */
+    "DETAILS_TV_MULTIPLE_SEASON_FORMAT_OTHERS" = "%1$d kaudet";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_OOBE_MESSAGE_TEXT" = "Kirjaudu Xboxiin ja määritä TV-yhteytesi ennen tämän sovelluksen käyttämistä. Tämä tarvitsee tehdä vain kerran.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Challenges_Header" = "HAASTEET";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_UNPIN" = "Poista kiinnitys";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_NoPins" = "Sinulla ei ole kiinnityksiä. Mene kiinnittämään jotakin!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle" = "OMAT KIINNITYKSET";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_DeleteFailed" = "Kiinnityksen poistaminen epäonnistui. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_GeneralError" = "Pahoittelut, tieto ei tullut. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_Title" = "Seuraajat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_List_Empty" = "Ei seuraajia";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameConsumables_Header" = "DLC";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Loading" = "Ladataan";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title" = "Esittely";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title_Tablet" = "ESITTELY";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Data_Empty" = "Ei esittelytietoja";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Full" = "Esittelysi on täynnä. Jos haluat silti lisätä tämän, siirry esittelyysi ja poista kohde tai kaksi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ADD_TO_NOW_PLAYING" = "Lisää nyt toistettaviin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Crews_Header" = "TYÖRYHMÄ";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressTitle" = "Edistyminen";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressMostRecent" = "Uusimmat";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressXbox360Games" = "Xbox 360 -pelit";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedTitle" = "Ajankohtaiset";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedChallenges" = "Ajankohtaiset haasteet";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsAchievementsHeader" = "Ystävien saavutukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAlbumTitle" = "Musiikki";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingTVTitle" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAppTitle" = "Sovellus";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingDashTitle" = "Viiva";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingErrorTitle" = "Virhe";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingGameTitle" = "Peli";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingMovieTitle" = "Video";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsError" = "Viimeisten saavutuksiesi haku ei juuri nyt onnistunut.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostRecent" = "Viimeisimmät";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_HighestRated" = "Parhaat luokitukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostViewed" = "Katsotuimmat";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileRecentTitle" = "Viimeisimmät";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileTitle" = "Profiili";
+    /* iOS,ANDROID,WINDOWS, */
+    "Root_Drawer" = "Asettaja";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotPlay360" = "Tämä on Xbox 360:lle, emme voi toistaa tätä täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotLaunchInDisconnected" = "Et ole yhteydessä juuri nyt. Kytkeydy konsoliin, ja yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_ChangeTitleQuestion" = "Tämä korvaa käynnissä olevan ohjelman konsolissa. Sallitko tämän?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Movie_Title" = "Elokuvan tiedot";
+    /* iOS,ANDROID,WINDOWS, */
+    "Minute_Text" = "min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Series_Title" = "Sarjan nimi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying_Close" = "Sulje Nyt toistetaan";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying" = "Nyt toistetaan";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_ARTIST_FORMAT_STRING" = "{0} kanssa";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_HELP_BUTTON_TEXT" = "Ohje";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_COMPANION_BUTTON_TEXT" = "Oheistoiminto";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_BackButton" = "Takaisin";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsReward" = "palkinto";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsProgress" = "edistyminen";
+    /* iOS,WINDOWS, */
+    "NowPlaying_Tertiary" = "%1$@ kanssa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Clear" = "Tyhjennä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Save" = "Tallenna";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_TvHeader" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_MovieHeader" = "Elokuvat";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_TvListings" = "TV-ohjelmat";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_Favorites" = "Suosikit";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_NetworkError" = "Internet-yhteyttä ei havaittu. Liity langattomaan verkkoon tai matkapuhelinverkkoon käyttääksesi tätä sovellusta.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_ConsoleConnect" = "Valitse Xbox One luodaksesi yhteyden";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Showtime_iOS" = "%1$@-%2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_Showtime_With_ParentalRating" = "%1$@ | %2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_EpisodeName_With_Description" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_AppChannels" = "Sovelluskanavat";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdateAvailable_Title" = "Sovelluspäivitys saatavilla";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateAvailable_Text" = "Sovellukselle on päivitys saatavilla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "General_RemindMe" = "Muistuta minua";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdate_GetItNow" = "Hanki nyt";
+    /* iOS,ANDROID,WINDOWS, Profile page Profile pivot header */
+    "Profile_Profile_HeaderTitle" = "PROFIILI";
+    /* iOS,ANDROID,WINDOWS, Header for the number of friends that the current user has */
+    "Profile_Profile_Friends" = "Ystävät";
+    /* iOS,ANDROID,WINDOWS, Header for the number of followers that the current user has */
+    "Profile_Profile_Followers" = "Seuraajat";
+    /* iOS,ANDROID,WINDOWS, You profile page send message button text */
+    "Profile_Profile_SendMessage" = "Lähetä viesti";
+    /* iOS,ANDROID,WINDOWS, You profile page favorites button text */
+    "Profile_Profile_Favorite" = "Lisää suosikkeihin";
+    /* iOS,ANDROID,WINDOWS, You profile page unfavorites button text */
+    "Profile_Profile_Unfavorite" = "Poista suosikeista";
+    /* iOS,ANDROID,WINDOWS, You profile page add friend button text */
+    "Profile_Profile_AddFriend" = "Lisää ystävä";
+    /* iOS,ANDROID,WINDOWS, You profile page remove friend button text */
+    "Profile_Profile_RemoveFriend" = "Poista ystävä";
+    /* iOS,ANDROID,WINDOWS, You profile page block button text */
+    "Profile_Profile_Block" = "Estä";
+    /* iOS,ANDROID,WINDOWS, You profile page unblock button text */
+    "Profile_Profile_Unblock" = "Salli";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Unknown" = "Tuntematon";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation" = "Maine";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_AvoidMe" = "Vältä minua";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Needs_Improvement" = "Parantamisen varaa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Good_Player" = "Hyvä pelaaja";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Super_Star" = "Superstara";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Just_You_Count" = "Sinä";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header title cased */
+    "Profile_Recents_HeaderTitle_Phone" = "Viimeisin toiminta";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header upper cased */
+    "Profile_Recents_HeaderTitle_Tablet" = "VIIMEISIN TOIMINTA";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Android" = "Viimeksi pelattu %s";
+    /* iOS,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_iOS" = "Viimeksi pelattu %1$@";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Windows" = "Viimeksi pelattu {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_GameProgressText" = "Pelin edistyminen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_AppProgressText" = "Sovelluksen edistys";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Recents no data string */
+    "Profile_Recents_NoData_Me" = "Kun pelaat jotain Xbox Onella, se näkyy täällä.";
+    /* iOS,ANDROID,WINDOWS, You Profile page Recents no data string */
+    "Profile_Recents_NoData_You" = "Kun he pelaavat jotain Xbox Onella, se näkyy täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_Stats_You" = "Sinä";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_Me_Phone" = "Omat pelileikkeet";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_You_Phone" = "Pelileikkeet";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_Me_Tablet" = "OMAT PELILEIKKEET";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_You_Tablet" = "PELILEIKKEET";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_Me_Tablet" = "Omat pelileikkeet";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_You_Tablet" = "Pelileikkeet";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_iOSAndroid" = "%1$d toistoa";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_Windows" = "{0} toistoa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_Me" = "Et ole tallentanut yhtään pelileikettä vielä. Kokeile ihmeessä, se on hauskaa!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_You" = "Näyttää siltä, että he eivät ole julkaisseet yhtään pelileikettä.";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header title cased */
+    "Profile_Achievements_HeaderTitle_Phone" = "Saavutukset";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header upper cased */
+    "Profile_Achievements_HeaderTitle_Tablet" = "SAAVUTUKSET";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Achievements no data string */
+    "Profile_Achievements_NoData_Me" = "Pelaa pelejä ja avaa saavutuksia!";
+    /* iOS,ANDROID,WINDOWS, You Profile page Achievements no data string */
+    "Profile_Achievements_NoData_You" = "Ystäväsi ei ole avannut mitään saavutuksia viime aikoina.";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header title cased */
+    "Profile_Friends_HeaderTitle_Phone" = "Ystävät";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header upper cased */
+    "Profile_Friends_HeaderTitle_Tablet" = "YSTÄVÄT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_HeaderTitle" = "Ystävät";
+    /* iOS,ANDROID,WINDOWS, friends hub pivot header */
+    "FriendsHub_HeaderTitle_Phone" = "YSTÄVÄT";
+    /* iOS,ANDROID,WINDOWS, friends hub header */
+    "FriendsHub_HeaderTitle_Tablet" = "Ystävät";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Phone" = "Aktiviteettisyöte";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Tablet" = "AKTIVITEETTISYÖTE";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderFriendsList_Phone" = "Ystäväluettelo";
+    /* iOS,ANDROID,WINDOWS, friends hub friends pivot search button text, phone only */
+    "FriendsHub_SearchButton_Phone" = "Etsi ystäviä";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFavorites" = "Suosikit";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFriends" = "Ystävät";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFollowers" = "Seuraajat";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_NoData" = "Kun ystäväsi tekevät jotain, esimerkiksi avaavat saavutuksia, tallentavat pelileikkeitä ja lisäävät ystäviä, näet sen täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Friends_NoData" = "Täällä ei ole ketään.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Favorite_NoData" = "Lisää ystäviäsi suosikeiksi heidän profiilinsa kautta nähdäksesi heidät täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Follower_NoData" = "Täällä ei ole ketään.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_CouldNotFindGamer" = "Henkilöä ei löytynyt. Syötithän koko pelaajatunnuksen?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchBoxHint" = "Kirjoita tarkka pelaajatunnus";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchingText" = "Haetaan...";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Phone" = "VIESTIT";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Tablet" = "Viestit";
+    /* iOS,ANDROID,WINDOWS, messages list section header */
+    "Messages_SectionHeaderAllMessages_Tablet" = "KAIKKI VIESTIT";
+    /* iOS,ANDROID,WINDOWS, new message button text */
+    "Messages_NewMessageButton" = "Uusi";
+    /* iOS,ANDROID,WINDOWS, reply message button text */
+    "Messages_ReplyMessageButton" = "Vastaa";
+    /* iOS,ANDROID,WINDOWS, delete message button text */
+    "Messages_DeleteMessageButton" = "Poista";
+    /* iOS,ANDROID,WINDOWS, block user button text */
+    "Messages_BlockButton" = "Estä";
+    /* iOS,ANDROID,WINDOWS, unblock user button text */
+    "Messages_UnblockButton" = "Salli";
+    /* iOS,ANDROID,WINDOWS, view sender profile button text */
+    "Messages_ViewProfileButton" = "Profiili";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Phone" = "UUSI VIESTI";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Tablet" = "Uusi viesti";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Phone" = "VASTAA";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Tablet" = "Vastaa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ConfirmDeleteMessage" = "Haluatko varmasti poistaa tämän viestin?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToDeleteMessage" = "Viestiä ei voitu poistaa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToBlockUser" = "Käyttäjää ei voitu estää";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToUnblockUser" = "Käyttäjän poistaminen estolistalta epäonnistui";
+    /* iOS,ANDROID,WINDOWS, new message add a recipient control hint text */
+    "Messages_ComposeMessage_AddRecipientHintText" = "Lisää vastaanottaja";
+    /* iOS,ANDROID,WINDOWS, new message enter message control hint text */
+    "Messages_ComposeMessage_EnterMessageHintText" = "Kirjoita viesti";
+    /* iOS,ANDROID,WINDOWS, new message send button */
+    "Messages_ComposeMessage_SendButton" = "Lähetä";
+    /* iOS,ANDROID,WINDOWS, new message cancel button */
+    "Messages_ComposeMessage_CancelButton" = "Peruuta";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Phone" = "VALITSE VASTAANOTTAJAT";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Tablet" = "Valitse vastaanottajat";
+    /* iOS,ANDROID,WINDOWS, choose recipients done button text */
+    "Messages_ComposeMessage_ChooseRecipients_DoneButton" = "Valmis";
+    /* iOS,ANDROID,WINDOWS, generic error for failing to send a message */
+    "Messages_ComposeMessage_GenericError" = "Virhe viestin lähettämisessä. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_iOS" = "%1$d valittu";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_Windows" = "{0} valittu";
+    /* iOS,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_Windows" = "{0}/{1}";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogTitle" = "Hylkää muutokset?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogBody" = "Muutoksia ei ole tallennettu vielä. Jos jatkat, tiedot katoavat.";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError_DialogTitle" = "Viestiä ei voida lähettää";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError" = "Viestiä ei voi lähettää. Vastaanottaja ei ehkä ole olemassa, ei ole ystävälistalla, tai palveluun ei saatu yhteyttä.";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogTitle" = "Oletko varma?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogBody" = "Oletko varma, että haluat estää lähettäjän?";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported message */
+    "Messages_Error_ViewUnsupportedMessage" = "Katso viesti konsolissa.";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported legacy message */
+    "Messages_Error_ViewUnsupportedLegacyMessage" = "Katso viesti Xbox 360 -konsolissa tai Xbox Onessa.";
+    /* iOS,ANDROID,WINDOWS, error message for no messages retrieved */
+    "Messages_Error_NoMessages" = "Sinulla ei ole vielä yhtään viestiä. Kokeile viestin lähetystä nyt!";
+    /* iOS,ANDROID,WINDOWS, Drawer - Home */
+    "Drawer_Home" = "Aloitus";
+    /* iOS,ANDROID,WINDOWS, Drawer - TV Program Guide */
+    "Drawer_TV" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Drawer - Friends */
+    "Drawer_Friends" = "Ystävät";
+    /* iOS,ANDROID,WINDOWS, Drawer - Achievements */
+    "Drawer_Achievements" = "Saavutukset";
+    /* iOS,ANDROID,WINDOWS, Drawer - Pins */
+    "Drawer_Pins" = "Kiinnitykset";
+    /* iOS,ANDROID,WINDOWS, Drawer - Messages */
+    "Drawer_Messages" = "Viestit";
+    /* iOS,ANDROID,WINDOWS, Drawer - SmartGlass Settings */
+    "Drawer_Settings" = "Asetukset";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Now" = "nyt";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_iOSAndroid" = "%1$dh sitten";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_Windows" = "{0}t sitten";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_iOSAndroid" = "%1$dm sitten";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_Windows" = "{0} min sitten";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_iOSAndroid" = "%1$d päivää sitten";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_Windows" = "{0} vrk sitten";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE" = "Online";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_OFFLINE" = "Paikallinen";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE_OFFLINE" = "Online ja paikallinen";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_NONE" = "Ei mitään";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TryAgain" = "Yritä uudelleen";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PairingErrorMessage" = "Konsoliisi ei saada yhteyttä juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterPin" = "Syötä PIN-koodi:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ApplyPin" = "Käytä";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NoConsolesFound" = "Xbox Onea ei löydy. Onko konsolisi päällä ja yhdistettynä samaan verkkoon kuin SmartGlass?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect" = "Yhdistä";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Cap" = "YHDISTÄ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Tablet" = "YHDISTÄ XBOX ONEEN";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Disconnect" = "Katkaise yhteys";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConnectAutomatically" = "Yhdistä automaattisesti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_Exit" = "Sulje";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsoleWarning" = "Et ole yhdistetty konsoliin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsolePrompt" = "Haluatko kirjautua konsoliin vai jatkaa vieraana?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_SignInOnConsole" = "Kirjaudu sisään";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ContinueAsGuest" = "Jatka";
+    /* iOS,ANDROID,WINDOWS, secret achievement title */
+    "Achievement_SecretAchievement_Title" = "Salainen saavutus";
+    /* iOS,ANDROID,WINDOWS, secret achievement description */
+    "Achievement_SecretAchievement_Description" = "Jatka pelaamista avataksesi salaisen saavutuksen.";
+    /* iOS,ANDROID,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_Windows" = "{0}/{1}";
+    /* iOS,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_Windows" = "{0} %";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_iOS" = "%1$d %%";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_Windows" = "{0} päivää";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_iOSAndroid" = "%1$d päivää";
+    /* iOS,ANDROID,WINDOWS, 1 day */
+    "Challenge_Countdown_OneDay" = "1 päivä";
+    /* iOS,ANDROID,WINDOWS, 02:34:56 */
+    "Challenge_Countdown_Timer_Windows" = "{0:hh\:mm\:ss}";
+    /* iOS,ANDROID,WINDOWS, challenge time remaining */
+    "Global_Challenge_TimeRemaining" = "Aikaa jäljellä";
+    /* iOS,ANDROID,WINDOWS, challenge starts in */
+    "Global_Challenge_StartsIn" = "Haaste alkaa";
+    /* iOS,ANDROID,WINDOWS, achievements home title */
+    "AchievementsHome_HeaderTitle_Phone" = "SAAVUTUKSET";
+    /* iOS,ANDROID,WINDOWS, achievements home title for tablet */
+    "AchievementsHome_HeaderTitle_Tablet" = "Saavutukset";
+    /* iOS,ANDROID,WINDOWS, achievements home summary page */
+    "AchievementsHome_Summary_HeaderTitle_Phone" = "Yhteenveto";
+    /* iOS,ANDROID,WINDOWS, achievements home last game played */
+    "AchievementsHome_LastGamePlayed" = "VIIMEKSI PELATTU PELI";
+    /* iOS,ANDROID,WINDOWS, achievements progress */
+    "AchievementsHome_Progress_HeaderTitle_Phone" = "Edistyminen";
+    /* iOS,ANDROID,WINDOWS, achievement progress */
+    "AchievementsHome_Progress_HeaderTitle_Tablet" = "EDISTYMINEN";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent" = "Uusimmat";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecentDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent360" = "Muut";
+    /* iOS,ANDROID,WINDOWS, achievement progress gallery */
+    "AchievementsHome_ProgressGallery_HeaderTitle_Tablet" = "Edistyminen";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent_Tablet" = "UUSIMMAT";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecentDurango_Tablet" = "XBOX ONE";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent360_Tablet" = "MUUT";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Android" = "Viimeksi pelattu %s";
+    /* iOS,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_iOS" = "Viimeksi pelattu %1$@";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Windows" = "Viimeksi pelattu {0}";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Phone" = "Ajankohtaiset haasteet";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Tablet" = "AJANKOHTAISET HAASTEET";
+    /* iOS,ANDROID,WINDOWS, featured challenge gallery title */
+    "AchievementsHome_ChallengesGallery_HeaderTitle_Tablet" = "Ajankohtaiset haasteet";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Phone" = "Ystävien saavutukset";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Tablet" = "YSTÄVIEN SAAVUTUKSET";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_LastGamePlayed_NoData" = "Pelaa pelejä ja avaa saavutuksia!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Challenges_NoData" = "Haasteita ei löydy juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Progress_NoData" = "Pelaa pelejä ja avaa saavutuksia!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_FriendsAchievements_NoData" = "Ystäväsi eivät ole avanneet mitään saavutuksia.";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Phone" = "Edistyminen";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Tablet" = "EDISTYMINEN";
+    /* iOS,ANDROID,WINDOWS, game progress - game clips header title */
+    "GameProgress_Channel_HeaderTitle_Phone" = "Pelileikkeet";
+    /* iOS,ANDROID,WINDOWS, Upload CHANNEL */
+    "GameProgress_Channel_HeaderTitle_Tablet" = "PELILEIKKEET";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Windows" = "{0} katsoja";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_iOS" = "%1$@ katsoja";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Android" = "%s katsoja";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Windows" = "{0} katselua";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_iOS" = "%1$@ näyttökertaa";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Android" = "%s katsojia";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData" = "Ei näytettäviä videoita! Laitahan pelit käyntiin ja tallenna paljon hyviä juttuja.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_Community" = "Ei pelileikkeitä tallennettu vielä tälle pelille.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_CommunityButtonText" = "Katso yhteisön leikkeitä";
+    /* iOS,ANDROID,WINDOWS, Number of views. My Channel filter */
+    "GameProgress_Channel_FilterOptionMyChannel" = "Omat pelileikkeet";
+    /* iOS,ANDROID,WINDOWS, Number of views. Community filter */
+    "GameProgress_Channel_FilterOptionCommunity" = "Yhteisön leikkeet";
+    /* iOS,ANDROID,WINDOWS, Game details */
+    "GameProgress_GameDetails_Button_Text" = "Pelin tiedot";
+    /* iOS,ANDROID,WINDOWS, App details */
+    "GameProgress_AppDetails_Button_Text" = "Sovelluksen tiedot";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Phone" = "Haasteet";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Tablet" = "HAASTEET";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Phone" = "Saavutukset";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Tablet" = "SAAVUTUKSET";
+    /* iOS,ANDROID,WINDOWS, earned achievement filter for phone */
+    "GameProgress_Achievements_FilterOptionEarned" = "Ansaittu";
+    /* iOS,ANDROID,WINDOWS, locked achievement filter for phone {locked}  */
+    "GameProgress_Achievements_FilterOptionLocked" = "Lukittu";
+    /* iOS,ANDROID,WINDOWS, achievements gallery */
+    "GameProgress_AchievementsGallery_HeaderTitle_Tablet" = "Saavutukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Challenges_NoData" = "Ei haasteita juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_NoData" = "Pelaa pelejä ja avaa saavutuksia!";
+    /* iOS,ANDROID,WINDOWS, User doesn't have any earned achievements for this game */
+    "GameProgress_Achievements_NoEarned" = "Pelaa pelejä ja avaa saavutuksia!";
+    /* iOS,ANDROID,WINDOWS, User has earned all achievements for this game */
+    "GameProgress_Achievements_NoLocked" = "Hienoa työtä! Olet avannut kaikki saavutukset!";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Phone" = "Edistyminen";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Tablet" = "EDISTYMINEN";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Achievements_HeaderTitle" = "Saavutukset";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Android" = "Viimeksi pelattu %s";
+    /* iOS,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_iOS" = "Viimeksi pelattu %1$@";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Windows" = "Viimeksi pelattu {0}";
+    /* iOS,ANDROID,WINDOWS, achievement completion: Completed */
+    "Global_Achievements_Completed" = "Suoritettu";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementDetail_Achievement_HeaderTitle" = "Saavutukset";
+    /* iOS,ANDROID,WINDOWS, Game progress button */
+    "AchievementDetail_GameProgress_Button_Text" = "Pelin edistyminen";
+    /* iOS,ANDROID,WINDOWS, App progress button */
+    "AchievementDetail_AppProgress_Button_Text" = "Sovelluksen edistys";
+    /* iOS,ANDROID,WINDOWS, in game reward page header */
+    "AchievementDetail_Reward_InGame" = "PELIN SISÄINEN PALKINTO";
+    /* iOS,ANDROID,WINDOWS, in app reward page header */
+    "AchievementDetail_Reward_InApp" = "SOVELLUKSEN SISÄINEN PALKINTO";
+    /* iOS,ANDROID,WINDOWS, art reward page header */
+    "AchievementDetail_Reward_Art" = "TAIDEPALKINTO";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-game reward description {locked}  */
+    "AchievementDetail_Reward_InGame_LockedDescription" = "Avaa tämä saavutus niin palkinto tulee esille.";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-app reward description {locked}  */
+    "AchievementDetail_Reward_InApp_LockedDescription" = "Avaa tämä saavutus niin palkinto tulee esille.";
+    /* iOS,ANDROID,WINDOWS, achievement locked art reward description {locked}  */
+    "AchievementDetail_Reward_Art_LockedDescription" = "Avaa tämä saavutus niin taidepalkinto tulee esille.";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Android" = "Avattu %s";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_iOS" = "Avattu %1$@";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Windows" = "Avattu {0}";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_Locked" = "Lukittu";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_InProgress" = "kesken";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-game reward description {locked}  */
+    "ChallengeDetail_Reward_InGame_LockedDescription" = "Avaa tämä haaste niin palkinto tulee esille.";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-app reward description {locked}  */
+    "ChallengeDetail_Reward_InApp_LockedDescription" = "Avaa tämä haaste niin palkinto tulee esille.";
+    /* iOS,ANDROID,WINDOWS, challenge locked art reward description {locked}  */
+    "ChallengeDetail_Reward_Art_LockedDescription" = "Avaa tämä haaste niin palkinto tulee esille.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALBUM_TITLE" = "Albumi";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOPLAYLIST" = "Lisää soittolistalle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Cancel" = "Peruuta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Yes" = "Kyllä";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_SwitchToDeveloperMode" = "Olet ottamassa käyttöön kehittäjätilaa. Jos haluat jatkaa, valitse Vahvista. Jos haluat palata nykyisiin asetuksiin, valitse Peruuta.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_ExitDeveloperMode" = "Haluatko ottaa kehittäjätilan pois päältä? Vahvista jatkaaksesi tai peruuta palataksesi takaisin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Page_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_TV" = "Suosittu TV on demand";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_Movies" = "Suosituimmat elokuvat saatavilla";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_AppsHeader" = "Sovellukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_TvListings" = "Yhdistä Xboxiin nähdäksesi TV-ohjelmat.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites" = "Yhdistä Xboxiin nähdäksesi suosikkikanavasi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_AppChannels_Windows" = "Muodosta yhteys Xboxiin nähdäksesi suosikkisovelluskanavasi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_AppChannels" = "Yhdistä Xboxiin nähdäksesi sovelluskanavat.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_RecentChannels" = "Yhdistä Xboxiin nähdäksesi viimeisimmät kanavasi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Tune" = "Yhdistä Xboxiin katsoaksesi tämän ohjelman.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Add" = "Tätä ei voida lisätä suosikkeihisi juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Remove" = "Tätä ei voida poistaa suosikeistasi juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Remote" = "Yhdistä Xboxiin käyttääksesi tätä laitetta television kaukosäätimenä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_EXPLICIT_CONTENT" = "Sisältövaroitus";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header" = "TULEVAT ESITYSAJAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat" = "{0}-{1} {2}";
+    /* iOS,WINDOWS, */
+    "FutureShowtimes_TimeFormat_iOS" = "%1$@-%2$@ %3$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowTimes_OnNow" = "Käytössä nyt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Percentage_Windows" = "{0}%";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is smartglass companion. */
+    "Home_BAT_SmartGlassCompanion" = "OHEISTOIMINTO";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is remote control. */
+    "Home_BAT_RemoteControl" = "Kaukosäädin";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is local detail page. */
+    "Home_BAT_Details" = "Tiedot";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is tv guide. */
+    "Home_BAT_TVGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Text displayed in media tray when TV guide option is displayed to the user. */
+    "NOWPLAYING_TVGUIDE_BUTTON_TEXT" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on pins destination or homepage when pins for the user could not be retrieved from service. */
+    "Pins_Error" = "Emme saa kiinnityksiäsi juuri nyt. Yritä myöhemmin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when app failed to retrieved the featured items for homepage. */
+    "Home_Featured_Error" = "Ajankohtaisia ei ole juuri nyt saatavilla.";
+    /* iOS,ANDROID,WINDOWS, Text displayed instead of title on BAT/Console Bar when we could not load the detail for the title. */
+    "NowPlaying_Unavailable" = "Ei saatavilla";
+    /* iOS,ANDROID,WINDOWS, OOBE string displayed on homepage when user has no recents */
+    "HOME_OOBE" = "Tervetuloa Xbox Oneen";
+    /* iOS,ANDROID,WINDOWS, Featured section title for homepage */
+    "Home_Featured_PageTitle" = "AJANKOHTAISET";
+    /* iOS,ANDROID,WINDOWS, Recents section title for homepage */
+    "Home_Recents_PageTitle" = "VIIMEISIMMÄT";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LearnMore" = "Lisätietoja";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist" = "Esittäjä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist_Tablet" = "ESITTÄJÄ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game" = "Peli";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game_Tablet" = "PELI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App" = "Sovellus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App_Tablet" = "SOVELLUS";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie" = "Elokuva";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie_Tablet" = "ELOKUVA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV_Tablet" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album" = "Albumi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album_Tablet" = "ALBUMI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Tablet" = "SUOSITUIMMAT KAPPALEET";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Phone" = "Suosituimmat kappaleet";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Tablet" = "ALBUMIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Phone" = "Albumit";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Tablet" = "VASTAAVANLAISIA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Phone" = "Liittyvät";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Tablet" = "LISÄOSAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Phone" = "Lisäosat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Tablet" = "LISÄTIETOJA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Phone" = "Lisätietoja";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv" = "Kausi {0}, Jakso {1} parhaillaan tulossa {2}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv" = "Kausi {0}, Jakso {1} tulee {2} on {3}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic" = "Seuraavaksi näytetään {0} {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic" = "Parhaillaan menossa {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_LABEL" = "Merkki:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Biography_Phone" = "Elämäkerta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Tablet" = "KAPPALELISTA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Phone" = "Kappalelista";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DURATION" = "Kesto:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RATING" = "Luokitus:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION" = "Tarkkuus:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HDANDSD" = "HD ja SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Overview_Phone" = "Yleiskatsaus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Tablet" = "NÄYTTELIJÄT JA TYÖRYHMÄ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Phone" = "Näyttelijät ja työryhmä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Tablet" = "JAKSOT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Phone" = "Jaksot";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Tablet" = "Kuvat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Phone" = "Kuvat";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DEVELOPER" = "Kehittäjä:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_PUBLISHER" = "Julkaisija:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_MULTIPLAYER" = "Moninpeli:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_COOP" = "Yhteistyössä:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_GET_ON_XBOX" = "Mene Xbox Oneen";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE_WINDOWS" = "Siirry uusimpaan jaksoon (S{0} E{1})";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_NETWORKS" = "Verkot:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmpty" = "Viimeisimmät tapahtumat näkyvät tässä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Pins_PageTitle" = "OMAT KIINNITYKSET";
+    /* iOS,ANDROID,WINDOWS, */
+    "TextInput_Confirm" = "Valmis";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstRun_ContentTitle" = "Katso mitä uutta on Xbox Onessa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmptyDesc" = "Pelaa ja katso mistä pidät näkyy täällä.";
+    /* iOS,ANDROID,WINDOWS, Settings page title */
+    "Settings_PageTitle" = "Asetukset";
+    /* iOS,ANDROID,WINDOWS, Settings page account section header */
+    "Settings_Account_SectionHeader" = "TILI";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text */
+    "Settings_SignOutButton" = "Kirjaudu ulos";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section header */
+    "Settings_Preferences_SectionHeader" = "OLETUSASETUKSET";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option */
+    "Settings_Preferences_StayAwakeOption" = "Pysy päällä";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option description */
+    "Settings_Preferences_StayAwakeOptionDescription" = "Lukitusnäyttö ei käynnisty, kun SmartGlass on päällä (kuluttaa akkua nopeammin).";
+    /* iOS,ANDROID,WINDOWS, Settings page sound section header */
+    "Settings_Sound_SectionHeader" = "ÄÄNI";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option */
+    "Settings_Sound_DisableSoundOption" = "Poista ääni käytöstä";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option description */
+    "Settings_Sound_DisableSoundOptionDescription" = "Poista ääni käytöstä SmartGlass sovelluksessa.";
+    /* iOS,ANDROID,WINDOWS, Settings page about section header */
+    "Settings_About_SectionHeader" = "LISÄTIETOJA";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Windows */
+    "Settings_About_Version_Windows" = "Versio {0}";
+    /* iOS,WINDOWS, Settings page about version, iOS */
+    "Settings_About_Version_iOS" = "Versio %1$@";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Android */
+    "Settings_About_Version_Android" = "Versio %s";
+    /* iOS,ANDROID,WINDOWS, Settings page get started button text */
+    "Settings_GetStartedButton" = "Aloita";
+    /* iOS,ANDROID,WINDOWS, Settings page get started description */
+    "Settings_GetStartedDescription" = "Katso mitä Xbox One SmartGlass voi tehdä.";
+    /* iOS,ANDROID,WINDOWS, Settings page help button text */
+    "Settings_HelpButton_WindowsAndroid" = "Ohje";
+    /* iOS,ANDROID,WINDOWS, Settings page privacy button text */
+    "Settings_PrivacyButton_WindowsAndroid" = "Tietosuoja";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy section title */
+    "Settings_HelpAndPrivacySectionTitle_iOS" = "Ohje ja tietosuoja";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy description */
+    "Settings_HelpAndPrivacyDescription_iOS" = "Vieraile Xbox-verkkosivuilla ja tutustu Xbox One SmartGlass -ohjeisiin ja hallitse tietosuoja-asetuksiasi.";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader" = "KEHITTÄJÄ";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader_Windows" = "Kehittäjä";
+    /* iOS,ANDROID,WINDOWS, Settings page developer sandbox ID */
+    "Settings_Developer_SandboxId" = "Sandbox ID";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DIRECTOR" = "Ohjaaja:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SmartGlassCompanion" = "SmartGlass -oheistoiminto";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALLOWEDPROVIDERS" = "Saatavilla:";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv_iOS" = "Kausi %1$d jakso %2$d parhaillaan tulossa %3$@.";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic_iOS" = "Parhaillaan tulossa %1$@";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic_iOS" = "Seuraavaksi näytetään %1$@ kanavalla %2$@";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv_iOS" = "Kausi %1$d jakso %2$d näytetään %3$@%4$@.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_AchievementProgress_Phone" = "Saavutusten edistyminen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Challenges_Phone" = "Haasteet";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Phone" = "PELILEIKKEET";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameAchievementProgress_Tablet" = "SAAVUTUSTEN EDISTYMINEN";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameChallenges_Tablet" = "HAASTEET";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Tablet" = "PELILEIKKEET";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU_IOS" = "Olemme päivittäneet Xboxin käyttöehdot. Lue ne osoitteessa Xbox.com";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU" = "Olemme päivittäneet Xboxin käyttöehdot. Lue ne osoitteessa Xbox.com";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to displayed whenever we could not log him into app for all the reasons except xsts 401 cases */
+    "Auth_GenericError" = "Et voi kirjautua sisään juuri nyt. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError_IOS" = "Tilissäsi on havaittu ongelma. Ole hyvä ja kirjaudu osoitteeseen xbox.com lisätietoja varten.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError" = "Tilissäsi on havaittu ongelma. Ole hyvä ja kirjaudu osoitteeseen xbox.com lisätietoja varten.";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation_IOS" = "Aseta Xbox Live-tilisi osoitteessa Xbox.com.";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation" = "Aseta Xbox Live-tilisi osoitteessa Xbox.com.";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user while they are signing in. This will allow them to cancel the sign in process. */
+    "SignIn_Cancel" = "Peruuta";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user to prompt them to go to xbox.com */
+    "SignIn_Troubleshoot" = "Mene osoitteeseen Xbox.com";
+    /* iOS,ANDROID,WINDOWS, Button text for sign in page button's first try. (after that it switches to try again) */
+    "SignIn_SignIn" = "Kirjaudu sisään";
+    /* WINDOWS,iOS,ANDROID, Status text shown while trying to sign in. */
+    "SignIn_SigningIn" = "Kirjaudutaan sisään";
+    /* WINDOWS,iOS,ANDROID, Shown while making service calls to get state of console to decide what to do next. */
+    "SignIn_GettingData" = "Yhdistetään Xbox-palveluihin…";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season" = "TV-kausi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season_Tablet" = "TV-KAUSI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity" = "Xbox One SmartGlass -oheistoiminto";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity_Tablet" = "XBOX ONE SMARTGLASS -OHEISTOIMINTO";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series" = "TV-sarjat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series_Tablet" = "TV-SARJAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode" = "TV-jakso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode_Tablet" = "TV-JAKSO";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show" = "TV-ohjelma";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show_Tablet" = "TV-OHJELMA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC" = "Lisäosat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC_Tablet" = "LISÄOSAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_Studios" = "Studiot";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRating" = "Ikäraja";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRatingColon" = "Ikäraja:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_TVText" = "Selaa OneGuidea tai hae Xboxin kautta lisättäviä TV-ohjelmia.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_MoviesText" = "Selaa OneGuidea tai hae Xboxin kautta lisättäviä elokuvia. Valitse elokuva ja kosketa tähtikuvaketta lisätäksesi sen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Today" = "Tänään";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_GeneralError" = "Kanavan lisääminen epäonnistui. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteShow_GeneralError" = "Ohjelman lisääminen epäonnistui. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteShow_GeneralError" = "Ohjelman poistaminen epäonnistui. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteChannel_GeneralError" = "Kanavan poistaminen epäonnistui. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a page fails to load */
+    "ErrorState_PageError" = "Jokin meni pieleen sivua ladattaessa. :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a pivot pane or a section of the panorama fails to load */
+    "ErrorState_PaneError" = "Jokin meni pieleen tätä osaa ladattaessa. :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the retry button */
+    "ErrorState_RetryButton" = "Yritä uudelleen";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the network setting button */
+    "ErrorState_NetworkButton" = "Avaa verkkoasetukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToXboxOne" = "Toista Xbox Onessa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SmartGlassCompanionAvailable" = "OHEISTOIMINTO SAATAVILLA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFull" = "Toista Xbox Onessa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToSnap" = "Toista nappaus-tilassa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Title" = "KAUKOSÄÄDIN";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Xbox_Title" = "Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Universal_Title" = "Kaapeli/TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchSuggestions_Title" = "ehdotukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Windows" = "\"{0}\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Skip_Title" = "Ohita";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFill" = "Toista Xbox Onessa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track" = "Kappale";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track_Tablet" = "KAPPALE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras" = "Ekstrat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras_Tablet" = "EKSTRAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TOP_SONGS_ON_XBOX" = "Toista Xbox Onessa";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_SEASON_EPISODES" = "Kauden jaksot";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LAUNCH_IN_IE" = "Avaa Xboxissa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NoProvidersOrShowTimesAvailable" = "Xbox Onella ei ole vielä sovellusta, joka voisi toistaa tämän.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title" = "Tervetuloa";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText" = "Pyyhkäise jatkaaksesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_TitleText" = "On aika aloittaa";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DoneText" = "Aloita Xbox One SmartGlassin käyttäminen";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DescriptionText" = "Lisää ohjeita osoitteessa Xbox.com/smartglass";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title" = "Hallitse Xbox-konsoliasi";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Description" = "Napauta Nyt toistetaan -palkkia ohjataksesi mediaa ja napattuja sovelluksia, löytääksesi peliohjeita ja paljon muuta.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Description" = "Peliohjeet, saavutukset ja viestit ovat saatavilla olohuoneessasi tai kun olet matkoilla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Title" = "Pysy yhteydessä";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Title" = "Löydä ja kiinnitä";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Description" = "Hae sisältöä, kiinnitä suosikkisi Xbox One SmartGlassissa, ja ne ovat valmiina Xbox Onessa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Description" = "OneGuide tuo kaikki TV-ohjelmasi yhteen. Määritä TV-asetukset konsolista nähdäksesi kanavat.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Select" = "Ohjaus pyyhkäisemällä, valinta koskettamalla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Error_CanNotPlayVideo" = "Valitettavasti tätä videota ei voida toistaa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppChannel_Favorite" = "Suosikki";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNow" = "Meneillään";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_ConnectedTo" = "Yhdistetty:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConsolesOnYourNetwork" = "Konsolit verkossasi:";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_PlayNow" = "Toista nyt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_XboxOneSmartGlass" = "Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Message_Detail_Message" = "VIESTI";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_0" = "0";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_1" = "1";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_2" = "2";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_3" = "3";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_4" = "4";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_5" = "5";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_6" = "6";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_7" = "7";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_8" = "8";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_9" = "9";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_PAGE" = "PAGE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CH" = "CH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_VOL" = "VOL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_ENTER" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DASH" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_INFO" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_EXIT" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_SELECT" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANGE_LAYOUT" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_MENU" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_GUIDE" = "GUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DVR" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.back" = "BACK";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.cancel" = "CANCEL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.ch_enter" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.clear" = "CLEAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_minus" = "DAY-";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_plus" = "DAY+";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.delimiter" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.dvr" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.exit" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.format" = "FORMAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_a" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_b" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_c" = "C";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_d" = "D";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.guide" = "GUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.help" = "HELP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.home" = "HOME";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.info" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.interactive" = "INTERACTIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.last" = "LAST";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.live" = "LIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.menu" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.options" = "OPTIONS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.plus_100" = "+100";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.sap" = "SAP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.select" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.services" = "SERVICES";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.setup" = "SETUP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.slow" = "SLOW";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.subtitle" = "SUBTITLE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.tools" = "TOOLS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.vod" = "VOD";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.all" = "All";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.avr" = "AV receiver";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.stb" = "Cable/sat";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.tv" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.onoff" = "ON / OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.on" = "ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.off" = "OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.ON" = "DONE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.OFF" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcStatus.ErrorLabel" = "ERROR:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneHour_Text" = "1 tunti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHoursText_iOSAndroid" = "%1$d tuntia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneMinute" = "1 minuutti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinutesText_iOSAndroid" = "%1$d minuuttia";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DESCRIPTION" = "KUVAUS";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameHelp" = "Peliohje";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOMYSHOWS" = "Lisää ohjelmiini";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Parent_Title" = "Vanhempi";
+    /* iOS,WINDOWS, */
+    "SearchResults_PageTitle_iOS" = "Haun tulokset: \"%1$@\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Phone_iOS" = "Haun tulokset:";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_NoResult" = "Ei tuloksia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SeasonPicker_AllOption" = "Kaikki";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on homepage when application failed to retreive the recents */
+    "Home_Recents_RecentsError" = "Viimeisimpien tapahtumiesi hakeminen ei onnistu juuri nyt.";
+    /* iOS,WINDOWS, Detail string format used by iOS clients while displaying details text along with media type. Example such as playto, media tray etc */
+    "MediaDetails_Format_iOS" = "%1$@ tiedot";
+    /* iOS,WINDOWS, */
+    "Launcher_CurrentlyPlaying_iOS" = "Nyt toistetaan: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_ProvidersOrShowTimesError" = "Ei löydy sovellusta, joka voi toistaa tämän. Yritä uudelleen myöhemmin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_RecentChannels" = "Uusimmat kanavat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_Reload" = "Päivitä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogTitle" = "Käytön ominaisuus estetty";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogBody" = "Tilisi asetukset estävät kyseisen toiminnon käyttämisen. Voit poistaa eston muokkaamalla tilisi tietosuoja-asetuksia.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_PlaceHolderText" = "Haku";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Phone" = "Nyt toistetaan";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Tablet" = "Nyt toistetaan Xbox Onessa";
+    /* WINDOWS,iOS,ANDROID, */
+    "CloseButtonText" = "Sulje";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_RefreshText" = "Päivitä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_UnknownValue_Dash" = "--";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call EDS to get the detail about the media returned no data. */
+    "Launcher_DataNotIngested_Error" = "Ei tietoa saatavilla.";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call to EDS failed to retrieve the information about the media */
+    "Launcher_ErrorToRetrieveDetail" = "Yksityiskohtia ei löytynyt. Yritä uudelleen myöhemmin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Unavailable" = "Tietoja ei ole saatavilla";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit" = "Liian monta kanavaa. Poista yksi kanava lisätäksesi {0}.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add" = "{0} lisättiin suosikkeihin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove" = "{0} poistettiin suosikeista.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add_iOS" = "%1$@ lisättiin suosikkeihin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove_iOS" = "%1$@ poistettiin suosikeista.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_AppChannels_NoFavorites_iOS" = "Valitse Sovelluskanava ja kosketa %1$@ kuvaketta lisätäksesi suosikkeihin";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GeneralError" = "Kanaviasi ei löytynyt juuri nyt. Valitse päivitäpainike ja yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Unavailable" = "Ei saatavilla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Disconnected" = "Yhteys katkaistu";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Load" = "Ladataan asetuksia";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HD" = "Näytä vain HD-kanavat";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_All" = "Näytä kaikki kanavat";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HideSD" = "Piilota vastaavat SD-kanavat";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Header" = "Etsi ohjelmat ja elokuvat kaikista sovelluksistasi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Text" = "Asenna ja käynnistä sovellukset Xboxissa saadaksesi uusia kanavia.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_BtnText" = "Hanki sovelluksia Xboxille";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Header" = "Huippuluokan TV-kokemus, joka on räätälöity sinulle.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_BtnText" = "Määritä TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_GoldUpsell_BtnText" = "Hanki Xbox Live Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_RecentChannels_Header" = "Katso TV:tä Xboxin kautta nähdäksesi viimeisimmät kanavasi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_AddFailed" = "Kiinnitys epäonnistui. Yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ComposeMessage_Sending" = "Lähettää...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_MessageDetail_Deleting" = "Poistaa...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVSeason_Aired_Title" = "Esitetty:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_ListFullError" = "Olet saavuttanut 200 suosikin maksimirajan.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Busy_Wait" = "Pieni hetki...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connect_Reconnecting" = "Yhdistetään uudelleen...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Title" = "Tämä lopettaa nykyisen oheistoiminnon...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Description" = "Oletko varma, että haluat lopettaa nykyisen oheistoiminnon?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MinutesText_Android" = "minuuttia";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add favorite */
+    "Profile_Profile_Failed_Add_Favorite" = "Ei voitu lisätä käyttäjää suosikkilistalle.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove favorite */
+    "Profile_Profile_Failed_Remove_Favorite" = "Ei voitu poistaa käyttäjää suosikkilistalta.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add friend */
+    "Profile_Profile_Failed_Add_Friend" = "Ei voitu lisätä käyttäjää ystäväluetteloon.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove friend */
+    "Profile_Profile_Failed_Remove_Friend" = "Ei voitu poistaa käyttäjää ystäväluettelosta.";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_OneGuideAvailable" = "OneGuide saatavilla";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_ShowCompanion" = "Oheistoiminto";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConsoleBar_NowPlaying_SubTitle" = "Nyt toistetaan";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_UnconfiguredMessage" = "TV:si ei ole ohjelmoitu vastaanottamaan etäviestejä";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_SeasonsHeader_Tablet" = "KAUDET";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Gold_Message" = "Hanki Gold-jäsenyys Xbox-verkkosivuston tai Xboxin kautta nähdäksesi TV-kanavien tiedot.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayOnSmartGlass" = "Toista SmartGlassissa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Season" = "Kausi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Episode" = "Jakso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Dialog_Attention_Title_Android" = "Huomio";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Got_Gold_Question" = "Onko sinulla Gold?";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message" = "Hae Gold-jäsenyys verkkosivuilta Xbox.com tai Xboxin kautta, TV-ohjelmien katseluun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message_iOS" = "Hanki Gold-jäsenyys Xboxin kautta tai Xboxin verkkosivuilla TV-ohjelmia varten.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title_Phone" = "Tervetuloa Xbox One SmartGlassiin";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_Phone" = "Pyyhkäise jatkaaksesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title_Phone" = "Yhdistä Xbox Oneen";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_SignIn_Phone" = "Kirjaudu sisään";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Background_Title" = "XBOX ONE SMARTGLASS";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPlay" = "Valitse sovellus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPin" = "Valitse sovellus kiinnitettäväksi";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_ConsoleNotListed" = "Konsoli ei ole listattu?";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_EnterIPAddress" = "Syötä IP-osoite";
+    /* iOS,ANDROID,WINDOWS, This is the text shown when user tries to pin a media from detail page and there are no providers associated with it. */
+    "Launcher_NoProvidersAvailableForPin" = "Xbox Onella ei ole sovellusta, jota voisi käyttää tämän median kiinnittämiseen.";
+    /* iOS,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_iOS" = "%1$@ kanssa %2$@";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show details option in launcher */
+    "ACTION_DETAILS" = "Tiedot";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show the option to launch remote. */
+    "Launcher_ShowRemote" = "Kauko-ohjain";
+    /* iOS,ANDROID,WINDOWS, This is the string shown in launcher when OneGuide is the default companion. */
+    "Launcher_ShowOneGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ChannelDialog_Description" = "Kanava";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_iOS" = "Haluatko käynnistää sovelluksen %1$@ tällä laitteella?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_iOS" = "Kyllä käynnistä %1$@ sovellus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Windows" = "Haluaisitko käynnistää {0} sovelluksen tällä laitteella?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Windows" = "Kyllä, käynnistä {0} sovellus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Android" = "Haluaisitko käynnistää %s sovelluksen tällä laitteella?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Android" = "Kyllä, käynnistä %s sovellus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_No" = "Ei, pysy SmartGlassissa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_No" = "Ei";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressTitle" = "Syötä konsolisi IP-osoite:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_IPAddressLocationOnConsole" = "Löytääksesi konsolin IP-osoitteen, avaa konsoli asetukset > Verkko > Lisäasetukset.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressGhostText" = "Esim. 192.168.0.1";
+    /* iOS,ANDROID,WINDOWS, Title for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Title" = "Ystäväluettelosi on täynnä";
+    /* iOS,ANDROID,WINDOWS, Message for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Message" = "Lisätäksesi uuden ystävän, sinun täytyy poistaa yksi nykyinen ystävä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "CONNECTION_REQ_TEXT" = "Tämä sovellus vaatii Internet-yhteyden toimiakseen. Tarkista verkkoasetukset, ennen kuin jatkat.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Explicit" = "Aikuissisältö";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowMore" = "Näytä lisää";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowLess" = "Näytä vähemmän";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Providers" = "Sovellukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Tablet" = "YHTEENSOPIVA:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Phone" = "Yhteensopiva";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Tablet" = "LISÄOSA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Phone" = "lisäosa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Released" = "Julkaistu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Languages" = "Kielet";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GetOnXboxOne" = "Mene Xbox Oneen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Genre" = "Tyylilaji";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Help" = "Ohje";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Disconnected" = "Yhdistä Xbox Oneen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connecting" = "Yhdistetään";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connected" = "Yhdistetty";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SearchIcon" = "Hae";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RefreshIcon" = "Päivitä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BackIcon" = "Takaisin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_IEPlayHere" = "Avaa verkkosivu täällä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeIcon" = "Äänenvoimakkuus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeUp" = "Ääni kovemmalle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeDown" = "Ääni hiljaisemmalle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Mute" = "Mykistä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Unmute" = "Poista mykistys";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ClearText" = "Tyhjennä teksti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemoteIcon" = "Etäkäyttö";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIcon" = "Toista";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PauseIcon" = "Keskeytä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FFW" = "Kelaa eteenpäin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RWD" = "Siirry taaksepäin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipForward" = "Siirry eteenpäin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipBack" = "Siirry taaksepäin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Seek" = "Etsi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Close" = "Sulje";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ViewButton" = "Katso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MenuButton" = "Valikko";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XboxButton" = "Xbox-painike";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AButton" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BButton" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XButton" = "X";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YButton" = "Y";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowUp" = "Ylös";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowDown" = "Alas";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowLeft" = "Vasen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowRight" = "Oikea";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PowerButton" = "Virta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageUp" = "Sivu ylös";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageDown" = "Sivu alas";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoButton" = "Tiedot";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SelectButton" = "Valitse";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelUp" = "Kanava ylös";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelDown" = "Kanava alas";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RedButton" = "Punainen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BlueButton" = "Sininen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YellowButton" = "Keltainen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GreenButton" = "Vihreä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RecordButton" = "Tallenna";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InputButton" = "Lähde";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PreviousChannel" = "Edellinen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_OnOff" = "Päälle / Pois päältä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddtoFavorites" = "Lisää suosikkeihin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemovefromFavorties" = "Poista suosikeista";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoIcon" = "Tiedot";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIconOneGuide" = "Toista Xbox Onessa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_NewMessage" = "Uusi viesti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddRecipient" = "Lisää vastaanottaja";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MoreIcon" = "Lisää";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GotoLive" = "Siirry suoraan lähetykseen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_FirstRun" = "Laita Xbox One päälle ja olet mukana omien suosikki-ohjelmien, elokuvien, musiikin ja pelien parissa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Tablet" = "Omat kiinnitykset";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Phone" = "OMAT KIINNITYKSET";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber" = "Kanava {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_iOS" = "Kanava %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_Android" = "Kanava %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ParentalControls_BlockedTitle" = "Karkea Ohjelma";
+    /* iOS,ANDROID,WINDOWS, {locked}  */
+    "EPG_ParentalControls_BlockedDetails" = "Nämä tiedot on estetty. Voit muokata tämän asetusta valitsemalla Xboxissa Asetukset > Tietosuoja ja verkkoturvallisuus.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Settings" = "TV-asetuksia ei voida ladata.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Channels" = "Kanaviasi ei löytynyt juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TryAgain" = "Valitse päivitäpainike ja yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Shows_Generic" = "Ohjelmia ei löytynyt juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_NoShows" = "Tällä kanavalla ei ole ohjelmia.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_NoShowInfo" = "Ohjelmatietoja ei ole saatavilla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_iOS" = "Liian monta kanavaa. Poista yksi kanava lisätäksesi %1$@.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_Android" = "Liian monta kanavaa. Poista yksi kanava lisätäksesi %1$s.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Channels" = "Sovelluskanaviasi ei löytynyt juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Remote_Console_Setup" = "Määritä TV-asetukset Xboxin kautta.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Console_Setup_Directions_STB" = "Avaa Xbox ja siirry Asetukset > TV & OneGuide > Digiboksin malli";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_Header" = "Suosikkisovelluskanavasi samassa paikassa";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_AppChannels_Text_First" = "Napauta sovelluslistalla olevaa kanavaa ja sitten napauta";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_AppChannels_Text_Second" = "tehdä suosikiksi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_TextIcon_iOS" = "Napauta sovelluslistalla olevaa kanavaa ja kosketa %1$@ lisätäksesi suosikkeihin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_iOS" = "Napauta kanavalistalla tai sovelluskanavalla olevaa ohjelmaa ja sitten napauta %1$@ lisätäksesi sen suosikkeihin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_Android" = "Napauta ohjelmaa TV-ohjelmissa tai sovelluskanavissa ja napauta sitten %1$s lisätäksesi se suosikkeihin.";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_Text_First" = "Napauta kanavalistalla tai sovelluskanavalla olevaa ohjelmaa ja sitten napauta";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_Text_Second" = "tehdä suosikiksi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Header" = "Suosikki TV-kanavasi samassa paikassa";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_TvListings_Text_First" = "Napauta kanavalistalla olevaa ohjelmaa ja sitten napauta";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_TvListings_Text_Second" = "tehdä suosikiksi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Code_iOS" = "Virhe %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header_NotAllCaps" = "Tulevat esitysajat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_FirstLine" = "Sipaise liikkuaksesi. Napauta valitaksesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_SecondLine" = "Käytä kahta sormea vierittääksesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateSwipe" = "Sipaise liikkuaksesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateTap" = "Napauta valitaksesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Unsupported" = "Internet Explorerin kaukosäädin ei ole tuettu ei-kosketuslaitteissa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_DefaultText" = "Etsi pelejä, elokuvia, TV-ohjelmia, musiikkia ja sovelluksia.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Header" = "Onko sinulla Gold?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_Offline" = "Offline";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Windows" = "Viimeksi nähty: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_iOS" = "Viimeksi nähty: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Android" = "Viimeksi nähty: %s";
+    /* iOS,ANDROID,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_Windows" = "Lähettää {0} pelikuvaa {1} kautta";
+    /* iOS,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_iOS" = "Lähettää %1$@ pelikuvaa %2$@ kautta";
+    /* iOS,ANDROID,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_iOS" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Windows" = "{0} (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_iOS" = "%1$@ (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Android" = "%s (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Windows" = "Lisätty {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_iOS" = "Lisätty %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Android" = "Lisätty %s";
+    /* iOS,ANDROID,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_iOS" = "%1$@ - %2$@";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsOption" = "Salli ilmoitukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsDescription" = "Salli ilmoitukset tässä sovelluksessa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptTitle" = "Salli ilmoitukset?";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptDescription" = "Salli ilmoitukset tässä sovelluksessa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_FilterOptionAll" = "Kaikki";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionBroadcasting" = "Lähetetään";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionRecentPlayers" = "Viimeisimmät pelaajat";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_OnlineFriendsCount_iOSAndroid" = "%1$d ONLINESSA";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_NewFollowersCount_iOSAndroid" = "UUSIA %1$d";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_Unsnap" = "Poista nappaus";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_RecentPlayers_NoData" = "Kun tapaat toisia pelaajia verkkomoninpeleissä, näet heidät täällä.";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Today" = "tänään";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_iOSAndroid" = "%1$d vuotta sitten";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_Windows" = "{0} vuotta sitten";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_ChallengesGallery_HeaderTitle_Tablet" = "Haasteet";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Phone" = "Edistyminen";
+    /* iOS,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_2_iOS" = "Jos sinulla on olemassa oleva tili Windows 8, Windows Phone, tai Xbox 360-ympäristöön, kirjaudu nykyiselle tilillesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_Wifi_Needed_Error" = "Kytke tämä laite samaan verkkoon Xbox One -konsolisi kanssa. SmartGlass tarvitsee langattoman verkkoyhteyden - se ei toimi matkapuhelimen dataverkkoyhteydellä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_GameClips" = "Pelileikkeet";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text when signing out */
+    "Settings_SignOutButton_SigningOut" = "Kirjaudutaan ulos";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_Windows" = "{0} lähettää {1} pelikuvaa {2} kautta";
+    /* iOS,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_iOS" = "%1$@ lähettää %2$@ pelikuvaa %3$@ kautta";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LinktoFAQ" = "Saat lisätietoa napauttamalla vianmääritysopasta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FeedbackIcon" = "Palaute";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epgl_NHoursText_iOSAndroid" = "%1$d tuntia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_iOSAndroid" = "%1$d min";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat_Android" = "%1$s-%2$s %3$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NHoursText_Android" = "%d tuntia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_Android" = "%d min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_OneHour_Text" = "1 h";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgDetails_Showtime_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Recents" = "Viimeisimmät kanavat ladataan.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_AppChannels" = "Sovelluskanavia ladataan.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TVListings" = "TV-ohjelmia ladataan.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Favorites" = "Suosikkikanaviasi ladataan.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TakeSomeTime" = "Tämä voi kestää muutaman minuutin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddedFavoriteChannel_Message_Text" = "Olet lisännyt tämän kanavan suosikkeihisi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_SectionHeader" = "ONEGUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Message_Text" = "OneGuide on helppokäyttöinen ja mukautettava ohjelmaopas, joka tuo kaikki TV-ohjelmatiedot yhteen luetteloon. Määritä suorien TV-lähetysten asetukset konsolin kautta nähdäksesi TV-ohjelmatiedot tässä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_iOSAndroid" = "%1$d tuntia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_iOSAndroid" = "%1$d h";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_iOSAndroid" = "%1$d minuuttia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_iOSAndroid" = "%1$d min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_iOSAndroid" = "%1$d s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_iOSAndroid" = "%1$d s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_Windows" = "{0} s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_Windows" = "{0} s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_Windows" = "{0} min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_Windows" = "{0} minuuttia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_Windows" = "{0} tuntia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_Windows" = "{0} h";
+    /* iOS,WINDOWS, */
+    "Global_NHrsMMinsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Windows" = "{0} {1}";
+    /* iOS,WINDOWS, */
+    "Global_NMinsMSecsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Windows" = "{0} {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_Broadcasting" = "Lähettää suoraa pelikuvaa";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_WatchBroadcast" = "Katso lähetystä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_Error_MovePin" = "Pahoittelut, emme voineet siirtää kiinnityksiäsi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Header" = "Suosikki TV- ja sovelluskanavasi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title" = "ILMOITUKSET";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description_iOS" = "iOS asetukset ohittavat nämä asetukset, jos se on pois käytöstä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Description" = "Saat ilmoituksen, kun suosikkiystäväsi alkavat lähettämään pelikuvaa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Title" = "Twitch-lähetys alkoi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Description" = "Saat ilmoituksen, kun suosikkiystäväsi tulevat online.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Title" = "Suosikki online";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Description" = "Saat ilmoituksen, kun uusi viesti saapuu.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Title" = "Viesti";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_iOS" = "%1$@ lähettää pelikuvaa juuri nyt";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Android" = "%s lähettää pelikuvaa juuri nyt";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Windows" = "{0} lähettää pelikuvaa juuri nyt";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_iOS" = "%1$@ on onlinessa";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Android" = "%s on online";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Windows" = "{0} on online";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_PageTitle" = "Vertaa";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_NoAchievementsAvailable" = "Ei saavutuksia saatavilla tämän otsikon alla ... surullista";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_YouGamertagDisplayText" = "Sinä";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_TimePlayed" = "Peliaika";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_GameProgress" = "Edistyminen";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_UnlockedWithTime_Tablet_iOS" = "Avattu %1$@";
+    /* iOS,ANDROID,WINDOWS, Locked */
+    "CompareGame_AchievementItem_Locked_Tablet" = "Lukittu";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_LockedWithPercentage_Tablet_iOSAndroid" = "Lukittu (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, - - (20%) */
+    "CompareGame_AchievementItem_LockedWithPercentage_Phone_iOSAndroid" = "-- (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialTitle" = "Voit nyt järjestää kiinnityksesi uudelleen!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialText" = "Ota kiinni ja vie kiinnitys haluamaasi paikkaan. Tämä päivittää merkit myös Xbox Onessa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackTitleText" = "Lähetä palautetta";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashTitleText" = "Hups, jokin meni pieleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_NoThanksButtonText" = "Ei kiitos";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashBodyText" = "Tämä tuntuu olevan täysin meidän syytämme. Autathan meitä selvittämään mitä tapahtui. Lähetä meille palautetta ja me keräämme seuraavaa:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ScreenshotText" = "Näyttökuva";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ProcessorArchitectureText" = "Laitteen suoritin arkkitehtuuri";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SGVersionText" = "SmartGlass versio";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_OSVersionText" = "Laitteen OS versio";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareManufacturerText" = "Laitteen laitteiston valmistaja";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareModelText" = "Laitteen laitteiston malli";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CurrentCultureText" = "Nykyinen kulttuuri";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LayoutOrientationText" = "Asettelun suunta";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_GamerTagText" = "Pelaajatunnuksesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LogFileDataText" = "Lokitiedot";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_MailBodyStep1Text" = "Kohta 1: Kirjoita palautteesi.";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneNoScreenshotText" = "Kirjoita palautteesi tähän.";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8MailBodyStep2Text" = "Kohta 2: Lähetä palautteesi:";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneStep2Text" = "Kohta 2: Liitä näyttökuva: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Windows" = "Xbox One SmartGlass beeta palaute : {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_iOS" = "Xbox One SmartGlass beeta palaute : %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Android" = "Xbox One SmartGlass beeta palaute : %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashSubject" = "Xbox One SmartGlass virheraportti";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8Description" = "Lähetä palautetta Microsoftille koskien Xbox One SmartGlass Windowsissa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Phone" = "Tulostaulu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Tablet" = "TULOSTAULU";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoData" = "Pahoittelut, tähän peliin tai sovellukseen ei ole sijoituksia saatavilla. Pelaa nyt ja olet ensimmäinen!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoStats" = "Pahoittelut, tähän peliin tai sovellukseen ei ole sijoituksia saatavilla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Friends_Online_Windows" = "{0} online";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Messages_Unread_Windows" = "{0} lukematonta";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_PrivacyStatement" = "Älä sisällytä henkilökohtaisia tai arkaluontoisia tietoja palautteeseen. Microsoft ei koskaan pyydä salasanoja, luottokorttitietoja tai henkilöllisyystodistuksen tietoja palautteen yhteydessä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Featured" = "Ajankohtaiset";
+    /* iOS,ANDROID,WINDOWS, */
+    "Featured_Landing_PageTitle" = "Ajankohtaiset";
+    /* iOS,ANDROID,WINDOWS, */
+    "TOU_Accept" = "Hyväksy";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description" = "Ilmoituksien kääntäminen pois päältä laitteessasi pysäyttää myös ilmoitukset SmartGlassista.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD_BRACKETED" = "[HD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD_BRACKETED" = "[SD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Buy" = "Osta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Preorder" = "Ennakkotilaus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_GetItFree" = "Hanki se ilmaiseksi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Purchased" = "Ostettu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Available_Header" = "SAATAVILLA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete" = "Ostos suoritettu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue" = "Asenna";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Done" = "Valmis";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Message" = "Tämä lisätään peleihin ja sovelluksiin Xbox Onessa. Jos Xbox on päällä tai valmiustilassa ja sinulla on tarpeeksi tilaa, se asennetaan automaattisesti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Andriod" = "Asenna %s  Xbox Oneesi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Windows" = "Asenna {0} Xbox Oneesi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_iOS" = "Asenna %1$@ Xbox Oneesi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Recent" = "Yhteisön leikkeet - viimeisimmät";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Saved" = "Yhteisön leikkeet - tallennetut";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Saved" = "Omat pelileikkeet - tallennetut";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Recent" = "Omat pelileikkeet - viimeisimmät";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Recent" = "Pelileikkeet - viimeisimmät";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Saved" = "Pelileikkeet - tallennetut";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogTitle" = "Oletko varma?";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogBody" = "Tämä poistaa heidät ystäväluettelostasi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_NoData" = "Ystäviäsi ei näy täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_NoData" = "Ystäviäsi ei näy täällä.";
+    /* iOS,ANDROID,WINDOWS, number of allowable recipient left */
+    "Messages_ComposeMessage_ChooseRecipients_NumRemaining_iOSAndroid" = "%1$d jäljellä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Thanks" = "Kiitos!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Collection" = "Löytääksesi sen, siirry pelit ja sovellukset Xbox Onessasi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Popular" = "Suositut";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Recent" = "Viimeisimmät";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Popular" = "Suositut";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Recent" = "Viimeisimmät";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Tablet" = "Kauppa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Phone" = "KAUPPA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Games_Store" = "Kauppa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Featured" = "Ajankohtaiset";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackBodyText" = "Ole sankari! Lähettämällä meille palautetta autat parantamaan SmartGlassia. Kun lähetät palautetta, otamme talteen seuraavat tiedot:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableTVProviderText" = "Kaapeli-TV:n tarjoaja";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableBoxText" = "Digiboksin malli";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ZipCodeText" = "Postinumero";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_RateText" = "Miten arvioisit kokemuksesi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ChooseOneText" = "valitse yksi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CategoryText" = "Mitä haluaisit kertoa meille?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ReportProblemText" = "Haluan raportoida ongelman";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SuggestionText" = "Minulla on ehdotus tai uusi toimintopyyntö";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationHeaderText" = "Palaute lähetetty!";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationText_iOSAndroid" = "Kiitos palautteestasi! Saatamme lähettää sinulle Xbox Live -viestin, jos tarvitsemme lisätietoja. Emme koskaan pyydä salasanoja tai laskutustietoja, joten älä anna niitä kenellekään näissä viesteissä!\nTerveisin,\nSmartGlass-tiimi";
+    /* iOS,WINDOWS, */
+    "FirstRun_Favorites_Channel_TextIcon_iOS" = "Napauta TV-kanavalistalla tai sovelluslistalla olevaa kanavaa ja sen jälkeen napauta %1$@ valitaksesi sen suosikkilistalle.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Channel_Text_First" = "Napauta TV-kanavalistalla tai sovelluslistalla olevaa kanavaa ja sen jälkeen napauta";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Channel_Text_First" = "Napauta TV-kanavalistalla olevaa kanavaa ja sen jälkeen napauta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Phone" = "Sisältö";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Tablet" = "SISÄLTÖ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Phone" = "Nippu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Tablet" = "NIPPU";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_AttachmentFailed" = "Liitteen näyttäminen ei valitettavasti onnistu juuri nyt. Yritä myöhemmin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Me" = "Et ole tallentanut yhtään pelileikettä vielä. Kokeile ihmeessä, se on hauskaa!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_DeviceTime_Incorrect" = "Varmista, että sinulla on oikea aika ja päivämäärä, ja sitten yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Millions" = "M";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Thousands" = "K";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_ServiceFailure_Playback_Error" = "Yritä uudelleen. Emme voi toistaa tätä juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_DeletedClip_Playback_Error" = "Leikkeet eivät ole enää saatavilla";
+    /* iOS, */
+    "Purchase_Title_Purchased_iOS" = "Ostit seuraavan: %1$@";
+    /* iOS,WINDOWS */
+    "Purchase_Confirmation_NoHome" = "Ostoksesi onnistui. Ladataksesi sen konsolillesi, siirry kohtaan Omat pelit ja sovellukset ja valitse se \"Valmiina asennukseen\" listalta (oikeassa reunassa!). Jos haluat ladata ostoksesi automaattisesti tulevaisuudessa, tee tästä Xbox-kotikonsoli kohdassa Asetukset > Oma Xbox-kotikonsoli.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Queued" = "Tämä asennetaan automaattisesti Xboxiisi. Jos Xboxisi on päällä, sen pikatoiminto on käytössä, automaattiset päivitykset ja ostokset ovat päällä ja siinä on tarpeeksi tilaa, lataus aloitetaan.  Jos haluat vaihtaa Xbox-kotikonsolia, siirry kohtaan Asetukset > Oma Xbox-kotikonsoli. Vaihtaaksesi virta-asetuksia, siirry kohtaan Asetukset > Virta ja käynnistys.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Consumable" = "Voit ostaa tällaisia tuotteita niin monta kertaa kuin haluat. Voit palata ostamaan sen uudelleen milloin tahansa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Error_NoResults" = "Ei yhtään tulosta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse" = "Selaa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons" = "Lisäosat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games" = "Pelit";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse_Tablet" = "SELAA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Tablet" = "LISÄOSAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Tablet" = "PELIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Popular" = "Suosituimmat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Recent" = "Julkaisupäivämäärä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader" = "PYSY KÄYTÖSSÄ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader_Windows" = "Pysy käytössä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOption" = "Aina";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOptionDescription" = "Näyttöä ei sammuteta, kun SmartGlass on auki (kuluttaa enemmän akkua)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOption" = "Vain kauko-ohjaimena";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOptionDescription" = "Näyttöä ei sammuteta, kun käytetään Xboxin kauko-ohjaimena (kuluttaa vähemmän akkua)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOption" = "Käytä laiteasetuksia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOptionDescription" = "Näyttö sammutetaan normaalisti (kuluttaa vähiten akkua)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title_Windows" = "Ilmoitukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackForm_CrashTellUsText" = "Mitä olit tekemässä?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_SupportLink" = "Saat lisätietoja napauttamalla tätä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Them" = "Ei tallennettuja pelileikkeitä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase" = "Pyydä minua kirjautumaan aina ennen ostosten tekemistä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase_Header" = "Ostokset";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NOT_AIRING" = "Ei lähetetä tällä hetkellä";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Description" = "Katso TV:tä";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANNEL" = "KANAVA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Coming_Soon" = "tulossa pian";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Error_Not_Supported" = "TV-suoratoistoa ei ole otettu käyttöön tässä konsolissa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Copy_Text" = "Kopioi teksti";
+    /* iOS,ANDROID,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_Windows" = "{0} – {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_EntryText" = "Onko sinulla sanottavaa?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Header" = "Hylätäänkö viesti?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Body" = "Et ole vielä lähettänyt viestiä. Jos jatkat, menetät viestisi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Send_ErrorText" = "Lähettäminen ei onnistu juuri nyt. Yritä uudelleen napauttamalla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_Profile_NoData" = "Kun teet jotain, esimerkiksi avaat saavutuksia, tallennat pelileikkeitä ja lisäät ystäviä, näet sen täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionsScreen_HeaderText" = "Jaa...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ActivityFeedText" = "Aktiviteettisyöte";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_MessageText" = "Viesti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_HeaderText" = "Jaa aktiviteettisyötteessä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_TextEntryWatermark" = "Lisää kuvateksti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShareButtonText" = "Jaa tämä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Header" = "Etkö halua jakaa?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Body" = "Et ole vielä jakanut tätä. Jos jatkat, tätä ei jaeta.";
+    /* iOS, */
+    "ActivityFeed_YouLikedText_iOS" = "Sinä ja %1$@ muuta tykkäätte tästä";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1LikeText" = "1 tykkäys";
+    /* iOS, */
+    "ActivityFeed_LikesText_iOS" = "%1$@ tykkäystä";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1ShareText" = "1 jako";
+    /* iOS, */
+    "ActivityFeed_SharesText_iOS" = "%1$@ jakaneet";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1CommentText" = "1 kommentti";
+    /* iOS, */
+    "ActivityFeed_CommentsText_iOS" = "%1$@ kommenttia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_TextEntryWatermark" = "Kirjoita kommentti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorText" = "Tapahtui virhe. Yritä myöhemmin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Share_ServiceFailure" = "Tämän jakaminen ei valitettavasti onnistu juuri nyt. Yritä uudelleen hetken kuluttua.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Post_ServiceFailure" = "Kommentin julkaiseminen ei valitettavasti onnistu juuri nyt. Yritä uudelleen hetken kuluttua.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_Filter_Header" = "Tykkäykset";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_Filter_Header" = "Jakaneet";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_Filter_Header" = "Kommentit";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_HeaderText" = "Aktiviteetti-ilmoitukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_LikedText" = "tykkäsi toiminnastasi";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_SharedText" = "jakoi toimintasi";
+    /* iOS, */
+    "ActivityAlerts_List_2People_iOS" = "%1$@ + 1 muu";
+    /* iOS, */
+    "ActivityAlerts_List_NPeople_iOS" = "%1$@ + %2$@ muuta";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_Empty" = "ILMOITUKSET";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_1Alert" = "1 UUSI ILMOITUS";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_iOS" = "%1$@ UUTTA ILMOITUSTA";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_Header_iOS" = "AKTIVITEETTISYÖTE (%1$@)";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedText_iOS" = "kommentoi toimintaasi: \"%1$@\"";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedOthersText_iOS" = "kommentoi henkilön %1$@ aktiviteettia: \"%2$@\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_AddedFriendText" = "lisäsi sinut ystäväksi";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Header" = "Poistetaanko syötteen kohde?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Body" = "Haluatko varmasti poistaa tämän aktiviteettisyötteen kohteen?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Header" = "Poistetaanko kommentti?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Body" = "Haluatko varmasti poistaa tämän kommentin?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_ServiceFailure" = "Aktiviteetti-ilmoitusten hakeminen ei valitettavasti onnistu juuri nyt. Yritä myöhemmin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityItem_ServiceFailure" = "Toimintokohteen hakeminen ei valitettavasti onnistu juuri nyt. Yritä myöhemmin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_NoData" = "Kun muut tykkäävät, jakavat ja kommentoivat aktiviteettisyötteesi toimintoja tai lisäävät sinut ystäväksi, näet sen täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_List_NoData" = "Ole ensimmäinen tykkääjä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_List_NoData" = "Ole ensimmäinen jakaja";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_List_NoData" = "Ole ensimmäinen kommentoija";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Confirmation_Success" = "Tämä on poistettu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Header" = "Tapahtui virhe";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Body" = "Tämän poistaminen ei onnistu juuri nyt. Yritä myöhemmin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_Failure_Body" = "Kommentin julkaiseminen ei onnistu juuri nyt. Yritä myöhemmin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_DisplayError_Body" = "Tämän näyttäminen ei onnistu juuri nyt.";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header" = "Suositut pelit (10 päivää)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header_Tablet" = "SUOSITUT PELIT (10 PÄIVÄÄ)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Plays_1Friend" = "1 ystävä on pelannut";
+    /* iOS, */
+    "PopularGames_Plays_NFriends_iOS" = "%1$@ ystävää on pelannut";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Playing_1Friend" = "1 ystävä pelaa nyt";
+    /* iOS, */
+    "PopularGames_Playing_NFriends_iOS" = "%1$@ ystävää pelaa nyt";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_ServiceError" = "Emme voi näyttää suosittuja pelejä juuri nyt. Päivitä sivu yrittääksesi uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_NoData" = "Sinä ja ystäväsi ette ole pelanneet äskettäin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header" = "Hittipelit";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header_Tablet" = "HITTIPELIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Played_Once" = "Pelattu kerran";
+    /* iOS, */
+    "TopGames_PlayedN_iOS" = "Pelattu %1$@ kertaa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Header" = "Poistetaanko keskustelu?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Body" = "Haluatko varmasti poistaa tämän keskustelun?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Delete_MenuText" = "Poista keskustelu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Reply_Failure" = "Lähettäminen ei onnistu. Yritä uudelleen napauttamalla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Link" = "Uusimmat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Description" = "Tutustu tämän päivityksen uusiin ominaisuuksiin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_title" = "Syyskuun uutuudet";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_features" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Windows" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_WindowsPhone" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_iOS" = "Katsele, kommentoi, jaa ja tallenna omia sekä ystäviesi näyttökuvia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Android" = "Katsele, kommentoi, jaa ja tallenna omia sekä ystäviesi näyttökuvia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_bug_fixes" = "Virheenkorjaus";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_caveat" = "Jotkut ominaisuudet eivät välttämättä ole saatavilla kaikilla markkina-alueilla";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ERROR" = "Valitettavasti SmartGlass ei voinut aloittaa tallennusta";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ACCESSIBILITY" = "Tallenna tämä";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Providers" = "Palveluntarjoajat";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Provider" = "Valitse palveluntarjoaja:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_General_Error" = "Kanavien hakeminen ei onnistu juuri nyt. Voit yrittää uudelleen päivittämällä näkymän. Voit myös valita toisen palveluntarjoajan:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Different_Provider" = "Valitse toinen palveluntarjoaja:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Select_a_Provider" = "Valitse palveluntarjoaja:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Connection_Error" = "Jos haluat nähdä TV-ohjelmatiedot, muodosta yhteys Xboxiin. Voit myös valita toisen palveluntarjoajan:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_All_Providers" = "Kaikki palveluntarjoajat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Start_Error" = "TV-suoratoiston käynnistys ei valitettavasti onnistu.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDCP_Error" = "Ohjelma on HDCP-suojattu, joten sitä ei voi suoratoistaa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Error" = "Jos haluat katsoa TV:tä tällä laitteella, kirjaudu sisään konsolissasi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Console_Error" = "Konsolissa on ongelma, joka estää TV-suoratoiston. Yritä uudelleen myöhemmin. Jos ongelma jatkuu, sinun on ehkä käynnistettävä konsoli uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connection_Error" = "Yhteys konsoliin katkesi. Muodosta yhteys uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Error" = "Konsoliin ei saada yhteyttä, joten TV-suoratoistoa ei voida aloittaa. Tarkista verkon tila ja yritä uudelleen. Jos ongelma jatkuu, sinun on ehkä käynnistettävä reitittimesi uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Parental_Controls_Block" = "Tämä ohjelma on valitettavasti estetty. Jos haluat muokata tämän asetusta, valitse Xboxissasi Asetukset > Tietosuoja ja verkkoturvallisuus.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Too_Slow_Error" = "Verkkoyhteys on liian hidas tai verkossa on liikaa liikennettä, joten TV-suoratoisto ei onnistu. Tarkista verkon tila.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Interrupted_Error" = "TV-suoratoisto katkesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signed_Out_Error" = "TV-suoratoisto katkesi, koska sinut kirjattiin ulos konsolissa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error" = "Suoratoistossa ilmeni virhe. Yritä myöhemmin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Device_Not_Supported_Error" = "TV-suoratoistoa ei tueta tässä laitteessa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Not_Supported_Error" = "TV-suoratoistoa ei tueta tässä verkossa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Version_Not_Supported_Error" = "Valitettavasti TV-suoratoistoa ei tueta tässä SmartGlass-versiossa. Päivitä SmartGlass-sovellus ja yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Region_Not_Supported_Error" = "TV-suoratoistoa ei tueta tällä alueella.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signal_Lost_Error" = "Xboxin TV-signaali katkesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Restart" = "Suoratoistossa ilmeni virhe. Käynnistä SmartGlass ja yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Resources_Error" = "Laitteessa on käynnissä liian monta sovellusta. Sulje osa niistä ja yritä sitten uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_By_User_Error" = "Joku konsolin käyttäjä katkaisi suoratoiston.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_Error" = "Yhteys konsoliin katkesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Lost_Network_Error" = "Yhteys konsoliin katkesi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnect_To_Stream" = "Jos haluat jatkaa TV:n katselua, muodosta yhteys uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Try_Again_Later" = "Yritä uudelleen myöhemmin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Header" = "TV-suoratoisto";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Begin_Header" = "Aloita katselu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_TV" = "Katso TV:tä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_Header" = "TV-suoratoisto";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Currently_Playing" = "Nyt toistetaan";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_On_Next" = "Seuraavaksi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Close_Stream" = "Lopeta katselu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Restart_Stream" = "Käynnistä TV-suoratoisto uudelleen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDMI_In" = "HDMI-tulo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_TV_Tuner" = "Xbox One -digiviritin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Video" = "Videon suoratoisto";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Current_Source" = "Nykyinen lähde:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Choose_a_Source" = "Valitse lähde:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connecting" = "Yhdistetään...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnecting" = "Yhdistetään uudelleen...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Attempting_Reconnect" = "Yhdistetään uudelleen...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Buffering" = "Puskuroidaan...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Quality" = "Verkkosi heikentää TV-suoratoiston laatua. Tarkista verkon tila.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Remote_Cannot_Control_Source" = "Nykyistä lähdettä ei voi hallita SmartGlass-kauko-ohjaimella.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Stop" = "Lopeta katselu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Before_Streaming" = "Jos haluat määrittää TV-suoratoiston, kirjaudu konsoliisi samalla tilillä, jota käytät täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Header" = "Arvostele sovelluksemme";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Body" = "Jos pidät SmartGlassista, anna arviosi siitä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_RemindButton" = "Muistuta myöhemmin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_DontAskButton" = "Älä kysy uudelleen";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_DeleteError" = "Emme saa tätä aktiviteettisyöte kohdetta. Se ei ehkä ole saatavilla juuri nyt, tai se on voitu poistaa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Resume" = "Jatka katselua";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Long" = "Jokin meni pieleen suoratoiston kanssa. Yritä pysäyttää ja käynnistää se uudelleen. Jos ongelma toistuu, sulje ja käynnistä SmartGlass uudelleen, käynnistä konsoli uudelleen tai käynnistä reititin uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MHEG_Error" = "Et voi pelata interaktiivista sisältöä. Kokeile toista kanavaa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Content_Error" = "Tämä kanava ei ole saatavilla juuri nyt. Katso OneGuidesta mitä on tarjolla muilla kanavilla.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MTC_Live" = "LIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_NewMarkets" = "TV & OneGuide saatavilla uusilla markkina-alueilla";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_Streaming" = "Suorien TV-lähetysten suoratoisto Xbox Onen digitaalisesta TV-virittimestä";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Phone" = "Ystävät jotka pelaavat";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Tablet" = "YSTÄVÄT JOTKA PELAAVAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Radio_NoVideo_Error" = "Radio-kanavan toistaminen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps" = "Sovellukset";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps_Tablet" = "SOVELLUKSET";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold" = "Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold_Tablet" = "GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold" = "Pelejä Gold-jäsenyydellä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold" = "Etuja Gold-jäsenyydellä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold_Tablet" = "PELEJÄ GOLD-JÄSENYYDELLÄ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold_Tablet" = "ETUJA GOLD-JÄSENYYDELLÄ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_ComingSoon" = "Tulossa pian";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ShowcaseText" = "Esittely";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShowcaseHeaderText" = "Jaa esittelyssä";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteHeader" = "Poista esittelykohde?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteBody" = "Haluatko varmasti poistaa tämän kohteen esittelystäsi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataMeText" = "Jaa parhaat pelileikkeesi ja saavutuksesi aktiviteettisyötteeltäsi tai saavutusten tiedoista.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataYouText" = "Ystäväsi eivät ole jakaneet vielä yhtään saavutusta tai pelileikettä heidän esittelyssään.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_BioHeader" = "Bio";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_LocationHeader" = "Sijainti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_High_Quality" = "Korkealaatuinen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Best_Quality" = "Paras laatu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Medium_Quality" = "Keskilaatuinen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Quality" = "Heikkolaatuinen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_New_Feature" = "Uutta: Katso TV:tä SmartGlassissa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Signal" = "Emme havaitse signaalia TV-virittimestäsi. Tarkista antenni.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_No_Info_Available" = "Ei tietoa saatavilla";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Other_User_Changed_Quality" = "Joku muu muutti suoratoistolaatua kaikille SmartGlass yhteyksille.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Playing_Radio_Channel" = "Toistetaan radio-kanavia";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Cannot_Find_Tuner" = "Emme löydä TV-viritintäsi. Varmista etta TV-virittimesi on yhdistetty Xboxiisi ja yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOn" = "Käynnistä";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOff" = "Sammuta";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOn" = "Käynnistetään...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOff" = "Sammutetaan...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOnFailure" = "Emme voi käynnistää konsoliasi. Varmista, että tämä laite on samassa verkossa kuin konsolisi ja että konsolisi on asetettu pikakäynnistykseen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOffFailure" = "Emme voineet sammuttaa Xboxiasi. Varmista, että se on yhdistetty ja olet kirjautuneena konsoliin. Yritä sitten uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestNetworkStreaming" = "Testaa suoratoisto";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_ConnectToTest" = "Yhdistä Xboxiisi tehdäksesi multimedia testejä";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_BeginTest" = "Aloita testi";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestInProgress" = "Testi käynnissä. Älä sulje tai siirry pois tältä sivulta. Testaus kestää enintään 5 minuuttia.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestComplete" = "Testi valmis! Kiitos avustasi suoratoiston parantamiseen!";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_SignInToTest" = "Aloittaaksesi testin, kirjaudu konsoliin samalla tilillä, jota käytät täällä.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_CancelTest" = "Peruuta testi";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NeedStopGameStreamingError" = "Ole hyvä ja lopeta pelin suoratoisto ennen verkon testauksen aloittamista.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_StopGameStreamingWarning" = "Verkon testauksen aloittaminen poistaa tämänhetkisen pelin suoratoistoistunnon, haluatko varmasti jatkaa?";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_Proceed" = "Kyllä";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NotProceed" = "Ei";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_ResumeTest" = "Jatka testausta";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_GenericError" = "Jokin meni vikaan testauksen aikana, yritä uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RetryTest" = "Yritä testausta uudelleen";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RebootConsole" = "Emme voi aloittaa suoratoistoa konsolilla, käynnistä konsoli uudelleen ja yritä sitten uudelleen.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ThirdPartyNotice_Header" = "Kolmannen osapuolen tiedotteita";
+    /* iOS,ANDROID, */
+    "Drawer_Captures" = "Sieppaukset";
+    /* iOS,ANDROID, Profile page My Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Phone" = "Omat sieppaukset";
+    /* iOS,ANDROID, Profile page Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Phone" = "Sieppaukset";
+    /* iOS,ANDROID, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Tablet" = "OMAT SIEPPAUKSET";
+    /* iOS,ANDROID, Profile page Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Tablet" = "SIEPPAUKSET";
+    /* iOS,ANDROID, Used by activity incase screenshot cannot be opened */
+    "Error_CanNotOpenScreenshot" = "Näyttökuvaa ei pystytä avaamaan.";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Me" = "Et ole ottanut yhtään näyttökuvaa vielä. Kokeile ihmeessä, se on hauskaa!";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_Me" = "Et ole tallentanut yhtään näyttökuvaa vielä. Kokeile ihmeessä, se on hauskaa!";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Them" = "Ei tallennettuja näyttökuvia";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_You" = "Näyttää siltä, että he eivät ole jakaneet yhtään näyttökuvaa.";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Saved" = "Omat näyttökuvat - tallennetut";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Recent" = "Omat näyttökuvat - viimeisimmät";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Recent" = "Näyttökuvat - viimeisimmät";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Saved" = "Näyttökuvat - tallennetut";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataMeText" = "Jaa parhaat pelileikkeesi, näyttökuvasi ja saavutuksesi aktiviteettisyötteeltäsi tai saavutusten tiedoista.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataYouText" = "Ystäväsi ei ole jakanut vielä yhtään saavutusta, näyttökuvaa tai pelileikettä heidän esittelyssään.";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_Me_Tablet" = "Omat sieppaukset";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_You_Tablet" = "Sieppaukset";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Phone" = "Pelisieppaukset";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Tablet" = "PELISIEPPAUKSET";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData" = "Ei näyttökuvia näytettäväksi! Laita peli käyntiin ja ota näyttökuvia.";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_Community" = "Ei näyttökuvia otettu tästä pelistä";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_CommunityButtonText" = "Katso yhteisön näyttökuvia";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Saved" = "Yhteisön näyttökuvat - tallennetut";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Recent" = "Yhteisön näyttökuvat - viimeisimmät";
+    /* iOS,ANDROID, */
+    "Screenshot_Saving" = "Tallentaa...";
+    /* iOS,ANDROID, */
+    "Screenshot_ChooseAction" = "Valitse";
+    /* iOS,ANDROID, */
+    "Screenshot_Sharing" = "Jaetaan...";
+    /* iOS,ANDROID, */
+    "Screenshot_Share" = "Jaa";
+    /* iOS,ANDROID, */
+    "Screenshots_Saved" = "Näyttökuva tallennettu";
+    /* iOS,ANDROID, */
+    "Screenshots_SavedError" = "Näyttökuvaa ei voitu tallentaa, yritä uudelleen";
+    /* iOS,ANDROID, */
+    "Screenshots_ShareError" = "Näyttökuvaa ei voitu tallentaa, yritä uudelleen";
+    /* iOS,ANDROID, */
+    "Screenshot_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Share" = "Share real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Update" = "Name sharing settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateRealNameSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_TryAgain" = "Try again in a while";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChooseWhoSeesYourName" = "Choose who sees your name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_WhatYouChose" = "Here's what you chose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description1" = "You can share your real name with your friends on Xbox - you choose who to share it with. Your name doesn't show up in games, and you can always change these settings in your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description2" = "Choose Set up name sharing to pick the people you want to share your name with.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EnforcementBanned_Description" = "You can't share your real name because of your past behavior.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ErrorAtStartup_Description" = "We can't set up or change your real name sharing settings right now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLook_Description" = "This is how you'll appear to other people on Xbox, using the real name from your Microsoft account. If it doesn't look right, you can edit it now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EditHowYouLook" = "This will change the name on the Microsoft account for {0}. This name is used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithFriendsOfFriends" = "When you share your name with friends, their friends see it, too. You can change these settings any time from your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveName" = "Sorry, we can't change your name right now. Click Save to try again or go back.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveSharing" = "Sorry, we can't save your name sharing settings right now. Select Done to try saving again.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Everyone" = "Everyone on Xbox";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChosenFriends" = "Only friends I choose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWith" = "Share with: {0}";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ZeroFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_OneFriend" = "{0} friend";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ManyFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NextWithSelectedCount" = "Next ({0} selected)";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Edit" = "Edit";
+    /* iOS,ANDROID, */
+    "RealNameSharing_FirstName" = "First name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_LastName" = "Last name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSettings" = "Update settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NoThanks" = "No, thanks";
+    /* iOS,ANDROID, */
+    "RealNameSharing_SetUpNameSharing" = "Set up name sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StopSharing" = "Stop sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_GoBack" = "Go back";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Next" = "Next";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithSettings" = "Share with";
+    /* iOS,ANDROID, (Used to indicate how your name appears to others) */
+    "RealNameSharing_HowYouLook" = "How you look";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLookDetail" = "The name is from the Microsoft account and used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, (First placeholder is for the users First Name, the second placeholder is for their Last Name) */
+    "RealNameSharing_SettingsRealNameConcatentation" = "%1$@ %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_ChangeFriendship" = "Change friendship";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorRealNameSave" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorAddingFriend" = "Sorry, we can't add this person right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorChangeRemove" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorPartialFail" = "Sorry, we could only save some of your changes. Try saving again.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Friend" = "Friend";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Favorite" = "Favorite";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_FriendsofFriends" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_AddFriendDescription" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Favorite" = "Favorite friends go first on your friends list. You'll see when they go online or start broadcasting.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Friend" = "Friends show up on your friends list and activity feed. They see you as a new follower.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Everyone" = "Your real name is shared with everyone on Xbox. You can make changes in Settings.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName" = "Let {0} see my real name. It might help them recognize who you are.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Alt" = "{0} may not recognize you as {1}. They're sharing their name with you. Check the box to share with them.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Friends" = "Your real name is shared with all your friends on Xbox. You can make changes in Settings.";

@@ -1,0 +1,3623 @@
+    //
+    // version 1.0
+    //
+    /* WINDOWS,iOS,ANDROID, Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language */
+    "ResourceFlowDirection" = "LeftToRight";
+    /* WINDOWS,iOS,ANDROID, Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language. */
+    "ResourceLanguage" = "ko-KR";
+    /* WINDOWS,iOS,ANDROID, If we don't find a valid rating to string mapping, we'll return this string. */
+    "PARENTAL_RATING_NOT_RATED" = "등급 미지정";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_EC" = "어린이";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E" = "전체";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10" = "10세 이상";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10_RP" = "등급 보류";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_T" = "청소년";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_M" = "성인";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_AO" = "18세 이상";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_RP" = "등급 보류 혹은 등급 미지정";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_A" = "CERO A / CERO All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_B" = "CERO B / CERO 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_C" = "CERO C / CERO 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_D" = "CERO D / CERO 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_Z" = "CERO Z";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_ALL_AGES" = "USK 0";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_6" = "USK 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_12" = "USK 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_16" = "USK 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_NO_YOUTH" = "USK 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_4" = "PEGI 4";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_6" = "PEGI 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_11" = "PEGI 11";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_12" = "PEGI 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_15" = "PEGI 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_18" = "PEGI 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_U" = "BBFC U";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_PG" = "BBFC PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_12" = "PEGI 12 / BBFC 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_15" = "BBFC 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_18" = "PEGI 18 / BBFC 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_E" = "E - Exempt from Classification";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G" = "G - General";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G8" = "보호자 지도 권장";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M15" = "성인 권장";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_MA15" = "MA 15+ - 성인 동반";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_PG" = "보호자 지도 권장";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M" = "M - 성인";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_R18" = "R 18+ - 제한";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_X18" = "X 18+ - 유해 콘텐츠";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_REFUSED" = "분류 등급 없음";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_G" = "일반";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_PG" = "보호자 지도 권장";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_M" = "성인에 적절함 16+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R15" = "제한 15+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R" = "미성년자 제한";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R13" = "제한 13+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R16" = "제한 16+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R18" = "제한 18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_ALL" = "GRB All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_12" = "GRB 12+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_15" = "GRB 15+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_18" = "GRB 18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_A" = "FPB A";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_PG" = "FPB PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_10" = "FPB 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_13" = "FPB 13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_16" = "FPB 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_18" = "FPB 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_ER" = "DJCTQ ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_L" = "DJCTQ L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_10" = "DJCTQ 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_12" = "DJCTQ 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_14" = "DJCTQ 14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_16" = "DJCTQ 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_18" = "DJCTQ 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_GENERAL" = "일반";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PROTECTED" = "보호";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PG" = "보호자 지도";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_RESTRICTED" = "미성년자 제한";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_GENERAL" = "일반";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_AGE_ADVISORY" = "적정 연령";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_MATURE_18" = "18세 이상";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING" = "등급 %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GAME" = "등급: %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_EXPLICIT_EXPLICIT" = "유해 콘텐츠";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG13" = "PG-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_NC17" = "NC-17";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_AO" = "AO";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_14" = "14A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_18" = "18A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_R18" = "MA18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_X18" = "X18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_UC" = "Uc";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_15A" = "15A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_BTL" = "Btl";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_ST" = "S/T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K3" = "K-3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K7" = "K-7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K11" = "K-11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K13" = "K-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K15" = "K-15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K18" = "K-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_MATURE" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R13" = "R13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R15" = "R15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R16" = "R16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_1" = "1";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_2" = "2";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_3" = "3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_4" = "4";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_5" = "5";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_8" = "8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_0" = "0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_10" = "10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_14" = "14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK0" = "FSK 0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK6" = "FSK 6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK12" = "FSK 12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK16" = "FSK 16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK18" = "FSK 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_SPIO_JK" = "SPIO/JK";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_TP" = "TP/ALL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_13" = "13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_T" = "T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM14" = "VM14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM18" = "VM18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_AL" = "AL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_9" = "9";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y" = "TV-Y";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7" = "TV-Y7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7FV" = "TV-Y7-FV";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_G" = "TV-G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_PG" = "TV-PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_14" = "TV-14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_MA" = "TV-MA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C8" = "C8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_14" = "14+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_18" = "18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_10" = "-10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_P" = "P";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_AV15" = "AV15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_R18" = "R18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_ER" = "ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_L" = "L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_10" = "10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_12" = "12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_14" = "14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_16" = "16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_18" = "18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_MINOR" = "어린이 관람가";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_GP" = "전체";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_7" = "+7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_13" = "+13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_18" = "+18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_X" = "X";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_MINOR" = "초록";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_14" = "노랑";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_ADULT" = "빨강";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED" = "등급 미지정";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED_OR_PENDING" = "보류 또는 등급 미지정";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_0" = "음주 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_1" = "유혈 묘사";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2" = "유혈";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_3" = "낭자한 피";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4" = "폭력 만화";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5" = "짓궂은 장난 코믹";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6" = "거친 유머";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_7" = "마약 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_8" = "에듀테인먼트";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_9" = "판타지 폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10" = "정보 제공";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_11" = "잔인한 폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_12" = "언어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_13" = "가사";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14" = "성인용 유머";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_15" = "가벼운 폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_16" = "노출";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_17" = "부분적인 노출";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_18" = "진짜 도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_19" = "성적인 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_20" = "성폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_21" = "모의 도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_22" = "어른의 도움이 필요함";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_23" = "폭언";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_24" = "자극적인 가사";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_25" = "노골적인 성적 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_26" = "외설적인 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_27" = "흡연 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_28" = "마약 사용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_29" = "음주";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_30" = "흡연";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_31" = "폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_32" = "성적 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_33" = "가벼운 음주 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_34" = "가벼운 유혈 묘사";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_35" = "가벼운 유혈";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_36" = "약간 낭자한 피";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_37" = "가벼운 폭력 만화";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_38" = "약간 짓궂은 장난 코믹";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_39" = "약간 외설적인 유머";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_40" = "가벼운 마약 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_41" = "가벼운 판타지 폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_42" = "가벼운 욕설";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_43" = "가벼운 가사";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_44" = "가벼운 성인용 유머";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_45" = "가벼운 노출";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_46" = "부분적인 가벼운 노출";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_47" = "가벼운 진짜 도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_48" = "약간 성적인 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_49" = "가벼운 성폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_50" = "가벼운 모의 도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_51" = "약간 외설적인 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_52" = "가벼운 흡연 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_53" = "가벼운 마약 사용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_54" = "가벼운 음주";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_55" = "가벼운 흡연";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_56" = "가벼운 폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_57" = "가벼운 성적 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_58" = "폭력 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_59" = "가벼운 폭력 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_60" = "마약 사용 및 음주";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_61" = "음주 및 흡연";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_62" = "음주 및 흡연 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_63" = "폭력 묘사";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_64" = "가벼운 폭력 묘사";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_65" = "낭자한 피";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_66" = "낭자한 피+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_67" = "가벼운 마약 사용 및 음주";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_68" = "가벼운 마약 사용 및 음주";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_69" = "가벼운 음주 및 흡연";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_70" = "가벼운 마약 및 음주, 흡연";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_71" = "마약 및 음주 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_72" = "가벼운 마약 및 음주 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_73" = "마약 및 흡연 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_74" = "가벼운 마약 및 흡연 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_75" = "마약, 음주 및 흡연 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_76" = "가벼운 마약, 음주 및 흡연 관련";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_77" = "성인용 성적인 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_78" = "도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_79" = "온라인 게임을 하는 동안 게임 환경이 변경될 수 있음";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_100" = "사랑";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_101" = "성적인 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_102" = "폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_103" = "호러";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_104" = "도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_105" = "범죄";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_106" = "음주";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_107" = "흡연";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_108" = "마약";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_109" = "언어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_110" = "음주 및 흡연";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2283" = "샘플 등급 설명어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4000" = "저속한 언어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4001" = "차별";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4002" = "마약";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4003" = "공포";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4004" = "섹스";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4005" = "폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4006" = "도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4999" = "CWS 샘플 등급 설명어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5000" = "저속한 언어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5001" = "차별";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5002" = "마약";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5003" = "공포";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5004" = "섹스";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5005" = "폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5006" = "도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6000" = "저속한 언어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6001" = "차별";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6002" = "마약";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6003" = "공포";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6004" = "섹스";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6005" = "폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6006" = "도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10001" = "성적인 장면";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10002" = "짧은 노출 장면";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10003" = "노골적인 언어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10004" = "심한 폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10005" = "언어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10006" = "가벼운 폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10007" = "노출";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10008" = "강간";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10009" = "노골적인 성적 내용";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10010" = "폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14000" = "저속한 언어";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14001" = "차별";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14002" = "마약";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14003" = "공포";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14004" = "섹스";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14005" = "폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14006" = "도박";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320010" = "차별";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320020" = "마약과 음주 학대";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320030" = "공포";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320040" = "폭력";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320050" = "욕설";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320060" = "섹스";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_ALL" = "전체 이용가";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when the Search service returns an error. */
+    "Search_ErrorText" = "지금은 검색 결과를 찾을 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_All" = "전체";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Apps" = "앱";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Games" = "게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Movies" = "영화";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Music" = "음악";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_TV" = "TV 프로그램";
+    /* WINDOWS,iOS,ANDROID, Failed to retrieve data from the service */
+    "LRC_Error_Code_FailedToRetrieveData" = "사용할 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "RelatedItems_NoResultsFound" = "지금은 관련 항목을 찾을 수 없습니다.";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_FilterHeader" = "표시";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_PageTitle" = "결과";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResult_BusyIndicatorText" = "검색 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Bio_Header" = "소개";
+    /* WINDOWS,iOS,ANDROID, */
+    "Related_Header" = "관련 항목";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotFind" = "본체를 찾을 수 없습니다";
+    /* WINDOWS,iOS,ANDROID, displayed while waiting for data to load */
+    "BusyIndicator_LoadingText" = "불러오는 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_DescriptionHeader" = "설명";
+    /* WINDOWS,iOS,ANDROID, */
+    "TVDetails_SeasonsHeader" = "시즌";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Text" = "계속하시려면 이 앱을 업데이트해야 합니다.";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Title" = "업데이트 필요";
+    /* WINDOWS,iOS,ANDROID, Shown as header when more than 1 director is involved. */
+    "Directors_Header" = "감독";
+    /* iOS,ANDROID,WINDOWS, */
+    "Actors_Header" = "출연자";
+    /* iOS,ANDROID,WINDOWS, */
+    "Synopsis_Header" = "설명";
+    /* iOS,ANDROID,WINDOWS, */
+    "Writers_Header" = "작가";
+    /* WINDOWS,iOS,ANDROID, */
+    "NowPlaying_MoreInfo" = "더 보기";
+    /* WINDOWS,iOS,ANDROID, */
+    "Search_PlayOnXbox" = "Xbox에서 재생";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launch_DifferentTitle_Warning_Message" = "지금 본체에서 실행되고 있는 것을  바꾸게 됩니다. 계속할까요?";
+    /* WINDOWS,iOS,ANDROID, */
+    "OK_Text" = "확인";
+    /* WINDOWS,iOS,ANDROID, */
+    "Warning_Title" = "종료?";
+    /* WINDOWS,iOS,ANDROID, Title for the popular search terms list. */
+    "SearchTerms_Title" = "인기 항목";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotConnect" = "본체를 찾을 수 없습니다";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotSignIn" = "로그인할 수 없음";
+    /* WINDOWS,iOS,ANDROID, used for grouping details, example:  Year Released - Parent Rating - Movie Duration.  (1992 - PG - 124 min) */
+    "Search_DetailsSeparator" = "|";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_BasicPrompt" = "Xbox 검색";
+    /* WINDOWS,iOS,ANDROID, indicates the album, song contains explicit content. */
+    "Content_Explicit" = "유해 콘텐츠";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category1" = "Xbox에서 영화 검색";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category2" = "Xbox에서 앨범 검색";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category3" = "Xbox에서 게임 검색";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category1" = "Xbox에서 영화, TV 검색...";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category2" = "Xbox에서 앨범, 아티스트 검색...";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category3" = "Xbox에서 게임, 앱 검색...";
+    /* WINDOWS,iOS,ANDROID, Shown Provider offers this media for free viewing. */
+    "ProviderOffer_Free" = "무료";
+    /* WINDOWS,iOS,ANDROID, */
+    "Achievements_SecretDescription" = "이 숨겨진 도전 과제를 완료하려면 계속 플레이하세요.";
+    /* WINDOWS,iOS,ANDROID, */
+    "FamilyPasscode_Header" = "계속하려면 가족 설정 패스 코드를 입력하세요.";
+    /* iOS,ANDROID,WINDOWS, ghost text for empty address bar */
+    "WebBrowser_GhostText" = "Xbox에서 찾아보기";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_fastforward" = "앞으로";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_pause" = "일시 중지";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_play" = "재생";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_rewind" = "되감기";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Providers" = "이 앱:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_RequiresGold" = "골드 멤버십 필요함";
+    /* WINDOWS,iOS,ANDROID, Play command */
+    "Activity_Play" = "시작";
+    /* iOS,ANDROID,WINDOWS, header/title used on the activity tile */
+    "Activity_SmartGlass_Title" = "Xbox One SmartGlass 컴패니언";
+    /* WINDOWS,iOS,ANDROID, Controller activity */
+    "Activity_Controller" = "리모트";
+    /* WINDOWS,iOS,ANDROID, */
+    "MediaState_DragInstruction" = "미세 조정을 하려면 표시줄 위로 손가락을 끌어보세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_ProviderSpecific" = "이 앱 :";
+    /* WINDOWS,iOS,ANDROID, Title for the Settings page */
+    "Settings_Title" = "설정";
+    /* iOS,ANDROID,WINDOWS, Text for hyperlink in settings page to launch what's new page */
+    "Settings_WhatsNew" = "시작하기";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Purchased" = "구매함";
+    /* iOS,ANDROID,WINDOWS, Text shown while loading smart glass activity. */
+    "Activity_LoadingText" = "Xbox One SmartGlass 컴패니언을 시작함...";
+    /* iOS,ANDROID,WINDOWS, Error text shown when an activity fails to load. */
+    "Activity_ErrorText" = "죄송합니다, 이 컴패니언을 시작할 수 없습니다. :(";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_ItemDescription1" = "Xbox One SmartGlass 자세히 알아보기";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription2" = "좋아하는 영화, 음악, 게임과 앱을 입력하거나, 밀거나, 탭해서 찾아보세요.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription3" = "사용자의 장치에서 웹을 탭하고, 손가락을 오므리고, 밀어 보세요.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle1" = "Xbox 확장";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle2" = "Xbox 제어";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle3" = "웹 찾아보기";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl1" = "http://go.microsoft.com/fwlink/?LinkID=266351&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl2" = "http://go.microsoft.com/fwlink/?LinkID=266352&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl3" = "http://go.microsoft.com/fwlink/?LinkID=266353&clcid=0x409";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_Header" = "시작하기";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_0" = "0";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_1" = "1";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_2" = "2";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_3" = "3";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_4" = "4";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_5" = "5";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_6" = "6";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_7" = "7";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_8" = "8";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_9" = "9";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_Cancel" = "취소";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate" = "이동하려면 미세요. 선택하려면 탭하세요. 스크롤하려면 두 손가락을 사용하세요.";
+    /* WINDOWS,iOS,ANDROID, */
+    "Controller_HelpSelect" = "선택하려면 어디든지 탭하세요.";
+    /* WINDOWS,iOS,ANDROID, */
+    "TextInput_Help" = "키보드를 닫으려면 이 곳을 탭하세요.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpNavigate" = "한 손가락으로 움직이고 탭하세요.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpSelect" = "두 손가락으로 확대/축소하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ControllerMode_Guide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "XboxSmartGlass" = "Xbox One SmartGlass";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToMain" = "확인";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToPrevious" = "취소";
+    /* WINDOWS,iOS,ANDROID, */
+    "Off" = "끄기";
+    /* WINDOWS,iOS,ANDROID, */
+    "On" = "켜기";
+    /* iOS,ANDROID,WINDOWS, */
+    "PivotHeaderFontSize" = "42";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Disconnected" = "Xbox에 연결";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting" = "연결 중...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting_Tablet" = "연결 중...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected" = "연결됨";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected_Tablet" = "연결됨";
+    /* iOS,ANDROID,WINDOWS, */
+    "MainPage_Connection_State_NoNetwork" = "네트워크 연결되지 않음";
+    /* iOS,ANDROID,WINDOWS, Text for the EPG button */
+    "NowPlaying_DiscoverEPGText" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignIn" = "로그인";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignOut" = "로그아웃";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppBar_Remote" = "원격";
+    /* WINDOWS,iOS,ANDROID, output log location, no need to localize */
+    "TraceService_OutputFile" = "outputFile.log";
+    /* WINDOWS,iOS,ANDROID, Text shown for the calendar app bar button for jumping to a day in the future in the EPG */
+    "AppBar_EpgCalendar" = "일로 이동";
+    /* WINDOWS,iOS,ANDROID, Text shown for the Jump to Now app bar button for the EPG */
+    "AppBar_JumpToNow" = "지금";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Cancel" = "취소";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_OK" = "확인";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Confirm" = "확인";
+    /* WINDOWS,iOS,ANDROID, button for tuning to a TV channel from the details page or EPG */
+    "Epg_TuneToChannel" = "채널 조정";
+    /* WINDOWS,iOS,ANDROID, Label for details button on EPG */
+    "Epg_Details" = "세부 정보";
+    /* WINDOWS,iOS,ANDROID, header for upcoming showtimes on a TV details page */
+    "TVDetails_Upcoming" = "예정 프로그램";
+    /* WINDOWS,iOS,ANDROID, The content of the retry button when we hit an error loading EPG content. */
+    "Epg_Retry" = "다시 시도";
+    /* WINDOWS,iOS,ANDROID, */
+    "Epg_NowButton_Text" = "지금";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STARRING" = "출연:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDITIONAL" = "추가 세부 정보";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GENRES" = "장르:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RELEASEDATE" = "출시일:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STUDIOS" = "스튜디오:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_AWARDS" = "상품";
+    /* iOS,ANDROID,WINDOWS, */
+    "FORWARD_SLASH_SEPARATOR" = "/";
+    /* iOS,ANDROID,WINDOWS, */
+    "COMMA_SEPARATOR" = ",";
+    /* iOS,ANDROID,WINDOWS, */
+    "VERTICAL_BAR_SEPARATOR" = "|";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_ON_XBOX" = "Xbox One에서 플레이하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TRAILER" = "예고편 재생";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE" = "최신 에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_MORE" = "더 보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_RATE" = "등급";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ALL_SEASONS" = "모든 시즌";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NEXT_EPISODE" = "다음 에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PREVIOUS_EPISODE" = "이전 에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PIN" = "고정 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "EXTRAS_HEADER" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "REVIEWS_HEADER" = "리뷰";
+    /* iOS,ANDROID,WINDOWS, */
+    "OVERVIEW_HEADER" = "개요";
+    /* WINDOWS,iOS,ANDROID */
+    "DETAILS_TV_MULTIPLE_SEASON_FORMAT_OTHERS" = "시즌 %1$d";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_OOBE_MESSAGE_TEXT" = "이 앱을 사용하기 전에 Xbox에 로그인하고 TV 연결을 설정하세요. 한번만 하면 됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Challenges_Header" = "챌린지";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_UNPIN" = "고정 해제";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_NoPins" = "고정 항목이 없습니다. 고정 항목을 만드세요!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle" = "내 고정 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_DeleteFailed" = "고정 항목을 제거할 수 없습니다. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_GeneralError" = "죄송합니다. 이 정보를 찾지 못했습니다. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_Title" = "팔로워";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_List_Empty" = "팔로워 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameConsumables_Header" = "DLC";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Loading" = "로드 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title" = "쇼케이스";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title_Tablet" = "쇼케이스";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Data_Empty" = "쇼케이스 데이터 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Full" = "쇼케이스가 가득 찼습니다. 이 항목을 추가하려면 쇼케이스로 가서 몇 개의 항목을 제거하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ADD_TO_NOW_PLAYING" = "지금 재생 중에 추가하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Crews_Header" = "제작진";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressTitle" = "진행 상황";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressMostRecent" = "최근 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressXbox360Games" = "Xbox 360 게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedTitle" = "추천";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedChallenges" = "추천 챌린지";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsAchievementsHeader" = "친구의 도전 과제";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAlbumTitle" = "음악";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingTVTitle" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAppTitle" = "앱";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingDashTitle" = "대시";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingErrorTitle" = "오류";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingGameTitle" = "게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingMovieTitle" = "비디오";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsError" = "지금은 최근의 도전 과제를 찾을 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostRecent" = "최근 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_HighestRated" = "최고 등급";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostViewed" = "자주 봄";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileRecentTitle" = "최근 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileTitle" = "프로필";
+    /* iOS,ANDROID,WINDOWS, */
+    "Root_Drawer" = "저장소";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotPlay360" = "이것은 Xbox 360용 입니다; 이 곳에서 플레이할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotLaunchInDisconnected" = "지금은 연결되어 있지 않습니다. 본체에 연결하시고, 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_ChangeTitleQuestion" = "지금 본체에서 실행되고 있는 것을  바꾸게 됩니다. 계속할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Movie_Title" = "영화 세부 정보";
+    /* iOS,ANDROID,WINDOWS, */
+    "Minute_Text" = "분";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Series_Title" = "시리즈 제목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying_Close" = "지금 재생 중 닫기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying" = "지금 재생 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_ARTIST_FORMAT_STRING" = "{0} -";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_HELP_BUTTON_TEXT" = "도움말";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_COMPANION_BUTTON_TEXT" = "컴패니언";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_BackButton" = "뒤로";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsReward" = "보상";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsProgress" = "진행 상황";
+    /* iOS,WINDOWS, */
+    "NowPlaying_Tertiary" = "%1$@ -";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Clear" = "지우기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Save" = "저장";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_TvHeader" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_MovieHeader" = "영화";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_TvListings" = "TV 목록";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_Favorites" = "즐겨찾기";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_NetworkError" = "인터넷 연결이 감지되지 않음. 이 앱을 사용하려면 무선이나 셀룰러 네트워크에 연결하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_ConsoleConnect" = "연결하려면 Xbox One을 선택하세요";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Showtime_iOS" = "%1$@-%2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_Showtime_With_ParentalRating" = "%1$@ | %2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_EpisodeName_With_Description" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_AppChannels" = "앱 채널";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdateAvailable_Title" = "앱 업데이트 사용 가능함";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateAvailable_Text" = "이 앱은 업데이트 사용 가능함";
+    /* iOS,ANDROID,WINDOWS, */
+    "General_RemindMe" = "알림";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdate_GetItNow" = "지금 업데이트하세요";
+    /* iOS,ANDROID,WINDOWS, Profile page Profile pivot header */
+    "Profile_Profile_HeaderTitle" = "프로필";
+    /* iOS,ANDROID,WINDOWS, Header for the number of friends that the current user has */
+    "Profile_Profile_Friends" = "친구";
+    /* iOS,ANDROID,WINDOWS, Header for the number of followers that the current user has */
+    "Profile_Profile_Followers" = "팔로워";
+    /* iOS,ANDROID,WINDOWS, You profile page send message button text */
+    "Profile_Profile_SendMessage" = "메시지 보내기";
+    /* iOS,ANDROID,WINDOWS, You profile page favorites button text */
+    "Profile_Profile_Favorite" = "즐겨찾기에 추가";
+    /* iOS,ANDROID,WINDOWS, You profile page unfavorites button text */
+    "Profile_Profile_Unfavorite" = "즐겨찾기에서 제거";
+    /* iOS,ANDROID,WINDOWS, You profile page add friend button text */
+    "Profile_Profile_AddFriend" = "친구 추가";
+    /* iOS,ANDROID,WINDOWS, You profile page remove friend button text */
+    "Profile_Profile_RemoveFriend" = "친구 제거";
+    /* iOS,ANDROID,WINDOWS, You profile page block button text */
+    "Profile_Profile_Block" = "차단";
+    /* iOS,ANDROID,WINDOWS, You profile page unblock button text */
+    "Profile_Profile_Unblock" = "차단 해제";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Unknown" = "알 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation" = "평판";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_AvoidMe" = "나를 피하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Needs_Improvement" = "개선이 필요함";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Good_Player" = "좋은 플레이어";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Super_Star" = "수퍼 스타";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Just_You_Count" = "사용자";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header title cased */
+    "Profile_Recents_HeaderTitle_Phone" = "최근 활동";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header upper cased */
+    "Profile_Recents_HeaderTitle_Tablet" = "최근 활동";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Android" = "최근 플레이 %s";
+    /* iOS,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_iOS" = "최근 플레이 %1$@";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Windows" = "최근 플레이 {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_GameProgressText" = "게임 진행 상황";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_AppProgressText" = "앱 진행 상황";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Recents no data string */
+    "Profile_Recents_NoData_Me" = "Xbox One에서 무엇이든 플레이하면 이 곳에 표시됩니다.";
+    /* iOS,ANDROID,WINDOWS, You Profile page Recents no data string */
+    "Profile_Recents_NoData_You" = "Xbox One에서 무엇이든 플레이하면 이 곳에 표시됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_Stats_You" = "사용자";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_Me_Phone" = "내 게임 클립";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_You_Phone" = "게임 클립";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_Me_Tablet" = "내 게임 클립";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_You_Tablet" = "게임 클립";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_Me_Tablet" = "내 게임 클립";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_You_Tablet" = "게임 클립";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_iOSAndroid" = "%1$d 재생";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_Windows" = "{0} 재생";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_Me" = "아직 게임 클립을 녹화하지 않았네요. 한번 해보세요, 재미있습니다!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_You" = "게임 클립이 게시되지 않은 것 같군요.";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header title cased */
+    "Profile_Achievements_HeaderTitle_Phone" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header upper cased */
+    "Profile_Achievements_HeaderTitle_Tablet" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Achievements no data string */
+    "Profile_Achievements_NoData_Me" = "게임을 플레이해서 도전 과제를 완료하세요!";
+    /* iOS,ANDROID,WINDOWS, You Profile page Achievements no data string */
+    "Profile_Achievements_NoData_You" = "최근에 친구가 도전 과제를 완료하지 않았습니다.";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header title cased */
+    "Profile_Friends_HeaderTitle_Phone" = "친구";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header upper cased */
+    "Profile_Friends_HeaderTitle_Tablet" = "친구";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_HeaderTitle" = "친구";
+    /* iOS,ANDROID,WINDOWS, friends hub pivot header */
+    "FriendsHub_HeaderTitle_Phone" = "친구";
+    /* iOS,ANDROID,WINDOWS, friends hub header */
+    "FriendsHub_HeaderTitle_Tablet" = "친구";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Phone" = "활동 피드";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Tablet" = "활동 피드";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderFriendsList_Phone" = "친구 목록";
+    /* iOS,ANDROID,WINDOWS, friends hub friends pivot search button text, phone only */
+    "FriendsHub_SearchButton_Phone" = "친구 찾기";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFavorites" = "즐겨찾기";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFriends" = "친구";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFollowers" = "팔로워";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_NoData" = "친구들이 도전 과제를 완료하거나 게임 클립을 녹화하거나 친구를 추가하게 되면 모두 이 곳에서 볼 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Friends_NoData" = "아무도 이 곳에 표시되지 않음";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Favorite_NoData" = "친구를 그들의 프로필에서 즐겨찾기해 이 곳에서 볼 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Follower_NoData" = "아무도 이 곳에 표시되지 않음";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_CouldNotFindGamer" = "이 사용자를 찾을 수 없습니다. 전체 게이머태그를 입력하셨나요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchBoxHint" = "정확한 게이머태그 입력하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchingText" = "검색 중...";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Phone" = "메시지";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Tablet" = "메시지";
+    /* iOS,ANDROID,WINDOWS, messages list section header */
+    "Messages_SectionHeaderAllMessages_Tablet" = "모든 메시지";
+    /* iOS,ANDROID,WINDOWS, new message button text */
+    "Messages_NewMessageButton" = "새 메시지";
+    /* iOS,ANDROID,WINDOWS, reply message button text */
+    "Messages_ReplyMessageButton" = "회신";
+    /* iOS,ANDROID,WINDOWS, delete message button text */
+    "Messages_DeleteMessageButton" = "삭제";
+    /* iOS,ANDROID,WINDOWS, block user button text */
+    "Messages_BlockButton" = "차단";
+    /* iOS,ANDROID,WINDOWS, unblock user button text */
+    "Messages_UnblockButton" = "차단 해제";
+    /* iOS,ANDROID,WINDOWS, view sender profile button text */
+    "Messages_ViewProfileButton" = "프로필";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Phone" = "새 메시지";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Tablet" = "새 메시지";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Phone" = "회신";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Tablet" = "회신";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ConfirmDeleteMessage" = "이 메시지를 삭제하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToDeleteMessage" = "이 메시지를 삭제할 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToBlockUser" = "사용자를 차단할 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToUnblockUser" = "사용자를 차단 해제할 수 없음";
+    /* iOS,ANDROID,WINDOWS, new message add a recipient control hint text */
+    "Messages_ComposeMessage_AddRecipientHintText" = "받는 사람 추가";
+    /* iOS,ANDROID,WINDOWS, new message enter message control hint text */
+    "Messages_ComposeMessage_EnterMessageHintText" = "메시지 입력";
+    /* iOS,ANDROID,WINDOWS, new message send button */
+    "Messages_ComposeMessage_SendButton" = "보내기";
+    /* iOS,ANDROID,WINDOWS, new message cancel button */
+    "Messages_ComposeMessage_CancelButton" = "취소";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Phone" = "받는 사람 선택";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Tablet" = "받는 사람 선택";
+    /* iOS,ANDROID,WINDOWS, choose recipients done button text */
+    "Messages_ComposeMessage_ChooseRecipients_DoneButton" = "완료";
+    /* iOS,ANDROID,WINDOWS, generic error for failing to send a message */
+    "Messages_ComposeMessage_GenericError" = "이 메시지 보내기 실패. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_iOS" = "%1$d 선택";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_Windows" = "{0} 선택";
+    /* iOS,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_Windows" = "{0}/{1}";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogTitle" = "변경 내용을 취소할까요?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogBody" = "아직 변경 내용을 저장하지 않았습니다. 계속하시면, 취소됩니다.";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError_DialogTitle" = "메시지를 보낼 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError" = "메시지를 보낼 수 없습니다.  받는 사람이 존재하지 않거나, 친구가 아니거나, 혹은 서비스에 연결할 수 없었습니다.";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogTitle" = "계속 진행할까요?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogBody" = "보낸 사람을 차단하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported message */
+    "Messages_Error_ViewUnsupportedMessage" = "이 메시지를 사용자의 본체에서 보기";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported legacy message */
+    "Messages_Error_ViewUnsupportedLegacyMessage" = "이 메시지를 Xbox 360 또는 Xbox One에서 보기.";
+    /* iOS,ANDROID,WINDOWS, error message for no messages retrieved */
+    "Messages_Error_NoMessages" = "이 곳이 조용하군요. 메시지를 보내세요!";
+    /* iOS,ANDROID,WINDOWS, Drawer - Home */
+    "Drawer_Home" = "홈";
+    /* iOS,ANDROID,WINDOWS, Drawer - TV Program Guide */
+    "Drawer_TV" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Drawer - Friends */
+    "Drawer_Friends" = "친구";
+    /* iOS,ANDROID,WINDOWS, Drawer - Achievements */
+    "Drawer_Achievements" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, Drawer - Pins */
+    "Drawer_Pins" = "고정 항목";
+    /* iOS,ANDROID,WINDOWS, Drawer - Messages */
+    "Drawer_Messages" = "메시지";
+    /* iOS,ANDROID,WINDOWS, Drawer - SmartGlass Settings */
+    "Drawer_Settings" = "설정";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Now" = "지금";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_iOSAndroid" = "%1$d시간 전";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_Windows" = "{0}시간 전";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_iOSAndroid" = "%1$d분 전";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_Windows" = "{0}분 전";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_iOSAndroid" = "%1$d일 전";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_Windows" = "{0}일 전";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE" = "온라인";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_OFFLINE" = "로컬";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE_OFFLINE" = "온라인과 로컬";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_NONE" = "없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TryAgain" = "다시 시도";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PairingErrorMessage" = "지금은 본체에 연결할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterPin" = "PIN 입력:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ApplyPin" = "적용";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NoConsolesFound" = "연결할 Xbox One을 찾을 수 없습니다. 본체가 켜있고 SmartGlass와 같은 네트워크에 연결되어 있습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect" = "연결";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Cap" = "연결";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Tablet" = "XBOX ONE에 연결";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Disconnect" = "연결 해제";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConnectAutomatically" = "자동 연결";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_Exit" = "닫기";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsoleWarning" = "본체에 로그인하지 않았습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsolePrompt" = "본체에 로그인하시겠습니까, 아니면 손님으로 계속하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_SignInOnConsole" = "로그인";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ContinueAsGuest" = "계속";
+    /* iOS,ANDROID,WINDOWS, secret achievement title */
+    "Achievement_SecretAchievement_Title" = "숨겨진 도전 과제";
+    /* iOS,ANDROID,WINDOWS, secret achievement description */
+    "Achievement_SecretAchievement_Description" = "이 숨겨진 도전 과제를 완료하려면 계속 플레이하세요.";
+    /* iOS,ANDROID,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_Windows" = "{0}/{1}";
+    /* iOS,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_Windows" = "{0} %";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_iOS" = "%1$d %%";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_Windows" = "{0}일";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_iOSAndroid" = "%1$d일";
+    /* iOS,ANDROID,WINDOWS, 1 day */
+    "Challenge_Countdown_OneDay" = "1일";
+    /* iOS,ANDROID,WINDOWS, 02:34:56 */
+    "Challenge_Countdown_Timer_Windows" = "{0:hh\:mm\:ss}";
+    /* iOS,ANDROID,WINDOWS, challenge time remaining */
+    "Global_Challenge_TimeRemaining" = "남은 시간";
+    /* iOS,ANDROID,WINDOWS, challenge starts in */
+    "Global_Challenge_StartsIn" = "챌린지 시작까지 남은 시간";
+    /* iOS,ANDROID,WINDOWS, achievements home title */
+    "AchievementsHome_HeaderTitle_Phone" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, achievements home title for tablet */
+    "AchievementsHome_HeaderTitle_Tablet" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, achievements home summary page */
+    "AchievementsHome_Summary_HeaderTitle_Phone" = "요약";
+    /* iOS,ANDROID,WINDOWS, achievements home last game played */
+    "AchievementsHome_LastGamePlayed" = "마지막으로 플레이한 게임";
+    /* iOS,ANDROID,WINDOWS, achievements progress */
+    "AchievementsHome_Progress_HeaderTitle_Phone" = "진행 상황";
+    /* iOS,ANDROID,WINDOWS, achievement progress */
+    "AchievementsHome_Progress_HeaderTitle_Tablet" = "진행 상황";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent" = "최근 항목";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecentDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent360" = "기타";
+    /* iOS,ANDROID,WINDOWS, achievement progress gallery */
+    "AchievementsHome_ProgressGallery_HeaderTitle_Tablet" = "진행 상황";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent_Tablet" = "최근 항목";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecentDurango_Tablet" = "XBOX ONE";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent360_Tablet" = "다른 도전 과제";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Android" = "최근 플레이 %s";
+    /* iOS,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_iOS" = "최근 플레이 %1$@";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Windows" = "최근 플레이 {0}";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Phone" = "추천 챌린지";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Tablet" = "추천 챌린지";
+    /* iOS,ANDROID,WINDOWS, featured challenge gallery title */
+    "AchievementsHome_ChallengesGallery_HeaderTitle_Tablet" = "추천 챌린지";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Phone" = "친구의 도전 과제";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Tablet" = "친구의 도전 과제";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_LastGamePlayed_NoData" = "게임을 플레이해서 도전 과제를 완료하세요!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Challenges_NoData" = "지금은 챌린지를 찾을 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Progress_NoData" = "게임을 플레이해서 도전 과제를 완료하세요!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_FriendsAchievements_NoData" = "최근에 도전 과제를 완료한 친구가 없습니다.";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Phone" = "진행 상황";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Tablet" = "진행 상황";
+    /* iOS,ANDROID,WINDOWS, game progress - game clips header title */
+    "GameProgress_Channel_HeaderTitle_Phone" = "게임 클립";
+    /* iOS,ANDROID,WINDOWS, Upload CHANNEL */
+    "GameProgress_Channel_HeaderTitle_Tablet" = "게임 클립";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Windows" = "조회수 {0}";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_iOS" = "조회수 %1$@";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Android" = "조회수 %s";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Windows" = "조회수 {0}";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_iOS" = "조회수 %1$@";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Android" = "조회수 %s";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData" = "디스플레이할 비디오가 없습니다! 게임을 찾아 플레이하며 멋진 장면 녹화를 시작하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_Community" = "이 게임에는 아직 게임 클립이 녹화되지 않았습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_CommunityButtonText" = "커뮤니티 클립 보기";
+    /* iOS,ANDROID,WINDOWS, Number of views. My Channel filter */
+    "GameProgress_Channel_FilterOptionMyChannel" = "내 게임 클립";
+    /* iOS,ANDROID,WINDOWS, Number of views. Community filter */
+    "GameProgress_Channel_FilterOptionCommunity" = "커뮤니티 클립";
+    /* iOS,ANDROID,WINDOWS, Game details */
+    "GameProgress_GameDetails_Button_Text" = "게임 세부 정보";
+    /* iOS,ANDROID,WINDOWS, App details */
+    "GameProgress_AppDetails_Button_Text" = "앱 세부 정보";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Phone" = "챌린지";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Tablet" = "챌린지";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Phone" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Tablet" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, earned achievement filter for phone */
+    "GameProgress_Achievements_FilterOptionEarned" = "진척 상황";
+    /* iOS,ANDROID,WINDOWS, locked achievement filter for phone {locked}  */
+    "GameProgress_Achievements_FilterOptionLocked" = "잠금";
+    /* iOS,ANDROID,WINDOWS, achievements gallery */
+    "GameProgress_AchievementsGallery_HeaderTitle_Tablet" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Challenges_NoData" = "지금은 챌린지를 사용할 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_NoData" = "게임을 플레이해서 도전 과제를 완료하세요!";
+    /* iOS,ANDROID,WINDOWS, User doesn't have any earned achievements for this game */
+    "GameProgress_Achievements_NoEarned" = "게임을 플레이해서 도전 과제를 완료하세요!";
+    /* iOS,ANDROID,WINDOWS, User has earned all achievements for this game */
+    "GameProgress_Achievements_NoLocked" = "잘하셨습니다! 모든 도전 과제를 완료했습니다!";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Phone" = "진행 상황";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Tablet" = "진행 상황";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Achievements_HeaderTitle" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Android" = "최근 플레이 %s";
+    /* iOS,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_iOS" = "최근 플레이 %1$@";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Windows" = "최근 플레이 {0}";
+    /* iOS,ANDROID,WINDOWS, achievement completion: Completed */
+    "Global_Achievements_Completed" = "완료됨";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementDetail_Achievement_HeaderTitle" = "도전 과제";
+    /* iOS,ANDROID,WINDOWS, Game progress button */
+    "AchievementDetail_GameProgress_Button_Text" = "게임 진행 상황";
+    /* iOS,ANDROID,WINDOWS, App progress button */
+    "AchievementDetail_AppProgress_Button_Text" = "앱 진행 상황";
+    /* iOS,ANDROID,WINDOWS, in game reward page header */
+    "AchievementDetail_Reward_InGame" = "인게임 보상";
+    /* iOS,ANDROID,WINDOWS, in app reward page header */
+    "AchievementDetail_Reward_InApp" = "인앱 보상";
+    /* iOS,ANDROID,WINDOWS, art reward page header */
+    "AchievementDetail_Reward_Art" = "예술 보상";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-game reward description {locked}  */
+    "AchievementDetail_Reward_InGame_LockedDescription" = "이 보상을 알아내려면 이 도전 과제를 완료하세요.";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-app reward description {locked}  */
+    "AchievementDetail_Reward_InApp_LockedDescription" = "이 보상을 알아내려면 이 도전 과제를 완료하세요.";
+    /* iOS,ANDROID,WINDOWS, achievement locked art reward description {locked}  */
+    "AchievementDetail_Reward_Art_LockedDescription" = "이 예술 보상을 알아내려면 이 도전 과제를 완료하세요.";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Android" = "%s 잠금";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_iOS" = "%1$@ 완료";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Windows" = "{0} 완료";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_Locked" = "잠금";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_InProgress" = "진행 중";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-game reward description {locked}  */
+    "ChallengeDetail_Reward_InGame_LockedDescription" = "이 보상을 알아내려면 이 챌린지를 완료하세요.";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-app reward description {locked}  */
+    "ChallengeDetail_Reward_InApp_LockedDescription" = "이 보상을 알아내려면 이 챌린지를 완료하세요.";
+    /* iOS,ANDROID,WINDOWS, challenge locked art reward description {locked}  */
+    "ChallengeDetail_Reward_Art_LockedDescription" = "이 예술 보상을 알아내려면 이 챌린지를 완료하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALBUM_TITLE" = "앨범";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOPLAYLIST" = "재생 목록에 추가";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Cancel" = "취소";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Yes" = "예";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_SwitchToDeveloperMode" = "개발자 모드를 사용하려고 합니다. 계속하시려면 확인하시고, 현재 설정으로 되돌아가려면 취소하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_ExitDeveloperMode" = "개발자 모드를 사용하지 않습니까? 계속하시려면 확인하시고, 현재 설정으로 되돌아가려면 취소하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Page_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_TV" = "주문형 인기 TV 프로그램";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_Movies" = "주문형 인기 영화";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_AppsHeader" = "앱";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_TvListings" = "TV 목록을 보려면 Xbox에 연결하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites" = "즐겨찾는 채널을 보려면 Xbox에 연결하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_AppChannels_Windows" = "즐겨찾는 앱 채널을 보려면 Xbox에 연결하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_AppChannels" = "앱 채널을 보려면 Xbox에 연결하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_RecentChannels" = "최근 채널을 보려면 Xbox에 연결하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Tune" = "이 쇼를 보려면 Xbox에 연결하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Add" = "지금은 즐겨찾기에 추가할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Remove" = "지금은 즐겨찾기에서 제거할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Remote" = "이 장치를 TV 리모트로 사용하려면 Xbox에 연결하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_EXPLICIT_CONTENT" = "유해 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header" = "쇼타임 미리 보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat" = "{0}-{1} {2}";
+    /* iOS,WINDOWS, */
+    "FutureShowtimes_TimeFormat_iOS" = "%1$@-%2$@ %3$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowTimes_OnNow" = "켜기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Percentage_Windows" = "{0}%";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is smartglass companion. */
+    "Home_BAT_SmartGlassCompanion" = "컴패니언";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is remote control. */
+    "Home_BAT_RemoteControl" = "리모트";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is local detail page. */
+    "Home_BAT_Details" = "세부 정보";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is tv guide. */
+    "Home_BAT_TVGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Text displayed in media tray when TV guide option is displayed to the user. */
+    "NOWPLAYING_TVGUIDE_BUTTON_TEXT" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on pins destination or homepage when pins for the user could not be retrieved from service. */
+    "Pins_Error" = "지금은 고정 항목을 가져올 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when app failed to retrieved the featured items for homepage. */
+    "Home_Featured_Error" = "지금은 추천 항목을 가져올 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, Text displayed instead of title on BAT/Console Bar when we could not load the detail for the title. */
+    "NowPlaying_Unavailable" = "사용할 수 없음";
+    /* iOS,ANDROID,WINDOWS, OOBE string displayed on homepage when user has no recents */
+    "HOME_OOBE" = "Xbox One에 오신것을 환영합니다.";
+    /* iOS,ANDROID,WINDOWS, Featured section title for homepage */
+    "Home_Featured_PageTitle" = "추천";
+    /* iOS,ANDROID,WINDOWS, Recents section title for homepage */
+    "Home_Recents_PageTitle" = "최근 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LearnMore" = "자세히";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist" = "아티스트";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist_Tablet" = "아티스트";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game" = "게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game_Tablet" = "게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App" = "앱";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App_Tablet" = "앱";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie" = "영화";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie_Tablet" = "영화";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV_Tablet" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album" = "앨범";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album_Tablet" = "앨범";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Tablet" = "인기곡";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Phone" = "인기곡";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Tablet" = "앨범";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Phone" = "앨범";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Tablet" = "관련 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Phone" = "관련 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Tablet" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Phone" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Tablet" = "세부 정보";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Phone" = "세부 정보";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv" = "시즌 {0}, 에피소드 {1} 현재 {2}에서 방송 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv" = "시즌 {0}, 에피소드 {1}이 {3}에서 {2}에 방송함";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic" = "다음 방송은 {0} {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic" = "{0}에서 현재 방송 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_LABEL" = "레이블:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Biography_Phone" = "소개";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Tablet" = "트랙 목록";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Phone" = "트랙 목록";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DURATION" = "기간:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RATING" = "평점:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION" = "해상도:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HDANDSD" = "HD와 SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Overview_Phone" = "개요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Tablet" = "출연자와 제작진";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Phone" = "출연자와 제작진";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Tablet" = "에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Phone" = "에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Tablet" = "이미지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Phone" = "이미지";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DEVELOPER" = "개발사:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_PUBLISHER" = "배급사:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_MULTIPLAYER" = "멀티 플레이:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_COOP" = "Co-op 모드:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_GET_ON_XBOX" = "Xbox One에서 찾으세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE_WINDOWS" = "(S{0} Ep{1})의 최근 에피소드 가기";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_NETWORKS" = "네트워크:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmpty" = "최근 활동이 이 곳에 표시됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Pins_PageTitle" = "내 고정 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "TextInput_Confirm" = "완료";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstRun_ContentTitle" = "Xbox One에 대해 알아보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmptyDesc" = "사용자가 플레이하고 시청한 것을 이 곳에서 보도록 하세요.";
+    /* iOS,ANDROID,WINDOWS, Settings page title */
+    "Settings_PageTitle" = "설정";
+    /* iOS,ANDROID,WINDOWS, Settings page account section header */
+    "Settings_Account_SectionHeader" = "계정";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text */
+    "Settings_SignOutButton" = "로그아웃";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section header */
+    "Settings_Preferences_SectionHeader" = "기본 설정";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option */
+    "Settings_Preferences_StayAwakeOption" = "항시 대기";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option description */
+    "Settings_Preferences_StayAwakeOptionDescription" = "SmartGlass가 켜있으면 (배터리 수명 단축) 잠금 화면이 활성화되지 않습니다.";
+    /* iOS,ANDROID,WINDOWS, Settings page sound section header */
+    "Settings_Sound_SectionHeader" = "사운드";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option */
+    "Settings_Sound_DisableSoundOption" = "사운드 사용 안 함";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option description */
+    "Settings_Sound_DisableSoundOptionDescription" = "SmartGlass 앱에서 사운드 사용 안 함";
+    /* iOS,ANDROID,WINDOWS, Settings page about section header */
+    "Settings_About_SectionHeader" = "정보";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Windows */
+    "Settings_About_Version_Windows" = "{0} 버전";
+    /* iOS,WINDOWS, Settings page about version, iOS */
+    "Settings_About_Version_iOS" = "%1$@ 버전";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Android */
+    "Settings_About_Version_Android" = "%s 버전";
+    /* iOS,ANDROID,WINDOWS, Settings page get started button text */
+    "Settings_GetStartedButton" = "시작하기";
+    /* iOS,ANDROID,WINDOWS, Settings page get started description */
+    "Settings_GetStartedDescription" = "Xbox One SmartGlass에 대해 알아보기";
+    /* iOS,ANDROID,WINDOWS, Settings page help button text */
+    "Settings_HelpButton_WindowsAndroid" = "도움말";
+    /* iOS,ANDROID,WINDOWS, Settings page privacy button text */
+    "Settings_PrivacyButton_WindowsAndroid" = "개인 정보";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy section title */
+    "Settings_HelpAndPrivacySectionTitle_iOS" = "도움말과 개인 정보";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy description */
+    "Settings_HelpAndPrivacyDescription_iOS" = "Xbox One SmartGlass 도움말과 개인 정보 설정 관리를 위해 Xbox website를 방문하세요";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader" = "개발자";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader_Windows" = "개발자";
+    /* iOS,ANDROID,WINDOWS, Settings page developer sandbox ID */
+    "Settings_Developer_SandboxId" = "Sandbox ID";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DIRECTOR" = "감독:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SmartGlassCompanion" = "SmartGlass 컴패니언";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALLOWEDPROVIDERS" = "사용할 수 있음:";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv_iOS" = "시즌 %1$d 에피소드 %2$d 현재 %3$@에서 방송함";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic_iOS" = "현재 %1$@에서 방송함";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic_iOS" = "다음 방송은 %1$@ %2$@";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv_iOS" = "다음 방송은 %3$@ %4$@ 시즌 %1$d 에피소드 %2$d";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_AchievementProgress_Phone" = "도전 과제 진행 상황";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Challenges_Phone" = "챌린지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Phone" = "게임 클립";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameAchievementProgress_Tablet" = "도전 과제 진행 상황";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameChallenges_Tablet" = "챌린지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Tablet" = "게임 클립";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU_IOS" = "Xbox 사용 약관을 업데이트 했습니다. Xbox.com.에서 확인하십시오.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU" = "Xbox 사용 약관을 업데이트 했습니다. Xbox.com.에서 확인하십시오.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to displayed whenever we could not log him into app for all the reasons except xsts 401 cases */
+    "Auth_GenericError" = "지금은 로그인할 수 없습니다. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError_IOS" = "계정에 문제가 있습니다. 자세한 내용을 보려면 xbox.com를 방문하세요.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError" = "계정에 문제가 있습니다. 자세한 내용을 보려면 xbox.com를 방문하세요.";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation_IOS" = "Xbox.com.에서 Xbox Live 계정을 설정하세요.";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation" = "Xbox.com.에서 Xbox Live 계정을 설정하세요.";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user while they are signing in. This will allow them to cancel the sign in process. */
+    "SignIn_Cancel" = "취소";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user to prompt them to go to xbox.com */
+    "SignIn_Troubleshoot" = "Xbox.com 방문";
+    /* iOS,ANDROID,WINDOWS, Button text for sign in page button's first try. (after that it switches to try again) */
+    "SignIn_SignIn" = "로그인";
+    /* WINDOWS,iOS,ANDROID, Status text shown while trying to sign in. */
+    "SignIn_SigningIn" = "로그인";
+    /* WINDOWS,iOS,ANDROID, Shown while making service calls to get state of console to decide what to do next. */
+    "SignIn_GettingData" = "Xbox 서비스에 연결 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season" = "TV 시즌";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season_Tablet" = "TV 시즌";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity" = "Xbox One SmartGlass 컴패니언";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity_Tablet" = "Xbox One SmartGlass 컴패니언";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series" = "TV 시리즈";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series_Tablet" = "TV 시리즈";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode" = "TV 에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode_Tablet" = "TV 에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show" = "TV 프로그램";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show_Tablet" = "TV 프로그램";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC_Tablet" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_Studios" = "스튜디오";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRating" = "보호자 통제 등급";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRatingColon" = "보호자 통제 등급:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_TVText" = "OneGuide를 검색하거나 추가할 TV 쇼를 Xbox에서 검색해 보세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_MoviesText" = "OneGuide를 검색하거나 추가할 영화를 Xbox에서 검색해 보세요. 영화를 선택하려면 별 아이콘을 탭하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Today" = "오늘";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_GeneralError" = "내 채널에 추가 실패함. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteShow_GeneralError" = "내 TV 쇼에 추가 실패함. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteShow_GeneralError" = "내 TV 쇼에서 제거 실패함. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteChannel_GeneralError" = "내 채널에서 제거 실패함. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a page fails to load */
+    "ErrorState_PageError" = "이 페이지 로딩 오류 발생 :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a pivot pane or a section of the panorama fails to load */
+    "ErrorState_PaneError" = "이 섹션 로딩 오류 발생 :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the retry button */
+    "ErrorState_RetryButton" = "다시 시도";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the network setting button */
+    "ErrorState_NetworkButton" = "네트워크 설정 열기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToXboxOne" = "Xbox One에서 플레이하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SmartGlassCompanionAvailable" = "컴패니언 사용할 수 있음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFull" = "Xbox One에서 플레이하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToSnap" = "스냅해서 플레이하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Title" = "리모트";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Xbox_Title" = "Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Universal_Title" = "케이블/TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchSuggestions_Title" = "제안";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Windows" = "\"{0}\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Skip_Title" = "건너뛰기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFill" = "Xbox One에서 플레이하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track" = "트랙";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track_Tablet" = "트랙";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras_Tablet" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TOP_SONGS_ON_XBOX" = "Xbox One에서 플레이하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_SEASON_EPISODES" = "시즌 에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LAUNCH_IN_IE" = "Xbox 열어서 켜기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NoProvidersOrShowTimesAvailable" = "이것을 재생할 앱이 아직 Xbox One에 없습니다";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title" = "환영합니다";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText" = "계속하려면 미세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_TitleText" = "시작할 시간입니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DoneText" = "Xbox One SmartGlass 사용 시작";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DescriptionText" = "도움이 필요하거나 자세한 내용을 보시려면 xbox.com/smartglass을 방문하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title" = "Xbox 제어하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Description" = "미디어, 스냅된 앱, 그리고 게임 도움말 얻기 및 기타를 제어하려면 지금 재생 중 표시줄을 탭하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Description" = "거실에서 또는 계속 활동하면서 게임 도움말 찾기, 도전 과제 찾기나 메시지를 보내세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Title" = "연결 상태 유지";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Title" = "찾아서 고정하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Description" = "콘텐츠를 검색해서 즐겨찾기를 Xbox One SmartGlass에 고정하세요, 그러면 나중에 사용자의 Xbox One에서 쉽게 찾을 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Description" = "OneGuide는 모든 TV 프로그램을 종합 정리해줍니다. TV 프로그램을 보시려면 본체에 TV를 설정하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Select" = "제어는 미세요, 선택은 탭하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Error_CanNotPlayVideo" = "이 비디오를 재생할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppChannel_Favorite" = "즐겨찾기";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNow" = "현재 방송 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_ConnectedTo" = "연결";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConsolesOnYourNetwork" = "사용자의 네트워크에 연결된 본체:";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_PlayNow" = "지금 재생";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_XboxOneSmartGlass" = "Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Message_Detail_Message" = "메시지";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_0" = "0";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_1" = "1";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_2" = "2";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_3" = "3";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_4" = "4";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_5" = "5";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_6" = "6";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_7" = "7";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_8" = "8";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_9" = "9";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_PAGE" = "PAGE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CH" = "CH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_VOL" = "VOL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_ENTER" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DASH" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_INFO" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_EXIT" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_SELECT" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANGE_LAYOUT" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_MENU" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_GUIDE" = "GUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DVR" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.back" = "BACK";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.cancel" = "CANCEL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.ch_enter" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.clear" = "CLEAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_minus" = "DAY-";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_plus" = "DAY+";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.delimiter" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.dvr" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.exit" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.format" = "FORMAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_a" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_b" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_c" = "C";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_d" = "D";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.guide" = "GUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.help" = "HELP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.home" = "HOME";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.info" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.interactive" = "INTERACTIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.last" = "LAST";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.live" = "LIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.menu" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.options" = "OPTIONS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.plus_100" = "+100";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.sap" = "SAP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.select" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.services" = "SERVICES";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.setup" = "SETUP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.slow" = "SLOW";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.subtitle" = "SUBTITLE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.tools" = "TOOLS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.vod" = "VOD";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.all" = "All";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.avr" = "AV receiver";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.stb" = "Cable/sat";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.tv" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.onoff" = "ON / OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.on" = "ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.off" = "OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.ON" = "DONE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.OFF" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcStatus.ErrorLabel" = "ERROR:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneHour_Text" = "1시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHoursText_iOSAndroid" = "%1$d시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneMinute" = "1분";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinutesText_iOSAndroid" = "%1$d분";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DESCRIPTION" = "설명";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameHelp" = "게임 도움말";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOMYSHOWS" = "내 TV 쇼에 추가";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Parent_Title" = "부모";
+    /* iOS,WINDOWS, */
+    "SearchResults_PageTitle_iOS" = "\"%1$@\" 결과";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Phone_iOS" = "검색 결과";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_NoResult" = "결과 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SeasonPicker_AllOption" = "전체";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on homepage when application failed to retreive the recents */
+    "Home_Recents_RecentsError" = "지금은 최근 활동을 찾을 수 없습니다.";
+    /* iOS,WINDOWS, Detail string format used by iOS clients while displaying details text along with media type. Example such as playto, media tray etc */
+    "MediaDetails_Format_iOS" = "%1$@ 자세한 정보";
+    /* iOS,WINDOWS, */
+    "Launcher_CurrentlyPlaying_iOS" = "현재 재생 중: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_ProvidersOrShowTimesError" = "이것을 재생할 앱을 찾을 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_RecentChannels" = "최근 채널";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_Reload" = "새로 고침";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogTitle" = "차단된 추천 항목 액세스";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogBody" = "계정 설정 문제로 추천 항목에 액세스할 수 없습니다. 개인 정보 설정을수정하여 변경할 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_PlaceHolderText" = "검색";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Phone" = "지금 재생 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Tablet" = "Xbox One에서 지금 재생 중";
+    /* WINDOWS,iOS,ANDROID, */
+    "CloseButtonText" = "닫기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_RefreshText" = "새로 고침";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_UnknownValue_Dash" = "--";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call EDS to get the detail about the media returned no data. */
+    "Launcher_DataNotIngested_Error" = "정보를 찾을 수 없음";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call to EDS failed to retrieve the information about the media */
+    "Launcher_ErrorToRetrieveDetail" = "지금은 자세한 정보를 찾을 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Unavailable" = "정보 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit" = "채널이 너무 많습니다. {0}을 추가하시려면 채널 하나를 제거하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add" = "즐겨찾기에 {0}가 추가되었습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove" = "즐겨찾기에서 {0}가 제거되었습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add_iOS" = "즐겨찾기에 %1$@가 추가되었습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove_iOS" = "즐겨찾기에서 %1$@가 제거되었습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_AppChannels_NoFavorites_iOS" = "앱 채널을 선택하고 %1$@ 아이콘을 탭해서 즐겨찾기 채널에 저장하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GeneralError" = "지금은 채널을 찾을 수 없습니다. 다시 시도하려면 새로고침 버튼을 선택하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Unavailable" = "사용할 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Disconnected" = "연결 끊김";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Load" = "설정 로드 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HD" = "HD 채널만 표시하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_All" = "모든 채널 표시하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HideSD" = "SD 중복 항목 숨기기";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Header" = "모든 앱에서 TV 쇼와 영화 찾기";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Text" = "Xbox에서 새 채널을 찾으려면 앱을 설치해서 실행하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_BtnText" = "Xbox에서 앱 찾기";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Header" = "사용자에게 맞춤화된 프리미엄 TV 경험";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_BtnText" = "TV 설정";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_GoldUpsell_BtnText" = "Xbox Live 골드 멤버십 갖기";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_RecentChannels_Header" = "최근 채널을 보려고 Xbox에서 TV 시청하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_AddFailed" = "고정항목을 추가할 수 없습니다. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ComposeMessage_Sending" = "보내는 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_MessageDetail_Deleting" = "제거하는 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVSeason_Aired_Title" = "방송됨:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_ListFullError" = "즐겨찾기 200개 한도에 도달했습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Busy_Wait" = "잠시만 기다려주세요...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connect_Reconnecting" = "다시 연결 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Title" = "현재 컴패니언이 종료됩니다...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Description" = "현재 컴패니언을 종료하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MinutesText_Android" = "분";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add favorite */
+    "Profile_Profile_Failed_Add_Favorite" = "사용자를 즐겨찾기 목록에 추가할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove favorite */
+    "Profile_Profile_Failed_Remove_Favorite" = "사용자를 즐겨찾기 목록에서 제거할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add friend */
+    "Profile_Profile_Failed_Add_Friend" = "사용자를 친구 목록에 추가할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove friend */
+    "Profile_Profile_Failed_Remove_Friend" = "사용자를 친구 목록에서 제거할 수 없습니다.";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_OneGuideAvailable" = "OneGuide 사용 가능함";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_ShowCompanion" = "컴패니언";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConsoleBar_NowPlaying_SubTitle" = "지금 재생 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_UnconfiguredMessage" = "사용자의 TV가 원격 메시지를 수신하도록 구성되어 있지 않습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_SeasonsHeader_Tablet" = "시즌";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Gold_Message" = "TV 프로그램을 보시려면 Xbox 혹은 Xbox website에서 골드 멤버십에 가입히십시오";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayOnSmartGlass" = "SmartGlass에서 재생";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Season" = "시즌";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Episode" = "에피소드";
+    /* iOS,ANDROID,WINDOWS, */
+    "Dialog_Attention_Title_Android" = "주의";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Got_Gold_Question" = "골드 멤버십에 가입하셨나요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message" = "TV 프로그램을 보시려면 Xbox에서 혹은 Xbox.com에서 골드 멤버십에 가입하십시오.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message_iOS" = "TV 프로그램을 보시려면 Xbox 에서 혹은 Xbox.com에서 골드 멤버십에 가입하십시오.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title_Phone" = "Xbox One SmartGlass에 오신 것을 환영합니다";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_Phone" = "계속하려면 미세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title_Phone" = "XBOX ONE에 연결";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_SignIn_Phone" = "로그인";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Background_Title" = "XBOX ONE SMARTGLASS";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPlay" = "앱 선택";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPin" = "고정시킬 앱을 선택하세요.";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_ConsoleNotListed" = "본체가 목록에 없나요?";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_EnterIPAddress" = "IP 주소 입력";
+    /* iOS,ANDROID,WINDOWS, This is the text shown when user tries to pin a media from detail page and there are no providers associated with it. */
+    "Launcher_NoProvidersAvailableForPin" = "이 미디어를 고정하는데 사용할 앱이 Xbox One에 없습니다.";
+    /* iOS,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_iOS" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show details option in launcher */
+    "ACTION_DETAILS" = "세부 정보";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show the option to launch remote. */
+    "Launcher_ShowRemote" = "리모트";
+    /* iOS,ANDROID,WINDOWS, This is the string shown in launcher when OneGuide is the default companion. */
+    "Launcher_ShowOneGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ChannelDialog_Description" = "채널";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_iOS" = "이 장치에서 %1$@ 앱을 시작하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_iOS" = "네, %1$@ 앱을 시작합니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Windows" = "이 장치에서 {0} 앱을 시작하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Windows" = "네, {0} 앱을 시작합니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Android" = "이 장치에서 %s 앱을 시작하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Android" = "네, %s 앱을 시작합니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_No" = "아니요, SmartGlass에 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_No" = "아니요";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressTitle" = "본체 IP 주소 입력:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_IPAddressLocationOnConsole" = "본체 주소를 찾으려면 [본체설정]> [네트워크] > [고급 설정]으로 이동하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressGhostText" = "예: 192.168.0.1";
+    /* iOS,ANDROID,WINDOWS, Title for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Title" = "친구 목록 한도에 도달했습니다";
+    /* iOS,ANDROID,WINDOWS, Message for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Message" = "새 친구를 추가하려면, 현재 친구들 중 한 명을 제거해야 합니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "CONNECTION_REQ_TEXT" = "이 앱이 작동하려면 인테넷 연결이 필요합니다. 계속하려면 연결 설정을 확인히세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Explicit" = "유해 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowMore" = "더 많이 표시";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowLess" = "간단히 표시";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Providers" = "앱";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Tablet" = "호환 가능";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Phone" = "호환 가능";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Tablet" = "추가 기능";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Phone" = "추가 기능";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Released" = "출시";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Languages" = "언어";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GetOnXboxOne" = "Xbox One에서 찾으세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Genre" = "장르";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Help" = "도움말";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Disconnected" = "XBOX ONE에 연결";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connecting" = "연결하는 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connected" = "연결됨";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SearchIcon" = "검색";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RefreshIcon" = "새로 고침";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BackIcon" = "뒤로";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_IEPlayHere" = "이 곳에서 웹페이지를 여세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeIcon" = "볼륨";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeUp" = "볼륨 높이기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeDown" = "볼륨 내리기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Mute" = "음소거";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Unmute" = "음소거 해제";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ClearText" = "텍스트 지우기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemoteIcon" = "리모트";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIcon" = "재생";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PauseIcon" = "일시 중지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FFW" = "빨리 감기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RWD" = "되감기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipForward" = "앞으로 건너뛰기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipBack" = "뒤로 건너뛰기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Seek" = "찾기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Close" = "닫기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ViewButton" = "보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MenuButton" = "메뉴";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XboxButton" = "Xbox 버튼";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AButton" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BButton" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XButton" = "X";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YButton" = "Y";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowUp" = "위로";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowDown" = "아래";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowLeft" = "왼쪽";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowRight" = "오른쪽";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PowerButton" = "전원";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageUp" = "페이지 올리기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageDown" = "페이지 내리기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoButton" = "정보";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SelectButton" = "선택";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelUp" = "채널 올리기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelDown" = "채널 내리기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RedButton" = "빨강";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BlueButton" = "파랑";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YellowButton" = "노랑";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GreenButton" = "녹색";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RecordButton" = "녹화";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InputButton" = "원본";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PreviousChannel" = "이전";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_OnOff" = "켜기 / 끄기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddtoFavorites" = "즐겨찾기에 추가";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemovefromFavorties" = "즐겨찾기에서 제거";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoIcon" = "세부 정보";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIconOneGuide" = "Xbox One에서 플레이하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_NewMessage" = "새 메시지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddRecipient" = "받는 사람 추가";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MoreIcon" = "더 보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GotoLive" = "라이브로 이동";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_FirstRun" = "Xbox One에 연결해서 좋아하는 TV 쇼, 영화, 게임을 즐기세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Tablet" = "내 고정 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Phone" = "내 고정 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber" = "채널 {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_iOS" = "채널 %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_Android" = "채널 %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ParentalControls_BlockedTitle" = "유해 콘텐츠 프로그램";
+    /* iOS,ANDROID,WINDOWS, {locked}  */
+    "EPG_ParentalControls_BlockedDetails" = "이 정보는 차단되었습니다. 변경하려면, Xbox에서[설정] > [개인 정보와 온라인 보안]으로 이동하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Settings" = "TV 설정을 로드할 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Channels" = "지금은 채널을 가져올 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TryAgain" = "다시 시도하려면 새로 고침 버튼을 선택하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Shows_Generic" = "지금은 TV쇼를 가져올 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_NoShows" = "이 채널에는 TV쇼가 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_NoShowInfo" = "정보 표시 사용할 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_iOS" = "채널이 너무 많습니다. %1$@을 추가하려면 채널 하나를 제거하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_Android" = "채널이 너무 많습니다. %1$s을 추가하려면 채널 하나를 제거하십시오.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Channels" = "지금은 앱 채널을 가져올 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Remote_Console_Setup" = "Xbox본체에서 TV 설정하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Console_Setup_Directions_STB" = "Xbox 본체에서, [설정] > [TV와 OneGuide] > [케이블 또는 위성 중계기 모델]로 이동하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_Header" = "좋아하는 앱 채널이 한 곳에 있습니다";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_AppChannels_Text_First" = "앱 채널에서 채널을 탭하세요 그리고 다음을 탭하세요";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_AppChannels_Text_Second" = "을 탭하여 즐겨찾기에 추가하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_TextIcon_iOS" = "앱 채널에서 채널을 탭하세요 그리고  %1$@을 탭해서 즐겨찾기에 저장하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_iOS" = "TV 목록 혹은 앱 채널에서 TV 쇼를 탭하세요 그리고 %1$@을 탭해서 즐겨찾기에 저장하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_Android" = "TV 목록의 채널이나 앱 채널을 탭하시고 %1$s을 탭해서 즐겨찾기에 저장하세요.";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_Text_First" = "TV 목록 혹은 앱 채널에서 TV 쇼를 탭하세요 그리고 다음을 탭하세요";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_Text_Second" = "을 탭하여 즐겨찾기에 추가하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Header" = "즐겨찾기 TV 채널이 한 곳에 있습니다";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_TvListings_Text_First" = "TV 목록에서 프로그램을 탭한 후";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_TvListings_Text_Second" = "을 탭하여 즐겨찾기에 추가하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Code_iOS" = "오류 코드 %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header_NotAllCaps" = "쇼타임 미리 보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_FirstLine" = "이동은 미세요, 선택은 탭하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_SecondLine" = "스크롤하려면 두 손가락을 사용하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateSwipe" = "이동은 미세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateTap" = "선택은 탭하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Unsupported" = "Internet Explorer 리모트는 터치 방식이 아닌 장치를 지원하지 않습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_DefaultText" = "게임, 영화, 음악 그리고 앱을 찾아 보세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Header" = "골드 멤버십에 가입하셨나요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_Offline" = "오프라인";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Windows" = "마지막 표시한 시간: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_iOS" = "마지막 표시한 시간: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Android" = "마지막 표시한 시간: %s";
+    /* iOS,ANDROID,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_Windows" = "{1}에서 {0}을 브로드캐스팅함";
+    /* iOS,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_iOS" = "%2$@에서 %1$@을 브로드캐스팅함";
+    /* iOS,ANDROID,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_iOS" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Windows" = "{0} (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_iOS" = "%1$@ (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Android" = "%s (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Windows" = "{0} 추가됨";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_iOS" = "%1$@ 추가됨";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Android" = "%s 추가됨";
+    /* iOS,ANDROID,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_iOS" = "%1$@ - %2$@";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsOption" = "알림 허용";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsDescription" = "이 앱이 알림을 표시하도록 허용함";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptTitle" = "알림을 허용할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptDescription" = "이 앱이 알림을 표시하도록 허용함";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_FilterOptionAll" = "전체";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionBroadcasting" = "브로드캐스팅";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionRecentPlayers" = "최근 플레이어";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_OnlineFriendsCount_iOSAndroid" = "%1$d 온라인";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_NewFollowersCount_iOSAndroid" = "%1$d 새 팔로워";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_Unsnap" = "스냅 취소";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_RecentPlayers_NoData" = "멀티 플레이 게임에서 다른 플레이어를 만나게 되면 이곳에서 그들을 볼 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Today" = "오늘";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_iOSAndroid" = "%1$dy년 전";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_Windows" = "{0}년 전";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_ChallengesGallery_HeaderTitle_Tablet" = "챌린지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Phone" = "진행 상황";
+    /* iOS,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_2_iOS" = "Windows 8, Windows Phone, 혹은 Xbox 360에 계정이 있으면 기존 계정으로 로그인하시면 됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_Wifi_Needed_Error" = "이 장치를 사용자의 Xbox One이 연결된 같은 네트워크로 연결하세요. SmartGlass는 무선 네트워크 연결이 필요합니다 - 휴대폰 데이터 네트워크에서는 작동되지 않습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_GameClips" = "게임 클립";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text when signing out */
+    "Settings_SignOutButton_SigningOut" = "로그아웃하는 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_Windows" = "{0}가 {1}을 {2}에 브로드캐스팅하고 있습니다";
+    /* iOS,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_iOS" = "%1$@가 %2$@을 %3$@에 브로드캐스팅하고 있습니다";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LinktoFAQ" = "자세한 정보를 보려면 문제 해결 가이드를 탭해서 열어 보세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FeedbackIcon" = "피드백";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epgl_NHoursText_iOSAndroid" = "%1$d시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_iOSAndroid" = "%1$d분";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat_Android" = "%1$s-%2$s %3$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NHoursText_Android" = "%d시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_Android" = "%d분";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_OneHour_Text" = "1시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgDetails_Showtime_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Recents" = "최근 채널을 로드하는 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_AppChannels" = "앱 채널을 로드하는 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TVListings" = "TV 목록을 로드하는 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Favorites" = "좋아하는 채널을 로드하는 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TakeSomeTime" = "이 작업은 몇 분 정도 걸릴 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddedFavoriteChannel_Message_Text" = "이 채널을 사용자의 즐겨찾기에 추가했습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_SectionHeader" = "ONEGUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Message_Text" = "OneGuide는 사용자의 모든 TV 프로그래밍을 하나의 목록에 종합 정리한 사용하기 쉬운 맞춤형 프로그램 가이드입니다. 이 곳에서 TV 목록을 보려면 본체에서 Live TV를 설정하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_iOSAndroid" = "%1$d시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_iOSAndroid" = "%1$d시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_iOSAndroid" = "%1$d분";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_iOSAndroid" = "%1$d분";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_iOSAndroid" = "%1$d초";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_iOSAndroid" = "%1$d초";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_Windows" = "{0}초";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_Windows" = "{0}초";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_Windows" = "{0}분";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_Windows" = "{0}분";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_Windows" = "{0}시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_Windows" = "{0}시간";
+    /* iOS,WINDOWS, */
+    "Global_NHrsMMinsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Windows" = "{0} {1}";
+    /* iOS,WINDOWS, */
+    "Global_NMinsMSecsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Windows" = "{0} {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_Broadcasting" = "라이브 브로드캐스팅";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_WatchBroadcast" = "브로드캐스트 보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_Error_MovePin" = "죄송합니다, 고정 항목을 이동할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Header" = "사용자의 즐겨찾기 TV와 앱 채널";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title" = "알림";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description_iOS" = "알림이 꺼져 있으면 iOS 설정이 이 설정을 재정의합니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Description" = "즐겨찾기 친구가 브로드캐스팅을 시작하면 알림 받기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Title" = "브로드캐스트 트위치 시작";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Description" = "즐겨찾기 친구가 온라인 상태이면 알림 받기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Title" = "온라인 즐겨찾기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Description" = "메시지 목록에 새 메시지가 표시되면 알림 받기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Title" = "메시지";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_iOS" = "%1$@가 지금 브로드캐스팅하고 있음";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Android" = "%s가 지금 브로드캐스팅하고 있음";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Windows" = "{0}가 지금 브로드캐스팅하고 있음";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_iOS" = "%1$@ 온라인";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Android" = "%s 온라인";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Windows" = "{0} 온라인";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_PageTitle" = "비교하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_NoAchievementsAvailable" = "이 제목의 도전 과제를 사용할 수 없습니다...애석하군요";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_YouGamertagDisplayText" = "사용자";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_TimePlayed" = "플레이 시간";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_GameProgress" = "진행 상황";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_UnlockedWithTime_Tablet_iOS" = "%1$@ 완료";
+    /* iOS,ANDROID,WINDOWS, Locked */
+    "CompareGame_AchievementItem_Locked_Tablet" = "잠금";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_LockedWithPercentage_Tablet_iOSAndroid" = "(%1$d%%) 잠금";
+    /* iOS,ANDROID,WINDOWS, - - (20%) */
+    "CompareGame_AchievementItem_LockedWithPercentage_Phone_iOSAndroid" = "-- (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialTitle" = "이제 고정 항목을 재배열할 수 있습니다!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialText" = "고정 항목을 잡아서 원하시는 곳으로 끌어 놓으세요. 이렇게 하면 Xbox One에서 고정항목이 업데이트됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackTitleText" = "피드백 보내기";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashTitleText" = "알 수 없는 오류가 발생했습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_NoThanksButtonText" = "아니요";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashBodyText" = "저희 쪽 문제일 수 있습니다. 조사하고 있습니다. 피드백을 보내 주시면 다음 사항을 수집하게 됩니다 :";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ScreenshotText" = "스크린샷";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ProcessorArchitectureText" = "장치 프로세서 아키텍처";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SGVersionText" = "SmartGlass 버전";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_OSVersionText" = "장치 OS 버전";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareManufacturerText" = "장치 하드웨어 제조업체";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareModelText" = "장치 하드웨어 모델";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CurrentCultureText" = "현재 문화권";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LayoutOrientationText" = "레이아웃 방향";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_GamerTagText" = "사용자의 게이머태그";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LogFileDataText" = "로그 데이터";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_MailBodyStep1Text" = "1단계: 피드백을 입력하세요.";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneNoScreenshotText" = "이곳에 피드백을 입력하세요.";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8MailBodyStep2Text" = "2단계: 피드백을 보내세요:";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneStep2Text" = "3단계: 스크린샷을 첨부하세요 : {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Windows" = "Xbox One SmartGlass 베타 피드백 : {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_iOS" = "Xbox One SmartGlass 베타 피드백 : %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Android" = "Xbox One SmartGlass 베타 피드백 : %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashSubject" = "Xbox One SmartGlass 크래시 보고";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8Description" = "Windows에서의  Xbox One SmartGlass에 대해 Microsoft에 피드백을 보내세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Phone" = "순위표";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Tablet" = "순위표";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoData" = "죄송합니다. 이 게임이나 앱에선 아직 정해진 순위가 없습니다. 지금 플레이해서 일등을 하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoStats" = "죄송합니다, 이 게임이나 앱에서 순위를 사용할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Friends_Online_Windows" = "{0} 온라인";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Messages_Unread_Windows" = "읽지 않음 {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_PrivacyStatement" = "피드백에 개인 식별이 가능하거나 중요한 정보는 포함시키지 마세요. Microsoft는 소프트웨어 피드백에 관련해서 암호, 신용카드 정보, 또는 신분증 번호를 묻지 않습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Featured" = "추천";
+    /* iOS,ANDROID,WINDOWS, */
+    "Featured_Landing_PageTitle" = "추천";
+    /* iOS,ANDROID,WINDOWS, */
+    "TOU_Accept" = "수락";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description" = "장치 알림 설정이 꺼지면SmartGlass 알림도 꺼집니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD_BRACKETED" = "[HD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD_BRACKETED" = "[SD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Buy" = "구매";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Preorder" = "선주문";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_GetItFree" = "무료 구매";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Purchased" = "구매함";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Available_Header" = "사용 가능함";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete" = "구매 완료";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue" = "설치";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Done" = "완료";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Message" = "이것은 사용자의 Xbox One의 게임과 앱에 추가됩니다. Xbox가 켜있거나 대기 모드에 있고 충분한 공간이 있으면 자동적으로 설치됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Andriod" = "Xbox One에 %s을 설치할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Windows" = "Xbox One에 {0}을 설치할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_iOS" = "Xbox One에 %1$@ 을 설치할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Recent" = "커뮤니티 클립- 최신";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Saved" = "커뮤니티 클립- 저장됨";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Saved" = "내 게임 클립 - 저장됨";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Recent" = "내 게임 클립 - 최신";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Recent" = "게임 클립 - 최신";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Saved" = "게임 클립 - 저장됨";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogTitle" = "계속 진행할까요?";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogBody" = "친구 목록에서 제거됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_NoData" = "표시할 친구 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_NoData" = "표시할 친구 없음";
+    /* iOS,ANDROID,WINDOWS, number of allowable recipient left */
+    "Messages_ComposeMessage_ChooseRecipients_NumRemaining_iOSAndroid" = "%1$d 남음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Thanks" = "감사합니다!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Collection" = "확인하려면, 사용자의 Xbox One에서 게임과 앱으로 이동하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Popular" = "인기 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Recent" = "최근 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Popular" = "인기 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Recent" = "최근 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Tablet" = "스토어";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Phone" = "스토어";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Games_Store" = "스토어";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Featured" = "추천";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackBodyText" = "영웅이 되세요! 피드백을 보내 주시면 SmartGlass 개선에 도움이 됩니다. 피드백을 보내시면 다음과 같은 것을 수집합니다:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableTVProviderText" = "케이블 TV 제공자";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableBoxText" = "케이블 박스 모델";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ZipCodeText" = "우편 번호";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_RateText" = "경험을 어떻게 평가하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ChooseOneText" = "하나를 선택하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CategoryText" = "무슨말을 하고 싶으세요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ReportProblemText" = "문제점을 보고합니다";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SuggestionText" = "제안이나 새 추천 요청이 있습니다";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationHeaderText" = "피드백 보냄!";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationText_iOSAndroid" = "피드백에 감사드립니다! 정보가 더 필요하면 Xbox Live 메시지를 보낼 수도 있습니다.  이 메시지에서 암호나 청구 정보는 묻지 않을 것입니다!\n진심으로 인사드리며,\nSmartGlass팀";
+    /* iOS,WINDOWS, */
+    "FirstRun_Favorites_Channel_TextIcon_iOS" = "TV 목록의 채널이나 앱 채널을 탭하시고 %1$@을 탭해서 즐겨찾기에 저장하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Channel_Text_First" = "TV 목록의 채널이나 앱 채널을 탭하시고 다음을 탭하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Channel_Text_First" = "TV 목록의 채널이나 앱 채널을 탭하시고 다음을 탭하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Phone" = "포함";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Tablet" = "포함";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Phone" = "번들";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Tablet" = "번들";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_AttachmentFailed" = "죄송합니다, 첨부 파일을 표시할 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Me" = "아직 게임 클립을 녹화하지 않았네요. 한번 해보세요, 재미있습니다!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_DeviceTime_Incorrect" = "시간과 날짜를 확인하고 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Millions" = "M";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Thousands" = "K";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_ServiceFailure_Playback_Error" = "나중에 다시 시도하세요. 지금은 재생할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_DeletedClip_Playback_Error" = "죄송합니다, 그 클립은 더 이상 사용할 수 없습니다.";
+    /* iOS, */
+    "Purchase_Title_Purchased_iOS" = "%1$@ 구매";
+    /* iOS,WINDOWS */
+    "Purchase_Confirmation_NoHome" = "구매를 완료했습니다. 본체로 다운로드하려면, 내 게임과 앱으로 가서 \"설치 준비 완료\" 목록 (오른 쪽 끝)에서 선택하세요. 나중에 구매 시 자동 다운로드하려면 설정 > 내 홈 Xbox로 가서 본체를 홈 Xbox로 설정하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Queued" = "홈 Xbox에 자동으로 설치됩니다. Xbox가 켜있거나 대기 모드, 자동 업데이트와 구매로 설정되어 있고 충분한 공간이 있으면 다운로드를 시작합니다. 홈 Xbox를 변경하려면, 그 본체에서, 설정 > 내 홈 Xbox로 가세요. 전원 옵션을 변경하려면, 설정 > 전원과 시작으로 가세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Consumable" = "이런 항목은 원하는 만큼 여러번 구매하실 수 있습니다. 언제라도 다시 구메하실 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Error_NoResults" = "항목을 찾을 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse" = "찾아보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games" = "게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse_Tablet" = "찾아보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Tablet" = "추가 콘텐츠";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Tablet" = "게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Popular" = "인기 항목";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Recent" = "출시일";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader" = "항시 대기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader_Windows" = "항시 대기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOption" = "항상";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOptionDescription" = "SmartGlass가 켜있으면 잠금 화면이되지 않습니다 (배터리 수명 단축)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOption" = "리모트로만";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOptionDescription" = "Xbox 리모트로 사용했을때 잠금 화면이 되지 않습니다 (배터리 수명 절약)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOption" = "장치 설정 사용";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOptionDescription" = "보통 잠금 화면이 됨 (배터리 수명 최대 절약)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title_Windows" = "알림";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackForm_CrashTellUsText" = "무엇을 하고 계신가요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_SupportLink" = "자세한 내용을 보시려면 탭하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Them" = "저장된 클립 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase" = "구매 완료 전에 로그인 요청하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase_Header" = "구매";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NOT_AIRING" = "현재 방송 중이 아님";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Description" = "TV 시청";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANNEL" = "채널";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Coming_Soon" = "출시 예정";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Error_Not_Supported" = "본체에서 TV 스트리밍을 사용할 수 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Copy_Text" = "텍스트 복사";
+    /* iOS,ANDROID,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_Windows" = "{1}의 {0} 듣기";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_EntryText" = "무엇을 게시할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Header" = "메시지를 취소할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Body" = "아직 메시지를 보내지 않았습니다. 계속하시면 메시지가 손실됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Send_ErrorText" = "지금 보낼 수 없습니다. 다시 하려면 탭하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_Profile_NoData" = "사용자가 도전 과제를 완료하거나 게임 클립을 녹화하거나 친구를 추가하게 되면 모두 이 곳에서 볼 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionsScreen_HeaderText" = "공유...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ActivityFeedText" = "활동 피드";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_MessageText" = "메시지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_HeaderText" = "활동 피드에 공유";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_TextEntryWatermark" = "캡션 추가";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShareButtonText" = "이 항목 공유";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Header" = "공유하지 않나요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Body" = "아직 공유하지 않았습니다. 계속하시면 이것은 공유되지 않습니다.";
+    /* iOS, */
+    "ActivityFeed_YouLikedText_iOS" = "사용자와 다른 사용자 %1$@명이 좋아합니다";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1LikeText" = "1 좋아요";
+    /* iOS, */
+    "ActivityFeed_LikesText_iOS" = "%1$@ 좋아요";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1ShareText" = "공유 1";
+    /* iOS, */
+    "ActivityFeed_SharesText_iOS" = "공유 %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1CommentText" = "1 댓글";
+    /* iOS, */
+    "ActivityFeed_CommentsText_iOS" = "%1$@ 댓글";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_TextEntryWatermark" = "댓글을 달아보세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorText" = "알 수 없는 오류가 발생했습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Share_ServiceFailure" = "죄송합니다. 지금은 이것을 공유할 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Post_ServiceFailure" = "죄송합니다. 지금은 댓글을 게시할 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_Filter_Header" = "좋아요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_Filter_Header" = "공유";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_Filter_Header" = "댓글";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_HeaderText" = "활동 알림";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_LikedText" = "활동이 좋아요";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_SharedText" = "활동을 공유합니다";
+    /* iOS, */
+    "ActivityAlerts_List_2People_iOS" = "%1$@ + 다른 사용자 1";
+    /* iOS, */
+    "ActivityAlerts_List_NPeople_iOS" = "%1$@ + 다른 사용자 %2$@";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_Empty" = "알림";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_1Alert" = "새로운 알림 1개";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_iOS" = "새로운 알림 %1$@개";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_Header_iOS" = "활동 피드 (%1$@)";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedText_iOS" = "활동에 댓글 달음: \"%1$@\"";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedOthersText_iOS" = "%1$@의 활동에 댓글 달음: \"%2$@\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_AddedFriendText" = "사용자를 친구로 추가";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Header" = "피드 항목을 삭제할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Body" = "이 피드 항목을 삭제해도 될까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Header" = "댓글을 삭제할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Body" = "이 댓글을 삭제해도 될까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_ServiceFailure" = "죄송합니다. 지금은 활동 알림을 가져올 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityItem_ServiceFailure" = "죄송합니다. 지금은 활동 항목을 가져올 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_NoData" = "다른 사용자들이 사용자의 활동 피드 항목을 좋아하거나 공유하거나 댓글을 달거나 사용자를 친구로 추가하면 이 곳에서 보게 됩니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_List_NoData" = "첫번째로 좋아해보세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_List_NoData" = "첫번째로 공유해보세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_List_NoData" = "첫번째로 댓글을 달아보세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Confirmation_Success" = "이것은 제거되었습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Header" = "알 수 없는 오류가 발생했습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Body" = "지금은 이것을 삭제할 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_Failure_Body" = "지금은 댓글을 게시할 수 없습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_DisplayError_Body" = "지금은 이것을 표시할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header" = "인기 게임 (10일간)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header_Tablet" = "인기 게임 (10일간)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Plays_1Friend" = "친구 1명 플레이했음";
+    /* iOS, */
+    "PopularGames_Plays_NFriends_iOS" = "친구 %1$@명 플레이했음";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Playing_1Friend" = "친구 1 지금 플레이 중";
+    /* iOS, */
+    "PopularGames_Playing_NFriends_iOS" = "친구 %1$@ 지금 플레이 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_ServiceError" = "죄송합니다. 지금 인기 게임을 표시할 수 없습니다. 다시 시도하려면 새로 고침하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_NoData" = "최근에 사용자와 사용자의 친구가 게임을 플레이하지 않았음.";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header" = "많이 한 게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header_Tablet" = "많이 한 게임";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Played_Once" = "1번 플레이함";
+    /* iOS, */
+    "TopGames_PlayedN_iOS" = "%1$@번 플레이함";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Header" = "대화 내용을 삭제할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Body" = "이 대화 내용을 삭제해도 될까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Delete_MenuText" = "대화 내용 삭제";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Reply_Failure" = "보낼 수 없습니다. 탭해서 다시 시도하세요";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Link" = "새로운 기능";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Description" = "이 업데이트의 새로운 기능 보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_title" = "9월의 새로운 기능 보기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_features" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Windows" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_WindowsPhone" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_iOS" = "사용자와 친구들의 스크린샷을 보고, 댓글을 달고, 공유하고 저장하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Android" = "사용자와 친구들의 스크린샷을 보고, 댓글을 달고, 공유하고 저장하기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_bug_fixes" = "버그 수정";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_caveat" = "일부 기능은 해당 지역에서 사용할 수 없을 수도 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ERROR" = "죄송합니다. SmartGlass가 녹화를 시작할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ACCESSIBILITY" = "녹화";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Providers" = "공급자";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Provider" = "공급자를 선택하세요:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_General_Error" = "지금은 채널을 찾을 수 없습니다. 새로 고침한 후 다시 시도하거나 다른 공급자를 선택하세요:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Different_Provider" = "다른 공급자를 선택하세요:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Select_a_Provider" = "공급자를 선택하세요:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Connection_Error" = "Xbox에 연결하여 TV 목록을 보거나, 다른 공급자를 선택하세요:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_All_Providers" = "모든 공급자";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Start_Error" = "죄송합니다. TV 스트림을 시작할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDCP_Error" = "현재 프로그램은 HDCP의 저작권 보호로 인해 스트림할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Error" = "이 장치에서 TV를 시청하려면 본체에 로그인하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Console_Error" = "본체에 문제가 있어 TV 스트리밍을 할 수 없습니다. 나중에 다시 시도하세요. 계속 문제가 발생하면 본체를 다시 시작하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connection_Error" = "본체와 연결이 끊어졌습니다. 다시 연결하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Error" = "죄송합니다. 본체와 연결할 수 없어 TV 스트리밍을 시작할 수 없습니다. 네트워크를 확인하고 다시 시도하세요. 계속 문제가 발생하면 라우터를 다시 시작하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Parental_Controls_Block" = "죄송합니다. 이 프로그램은 차단되었습니다. 변경하려면, Xbox에서, 설정 > 개인 정보와 온라인 보안으로 가세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Too_Slow_Error" = "TV 스트리밍을 지원하기에는 네트워크가 너무 느리거나 정체되어 있습니다. 네트워크를 확인하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Interrupted_Error" = "TV 스트림이 중단되었습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signed_Out_Error" = "사용자가 본체에서 로그아웃해서 TV 스트림이 중단되었습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error" = "스트림에 알 수 없는 오류가 발생했습니다. 나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Device_Not_Supported_Error" = "TV 스트리밍은 이 장치에서 지원되지 않습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Not_Supported_Error" = "TV 스트리밍은 이 네트워크에서 지원되지 않습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Version_Not_Supported_Error" = "죄송합니다. TV 스트리밍은 이 SmartGlass 버전에서 지원되지 않습니다. SmartGlass 앱을 업데이트하시고 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Region_Not_Supported_Error" = "TV 스트리밍은 사용자의 지역에서 지원되지 않습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signal_Lost_Error" = "Xbox와 TV 신호 연결이 끊어졌습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Restart" = "스트림에 알 수 없는 오류가 발생했습니다. SmartGlass를 다시 시작하고 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Resources_Error" = "이 장치에서 너무 많은 일이 실행되고 있습니다. 몇개의 앱을 종료하고 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_By_User_Error" = "본체에서 다른 사용자로 인해 스트림이 중단되었습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_Error" = "본체로부터 연결이 끊어졌습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Lost_Network_Error" = "본체로부터 연결이 끊어졌습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnect_To_Stream" = "계속 TV를 시청하시려면 다시 연결하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Try_Again_Later" = "나중에 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Header" = "TV 스트리밍";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Begin_Header" = "시청 시작";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_TV" = "TV 시청";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_Header" = "TV 스트림";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Currently_Playing" = "지금 재생 중";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_On_Next" = "다음에 방영";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Close_Stream" = "시청 중지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Restart_Stream" = "TV 스트림 다시 시작";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDMI_In" = "HDMI-In";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_TV_Tuner" = "Xbox One 디지털 TV 튜너";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Video" = "비디오 스트리밍";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Current_Source" = "현 재생 원본:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Choose_a_Source" = "재생 원본을 선택하세요:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connecting" = "연결하는 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnecting" = "다시 연결하는 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Attempting_Reconnect" = "다시 연결하는 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Buffering" = "버퍼링 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Quality" = "TV 스트림 화질이 사용자의 네트워크 상태로 인해 영향을 받고 있습니다. 네트워크를 확인해 보세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Remote_Cannot_Control_Source" = "현 재생 원본은 SmartGlass 리모트로 제어할 수 없습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Stop" = "시청 중지";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Before_Streaming" = "TV 스트리밍을 설정하려면 이 곳에서 사용하는 같은 계정으로 본체에서 로그인하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Header" = "앱 평점주기";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Body" = "SmartGlass를 즐기고 계신다면 잠시 시간을 내어 우리의 앱에 평점을 주세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_RemindButton" = "나중에 알림";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_DontAskButton" = "다시 묻지 않기";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_DeleteError" = "이 활동 피드 항목을 가져올 수 없습니다. 지금은 사용할 수 없거나 삭제되었을 수도 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Resume" = "시청 시작";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Long" = "스트림에 알 수 없는 오류가 발생했습니다. 스트리밍을 중지하고 다시 시작하세요. 계속 문제가 발생하면 중지하고 SmartGlass를 다시 시작하거나, 본체를 다시 시작하거나, 또는 라우터를 다시 시작하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MHEG_Error" = "죄송합니다. 대화형 콘텐츠를 재생할 수 없습니다. 다른 채널을 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Content_Error" = "지금은 이 채널을 사용할 수 없습니다. OneGuide에서 사용가능한 다른 채널을 찾아 보세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MTC_Live" = "LIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_NewMarkets" = "새로운 마켓에서 TV와 OneGuide를사용할 수 있음";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_Streaming" = "Xbox One 디지털 TV 튜너에서 live TV 스트리밍";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Phone" = "플레이한 친구들";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Tablet" = "플레이한 친구들";
+    /* iOS,ANDROID,WINDOWS, */
+    "Radio_NoVideo_Error" = "라디오 채널 재생";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps" = "앱";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps_Tablet" = "앱";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold" = "골드";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold_Tablet" = "골드";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold" = "Games with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold" = "Deals with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold_Tablet" = "GAMES WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold_Tablet" = "DEALS WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_ComingSoon" = "출시 예정";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ShowcaseText" = "쇼케이스";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShowcaseHeaderText" = "쇼케이스에 공유함";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteHeader" = "쇼케이스 항목을 삭제할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteBody" = "이 항목을 쇼케이스에서 삭제할까요?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataMeText" = "활동 피드나 도전 과제 세부 정보에서 최상의 게임 클립이나 도전 과제를 공유하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataYouText" = "사용자의 친구는 아직 쇼케이스에 도전 과제나 게임 클립을 공유하지 않았습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_BioHeader" = "자기 소개";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_LocationHeader" = "위치";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_High_Quality" = "고품질";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Best_Quality" = "최고 품질";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Medium_Quality" = "중간 품질";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Quality" = "저품질";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_New_Feature" = "새 기능: SmartGlass에서 TV 시청";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Signal" = "TV 튜너에서 신호를 감지할 수 없습니다. 안테나를 확인하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_No_Info_Available" = "정보 없음";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Other_User_Changed_Quality" = "다른 사용자가 모든 SmartGlass 연결에 대한 스트리밍 품질을 변경하였습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Playing_Radio_Channel" = "라디오 채널 재생";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Cannot_Find_Tuner" = "TV 튜너를 찾을 수 없습니다. TV 튜너가 Xbox에 연결되었는지 확인하고 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOn" = "켜기";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOff" = "끄기";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOn" = "전원을 켜는 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOff" = "전원을 끄는 중...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOnFailure" = "본체를 켤 수 없습니다. 이 장치가 본체와 같은 네트워크에  연결되어 있고 본체가 대기 모드로 설정되어 있는지 확인하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOffFailure" = "Xbox를 끌 수 없습니다. 본체에 연결되어 있고 로그인되어 있는지 확인하시고 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestNetworkStreaming" = "스트리밍 테스트";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_ConnectToTest" = "멀티 미디어 네트워크 테스트 실행을 위해 Xbox에 연결하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_BeginTest" = "테스트 시작";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestInProgress" = "테스트 진행 중. 이 페이지를 닫거나 다른 페이지로 이동하지 마세요. 테스트는 최대 5분 소요될 수 있습니다.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestComplete" = "테스트 완료됨! 스트리밍 최적화에 도움을 주셔서 감사합니다!";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_SignInToTest" = "테스트를 시작하려면, 여기서 사용하는 같은 계정으로 본체에 로그인하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_CancelTest" = "테스트 취소";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NeedStopGameStreamingError" = "네트워크 테스팅을 시작하기 전에 게임 스트리밍을 중지하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_StopGameStreamingWarning" = "네크워크 테스팅을 시작하면 현재 게임 스트리밍 세션이 종료됩니다. 계속하시겠습니까?";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_Proceed" = "예";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NotProceed" = "아니요";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_ResumeTest" = "테스트 다시 시작";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_GenericError" = "테스트 실행 중에 알 수 없는 오류가 발생했습니다. 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RetryTest" = "테스트 다시 시도";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RebootConsole" = "본체에서 스트리밍을 시작할 수 없습니다. 본체를 다시 부팅하고 다시 시도하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ThirdPartyNotice_Header" = "타사 고지 사항";
+    /* iOS,ANDROID, */
+    "Drawer_Captures" = "캡처";
+    /* iOS,ANDROID, Profile page My Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Phone" = "내 캡처";
+    /* iOS,ANDROID, Profile page Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Phone" = "캡처";
+    /* iOS,ANDROID, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Tablet" = "내 캡처";
+    /* iOS,ANDROID, Profile page Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Tablet" = "캡처";
+    /* iOS,ANDROID, Used by activity incase screenshot cannot be opened */
+    "Error_CanNotOpenScreenshot" = "죄송합니다. 스크린샷을 열 수 없습니다.";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Me" = "아직 스크린샷을 찍지 않았습니다. 시도해 보세요. 재미있습니다!";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_Me" = "아직 스크린샷을 기록하지 않았습니다. 시도해 보세요. 재미있습니다!";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Them" = "저장된 스크린샷 없음";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_You" = "스크린샷을 공유하지 않았습니다.";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Saved" = "내 스크린샷 - 저장됨";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Recent" = "내 스크린샷 - 최신";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Recent" = "스크린샷 - 최신";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Saved" = "스크린샷 - 저장됨";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataMeText" = "활동 피드나 도전 과제 세부 정보에서 최상의 게임 클립, 스크린샷과 도전 과제를 공유하세요.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataYouText" = "친구가 아직 쇼케이스에 도전 과제, 스크린샷 또는 게임 클립을 공유하지 않았습니다.";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_Me_Tablet" = "내 캡처";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_You_Tablet" = "캡처";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Phone" = "게임 캡처";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Tablet" = "게임 캡처";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData" = "디스플레이할 스크린샷이 없습니다! 게임을 찾아 플레이하며 스크린샷을 찍어 보세요.";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_Community" = "아직 이 게임의 스크린샷이 없습니다.";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_CommunityButtonText" = "커뮤니티 스크린샷 보기";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Saved" = "커뮤니티 스크린샷 - 저장됨";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Recent" = "커뮤니티 스크린샷 - 최신";
+    /* iOS,ANDROID, */
+    "Screenshot_Saving" = "저장 중...";
+    /* iOS,ANDROID, */
+    "Screenshot_ChooseAction" = "선택";
+    /* iOS,ANDROID, */
+    "Screenshot_Sharing" = "공유 중...";
+    /* iOS,ANDROID, */
+    "Screenshot_Share" = "공유";
+    /* iOS,ANDROID, */
+    "Screenshots_Saved" = "스크린샷 저장됨";
+    /* iOS,ANDROID, */
+    "Screenshots_SavedError" = "스크린샷을 저장할 수 없습니다. 다시 시도하세요.";
+    /* iOS,ANDROID, */
+    "Screenshots_ShareError" = "스크린샷을 저장할 수 없습니다. 다시 시도하세요.";
+    /* iOS,ANDROID, */
+    "Screenshot_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Share" = "Share real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Update" = "Name sharing settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateRealNameSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_TryAgain" = "Try again in a while";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChooseWhoSeesYourName" = "Choose who sees your name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_WhatYouChose" = "Here's what you chose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description1" = "You can share your real name with your friends on Xbox - you choose who to share it with. Your name doesn't show up in games, and you can always change these settings in your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description2" = "Choose Set up name sharing to pick the people you want to share your name with.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EnforcementBanned_Description" = "You can't share your real name because of your past behavior.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ErrorAtStartup_Description" = "We can't set up or change your real name sharing settings right now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLook_Description" = "This is how you'll appear to other people on Xbox, using the real name from your Microsoft account. If it doesn't look right, you can edit it now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EditHowYouLook" = "This will change the name on the Microsoft account for {0}. This name is used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithFriendsOfFriends" = "When you share your name with friends, their friends see it, too. You can change these settings any time from your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveName" = "Sorry, we can't change your name right now. Click Save to try again or go back.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveSharing" = "Sorry, we can't save your name sharing settings right now. Select Done to try saving again.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Everyone" = "Everyone on Xbox";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChosenFriends" = "Only friends I choose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWith" = "Share with: {0}";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ZeroFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_OneFriend" = "{0} friend";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ManyFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NextWithSelectedCount" = "Next ({0} selected)";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Edit" = "Edit";
+    /* iOS,ANDROID, */
+    "RealNameSharing_FirstName" = "First name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_LastName" = "Last name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSettings" = "Update settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NoThanks" = "No, thanks";
+    /* iOS,ANDROID, */
+    "RealNameSharing_SetUpNameSharing" = "Set up name sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StopSharing" = "Stop sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_GoBack" = "Go back";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Next" = "Next";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithSettings" = "Share with";
+    /* iOS,ANDROID, (Used to indicate how your name appears to others) */
+    "RealNameSharing_HowYouLook" = "How you look";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLookDetail" = "The name is from the Microsoft account and used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, (First placeholder is for the users First Name, the second placeholder is for their Last Name) */
+    "RealNameSharing_SettingsRealNameConcatentation" = "%1$@ %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_ChangeFriendship" = "Change friendship";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorRealNameSave" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorAddingFriend" = "Sorry, we can't add this person right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorChangeRemove" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorPartialFail" = "Sorry, we could only save some of your changes. Try saving again.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Friend" = "Friend";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Favorite" = "Favorite";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_FriendsofFriends" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_AddFriendDescription" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Favorite" = "Favorite friends go first on your friends list. You'll see when they go online or start broadcasting.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Friend" = "Friends show up on your friends list and activity feed. They see you as a new follower.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Everyone" = "Your real name is shared with everyone on Xbox. You can make changes in Settings.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName" = "Let {0} see my real name. It might help them recognize who you are.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Alt" = "{0} may not recognize you as {1}. They're sharing their name with you. Check the box to share with them.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Friends" = "Your real name is shared with all your friends on Xbox. You can make changes in Settings.";

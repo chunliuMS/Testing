@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DFE3487A5BD7E7D0C5008D21C379AA2B2261F833",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0057048F86A0C3A180BB6601DCCF479CF6B429D1" : 0,
+    "DFE3487A5BD7E7D0C5008D21C379AA2B2261F833" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1AA9C895-6506-4AD0-9769-092983335CDB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0057048F86A0C3A180BB6601DCCF479CF6B429D1" : "",
+    "DFE3487A5BD7E7D0C5008D21C379AA2B2261F833" : "XboxApp.Loc\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LocalizationToolOSX",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "src\/LocalizationToolOSX\/LocalizationToolOSX\/LocalizationToolOSX.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/microsoft.visualstudio.com\/DefaultCollection\/XboxApp\/_git\/XboxApp.iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0057048F86A0C3A180BB6601DCCF479CF6B429D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/microsoft.visualstudio.com\/DefaultCollection\/XboxApp\/_git\/XboxApp.Loc",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DFE3487A5BD7E7D0C5008D21C379AA2B2261F833"
+    }
+  ]
+}

@@ -1,0 +1,3623 @@
+    //
+    // version 1.0
+    //
+    /* WINDOWS,iOS,ANDROID, Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language */
+    "ResourceFlowDirection" = "LeftToRight";
+    /* WINDOWS,iOS,ANDROID, Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language. */
+    "ResourceLanguage" = "it-IT";
+    /* WINDOWS,iOS,ANDROID, If we don't find a valid rating to string mapping, we'll return this string. */
+    "PARENTAL_RATING_NOT_RATED" = "Senza classificazione";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_EC" = "Prima infanzia";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E" = "Tutti";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10" = "Tutti di età almeno 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10_RP" = "Classificazione in sospeso";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_T" = "Adolescenti";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_M" = "Pubblico maturo";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_AO" = "Solo per adulti";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_RP" = "In corso di valutazione o non classificato";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_A" = "CERO A / CERO All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_B" = "CERO B / CERO 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_C" = "CERO C / CERO 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_D" = "CERO D / CERO 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_Z" = "CERO Z";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_ALL_AGES" = "USK 0";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_6" = "USK 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_12" = "USK 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_16" = "USK 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_NO_YOUTH" = "USK 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_4" = "PEGI 4";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_6" = "PEGI 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_11" = "PEGI 11";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_12" = "PEGI 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_15" = "PEGI 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_18" = "PEGI 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_U" = "BBFC U";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_PG" = "BBFC PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_12" = "PEGI 12 / BBFC 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_15" = "BBFC 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_18" = "PEGI 18 / BBFC 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_E" = "E - Esente dalla classificazione";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G" = "G - Generale";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G8" = "Controllo dei genitori suggerito";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M15" = "Consigliato per un pubblico maturo";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_MA15" = "MA 15+ - Maturo con limitazioni";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_PG" = "PG - Controllo dei genitori";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M" = "M - Pubblico maturo";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_R18" = "R 18+ - Limitato";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_X18" = "X 18+ - Esplicito";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_REFUSED" = "Non classificato";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_G" = "Generale";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_PG" = "Controllo dei genitori suggerito";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_M" = "Adatto a un pubblico maturo di almeno 16 anni";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R15" = "Limitato a persone di almeno 15 anni";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R" = "Limitato";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R13" = "Limitato a persone di almeno 13 anni";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R16" = "Limitato a persone di almeno 16 anni";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R18" = "Limitato a persone di almeno 18 anni";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_ALL" = "GRB All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_12" = "GRB 12+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_15" = "GRB 15+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_18" = "GRB 18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_A" = "FPB A";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_PG" = "FPB PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_10" = "FPB 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_13" = "FPB 13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_16" = "FPB 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_18" = "FPB 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_ER" = "DJCTQ ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_L" = "DJCTQ L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_10" = "DJCTQ 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_12" = "DJCTQ 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_14" = "DJCTQ 14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_16" = "DJCTQ 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_18" = "DJCTQ 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_GENERAL" = "Generale";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PROTECTED" = "Protetto";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PG" = "Controllo dei genitori";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_RESTRICTED" = "Limitato";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_GENERAL" = "Generale";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_AGE_ADVISORY" = "Avviso età";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_MATURE_18" = "Pubblico maturo 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING" = "Classificato %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GAME" = "Classificazione: %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_EXPLICIT_EXPLICIT" = "ESPLICITO";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG13" = "PG-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_NC17" = "NC-17";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_AO" = "AO";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_14" = "14A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_18" = "18A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_R18" = "MA18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_X18" = "X18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_UC" = "Uc";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_15A" = "15A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_BTL" = "Btl";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_ST" = "S/T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K3" = "K-3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K7" = "K-7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K11" = "K-11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K13" = "K-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K15" = "K-15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K18" = "K-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_MATURE" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R13" = "R13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R15" = "R15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R16" = "R16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_1" = "1";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_2" = "2";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_3" = "3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_4" = "4";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_5" = "5";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_8" = "8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_0" = "0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_10" = "10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_14" = "14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK0" = "FSK 0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK6" = "FSK 6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK12" = "FSK 12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK16" = "FSK 16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK18" = "FSK 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_SPIO_JK" = "SPIO/JK";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_TP" = "TP/ALL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_13" = "13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_T" = "T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM14" = "VM14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM18" = "VM18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_AL" = "AL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_9" = "9";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y" = "TV-Y";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7" = "TV-Y7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7FV" = "TV-Y7-FV";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_G" = "TV-G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_PG" = "TV-PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_14" = "TV-14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_MA" = "TV-MA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C8" = "C8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_14" = "14+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_18" = "18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_10" = "-10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_P" = "P";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_AV15" = "AV15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_R18" = "R18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_ER" = "ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_L" = "L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_10" = "10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_12" = "12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_14" = "14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_16" = "16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_18" = "18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_MINOR" = "Per i bambini";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_GP" = "Tutti";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_7" = "+7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_13" = "+13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_18" = "+18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_X" = "X";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_MINOR" = "Verde";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_14" = "Giallo";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_ADULT" = "Rosso";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED" = "Senza classificazione";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED_OR_PENDING" = "In corso di valutazione o non classificato";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_0" = "Riferimenti a bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_1" = "Sangue animato";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2" = "Sangue";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_3" = "Sangue e violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4" = "Violenza cartoon";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5" = "Humor nero";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6" = "Humor volgare";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_7" = "Riferimenti a droga";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_8" = "Edutainment";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_9" = "Violenza simulata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10" = "Informativo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_11" = "Violenza intensa";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_12" = "Linguaggio";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_13" = "Testi";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14" = "Humor adulto";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_15" = "Violenza moderata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_16" = "Nudità";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_17" = "Nudità parziale";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_18" = "Gioco d'azzardo reale";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_19" = "Tematiche sessuali";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_20" = "Violenza sessuale";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_21" = "Gioco d'azzardo simulato";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_22" = "Presenza di un adulto opportuna";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_23" = "Linguaggio forte";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_24" = "Testi forti";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_25" = "Contenuti sessuali forti";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_26" = "Tematica allusiva";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_27" = "Riferimenti a tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_28" = "Uso di droga";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_29" = "Uso di bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_30" = "Uso di tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_31" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_32" = "Contenuto sessuale";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_33" = "Riferimenti moderati a bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_34" = "Sangue animato moderato";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_35" = "Sangue moderato";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_36" = "Sangue e violenza moderati";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_37" = "Violenza moderata, animazione";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_38" = "Moderata comicità grossolana o allusiva";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_39" = "Moderata comicità volgare";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_40" = "Moderati riferimenti a droga";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_41" = "Moderata violenza simulata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_42" = "Linguaggio moderatamente forte";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_43" = "Testi moderatamente forti";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_44" = "Umorismo adulto moderato";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_45" = "Moderate scene di nudo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_46" = "Moderate scene di nudo parziale";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_47" = "Partecipazione moderata a giochi d'azzardo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_48" = "Tematica sessuale moderata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_49" = "Violenza sessuale moderata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_50" = "Simulazione moderata di giochi d'azzardo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_51" = "Tematica moderatamente allusiva";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_52" = "Riferimenti moderati a tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_53" = "Uso moderato di droga";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_54" = "Uso moderato di bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_55" = "Uso moderato di tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_56" = "Violenza moderata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_57" = "Contenuto sessuale moderatamente esplicito";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_58" = "Riferimenti alla violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_59" = "Riferimenti moderati alla violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_60" = "Uso di droghe e bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_61" = "Uso di bevande alcoliche e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_62" = "Riferimenti a bevande alcoliche e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_63" = "Violenza animata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_64" = "Moderata violenza animata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_65" = "Sangue e violenza animati";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_66" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_67" = "Uso moderato di droghe e bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_68" = "Uso moderato di droghe e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_69" = "Uso moderato di bevande alcoliche e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_70" = "Uso moderato di droghe, bevande alcoliche e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_71" = "Riferimenti a droghe e bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_72" = "Riferimenti moderati a droghe e bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_73" = "Riferimenti a droghe e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_74" = "Riferimenti moderati a droghe e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_75" = "Riferimenti a droghe, bevande alcoliche e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_76" = "Riferimenti moderati a droghe, bevande alcoliche e tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_77" = "Tematiche sessuali per adulti";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_78" = "Gioco d'azzardo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_79" = "L'esperienza di gioco può cambiare durante l'esecuzione online";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_100" = "Amore";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_101" = "Contenuti sessuali";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_102" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_103" = "Horror";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_104" = "Gioco d'azzardo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_105" = "Criminalità";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_106" = "Bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_107" = "Tabacco";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_108" = "Droghe";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_109" = "Linguaggio";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_110" = "Bevande alcoliche e fumo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2283" = "Esempio RatingDescriptor";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4000" = "Linguaggio osceno";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4001" = "Discriminazione";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4002" = "Droghe";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4003" = "Paura";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4004" = "Sesso";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4005" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4006" = "Gioco d'azzardo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4999" = "CWS Sample RatingDescriptor";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5000" = "Linguaggio osceno";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5001" = "Discriminazione";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5002" = "Droghe";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5003" = "Paura";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5004" = "Sesso";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5005" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5006" = "Gioco d'azzardo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6000" = "Linguaggio osceno";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6001" = "Discriminazione";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6002" = "Droghe";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6003" = "Paura";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6004" = "Sesso";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6005" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6006" = "Gioco d'azzardo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10001" = "Situazioni adulte";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10002" = "Nudità accennata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10003" = "Linguaggio grafico";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10004" = "Violenza grafica";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10005" = "Linguaggio";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10006" = "Violenza moderata";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10007" = "Nudità";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10008" = "Stupro";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10009" = "Contenuti sessuali forti";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10010" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14000" = "Linguaggio osceno";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14001" = "Discriminazione";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14002" = "Droghe";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14003" = "Paura";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14004" = "Sesso";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14005" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14006" = "Gioco d'azzardo";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320010" = "Discriminazione";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320020" = "Abuso di droghe e bevande alcoliche";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320030" = "Paura";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320040" = "Violenza";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320050" = "Linguaggio aspro";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320060" = "Sesso";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_ALL" = "TUTTI";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when the Search service returns an error. */
+    "Search_ErrorText" = "Impossibile ottenere i risultati della ricerca in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_All" = "Tutti";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Apps" = "App";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Games" = "Giochi";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Movies" = "Film";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Music" = "Musica";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_TV" = "Programmi TV";
+    /* WINDOWS,iOS,ANDROID, Failed to retrieve data from the service */
+    "LRC_Error_Code_FailedToRetrieveData" = "Non disponibile";
+    /* iOS,ANDROID,WINDOWS, */
+    "RelatedItems_NoResultsFound" = "Impossibile ottenere elementi correlati in questo momento.";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_FilterHeader" = "mostra";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_PageTitle" = "risultati";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResult_BusyIndicatorText" = "Ricerca...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Bio_Header" = "Biografia";
+    /* WINDOWS,iOS,ANDROID, */
+    "Related_Header" = "correlati";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotFind" = "Impossibile trovare la console";
+    /* WINDOWS,iOS,ANDROID, displayed while waiting for data to load */
+    "BusyIndicator_LoadingText" = "Caricamento...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_DescriptionHeader" = "Descrizione";
+    /* WINDOWS,iOS,ANDROID, */
+    "TVDetails_SeasonsHeader" = "stagioni";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Text" = "Per continuare, è necessario aggiornare questa app.";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Title" = "Aggiornamento richiesto";
+    /* WINDOWS,iOS,ANDROID, Shown as header when more than 1 director is involved. */
+    "Directors_Header" = "registi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Actors_Header" = "CAST";
+    /* iOS,ANDROID,WINDOWS, */
+    "Synopsis_Header" = "Descrizione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Writers_Header" = "Sceneggiatori";
+    /* WINDOWS,iOS,ANDROID, */
+    "NowPlaying_MoreInfo" = "Altro";
+    /* WINDOWS,iOS,ANDROID, */
+    "Search_PlayOnXbox" = "Riproduci su Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launch_DifferentTitle_Warning_Message" = "Questo sostituirà il componente attualmente in esecuzione sulla console. Ok?";
+    /* WINDOWS,iOS,ANDROID, */
+    "OK_Text" = "OK";
+    /* WINDOWS,iOS,ANDROID, */
+    "Warning_Title" = "Uscire?";
+    /* WINDOWS,iOS,ANDROID, Title for the popular search terms list. */
+    "SearchTerms_Title" = "popolari ora";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotConnect" = "Impossibile trovare la console";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotSignIn" = "Impossibile accedere";
+    /* WINDOWS,iOS,ANDROID, used for grouping details, example:  Year Released - Parent Rating - Movie Duration.  (1992 - PG - 124 min) */
+    "Search_DetailsSeparator" = "|";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_BasicPrompt" = "cerca su Xbox per";
+    /* WINDOWS,iOS,ANDROID, indicates the album, song contains explicit content. */
+    "Content_Explicit" = "esplicito";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category1" = "cerca su Xbox per film,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category2" = "cerca su Xbox per album,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category3" = "cerca su Xbox per giochi,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category1" = "cerca su Xbox per film, TV...";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category2" = "cerca su Xbox per album, artisti...";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category3" = "cerca su Xbox per giochi, app...";
+    /* WINDOWS,iOS,ANDROID, Shown Provider offers this media for free viewing. */
+    "ProviderOffer_Free" = "Gratis";
+    /* WINDOWS,iOS,ANDROID, */
+    "Achievements_SecretDescription" = "Continua a giocare per sbloccare questo obiettivo segreto.";
+    /* WINDOWS,iOS,ANDROID, */
+    "FamilyPasscode_Header" = "Inserisci il codice d'accesso Impostazioni Famiglia per continuare.";
+    /* iOS,ANDROID,WINDOWS, ghost text for empty address bar */
+    "WebBrowser_GhostText" = "Esplora su Xbox";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_fastforward" = "avanza rapidamente";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_pause" = "sospendi";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_play" = "riproduci";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_rewind" = "riavvolgi";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Providers" = "per queste app:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_RequiresGold" = "Richiede Gold";
+    /* WINDOWS,iOS,ANDROID, Play command */
+    "Activity_Play" = "Avvia";
+    /* iOS,ANDROID,WINDOWS, header/title used on the activity tile */
+    "Activity_SmartGlass_Title" = "Xbox One SmartGlass Companion";
+    /* WINDOWS,iOS,ANDROID, Controller activity */
+    "Activity_Controller" = "Telecomando";
+    /* WINDOWS,iOS,ANDROID, */
+    "MediaState_DragInstruction" = "Per un maggior controllo, trascina il dito fuori dalla barra";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_ProviderSpecific" = "Per queste app:";
+    /* WINDOWS,iOS,ANDROID, Title for the Settings page */
+    "Settings_Title" = "impostazioni";
+    /* iOS,ANDROID,WINDOWS, Text for hyperlink in settings page to launch what's new page */
+    "Settings_WhatsNew" = "Cominciamo";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Purchased" = "Acquistati";
+    /* iOS,ANDROID,WINDOWS, Text shown while loading smart glass activity. */
+    "Activity_LoadingText" = "Avvio di Xbox One SmartGlass Companion...";
+    /* iOS,ANDROID,WINDOWS, Error text shown when an activity fails to load. */
+    "Activity_ErrorText" = "Impossibile avviare Companion. :(";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_ItemDescription1" = "Scopri cosa può fare Xbox One SmartGlass.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription2" = "Digita, scorri e tocca per visualizzare i tuoi film, musica, giochi e app preferiti.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription3" = "Tocca, avvicina le dita e scorri il web dal tuo dispositivo.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle1" = "Espandi Xbox";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle2" = "Controlla Xbox";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle3" = "Naviga nel web";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl1" = "http://go.microsoft.com/fwlink/?LinkID=266351&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl2" = "http://go.microsoft.com/fwlink/?LinkID=266352&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl3" = "http://go.microsoft.com/fwlink/?LinkID=266353&clcid=0x409";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_Header" = "Cominciamo";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_0" = "0";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_1" = "1";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_2" = "2";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_3" = "3";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_4" = "4";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_5" = "5";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_6" = "6";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_7" = "7";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_8" = "8";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_9" = "9";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_Cancel" = "Annulla";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate" = "Scorri rapidamente per spostarti. Tocca per selezionare. Utilizza due dita per scorrere.";
+    /* WINDOWS,iOS,ANDROID, */
+    "Controller_HelpSelect" = "Tocca un punto qualsiasi per selezionare";
+    /* WINDOWS,iOS,ANDROID, */
+    "TextInput_Help" = "Tocca qui per chiudere la tastiera.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpNavigate" = "Spostati e tocca con un dito.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpSelect" = "Ingrandisci con due dita.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ControllerMode_Guide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "XboxSmartGlass" = "Xbox One SmartGlass";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToMain" = "Ok";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToPrevious" = "Annulla";
+    /* WINDOWS,iOS,ANDROID, */
+    "Off" = "Spento";
+    /* WINDOWS,iOS,ANDROID, */
+    "On" = "Acceso";
+    /* iOS,ANDROID,WINDOWS, */
+    "PivotHeaderFontSize" = "42";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Disconnected" = "Connetti a Xbox";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting" = "Connessione...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting_Tablet" = "CONNESSIONE...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected" = "Connesso";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected_Tablet" = "CONNESSO";
+    /* iOS,ANDROID,WINDOWS, */
+    "MainPage_Connection_State_NoNetwork" = "Rete disconnessa";
+    /* iOS,ANDROID,WINDOWS, Text for the EPG button */
+    "NowPlaying_DiscoverEPGText" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignIn" = "Accedi";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignOut" = "Disconnetti";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppBar_Remote" = "telecomando";
+    /* WINDOWS,iOS,ANDROID, output log location, no need to localize */
+    "TraceService_OutputFile" = "outputFile.log";
+    /* WINDOWS,iOS,ANDROID, Text shown for the calendar app bar button for jumping to a day in the future in the EPG */
+    "AppBar_EpgCalendar" = "passa a giorno";
+    /* WINDOWS,iOS,ANDROID, Text shown for the Jump to Now app bar button for the EPG */
+    "AppBar_JumpToNow" = "ora";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Cancel" = "Annulla";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_OK" = "OK";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Confirm" = "Conferma";
+    /* WINDOWS,iOS,ANDROID, button for tuning to a TV channel from the details page or EPG */
+    "Epg_TuneToChannel" = "sintonizza sul canale";
+    /* WINDOWS,iOS,ANDROID, Label for details button on EPG */
+    "Epg_Details" = "dettagli";
+    /* WINDOWS,iOS,ANDROID, header for upcoming showtimes on a TV details page */
+    "TVDetails_Upcoming" = "palinsesto";
+    /* WINDOWS,iOS,ANDROID, The content of the retry button when we hit an error loading EPG content. */
+    "Epg_Retry" = "Riprova";
+    /* WINDOWS,iOS,ANDROID, */
+    "Epg_NowButton_Text" = "Ora";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STARRING" = "Interpreti:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDITIONAL" = "Ulteriori dettagli";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GENRES" = "Genere:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RELEASEDATE" = "Data di uscita:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STUDIOS" = "Casa di produzione:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_AWARDS" = "Premi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FORWARD_SLASH_SEPARATOR" = "/";
+    /* iOS,ANDROID,WINDOWS, */
+    "COMMA_SEPARATOR" = ",";
+    /* iOS,ANDROID,WINDOWS, */
+    "VERTICAL_BAR_SEPARATOR" = "|";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_ON_XBOX" = "Riproduci su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TRAILER" = "Riproduci trailer";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE" = "Ultimo episodio";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_MORE" = "Altro";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_RATE" = "Vota";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ALL_SEASONS" = "Tutte le stagioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NEXT_EPISODE" = "Episodio successivo";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PREVIOUS_EPISODE" = "Episodio precedente";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PIN" = "Aggiungi";
+    /* iOS,ANDROID,WINDOWS, */
+    "EXTRAS_HEADER" = "extra";
+    /* iOS,ANDROID,WINDOWS, */
+    "REVIEWS_HEADER" = "recensioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "OVERVIEW_HEADER" = "panoramica";
+    /* WINDOWS,iOS,ANDROID */
+    "DETAILS_TV_MULTIPLE_SEASON_FORMAT_OTHERS" = "%1$d stagioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_OOBE_MESSAGE_TEXT" = "Effettua l'accesso su Xbox e configura la connessione TV prima di utilizzare questa app. Dovrai eseguire questa operazione solo una volta.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Challenges_Header" = "SFIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_UNPIN" = "Rimuovi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_NoPins" = "Non hai ancora aggiunto niente. Fallo subito!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle" = "LE MIE SCELTE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_DeleteFailed" = "Impossibile rimuovere la scelta. Riprova";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_GeneralError" = "Impossibile ottenere questa informazione. Riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_Title" = "Follower";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_List_Empty" = "Nessun follower";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameConsumables_Header" = "DLC";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Loading" = "Caricamento";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title" = "Bacheca";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title_Tablet" = "BACHECA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Data_Empty" = "La bacheca è vuota";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Full" = "La bacheca è piena. Se vuoi ancora aggiungere questo elemento, vai alla tua bacheca e rimuovi qualcosa.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ADD_TO_NOW_PLAYING" = "Aggiungi a In riproduzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Crews_Header" = "TROUPE";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressTitle" = "Progresso";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressMostRecent" = "Più recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressXbox360Games" = "Giochi Xbox 360";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedTitle" = "In primo piano";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedChallenges" = "Sfide in primo piano";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsAchievementsHeader" = "Obiettivi degli amici";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAlbumTitle" = "Musica";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingTVTitle" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAppTitle" = "App";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingDashTitle" = "Dash";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingErrorTitle" = "Errore";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingGameTitle" = "Gioco";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingMovieTitle" = "Video";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsError" = "Impossibile mostrare gli obiettivi recenti in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostRecent" = "Più recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_HighestRated" = "Più votati";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostViewed" = "Più visti";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileRecentTitle" = "Recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileTitle" = "Profilo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Root_Drawer" = "Cassetto";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotPlay360" = "Questo contenuto è per Xbox 360. Impossibile riprodurlo qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotLaunchInDisconnected" = "Non sei connesso in questo momento. Connettiti alla console e riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_ChangeTitleQuestion" = "Questo sostituirà il componente attualmente in esecuzione sulla console. Ok?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Movie_Title" = "Dettagli film";
+    /* iOS,ANDROID,WINDOWS, */
+    "Minute_Text" = "min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Series_Title" = "Titolo serie";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying_Close" = "Chiudi In riproduzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying" = "In riproduzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_ARTIST_FORMAT_STRING" = "Di {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_HELP_BUTTON_TEXT" = "Guida";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_COMPANION_BUTTON_TEXT" = "Companion";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_BackButton" = "Indietro";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsReward" = "premio";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsProgress" = "progresso";
+    /* iOS,WINDOWS, */
+    "NowPlaying_Tertiary" = "Di %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Clear" = "Cancella";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Save" = "Salva";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_TvHeader" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_MovieHeader" = "Film";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_TvListings" = "Programmi TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_Favorites" = "Preferiti";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_NetworkError" = "Connessione Internet non rilevata. Connettiti ad una rete wireless o cellulare per utilizzare questa app.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_ConsoleConnect" = "Seleziona un Xbox One a cui connetterti";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Showtime_iOS" = "%1$@-%2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_Showtime_With_ParentalRating" = "%1$@ | %2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_EpisodeName_With_Description" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_AppChannels" = "Canali app";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdateAvailable_Title" = "Aggiornamento app disponibile";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateAvailable_Text" = "C'è un aggiornamento disponibile per questa app.";
+    /* iOS,ANDROID,WINDOWS, */
+    "General_RemindMe" = "Attiva promemoria";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdate_GetItNow" = "Ottienilo ora";
+    /* iOS,ANDROID,WINDOWS, Profile page Profile pivot header */
+    "Profile_Profile_HeaderTitle" = "PROFILO";
+    /* iOS,ANDROID,WINDOWS, Header for the number of friends that the current user has */
+    "Profile_Profile_Friends" = "Amici";
+    /* iOS,ANDROID,WINDOWS, Header for the number of followers that the current user has */
+    "Profile_Profile_Followers" = "Follower";
+    /* iOS,ANDROID,WINDOWS, You profile page send message button text */
+    "Profile_Profile_SendMessage" = "Invia messaggio";
+    /* iOS,ANDROID,WINDOWS, You profile page favorites button text */
+    "Profile_Profile_Favorite" = "Aggiungi a preferiti";
+    /* iOS,ANDROID,WINDOWS, You profile page unfavorites button text */
+    "Profile_Profile_Unfavorite" = "Rimuovi da preferiti";
+    /* iOS,ANDROID,WINDOWS, You profile page add friend button text */
+    "Profile_Profile_AddFriend" = "Aggiungi amico";
+    /* iOS,ANDROID,WINDOWS, You profile page remove friend button text */
+    "Profile_Profile_RemoveFriend" = "Rimuovi amico";
+    /* iOS,ANDROID,WINDOWS, You profile page block button text */
+    "Profile_Profile_Block" = "Blocca";
+    /* iOS,ANDROID,WINDOWS, You profile page unblock button text */
+    "Profile_Profile_Unblock" = "Sblocca";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Unknown" = "Sconosciuta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation" = "Reputazione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_AvoidMe" = "Evitami";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Needs_Improvement" = "Può migliorare";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Good_Player" = "Buon giocatore";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Super_Star" = "Superstar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Just_You_Count" = "Tu";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header title cased */
+    "Profile_Recents_HeaderTitle_Phone" = "Attività recente";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header upper cased */
+    "Profile_Recents_HeaderTitle_Tablet" = "ATTIVITÀ RECENTE";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Android" = "Ultima partita effettuata %s";
+    /* iOS,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_iOS" = "Ultima partita effettuata %1$@";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Windows" = "Ultima partita effettuata {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_GameProgressText" = "Progressi gioco";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_AppProgressText" = "Progressi app";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Recents no data string */
+    "Profile_Recents_NoData_Me" = "Quando riprodurrai qualcosa su Xbox One, verrà mostrato qui.";
+    /* iOS,ANDROID,WINDOWS, You Profile page Recents no data string */
+    "Profile_Recents_NoData_You" = "Quando riprodurranno qualcosa su Xbox One, verrà mostrato qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_Stats_You" = "Tu";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_Me_Phone" = "Le mie clip di gioco";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_You_Phone" = "Clip di gioco";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_Me_Tablet" = "LE MIE CLIP DI GIOCO";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_You_Tablet" = "CLIP DI GIOCO";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_Me_Tablet" = "Le mie clip di gioco";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_You_Tablet" = "Clip di gioco";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_iOSAndroid" = "%1$d riproduzioni";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_Windows" = "{0} riproduzioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_Me" = "Non hai ancora registrato nessuna clip di gioco. Dovresti provare. È divertente!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_You" = "Sembra che non abbiano pubblicato nessuna clip di gioco.";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header title cased */
+    "Profile_Achievements_HeaderTitle_Phone" = "Obiettivi";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header upper cased */
+    "Profile_Achievements_HeaderTitle_Tablet" = "OBIETTIVI";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Achievements no data string */
+    "Profile_Achievements_NoData_Me" = "Gioca e sblocca obiettivi!";
+    /* iOS,ANDROID,WINDOWS, You Profile page Achievements no data string */
+    "Profile_Achievements_NoData_You" = "I tuoi amici non hanno sbloccato nessun obiettivo di recente.";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header title cased */
+    "Profile_Friends_HeaderTitle_Phone" = "Amici";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header upper cased */
+    "Profile_Friends_HeaderTitle_Tablet" = "AMICI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_HeaderTitle" = "Amici";
+    /* iOS,ANDROID,WINDOWS, friends hub pivot header */
+    "FriendsHub_HeaderTitle_Phone" = "AMICI";
+    /* iOS,ANDROID,WINDOWS, friends hub header */
+    "FriendsHub_HeaderTitle_Tablet" = "Amici";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Phone" = "Feed attività";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Tablet" = "FEED ATTIVITÀ";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderFriendsList_Phone" = "Lista amici";
+    /* iOS,ANDROID,WINDOWS, friends hub friends pivot search button text, phone only */
+    "FriendsHub_SearchButton_Phone" = "Trova amici";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFavorites" = "Preferiti";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFriends" = "Amici";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFollowers" = "Follower";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_NoData" = "Quando i tuoi amici sbloccheranno degli obiettivi, registreranno delle clip di gioco e aggiungeranno altri amici, lo vedrai qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Friends_NoData" = "Nessuno da mostrare qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Favorite_NoData" = "Imposta gli amici come preferiti dal loro profilo per vederli qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Follower_NoData" = "Nessuno da mostrare qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_CouldNotFindGamer" = "Persona non trovata. Hai inserito il gamertag completo?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchBoxHint" = "Inserisci il gamertag esatto";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchingText" = "Ricerca...";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Phone" = "MESSAGGI";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Tablet" = "Messaggi";
+    /* iOS,ANDROID,WINDOWS, messages list section header */
+    "Messages_SectionHeaderAllMessages_Tablet" = "TUTTI I MESSAGGI";
+    /* iOS,ANDROID,WINDOWS, new message button text */
+    "Messages_NewMessageButton" = "Nuovo";
+    /* iOS,ANDROID,WINDOWS, reply message button text */
+    "Messages_ReplyMessageButton" = "Rispondi";
+    /* iOS,ANDROID,WINDOWS, delete message button text */
+    "Messages_DeleteMessageButton" = "Elimina";
+    /* iOS,ANDROID,WINDOWS, block user button text */
+    "Messages_BlockButton" = "Blocca";
+    /* iOS,ANDROID,WINDOWS, unblock user button text */
+    "Messages_UnblockButton" = "Sblocca";
+    /* iOS,ANDROID,WINDOWS, view sender profile button text */
+    "Messages_ViewProfileButton" = "Profilo";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Phone" = "NUOVO MESSAGGIO";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Tablet" = "Nuovo messaggio";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Phone" = "RISPONDI";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Tablet" = "Rispondi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ConfirmDeleteMessage" = "Sei sicuro di voler eliminare questo messaggio?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToDeleteMessage" = "Impossibile eliminare il messaggio";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToBlockUser" = "Impossibile bloccare l'utente";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToUnblockUser" = "Impossibile sbloccare l'utente";
+    /* iOS,ANDROID,WINDOWS, new message add a recipient control hint text */
+    "Messages_ComposeMessage_AddRecipientHintText" = "Aggiungi destinatario";
+    /* iOS,ANDROID,WINDOWS, new message enter message control hint text */
+    "Messages_ComposeMessage_EnterMessageHintText" = "Inserisci messaggio";
+    /* iOS,ANDROID,WINDOWS, new message send button */
+    "Messages_ComposeMessage_SendButton" = "Invia";
+    /* iOS,ANDROID,WINDOWS, new message cancel button */
+    "Messages_ComposeMessage_CancelButton" = "Annulla";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Phone" = "SCEGLI DESTINATARI";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Tablet" = "Scegli destinatari";
+    /* iOS,ANDROID,WINDOWS, choose recipients done button text */
+    "Messages_ComposeMessage_ChooseRecipients_DoneButton" = "Fatto";
+    /* iOS,ANDROID,WINDOWS, generic error for failing to send a message */
+    "Messages_ComposeMessage_GenericError" = "Impossibile inviare il messaggio. Riprova più tardi.";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_iOS" = "%1$d selezionati";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_Windows" = "{0} selezionati";
+    /* iOS,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_Windows" = "{0}/{1}";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogTitle" = "Rimuovere le modifiche?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogBody" = "Non hai ancora salvato le modifiche. Se continuerai, andranno perse.";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError_DialogTitle" = "Impossibile inviare il messaggio";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError" = "Impossibile inviare il messaggio. Il destinatario potrebbe essere inesistente, non essere un amico oppure non è stato possibile raggiungere il servizio.";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogTitle" = "Sei sicuro?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogBody" = "Sei sicuro di voler bloccare questo mittente?";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported message */
+    "Messages_Error_ViewUnsupportedMessage" = "Visualizza messaggio sulla console.";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported legacy message */
+    "Messages_Error_ViewUnsupportedLegacyMessage" = "Visualizza messaggio su Xbox 360 o Xbox One.";
+    /* iOS,ANDROID,WINDOWS, error message for no messages retrieved */
+    "Messages_Error_NoMessages" = "Qui c'è calma piatta. Prova a inviare un messaggio!";
+    /* iOS,ANDROID,WINDOWS, Drawer - Home */
+    "Drawer_Home" = "Home";
+    /* iOS,ANDROID,WINDOWS, Drawer - TV Program Guide */
+    "Drawer_TV" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Drawer - Friends */
+    "Drawer_Friends" = "Amici";
+    /* iOS,ANDROID,WINDOWS, Drawer - Achievements */
+    "Drawer_Achievements" = "Obiettivi";
+    /* iOS,ANDROID,WINDOWS, Drawer - Pins */
+    "Drawer_Pins" = "Scelte";
+    /* iOS,ANDROID,WINDOWS, Drawer - Messages */
+    "Drawer_Messages" = "Messaggi";
+    /* iOS,ANDROID,WINDOWS, Drawer - SmartGlass Settings */
+    "Drawer_Settings" = "Impostazioni";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Now" = "ora";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_iOSAndroid" = "%1$dh fa";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_Windows" = "{0}h fa";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_iOSAndroid" = "%1$dmin fa";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_Windows" = "{0}min fa";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_iOSAndroid" = "%1$dgg fa";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_Windows" = "{0}gg fa";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE" = "Online";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_OFFLINE" = "Locale";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE_OFFLINE" = "Online e locale";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_NONE" = "Nessuno";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TryAgain" = "Riprova";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PairingErrorMessage" = "Impossibile connettersi con la console in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterPin" = "Inserire PIN:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ApplyPin" = "Applica";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NoConsolesFound" = "Impossibile trovare un Xbox One a cui connettersi. La console è accesa e connessa alla stessa rete di SmartGlass?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect" = "Connetti";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Cap" = "CONNETTI";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Tablet" = "CONNETTI A XBOX ONE";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Disconnect" = "Disconnetti";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConnectAutomatically" = "Connetti automaticamente";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_Exit" = "Chiudi";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsoleWarning" = "Non hai effettuato l'accesso sulla console.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsolePrompt" = "Vuoi effettuare l'accesso sulla console o continuare come ospite?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_SignInOnConsole" = "Accedi";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ContinueAsGuest" = "Continua";
+    /* iOS,ANDROID,WINDOWS, secret achievement title */
+    "Achievement_SecretAchievement_Title" = "Obiettivo segreto";
+    /* iOS,ANDROID,WINDOWS, secret achievement description */
+    "Achievement_SecretAchievement_Description" = "Continua a giocare per sbloccare questo obiettivo segreto.";
+    /* iOS,ANDROID,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_Windows" = "{0}/{1}";
+    /* iOS,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_Windows" = "{0} %";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_iOS" = "%1$d %%";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_Windows" = "{0} giorni";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_iOSAndroid" = "%1$d giorni";
+    /* iOS,ANDROID,WINDOWS, 1 day */
+    "Challenge_Countdown_OneDay" = "1 giorno";
+    /* iOS,ANDROID,WINDOWS, 02:34:56 */
+    "Challenge_Countdown_Timer_Windows" = "{0:hh\:mm\:ss}";
+    /* iOS,ANDROID,WINDOWS, challenge time remaining */
+    "Global_Challenge_TimeRemaining" = "Tempo restante";
+    /* iOS,ANDROID,WINDOWS, challenge starts in */
+    "Global_Challenge_StartsIn" = "La sfida inizia tra";
+    /* iOS,ANDROID,WINDOWS, achievements home title */
+    "AchievementsHome_HeaderTitle_Phone" = "OBIETTIVI";
+    /* iOS,ANDROID,WINDOWS, achievements home title for tablet */
+    "AchievementsHome_HeaderTitle_Tablet" = "Obiettivi";
+    /* iOS,ANDROID,WINDOWS, achievements home summary page */
+    "AchievementsHome_Summary_HeaderTitle_Phone" = "Riepilogo";
+    /* iOS,ANDROID,WINDOWS, achievements home last game played */
+    "AchievementsHome_LastGamePlayed" = "ULTIMO GIOCO";
+    /* iOS,ANDROID,WINDOWS, achievements progress */
+    "AchievementsHome_Progress_HeaderTitle_Phone" = "Progresso";
+    /* iOS,ANDROID,WINDOWS, achievement progress */
+    "AchievementsHome_Progress_HeaderTitle_Tablet" = "PROGRESSO";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent" = "Più recenti";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecentDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent360" = "Altro";
+    /* iOS,ANDROID,WINDOWS, achievement progress gallery */
+    "AchievementsHome_ProgressGallery_HeaderTitle_Tablet" = "Progresso";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent_Tablet" = "PIÙ RECENTI";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecentDurango_Tablet" = "XBOX ONE";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent360_Tablet" = "ALTRO";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Android" = "Ultima partita effettuata %s";
+    /* iOS,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_iOS" = "Ultima partita effettuata %1$@";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Windows" = "Ultima partita effettuata {0}";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Phone" = "Sfide in primo piano";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Tablet" = "SFIDE IN PRIMO PIANO";
+    /* iOS,ANDROID,WINDOWS, featured challenge gallery title */
+    "AchievementsHome_ChallengesGallery_HeaderTitle_Tablet" = "Sfide in primo piano";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Phone" = "Obiettivi degli amici";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Tablet" = "OBIETTIVI DEGLI AMICI";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_LastGamePlayed_NoData" = "Gioca e sblocca obiettivi!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Challenges_NoData" = "Impossibile mostrare le sfide in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Progress_NoData" = "Gioca e sblocca obiettivi!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_FriendsAchievements_NoData" = "I tuoi amici non hanno sboccato nessun obiettivo di recente.";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Phone" = "Progresso";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Tablet" = "PROGRESSO";
+    /* iOS,ANDROID,WINDOWS, game progress - game clips header title */
+    "GameProgress_Channel_HeaderTitle_Phone" = "Clip di gioco";
+    /* iOS,ANDROID,WINDOWS, Upload CHANNEL */
+    "GameProgress_Channel_HeaderTitle_Tablet" = "CLIP DI GIOCO";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Windows" = "{0} visualizzazione";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_iOS" = "%1$@ visualizzazione";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Android" = "%s visualizzazione";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Windows" = "{0} visualizzazioni";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_iOS" = "%1$@ visualizzazioni";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Android" = "%s visualizzazioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData" = "Nessun video da visualizzare. Dai il via al gioco e inizia a registrare i momenti memorabili.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_Community" = "Nessuna clip registrata per questo gioco.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_CommunityButtonText" = "Visualizza clip community";
+    /* iOS,ANDROID,WINDOWS, Number of views. My Channel filter */
+    "GameProgress_Channel_FilterOptionMyChannel" = "Le mie clip di gioco";
+    /* iOS,ANDROID,WINDOWS, Number of views. Community filter */
+    "GameProgress_Channel_FilterOptionCommunity" = "Clip della community";
+    /* iOS,ANDROID,WINDOWS, Game details */
+    "GameProgress_GameDetails_Button_Text" = "Dettagli gioco";
+    /* iOS,ANDROID,WINDOWS, App details */
+    "GameProgress_AppDetails_Button_Text" = "Dettagli app";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Phone" = "Sfide";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Tablet" = "SFIDE";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Phone" = "Obiettivi";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Tablet" = "OBIETTIVI";
+    /* iOS,ANDROID,WINDOWS, earned achievement filter for phone */
+    "GameProgress_Achievements_FilterOptionEarned" = "Guadagnati";
+    /* iOS,ANDROID,WINDOWS, locked achievement filter for phone {locked}  */
+    "GameProgress_Achievements_FilterOptionLocked" = "Bloccato";
+    /* iOS,ANDROID,WINDOWS, achievements gallery */
+    "GameProgress_AchievementsGallery_HeaderTitle_Tablet" = "Obiettivi";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Challenges_NoData" = "Nessuna sfida disponibile in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_NoData" = "Gioca e sblocca obiettivi!";
+    /* iOS,ANDROID,WINDOWS, User doesn't have any earned achievements for this game */
+    "GameProgress_Achievements_NoEarned" = "Gioca e sblocca obiettivi!";
+    /* iOS,ANDROID,WINDOWS, User has earned all achievements for this game */
+    "GameProgress_Achievements_NoLocked" = "Ottimo lavoro! Hai sbloccato tutti gli obiettivi!";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Phone" = "Progresso";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Tablet" = "PROGRESSO";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Achievements_HeaderTitle" = "Obiettivi";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Android" = "Ultima partita effettuata %s";
+    /* iOS,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_iOS" = "Ultima partita effettuata %1$@";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Windows" = "Ultima partita effettuata {0}";
+    /* iOS,ANDROID,WINDOWS, achievement completion: Completed */
+    "Global_Achievements_Completed" = "Completato";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementDetail_Achievement_HeaderTitle" = "Obiettivo";
+    /* iOS,ANDROID,WINDOWS, Game progress button */
+    "AchievementDetail_GameProgress_Button_Text" = "Progressi gioco";
+    /* iOS,ANDROID,WINDOWS, App progress button */
+    "AchievementDetail_AppProgress_Button_Text" = "Progressi app";
+    /* iOS,ANDROID,WINDOWS, in game reward page header */
+    "AchievementDetail_Reward_InGame" = "PREMI DI GIOCO";
+    /* iOS,ANDROID,WINDOWS, in app reward page header */
+    "AchievementDetail_Reward_InApp" = "PREMI DELLE APP";
+    /* iOS,ANDROID,WINDOWS, art reward page header */
+    "AchievementDetail_Reward_Art" = "PREMI D'ARTE";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-game reward description {locked}  */
+    "AchievementDetail_Reward_InGame_LockedDescription" = "Sblocca questo obiettivo per rivelare il premio.";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-app reward description {locked}  */
+    "AchievementDetail_Reward_InApp_LockedDescription" = "Sblocca questo obiettivo per rivelare il premio.";
+    /* iOS,ANDROID,WINDOWS, achievement locked art reward description {locked}  */
+    "AchievementDetail_Reward_Art_LockedDescription" = "Sblocca questo obiettivo per rivelare il premio d'arte.";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Android" = "Sbloccato il %s";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_iOS" = "Sbloccato il %1$@";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Windows" = "Sbloccato il {0}";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_Locked" = "Bloccato";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_InProgress" = "In corso";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-game reward description {locked}  */
+    "ChallengeDetail_Reward_InGame_LockedDescription" = "Sblocca questa sfida per rivelare il premio.";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-app reward description {locked}  */
+    "ChallengeDetail_Reward_InApp_LockedDescription" = "Sblocca questa sfida per rivelare il premio.";
+    /* iOS,ANDROID,WINDOWS, challenge locked art reward description {locked}  */
+    "ChallengeDetail_Reward_Art_LockedDescription" = "Sblocca questa sfida per rivelare il premio d'arte.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALBUM_TITLE" = "Album";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOPLAYLIST" = "Aggiungi a playlist";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Cancel" = "Annulla";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Yes" = "Sì";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_SwitchToDeveloperMode" = "Stai per abilitare la modalità sviluppatore. Conferma per continuare o annulla per tornare alle impostazioni correnti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_ExitDeveloperMode" = "Vuoi disabilitare la modalità sviluppatore? Conferma per continuare o annulla per tornare alle impostazioni attuali.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Page_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_TV" = "TV su richiesta popolari";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_Movies" = "Film su richiesta popolari";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_AppsHeader" = "App";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_TvListings" = "Connettiti a Xbox per visualizzare l'elenco programmi TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites" = "Connettiti a Xbox per visualizzare i tuoi canali preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_AppChannels_Windows" = "Connettiti a Xbox per visualizzare i tuoi canali app preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_AppChannels" = "Connettiti a Xbox per visualizzare i canali app.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_RecentChannels" = "Connettiti a Xbox per visualizzare i canali recenti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Tune" = "Connettiti a Xbox per guardare questo programma.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Add" = "Impossibile aggiungerlo ai tuoi preferiti in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Remove" = "Impossibile rimuoverlo dai tuoi preferiti in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Remote" = "Connettiti a Xbox per utilizzare questo dispositivo come telecomando TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_EXPLICIT_CONTENT" = "Contenuto esplicito";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header" = "ELENCO PROGRAMMAZIONE FUTURA";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat" = "{0}-{1} {2}";
+    /* iOS,WINDOWS, */
+    "FutureShowtimes_TimeFormat_iOS" = "%1$@-%2$@ %3$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowTimes_OnNow" = "In onda ora";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Percentage_Windows" = "{0}%";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is smartglass companion. */
+    "Home_BAT_SmartGlassCompanion" = "COMPANION";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is remote control. */
+    "Home_BAT_RemoteControl" = "Telecomando";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is local detail page. */
+    "Home_BAT_Details" = "Dettagli";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is tv guide. */
+    "Home_BAT_TVGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Text displayed in media tray when TV guide option is displayed to the user. */
+    "NOWPLAYING_TVGUIDE_BUTTON_TEXT" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on pins destination or homepage when pins for the user could not be retrieved from service. */
+    "Pins_Error" = "Impossibile ottenere le tue scelte in questo momento. Riprova più tardi.";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when app failed to retrieved the featured items for homepage. */
+    "Home_Featured_Error" = "Impossibile ottenere elementi in primo piano in questo momento.";
+    /* iOS,ANDROID,WINDOWS, Text displayed instead of title on BAT/Console Bar when we could not load the detail for the title. */
+    "NowPlaying_Unavailable" = "Non disponibile";
+    /* iOS,ANDROID,WINDOWS, OOBE string displayed on homepage when user has no recents */
+    "HOME_OOBE" = "Benvenuto su Xbox One";
+    /* iOS,ANDROID,WINDOWS, Featured section title for homepage */
+    "Home_Featured_PageTitle" = "IN PRIMO PIANO";
+    /* iOS,ANDROID,WINDOWS, Recents section title for homepage */
+    "Home_Recents_PageTitle" = "RECENTI";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LearnMore" = "Ulteriori informazioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist" = "Artista";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist_Tablet" = "ARTISTA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game" = "Gioco";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game_Tablet" = "GIOCO";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App" = "App";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App_Tablet" = "APP";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie" = "Film";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie_Tablet" = "FILM";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV_Tablet" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album" = "Album";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album_Tablet" = "ALBUM";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Tablet" = "BRANI PIÙ RICHIESTI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Phone" = "Brani più richiesti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Tablet" = "ALBUM";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Phone" = "Album";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Tablet" = "CORRELATI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Phone" = "Correlati";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Tablet" = "ADD-ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Phone" = "Add-on";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Tablet" = "ALTRI DETTAGLI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Phone" = "Altri dettagli";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv" = "Stagione {0}, Episodio {1} in onda adesso su {2}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv" = "Stagione {0}, Episodio {1} in onda il {2} su {3}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic" = "Prossima messa in onda il {0} su {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic" = "In onda adesso su {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_LABEL" = "Etichetta:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Biography_Phone" = "Biografia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Tablet" = "ELENCO TRACCE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Phone" = "Elenco tracce";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DURATION" = "Durata:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RATING" = "Classificazione:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION" = "Risoluzione:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HDANDSD" = "HD e SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Overview_Phone" = "Panoramica";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Tablet" = "CAST E TROUPE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Phone" = "Cast e troupe";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Tablet" = "EPISODI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Phone" = "Episodi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Tablet" = "IMMAGINI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Phone" = "Immagini";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DEVELOPER" = "Sviluppatore:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_PUBLISHER" = "Editore:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_MULTIPLAYER" = "Multiplayer:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_COOP" = "Co-op:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_GET_ON_XBOX" = "Ottienilo su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE_WINDOWS" = "Vai all'ultimo episodio (S{0} Ep{1})";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_NETWORKS" = "Reti:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmpty" = "L'attività recente apparirà qui";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Pins_PageTitle" = "LE MIE SCELTE";
+    /* iOS,ANDROID,WINDOWS, */
+    "TextInput_Confirm" = "Fatto";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstRun_ContentTitle" = "Guarda cosa c'è di nuovo su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmptyDesc" = "Gioca e guarda quel che ti piace per vederlo apparire qui.";
+    /* iOS,ANDROID,WINDOWS, Settings page title */
+    "Settings_PageTitle" = "Impostazioni";
+    /* iOS,ANDROID,WINDOWS, Settings page account section header */
+    "Settings_Account_SectionHeader" = "ACCOUNT";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text */
+    "Settings_SignOutButton" = "Disconnetti";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section header */
+    "Settings_Preferences_SectionHeader" = "PREFERENZE";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option */
+    "Settings_Preferences_StayAwakeOption" = "Resta acceso";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option description */
+    "Settings_Preferences_StayAwakeOptionDescription" = "La schermata di blocco non si attiverà con SmartGlass aperto (Diminuisce la durata della batteria).";
+    /* iOS,ANDROID,WINDOWS, Settings page sound section header */
+    "Settings_Sound_SectionHeader" = "AUDIO";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option */
+    "Settings_Sound_DisableSoundOption" = "Disabilita audio";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option description */
+    "Settings_Sound_DisableSoundOptionDescription" = "Disabilita audio nell'app SmartGlass.";
+    /* iOS,ANDROID,WINDOWS, Settings page about section header */
+    "Settings_About_SectionHeader" = "INFORMAZIONI SU";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Windows */
+    "Settings_About_Version_Windows" = "Versione {0}";
+    /* iOS,WINDOWS, Settings page about version, iOS */
+    "Settings_About_Version_iOS" = "Versione %1$@";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Android */
+    "Settings_About_Version_Android" = "Versione %s";
+    /* iOS,ANDROID,WINDOWS, Settings page get started button text */
+    "Settings_GetStartedButton" = "Cominciamo";
+    /* iOS,ANDROID,WINDOWS, Settings page get started description */
+    "Settings_GetStartedDescription" = "Guarda cosa può fare Xbox One SmartGlass.";
+    /* iOS,ANDROID,WINDOWS, Settings page help button text */
+    "Settings_HelpButton_WindowsAndroid" = "Guida";
+    /* iOS,ANDROID,WINDOWS, Settings page privacy button text */
+    "Settings_PrivacyButton_WindowsAndroid" = "Privacy";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy section title */
+    "Settings_HelpAndPrivacySectionTitle_iOS" = "Guida e privacy";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy description */
+    "Settings_HelpAndPrivacyDescription_iOS" = "Visita il sito web di Xbox per consultare la guida Xbox One SmartGlass e gestire le tue Impostazioni privacy.";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader" = "SVILUPPATORE";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader_Windows" = "Sviluppatore";
+    /* iOS,ANDROID,WINDOWS, Settings page developer sandbox ID */
+    "Settings_Developer_SandboxId" = "ID Sandbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DIRECTOR" = "Regista:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SmartGlassCompanion" = "SmartGlass Companion";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALLOWEDPROVIDERS" = "Disponibile per:";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv_iOS" = "Stagione %1$d episodio %2$d in onda adesso su %3$@.";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic_iOS" = "In onda adesso su %1$@";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic_iOS" = "Prossimamente in onda il %1$@ su %2$@";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv_iOS" = "Stagione %1$d episodio %2$d prossimamente in onda il %3$@ su %4$@.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_AchievementProgress_Phone" = "Progressi obiettivo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Challenges_Phone" = "Sfide";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Phone" = "CLIP DI GIOCO";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameAchievementProgress_Tablet" = "PROGRESSI OBIETTIVO";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameChallenges_Tablet" = "SFIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Tablet" = "CLIP DI GIOCO";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU_IOS" = "Le Condizioni per l'Utilizzo di Xbox sono state aggiornate. Leggile ora su Xbox.com.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU" = "Le Condizioni per l'Utilizzo di Xbox sono state aggiornate. Leggile ora su Xbox.com.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to displayed whenever we could not log him into app for all the reasons except xsts 401 cases */
+    "Auth_GenericError" = "Impossibile accedere. Riprova.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError_IOS" = "C'è un problema con il tuo account. Effettua l'accesso su xbox.com per maggiori informazioni.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError" = "C'è un problema con il tuo account. Effettua l'accesso su xbox.com per maggiori informazioni.";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation_IOS" = "Configura il tuo account Xbox Live su Xbox.com.";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation" = "Configura il tuo account Xbox Live su Xbox.com.";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user while they are signing in. This will allow them to cancel the sign in process. */
+    "SignIn_Cancel" = "Annulla";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user to prompt them to go to xbox.com */
+    "SignIn_Troubleshoot" = "Vai a Xbox.com";
+    /* iOS,ANDROID,WINDOWS, Button text for sign in page button's first try. (after that it switches to try again) */
+    "SignIn_SignIn" = "Accedi";
+    /* WINDOWS,iOS,ANDROID, Status text shown while trying to sign in. */
+    "SignIn_SigningIn" = "Accesso";
+    /* WINDOWS,iOS,ANDROID, Shown while making service calls to get state of console to decide what to do next. */
+    "SignIn_GettingData" = "Connessione ai servizi Xbox...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season" = "Stagione TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season_Tablet" = "STAGIONE TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity" = "Xbox One SmartGlass Companion";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity_Tablet" = "XBOX ONE SMARTGLASS COMPANION";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series" = "Serie TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series_Tablet" = "SERIE TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode" = "Episodio TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode_Tablet" = "EPISODIO TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show" = "Programma TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show_Tablet" = "PROGRAMMA TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC" = "Add-on";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC_Tablet" = "ADD-ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_Studios" = "Case di produzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRating" = "Classificazione per minori";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRatingColon" = "Classificazione per minori:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_TVText" = "Esplora OneGuide o cerca su Xbox per trovare dei programmi TV da aggiungere.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_MoviesText" = "Esplora OneGuide o cerca su Xbox per trovare dei film da aggiungere. Seleziona un film, poi tocca l'icona a forma di stella per aggiungerlo.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Today" = "Oggi";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_GeneralError" = "Impossibile aggiungere a I miei canali. Riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteShow_GeneralError" = "Impossibile aggiungere a I miei programmi. Riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteShow_GeneralError" = "Impossibile rimuovere da I miei programmi. Riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteChannel_GeneralError" = "Impossibile rimuovere da I miei canali. Riprova.";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a page fails to load */
+    "ErrorState_PageError" = "Si è verificato un problema nel caricare questa pagina. :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a pivot pane or a section of the panorama fails to load */
+    "ErrorState_PaneError" = "Si è verificato un problema nel caricare questa sezione. :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the retry button */
+    "ErrorState_RetryButton" = "Riprova";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the network setting button */
+    "ErrorState_NetworkButton" = "Apri impostazioni di rete";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToXboxOne" = "Riproduci su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SmartGlassCompanionAvailable" = "COMPANION DISPONIBILE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFull" = "Riproduci su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToSnap" = "Riproduci affiancato";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Title" = "TELECOMANDO";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Xbox_Title" = "Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Universal_Title" = "SAT/TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchSuggestions_Title" = "suggerimenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Windows" = "\"{0}\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Skip_Title" = "Salta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFill" = "Riproduci su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track" = "Traccia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track_Tablet" = "TRACCIA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras" = "Extra";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras_Tablet" = "EXTRA";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TOP_SONGS_ON_XBOX" = "Riproduci su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_SEASON_EPISODES" = "Episodi stagione";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LAUNCH_IN_IE" = "Apri su Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NoProvidersOrShowTimesAvailable" = "Non c'è ancora un'app su Xbox One che possa riprodurlo.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title" = "Benvenuto";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText" = "Scorri per continuare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_TitleText" = "È ora di cominciare";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DoneText" = "Inizia a utilizzare Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DescriptionText" = "Visita xbox.com/smartglass per ottenere ulteriori informazioni o supporto.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title" = "Controlla la tua Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Description" = "Tocca la barra In riproduzione per controllare i contenuti multimediali e le app affiancate, ottenere aiuto per i giochi e altro.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Description" = "Ottieni aiuto per i giochi, gli obiettivi e i messaggi direttamente dal soggiorno di casa o in viaggio.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Title" = "Resta connesso";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Title" = "Trova e aggiungi";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Description" = "Cerca contenuti e aggiungi preferiti su Xbox One SmartGlass per ritrovarli sulla tua Xbox One.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Description" = "OneGuide riunisce tutti i tuoi programmi TV in un unico posto. Configura la TV sulla console per visualizzare la programmazione.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Select" = "Scorri per controllare, tocca per selezionare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Error_CanNotPlayVideo" = "Impossibile riprodurre questo video.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppChannel_Favorite" = "Preferito";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNow" = "In onda adesso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_ConnectedTo" = "Connesso a";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConsolesOnYourNetwork" = "Console sulla tua rete:";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_PlayNow" = "Riproduci ora";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_XboxOneSmartGlass" = "Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Message_Detail_Message" = "MESSAGGIO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_0" = "0";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_1" = "1";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_2" = "2";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_3" = "3";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_4" = "4";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_5" = "5";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_6" = "6";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_7" = "7";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_8" = "8";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_9" = "9";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_PAGE" = "PAGE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CH" = "CH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_VOL" = "VOL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_ENTER" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DASH" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_INFO" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_EXIT" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_SELECT" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANGE_LAYOUT" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_MENU" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_GUIDE" = "GUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DVR" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.back" = "BACK";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.cancel" = "CANCEL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.ch_enter" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.clear" = "CLEAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_minus" = "DAY-";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_plus" = "DAY+";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.delimiter" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.dvr" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.exit" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.format" = "FORMAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_a" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_b" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_c" = "C";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_d" = "D";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.guide" = "GUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.help" = "HELP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.home" = "HOME";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.info" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.interactive" = "INTERACTIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.last" = "LAST";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.live" = "LIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.menu" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.options" = "OPTIONS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.plus_100" = "+100";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.sap" = "SAP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.select" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.services" = "SERVICES";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.setup" = "SETUP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.slow" = "SLOW";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.subtitle" = "SUBTITLE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.tools" = "TOOLS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.vod" = "VOD";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.all" = "All";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.avr" = "AV receiver";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.stb" = "Cable/sat";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.tv" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.onoff" = "ON / OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.on" = "ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.off" = "OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.ON" = "DONE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.OFF" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcStatus.ErrorLabel" = "ERROR:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneHour_Text" = "1 ora";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHoursText_iOSAndroid" = "%1$d ore";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneMinute" = "1 minuto";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinutesText_iOSAndroid" = "%1$d minuti";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DESCRIPTION" = "DESCRIZIONE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameHelp" = "Guida del gioco";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOMYSHOWS" = "Aggiungi a I miei programmi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Parent_Title" = "Genitore";
+    /* iOS,WINDOWS, */
+    "SearchResults_PageTitle_iOS" = "Risultati per \"%1$@\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Phone_iOS" = "Cerca risultati per";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_NoResult" = "Nessun risultato trovato";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SeasonPicker_AllOption" = "Tutte";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on homepage when application failed to retreive the recents */
+    "Home_Recents_RecentsError" = "Impossibile mostrare l'attività recente in questo momento.";
+    /* iOS,WINDOWS, Detail string format used by iOS clients while displaying details text along with media type. Example such as playto, media tray etc */
+    "MediaDetails_Format_iOS" = "Dettagli %1$@";
+    /* iOS,WINDOWS, */
+    "Launcher_CurrentlyPlaying_iOS" = "In riproduzione: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_ProvidersOrShowTimesError" = "Impossibile trovare app in grado di riprodurlo. Riprova più tardi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_RecentChannels" = "Canali recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_Reload" = "Aggiorna";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogTitle" = "Accesso alla funzionalità bloccato";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogBody" = "Non puoi accedere a questa funzionalità a causa di come è configurato il tuo account. Puoi cambiare questo parametro modificando le impostazioni privacy.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_PlaceHolderText" = "Cerca";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Phone" = "In riproduzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Tablet" = "In riproduzione su Xbox One";
+    /* WINDOWS,iOS,ANDROID, */
+    "CloseButtonText" = "Chiudi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_RefreshText" = "Aggiorna";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_UnknownValue_Dash" = "--";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call EDS to get the detail about the media returned no data. */
+    "Launcher_DataNotIngested_Error" = "Nessuna informazione trovata.";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call to EDS failed to retrieve the information about the media */
+    "Launcher_ErrorToRetrieveDetail" = "Impossibile ottenere dettagli in questo momento. Riprova più tardi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Unavailable" = "Nessuna informazione disponibile";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit" = "Hai troppi canali. Rimuovine uno per aggiungere {0}.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add" = "{0} è stato aggiunto ai preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove" = "{0} è stato rimosso dai preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add_iOS" = "%1$@ è stato aggiunto ai preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove_iOS" = "%1$@ è stato rimosso dai preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_AppChannels_NoFavorites_iOS" = "Seleziona un Canale app e tocca l'icona %1$@ per impostarlo come preferito";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GeneralError" = "Impossibile mostrare i tuoi canali in questo momento. Seleziona il pulsante Aggiorna per riprovare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Unavailable" = "Non disponibile.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Disconnected" = "Disconnesso";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Load" = "Caricamento impostazioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HD" = "Mostra solo canali HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_All" = "Mostra tutti i canali";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HideSD" = "Nascondi duplicati SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Header" = "Trova programmi e film da tutte le tue app";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Text" = "Installa e avvia app sulla tua Xbox per ottenere nuovi canali.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_BtnText" = "Ottieni app su Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Header" = "Un'esperienza TV premium personalizzata per te";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_BtnText" = "Configura TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_GoldUpsell_BtnText" = "Ottieni Xbox Live Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_RecentChannels_Header" = "Guarda la TV sulla tua Xbox per visualizzare i canali recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_AddFailed" = "Impossibile aggiungere la scelta. Riprova";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ComposeMessage_Sending" = "Invio...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_MessageDetail_Deleting" = "Eliminazione...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVSeason_Aired_Title" = "In onda:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_ListFullError" = "Hai raggiunto il limite di 200 preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Busy_Wait" = "Attendere...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connect_Reconnecting" = "Riconnessione...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Title" = "Questa azione ti farà uscire dal Companion attuale...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Description" = "Sei sicuro di voler uscire dal Companion attuale?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MinutesText_Android" = "minuti";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add favorite */
+    "Profile_Profile_Failed_Add_Favorite" = "Impossibile aggiungere l'utente alla lista dei preferiti.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove favorite */
+    "Profile_Profile_Failed_Remove_Favorite" = "Impossibile rimuovere l'utente dalla lista dei preferiti.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add friend */
+    "Profile_Profile_Failed_Add_Friend" = "Impossibile aggiungere l'utente alla lista amici.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove friend */
+    "Profile_Profile_Failed_Remove_Friend" = "Impossibile rimuovere l'utente dalla lista amici.";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_OneGuideAvailable" = "OneGuide disponibile";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_ShowCompanion" = "Companion";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConsoleBar_NowPlaying_SubTitle" = "In riproduzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_UnconfiguredMessage" = "La TV non è configurata per ricevere messaggi remoti";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_SeasonsHeader_Tablet" = "STAGIONI";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Gold_Message" = "Ottieni un abbonamento Gold sulla tua Xbox o sul sito web di Xbox per visualizzare la programmazione TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayOnSmartGlass" = "Riproduci su SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Season" = "Stagione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Episode" = "Episodio";
+    /* iOS,ANDROID,WINDOWS, */
+    "Dialog_Attention_Title_Android" = "Attenzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Got_Gold_Question" = "Hai Gold?";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message" = "Ottieni un abbonamento Gold sulla tua Xbox o su Xbox.com per visualizzare la programmazione TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message_iOS" = "Ottieni un abbonamento Gold sulla tua Xbox o sul sito web di Xbox per visualizzare la programmazione TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title_Phone" = "Benvenuto su Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_Phone" = "Scorri per continuare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title_Phone" = "Connetti a Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_SignIn_Phone" = "Accedi";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Background_Title" = "XBOX ONE SMARTGLASS";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPlay" = "Seleziona un'app";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPin" = "Seleziona un'app per aggiungere scelte";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_ConsoleNotListed" = "Console non elencata?";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_EnterIPAddress" = "Inserisci indirizzo IP";
+    /* iOS,ANDROID,WINDOWS, This is the text shown when user tries to pin a media from detail page and there are no providers associated with it. */
+    "Launcher_NoProvidersAvailableForPin" = "Non c'è un'app su Xbox One che possa essere utilizzata per aggiungere questo contenuto multimediale.";
+    /* iOS,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_iOS" = "%1$@ di %2$@";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show details option in launcher */
+    "ACTION_DETAILS" = "Dettagli";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show the option to launch remote. */
+    "Launcher_ShowRemote" = "Telecomando";
+    /* iOS,ANDROID,WINDOWS, This is the string shown in launcher when OneGuide is the default companion. */
+    "Launcher_ShowOneGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ChannelDialog_Description" = "Canale";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_iOS" = "Vuoi avviare l'app %1$@ su questo dispositivo?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_iOS" = "Sì, avvia l'app %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Windows" = "Vuoi avviare l'app {0} su questo dispositivo?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Windows" = "Sì, avvia l'app {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Android" = "Vuoi avviare l'app %s su questo dispositivo?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Android" = "Sì, avvia l'app %s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_No" = "No, resta in SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_No" = "No";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressTitle" = "Inserisci l'indirizzo IP della console:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_IPAddressLocationOnConsole" = "Per trovare l'indirizzo IP, sulla console vai a Impostazioni > Rete > Impostazioni avanzate.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressGhostText" = "Es. 192.168.0.1";
+    /* iOS,ANDROID,WINDOWS, Title for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Title" = "Hai raggiunto il limite massimo di amici";
+    /* iOS,ANDROID,WINDOWS, Message for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Message" = "Per aggiungere un nuovo amico, devi rimuoverne uno di quelli attuali.";
+    /* iOS,ANDROID,WINDOWS, */
+    "CONNECTION_REQ_TEXT" = "Questa app richiede una connessione internet per funzionare. Controlla le impostazioni di connessione prima di continuare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Explicit" = "Esplicito";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowMore" = "Mostra di più";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowLess" = "Mostra di meno";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Providers" = "App";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Tablet" = "COMPATIBILE CON";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Phone" = "Compatibile con";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Tablet" = "ADD-ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Phone" = "add-on";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Released" = "Uscito";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Languages" = "Lingue";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GetOnXboxOne" = "Ottienilo su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Genre" = "Genere";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Help" = "Guida";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Disconnected" = "Connetti a Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connecting" = "Connessione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connected" = "Connesso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SearchIcon" = "Cerca";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RefreshIcon" = "Aggiorna";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BackIcon" = "Indietro";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_IEPlayHere" = "Apri pagina web qui";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeIcon" = "Volume";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeUp" = "Volume su";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeDown" = "Volume giù";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Mute" = "Disattiva audio";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Unmute" = "Attiva audio";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ClearText" = "Cancella testo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemoteIcon" = "Telecomando";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIcon" = "Riproduci";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PauseIcon" = "Sospendi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FFW" = "Avanza rapidamente";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RWD" = "Riavvolgi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipForward" = "Salta avanti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipBack" = "Salta indietro";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Seek" = "Cerca";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Close" = "Chiudi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ViewButton" = "Visualizza";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MenuButton" = "Menu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XboxButton" = "Pulsante Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AButton" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BButton" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XButton" = "X";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YButton" = "Y";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowUp" = "Su";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowDown" = "Giù";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowLeft" = "Sinistra";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowRight" = "Destra";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PowerButton" = "Alimentazione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageUp" = "Pagina in alto";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageDown" = "Pagina in basso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoButton" = "Informazioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SelectButton" = "Seleziona";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelUp" = "Canale su";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelDown" = "Canale giù";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RedButton" = "Rosso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BlueButton" = "Blu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YellowButton" = "Giallo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GreenButton" = "Verde";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RecordButton" = "Registra";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InputButton" = "Origine";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PreviousChannel" = "Precedente";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_OnOff" = "Acceso/ Spento";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddtoFavorites" = "Aggiungi a preferiti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemovefromFavorties" = "Rimuovi da preferiti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoIcon" = "Dettagli";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIconOneGuide" = "Riproduci su Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_NewMessage" = "Nuovo messaggio";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddRecipient" = "Aggiungi destinatario";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MoreIcon" = "Altro";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GotoLive" = "Vai alla diretta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_FirstRun" = "Connettiti a Xbox One per interagire con i tuoi programmi TV, film, musica e giochi preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Tablet" = "Le mie scelte";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Phone" = "LE MIE SCELTE";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber" = "Canale {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_iOS" = "Canale %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_Android" = "Canale %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ParentalControls_BlockedTitle" = "Programmazione esplicita";
+    /* iOS,ANDROID,WINDOWS, {locked}  */
+    "EPG_ParentalControls_BlockedDetails" = "Questa informazione è bloccata. Per modificarla, vai a Impostazioni > Privacy e sicurezza online sulla tua Xbox.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Settings" = "Impossibile caricare le impostazioni TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Channels" = "Impossibile mostrare i tuoi canali in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TryAgain" = "Seleziona il pulsante Aggiorna per riprovare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Shows_Generic" = "Impossibile mostrare i programmi in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_NoShows" = "Non ci sono programmi su questo canale.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_NoShowInfo" = "Informazioni programma non disponibili.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_iOS" = "Hai troppi canali. Rimuovine uno per aggiungere %1$@.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_Android" = "Hai troppi canali. Rimuovine uno per aggiungere %1$s.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Channels" = "Impossibile mostrare i tuoi Canali app in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Remote_Console_Setup" = "Configura la TV su Xbox.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Console_Setup_Directions_STB" = "Su Xbox, vai a Impostazioni > TV e OneGuide > Modello del ricevitore via cavo o satellite";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_Header" = "I tuoi Canali app preferiti in un unico posto";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_AppChannels_Text_First" = "Tocca un canale in Canali app e poi tocca";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_AppChannels_Text_Second" = "per impostarlo come preferito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_TextIcon_iOS" = "Tocca un canale in Canali app e poi tocca %1$@ per impostarlo come preferito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_iOS" = "Tocca un programma in Programmi TV o Canali app e poi tocca %1$@ per impostarlo come preferito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_Android" = "Tocca un programma in Programmi TV o Canali app e poi tocca %1$s per impostarlo come preferito.";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_Text_First" = "Tocca un programma in Programmi TV o Canali app e poi tocca";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_Text_Second" = "per impostarlo come preferito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Header" = "I tuoi canali TV preferiti in un unico posto";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_TvListings_Text_First" = "Tocca un programma in Programmi TV e poi tocca";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_TvListings_Text_Second" = "per impostarlo come preferito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Code_iOS" = "Errore %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header_NotAllCaps" = "Programmazione futura";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_FirstLine" = "Scorri per spostarti. Tocca per selezionare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_SecondLine" = "Utilizza due dita per scorrere.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateSwipe" = "Scorri per spostarti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateTap" = "Tocca per selezionare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Unsupported" = "L'accesso remoto a Internet Explorer non è supportato per dispositivi non touch.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_DefaultText" = "Trova giochi, film, TV, musica e app.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Header" = "Hai Gold?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_Offline" = "Offline";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Windows" = "Visto l'ultima volta: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_iOS" = "Visto l'ultima volta: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Android" = "Visto l'ultima volta: %s";
+    /* iOS,ANDROID,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_Windows" = "Sta trasmettendo {0} su {1}";
+    /* iOS,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_iOS" = "Sta trasmettendo %1$@ su %2$@";
+    /* iOS,ANDROID,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_iOS" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Windows" = "{0} (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_iOS" = "%1$@ (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Android" = "%s (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Windows" = "Aggiunto il {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_iOS" = "Aggiunto il %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Android" = "Aggiunto il %s";
+    /* iOS,ANDROID,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_iOS" = "%1$@ - %2$@";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsOption" = "Consenti notifiche";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsDescription" = "Consenti a questa app di mostrare notifiche.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptTitle" = "Consentire notifiche?";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptDescription" = "Consenti a questa app di mostrare notifiche.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_FilterOptionAll" = "Tutti";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionBroadcasting" = "Trasmissioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionRecentPlayers" = "Giocatori recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_OnlineFriendsCount_iOSAndroid" = "%1$d ONLINE";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_NewFollowersCount_iOSAndroid" = "%1$d NUOVI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_Unsnap" = "Togli";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_RecentPlayers_NoData" = "Quando incontrerai altri giocatori in giochi multiplayer, li vedrai qui.";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Today" = "oggi";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_iOSAndroid" = "%1$da fa";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_Windows" = "{0}a fa";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_ChallengesGallery_HeaderTitle_Tablet" = "Sfide";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Phone" = "Progresso";
+    /* iOS,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_2_iOS" = "Se possiedi un account per Windows 8, Windows Phone o Xbox 360, puoi accedere con quello.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_Wifi_Needed_Error" = "Connetti questo dispositivo alla stessa rete della tua Xbox One. SmartGlass ha bisogno di una connessione di rete wireless - una rete dati cellulare non è sufficiente.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_GameClips" = "Clip di gioco";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text when signing out */
+    "Settings_SignOutButton_SigningOut" = "Disconnetti";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_Windows" = "{0} sta trasmettendo {1} su {2}";
+    /* iOS,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_iOS" = "%1$@ sta trasmettendo %2$@ su %3$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LinktoFAQ" = "Per maggiori informazioni, tocca per aprire la guida alla risoluzione dei problemi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FeedbackIcon" = "Commenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epgl_NHoursText_iOSAndroid" = "%1$d h";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_iOSAndroid" = "%1$d min";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat_Android" = "%1$s-%2$s %3$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NHoursText_Android" = "%d h";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_Android" = "%d min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_OneHour_Text" = "1 h";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgDetails_Showtime_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Recents" = "I canali recenti sono in caricamento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_AppChannels" = "I Canali app sono in caricamento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TVListings" = "L'elenco programmi TV è in caricamento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Favorites" = "I tuoi canali preferiti sono in caricamento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TakeSomeTime" = "L'operazione potrebbe richiedere alcuni minuti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddedFavoriteChannel_Message_Text" = "Hai aggiunto questo canale ai Preferiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_SectionHeader" = "ONEGUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Message_Text" = "OneGuide è una guida TV facile da utilizzare e personalizzabile che riunisce tutti i programmi TV in un unico elenco. Configura Live TV sulla console per vedere il tuo elenco programmi TV qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_iOSAndroid" = "%1$d h";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_iOSAndroid" = "%1$d h";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_iOSAndroid" = "%1$d min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_iOSAndroid" = "%1$d min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_iOSAndroid" = "%1$d sec";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_iOSAndroid" = "%1$d sec";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_Windows" = "{0} sec";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_Windows" = "{0} sec";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_Windows" = "{0} min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_Windows" = "{0} min";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_Windows" = "{0} h";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_Windows" = "{0} h";
+    /* iOS,WINDOWS, */
+    "Global_NHrsMMinsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Windows" = "{0} {1}";
+    /* iOS,WINDOWS, */
+    "Global_NMinsMSecsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Windows" = "{0} {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_Broadcasting" = "Trasmetti diretta";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_WatchBroadcast" = "Guarda trasmissione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_Error_MovePin" = "Impossibile spostare le tue scelte.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Header" = "Canali TV e Canali app preferiti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title" = "NOTIFICHE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description_iOS" = "Se disattiverai questa opzione, le impostazioni correnti verranno sostituite da quelle di iOS.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Description" = "Ricevi una notifica quando gli amici preferiti avviano una trasmissione.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Title" = "Trasmissione Twitch avviata";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Description" = "Ricevi una notifica quando gli amici preferiti vanno online.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Title" = "Preferito online";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Description" = "Ricevi una notifica quando un nuovo messaggio appare nella tua Lista.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Title" = "Messaggio";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_iOS" = "%1$@ sta trasmettendo ora";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Android" = "%s sta trasmettendo ora";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Windows" = "{0} sta trasmettendo ora";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_iOS" = "%1$@ è online";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Android" = "%s è online";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Windows" = "{0} è online";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_PageTitle" = "Confronta";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_NoAchievementsAvailable" = "Nessun obiettivo disponibile per questo gioco...che tristezza";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_YouGamertagDisplayText" = "Tu";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_TimePlayed" = "Tempo giocato";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_GameProgress" = "Progresso";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_UnlockedWithTime_Tablet_iOS" = "Sbloccato il %1$@";
+    /* iOS,ANDROID,WINDOWS, Locked */
+    "CompareGame_AchievementItem_Locked_Tablet" = "Bloccato";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_LockedWithPercentage_Tablet_iOSAndroid" = "Bloccato (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, - - (20%) */
+    "CompareGame_AchievementItem_LockedWithPercentage_Phone_iOSAndroid" = "-- (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialTitle" = "Ora puoi riorganizzare le scelte!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialText" = "Tieni premuta una scelta e trascinala dove vuoi. Questa azione aggiornerà anche le scelte su Xbox One.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackTitleText" = "Invia commento";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashTitleText" = "Si è verificato un errore.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_NoThanksButtonText" = "No grazie";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashBodyText" = "Sembra proprio che il problema dipenda da noi. Aiutaci a capire cos'è successo inviandoci un commento e raccoglieremo le seguenti informazioni:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ScreenshotText" = "Screenshot";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ProcessorArchitectureText" = "Architettura processore dispositivo";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SGVersionText" = "Versione SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_OSVersionText" = "Versione sistema operativo dispositivo";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareManufacturerText" = "Produttore dispositivo hardware";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareModelText" = "Modello dispositivo hardware";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CurrentCultureText" = "Impostazioni cultura correnti";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LayoutOrientationText" = "Orientamento layout";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_GamerTagText" = "Il tuo gamertag";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LogFileDataText" = "Dati di registro";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_MailBodyStep1Text" = "Passaggio 1: digita un commento.";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneNoScreenshotText" = "Digita il commento qui.";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8MailBodyStep2Text" = "Passaggio 2: invia il commento a:";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneStep2Text" = "Passaggio 2: allega uno screenshot: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Windows" = "Commento relativo alla versione Beta di Xbox One SmartGlass: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_iOS" = "Commento relativo alla versione Beta di Xbox One SmartGlass: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Android" = "Commento relativo alla versione Beta di Xbox One SmartGlass: %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashSubject" = "Segnalazione di arresto anomalo per Xbox One SmartGlass";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8Description" = "Invia a Microsoft commenti relativi a Xbox One SmartGlass su Windows.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Phone" = "Classifica";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Tablet" = "CLASSIFICA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoData" = "Nessuna classificazione disponibile per questo gioco o app. Riproducilo ora e valutalo per primo!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoStats" = "Nessuna classificazione disponibile per questo gioco o app.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Friends_Online_Windows" = "{0} online";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Messages_Unread_Windows" = "{0} non letti";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_PrivacyStatement" = "Non includere informazioni personali o riservate nei commenti. Microsoft non richiederà mai password, dati della carta di credito o numeri di ID pubblici per l'invio di commenti relativi a software.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Featured" = "In primo piano";
+    /* iOS,ANDROID,WINDOWS, */
+    "Featured_Landing_PageTitle" = "In primo piano";
+    /* iOS,ANDROID,WINDOWS, */
+    "TOU_Accept" = "Accetta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description" = "Se disattiverai le notifiche per il tuo dispositivo, interromperai anche la ricezione delle notifiche da SmartGlass.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD_BRACKETED" = "[HD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD_BRACKETED" = "[SD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Buy" = "Acquista";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Preorder" = "Preordina";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_GetItFree" = "Ottienilo gratis";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Purchased" = "Acquistati";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Available_Header" = "DISPONIBILI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete" = "Acquisto completo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue" = "Installa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Done" = "Fatto";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Message" = "Questo elemento sarà aggiunto ai tuoi giochi e app su Xbox One. Se Xbox è accesa o in standby e c'è abbastanza spazio, verrà installato automaticamente.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Andriod" = "Installare %s su Xbox One?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Windows" = "Installare {0} su Xbox One?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_iOS" = "Installare %1$@ su Xbox One?";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Recent" = "Clip della community - recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Saved" = "Clip della community - salvate";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Saved" = "Le mie clip di gioco - salvate";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Recent" = "Le mie clip di gioco - recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Recent" = "Clip di gioco - recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Saved" = "Clip di gioco - salvate";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogTitle" = "Sei sicuro?";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogBody" = "Questa azione li rimuoverà dalla lista amici.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_NoData" = "Nessun amico da visualizzare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_NoData" = "Nessun amico da visualizzare";
+    /* iOS,ANDROID,WINDOWS, number of allowable recipient left */
+    "Messages_ComposeMessage_ChooseRecipients_NumRemaining_iOSAndroid" = "%1$d restanti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Thanks" = "Grazie!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Collection" = "Per trovarlo, vai ai tuoi giochi e app su Xbox One.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Popular" = "Popolari";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Recent" = "Recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Popular" = "Popolari";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Recent" = "Recenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Tablet" = "Store";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Phone" = "STORE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Games_Store" = "Store";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Featured" = "In primo piano";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackBodyText" = "Diventa protagonista! I tuoi commenti ci aiuteranno a migliorare SmartGlass. Quando invierai un commento, raccoglieremo i seguenti dati:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableTVProviderText" = "Provider TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableBoxText" = "Modello decoder";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ZipCodeText" = "CAP";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_RateText" = "Che voto daresti alla tua esperienza?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ChooseOneText" = "scegline uno";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CategoryText" = "Che tipo di commento desideri inviare?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ReportProblemText" = "Voglio segnalare un problema";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SuggestionText" = "Suggerimento o richiesta di una nuova funzionalità";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationHeaderText" = "Commento inviato!";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationText_iOSAndroid" = "Grazie per il commento! Se avremo bisogno di ulteriori informazioni, ti invieremo un messaggio Xbox Live. Visto che non richiederemo mai password o informazioni di fatturazione, non fornirle a nessuno in questo tipo di messaggi.\nCordiali saluti,\nIl team SmartGlass";
+    /* iOS,WINDOWS, */
+    "FirstRun_Favorites_Channel_TextIcon_iOS" = "Tocca un canale in Programmi TV o Canali app e poi tocca %1$@ per impostarlo come preferito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Channel_Text_First" = "Tocca un canale in Programmi TV o Canali app e poi tocca";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Channel_Text_First" = "Tocca un canale in Programmi TV e poi tocca";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Phone" = "Include";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Tablet" = "INCLUDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Phone" = "Bundle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Tablet" = "BUNDLE";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_AttachmentFailed" = "Impossibile mostrare l'allegato. Riprova più tardi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Me" = "Non hai ancora registrato nessuna clip di gioco. Dovresti provare. È divertente!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_DeviceTime_Incorrect" = "Assicurati di avere impostato l'ora e la data corretta, poi riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Millions" = "M";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Thousands" = "K";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_ServiceFailure_Playback_Error" = "Riprova più tardi. Impossibile riprodurla in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_DeletedClip_Playback_Error" = "La clip non è più disponibile";
+    /* iOS, */
+    "Purchase_Title_Purchased_iOS" = "Hai acquistato %1$@";
+    /* iOS,WINDOWS */
+    "Purchase_Confirmation_NoHome" = "L'acquisto è stato completato. Per effettuare il download, vai a I miei giochi e app sulla tua console e sceglilo dalla lista \"Pronto per l'installazione\" (si trova all'estrema destra dello schermo). Se desideri scaricare automaticamente gli acquisti successivi, configura la tua console come Xbox home in Impostazioni > La mia Xbox home.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Queued" = "Questo elemento si installerà automaticamente sulla tua Xbox home. Se Xbox è accesa o impostata su Accensione immediata, ha abbastanza spazio e gli aggiornamenti e gli acquisti automatici sono attivi, avvierà immediatamente il download. Se vuoi modificare la tua Xbox home, vai a Impostazioni > La mia Xbox home sulla console. Per modificare le opzioni energia, vai a Impostazioni > Energia e avvio.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Consumable" = "Gli elementi di questo genere si possono acquistare tutte le volte che vuoi. Puoi tornare e acquistarlo di nuovo in qualsiasi momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Error_NoResults" = "Nessun elemento trovato";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse" = "Esplora";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons" = "Add-on";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games" = "Giochi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse_Tablet" = "ESPLORA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Tablet" = "ADD-ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Tablet" = "GIOCHI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Popular" = "Più popolari";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Recent" = "Data di uscita";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader" = "RESTA ACCESO";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader_Windows" = "Resta acceso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOption" = "Sempre";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOptionDescription" = "Lo schermo non si spegnerà con SmartGlass aperto (minor durata della batteria)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOption" = "Solo come telecomando";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOptionDescription" = "Lo schermo non si spegnerà se usato come telecomando Xbox (miglior durata della batteria)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOption" = "Usa impostazioni dispositivo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOptionDescription" = "Lo schermo si spegnerà normalmente (maggior durata della batteria)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title_Windows" = "Notifiche";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackForm_CrashTellUsText" = "Cosa stavi facendo?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_SupportLink" = "Per saperne di più, tocca qui";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Them" = "Nessuna clip salvata";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase" = "Chiedimi di accedere prima di completare gli acquisti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase_Header" = "Acquisti";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NOT_AIRING" = "Non in onda adesso";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Description" = "Guarda la TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANNEL" = "CHANNEL";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Coming_Soon" = "prossimamente";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Error_Not_Supported" = "Lo streaming TV non è abilitato sulla console.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Copy_Text" = "Copia testo";
+    /* iOS,ANDROID,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_Windows" = "{0} di {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_EntryText" = "Vuoi dire qualcosa?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Header" = "Rimuovere il messaggio?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Body" = "Non hai ancora inviato il messaggio. Se continuerai, lo perderai.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Send_ErrorText" = "Impossibile inviare in questo momento. Tocca per riprovare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_Profile_NoData" = "Quando sbloccherai degli obiettivi, registrerai delle clip di gioco e aggiungerai degli amici, lo vedrai qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionsScreen_HeaderText" = "Condividi...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ActivityFeedText" = "Feed attività";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_MessageText" = "Messaggio";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_HeaderText" = "Condividi sul feed attività";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_TextEntryWatermark" = "Aggiungi didascalia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShareButtonText" = "Condividilo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Header" = "Non vuoi condividere?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Body" = "Non l'hai ancora condiviso. Se continui, non lo condividerai.";
+    /* iOS, */
+    "ActivityFeed_YouLikedText_iOS" = "Tu e altri %1$@ avete messo Mi piace";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1LikeText" = "1 Mi piace";
+    /* iOS, */
+    "ActivityFeed_LikesText_iOS" = "%1$@ Mi piace";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1ShareText" = "1 condivisione";
+    /* iOS, */
+    "ActivityFeed_SharesText_iOS" = "%1$@ condivisioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1CommentText" = "1 commento";
+    /* iOS, */
+    "ActivityFeed_CommentsText_iOS" = "%1$@ commenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_TextEntryWatermark" = "Lascia un commento";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorText" = "Si è verificato un problema. Riprova più tardi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Share_ServiceFailure" = "Impossibile condividerlo in questo momento. Riprova in seguito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Post_ServiceFailure" = "Impossibile pubblicare il commento in questo momento. Riprova in seguito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_Filter_Header" = "Mi piace";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_Filter_Header" = "Condivisioni";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_Filter_Header" = "Commenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_HeaderText" = "Avvisi attività";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_LikedText" = "ha messo Mi piace alla tua attività";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_SharedText" = "ha condiviso la tua attività";
+    /* iOS, */
+    "ActivityAlerts_List_2People_iOS" = "%1$@ + 1 altro";
+    /* iOS, */
+    "ActivityAlerts_List_NPeople_iOS" = "%1$@ + %2$@ altri";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_Empty" = "AVVISI";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_1Alert" = "1 NUOVO AVVISO";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_iOS" = "%1$@ NUOVI AVVISI";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_Header_iOS" = "FEED ATTIVITÀ (%1$@)";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedText_iOS" = "ha commentato la tua attività: \"%1$@\"";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedOthersText_iOS" = "ha commentato l'attività di %1$@: \"%2$@\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_AddedFriendText" = "ti ha aggiunto come amico";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Header" = "Eliminare l'elemento di feed?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Body" = "Sei sicuro di voler eliminare questo elemento di feed?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Header" = "Eliminare il commento?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Body" = "Sei sicuro di voler eliminare questo commento?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_ServiceFailure" = "Impossibile ottenere i tuoi avvisi attività in questo momento. Riprova in seguito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityItem_ServiceFailure" = "Impossibile ottenere l'elemento attività in questo momento. Riprova in seguito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_NoData" = "Quando le persone metteranno Mi piace ai contenuti del tuo feed attività, li condivideranno, li commenteranno o ti aggiungeranno come amico, lo vedrai qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_List_NoData" = "Dì che ti piace per primo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_List_NoData" = "Condividilo per primo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_List_NoData" = "Commenta per primo";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Confirmation_Success" = "L'elemento è stato rimosso";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Header" = "Si è verificato un problema";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Body" = "Impossibile eliminarlo in questo momento. Riprova in seguito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_Failure_Body" = "Impossibile pubblicare il commento in questo momento. Riprova in seguito.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_DisplayError_Body" = "Impossibile mostrarlo in questo momento.";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header" = "Giochi popolari (10 giorni)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header_Tablet" = "GIOCHI POPOLARI (10 GIORNI)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Plays_1Friend" = "1 amico ha giocato";
+    /* iOS, */
+    "PopularGames_Plays_NFriends_iOS" = "%1$@ amici hanno giocato";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Playing_1Friend" = "1 amico sta giocando";
+    /* iOS, */
+    "PopularGames_Playing_NFriends_iOS" = "%1$@ amici stanno giocando";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_ServiceError" = "Non è possibile mostrare i giochi popolari in questo momento. Aggiorna per riprovare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_NoData" = "Tu e i tuoi amici non avete giocato a niente di recente.";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header" = "Giochi più richiesti";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header_Tablet" = "GIOCHI PIÙ RICHIESTI";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Played_Once" = "Una partita effettuata";
+    /* iOS, */
+    "TopGames_PlayedN_iOS" = "%1$@ partite effettuate";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Header" = "Eliminare la conversazione?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Body" = "Sei sicuro di voler eliminare questa conversazione?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Delete_MenuText" = "Elimina conversazione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Reply_Failure" = "Impossibile inviarlo. Tocca per riprovare.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Link" = "Novità";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Description" = "Scopri le nuove funzionalità:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_title" = "Novità di settembre";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_features" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Windows" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_WindowsPhone" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_iOS" = "Visualizza, commenta, condividi e salva i tuoi screenshot e quelli dei tuoi amici";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Android" = "Visualizza, commenta, condividi e salva i tuoi screenshot e quelli dei tuoi amici";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_bug_fixes" = "Correzioni di bug";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_caveat" = "Alcune funzionalità potrebbero non essere disponibili in tutti i mercati";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ERROR" = "SmartGlass non può avviare la registrazione";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ACCESSIBILITY" = "Registra elemento";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Providers" = "Provider";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Provider" = "Scegli un provider:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_General_Error" = "Impossibile mostrare i tuoi canali in questo momento. Aggiorna per riprovare o scegli un altro provider:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Different_Provider" = "Scegli un altro provider:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Select_a_Provider" = "Scegli un provider:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Connection_Error" = "Connettiti alla tua Xbox per visualizzare l'elenco programmi TV o scegli un altro provider:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_All_Providers" = "Tutti i provider";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Start_Error" = "Impossibile avviare lo streaming TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDCP_Error" = "Il programma corrente è protetto da HDCP e non può essere trasmesso in streaming.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Error" = "Accedi sulla console per guardare la TV su questo dispositivo.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Console_Error" = "Un problema con la console impedisce lo streaming TV. Riprova più tardi. Se il problema persiste, potrebbe essere necessario riavviare la console.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connection_Error" = "Connessione con la console interrotta. Riconnettiti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Error" = "Impossibile connettersi alla console per avviare lo streaming TV. Controlla la tua rete e riprova. Se il problema persiste, potrebbe essere necessario riavviare il router.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Parental_Controls_Block" = "Questo programma è bloccato. Per modificare la relativa impostazione, vai a Impostazioni > Privacy e sicurezza online sulla tua Xbox.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Too_Slow_Error" = "La rete è troppo lenta o congestionata per supportare lo streaming TV. Controlla la tua rete.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Interrupted_Error" = "La TV in streaming è stata interrotta.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signed_Out_Error" = "La TV in streaming si è arrestata perché sei stato disconnesso dalla console.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error" = "Si è verificato un problema con lo streaming. Riprova più tardi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Device_Not_Supported_Error" = "Questo dispositivo non supporta lo streaming TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Not_Supported_Error" = "Questa rete non supporta lo streaming TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Version_Not_Supported_Error" = "Questa versione di SmartGlass non supporta lo streaming TV. Aggiorna l'app SmartGlass e riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Region_Not_Supported_Error" = "La tua regione non supporta lo streaming TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signal_Lost_Error" = "La tua Xbox ha perso il segnale TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Restart" = "Si è verificato un problema con lo streaming. Riavvia SmartGlass e riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Resources_Error" = "Ci sono troppe app attive su questo dispositivo. Chiudine qualcuna e riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_By_User_Error" = "Qualcuno ha interrotto lo streaming sulla console.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_Error" = "Sei stato disconnesso dalla console.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Lost_Network_Error" = "Sei stato disconnesso dalla console.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnect_To_Stream" = "Riconnettiti per continuare a guardare la TV.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Try_Again_Later" = "Riprova più tardi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Header" = "Streaming TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Begin_Header" = "Avvia visione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_TV" = "Guarda la TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_Header" = "TV in streaming";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Currently_Playing" = "In riproduzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_On_Next" = "A seguire";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Close_Stream" = "Interrompi visione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Restart_Stream" = "Riavvia la TV in streaming";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDMI_In" = "Ingresso HDMI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_TV_Tuner" = "Sintonizzatore TV digitale Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Video" = "Streaming video";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Current_Source" = "Origine corrente:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Choose_a_Source" = "Scegli un'origine:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connecting" = "Connessione...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnecting" = "Riconnessione...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Attempting_Reconnect" = "Riconnessione...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Buffering" = "Buffering...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Quality" = "La qualità della TV in streaming è influenzata dalla rete. Controlla la tua rete.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Remote_Cannot_Control_Source" = "Il telecomando SmartGlass non può controllare l'origine corrente.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Stop" = "Interrompi visione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Before_Streaming" = "Per configurare lo streaming TV, accedi sulla console con lo stesso account che utilizzi qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Header" = "Vota l'app";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Body" = "Se ti piace SmartGlass, prenditi un minuto per votare l'app.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_RemindButton" = "Un'altra volta";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_DontAskButton" = "Non chiedermelo più";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_DeleteError" = "Impossibile ottenere questo elemento di feed. Potrebbe essere momentaneamente non disponibile o essere stato eliminato.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Resume" = "Riprendi visione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Long" = "Si è verificato un problema con lo streaming. Prova ad arrestarlo e riavviarlo. Se il problema persiste, chiudi SmartGlass e riavvialo, oppure riavvia la console o il router.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MHEG_Error" = "Impossibile riprodurre contenuti interattivi. Prova con un altro canale.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Content_Error" = "Questo canale non è attualmente disponibile. Consulta OneGuide per vedere i contenuti disponibili su altri canali.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MTC_Live" = "DIRETTA";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_NewMarkets" = "TV e OneGuide disponibili in nuovi mercati";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_Streaming" = "Effettua lo streaming TV in diretta dal sintonizzatore TV digitale Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Phone" = "Amici che giocano";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Tablet" = "AMICI CHE GIOCANO";
+    /* iOS,ANDROID,WINDOWS, */
+    "Radio_NoVideo_Error" = "Canale radio in riproduzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps" = "App";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps_Tablet" = "APP";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold" = "Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold_Tablet" = "GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold" = "Games with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold" = "Promozioni Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold_Tablet" = "GAMES WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold_Tablet" = "PROMOZIONI GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_ComingSoon" = "Prossimamente";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ShowcaseText" = "Bacheca";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShowcaseHeaderText" = "Condividi nella bacheca";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteHeader" = "Eliminare l'elemento dalla bacheca?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteBody" = "Sei sicuro di voler rimuovere questo elemento dalla bacheca?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataMeText" = "Condividi le clip di gioco e gli obiettivi migliori dal feed attività o dai dettagli dell'obiettivo.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataYouText" = "I tuoi amici non hanno ancora condiviso obiettivi o clip di gioco nella loro bacheca.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_BioHeader" = "Biografia";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_LocationHeader" = "Località";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_High_Quality" = "Alta qualità";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Best_Quality" = "Qualità ottimale";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Medium_Quality" = "Media qualità";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Quality" = "Bassa qualità";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_New_Feature" = "Novità: guarda la TV su SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Signal" = "Impossibile rilevare un segnale dal sintonizzatore TV. Controlla l'antenna.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_No_Info_Available" = "Nessuna informazione disponibile";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Other_User_Changed_Quality" = "Qualcun altro ha modificato la qualità dello streaming per tutte le connessioni SmartGlass.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Playing_Radio_Channel" = "Canale radio in riproduzione";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Cannot_Find_Tuner" = "Impossibile trovare il sintonizzatore TV. Assicurati che sia connesso alla tua Xbox e riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOn" = "Accendi";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOff" = "Spegni";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOn" = "Accensione...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOff" = "Spegnimento...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOnFailure" = "Impossibile accendere la console. Assicurati che il dispositivo si trovi sulla stessa rete e verifica che la console sia impostata su Accensione immediata.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOffFailure" = "Non è stato possibile spegnere la tua Xbox. Assicurati che sia connessa e verifica di avere effettuato l'accesso sulla console, poi riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestNetworkStreaming" = "Esegui test dello streaming";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_ConnectToTest" = "Connettiti a Xbox per eseguire test di rete multimediali";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_BeginTest" = "Inizia test";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestInProgress" = "Test in corso. Non uscire da questa pagina e non chiuderla. L'esecuzione del test potrebbe richiedere fino a 5 minuti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestComplete" = "Test completato! Grazie per aver contribuito all'ottimizzazione dello streaming.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_SignInToTest" = "Per avviare il test, accedi sulla console con lo stesso account che utilizzi qui.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_CancelTest" = "Annulla test";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NeedStopGameStreamingError" = "Interrompi lo streaming di gioco prima di avviare il test di rete.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_StopGameStreamingWarning" = "L'avvio del test di rete ti farà uscire dalla sessione di streaming di gioco corrente. Sei sicuro di voler continuare?";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_Proceed" = "Sì";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NotProceed" = "No";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_ResumeTest" = "Riprendi test";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_GenericError" = "Si è verificato un problema durante l'esecuzione del test. Riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RetryTest" = "Ripeti test";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RebootConsole" = "Impossibile avviare lo streaming sulla console. Riavviala e riprova.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ThirdPartyNotice_Header" = "Comunicazioni di terze parti";
+    /* iOS,ANDROID, */
+    "Drawer_Captures" = "Clip";
+    /* iOS,ANDROID, Profile page My Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Phone" = "Le mie clip";
+    /* iOS,ANDROID, Profile page Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Phone" = "Clip";
+    /* iOS,ANDROID, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Tablet" = "LE MIE CLIP";
+    /* iOS,ANDROID, Profile page Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Tablet" = "CLIP";
+    /* iOS,ANDROID, Used by activity incase screenshot cannot be opened */
+    "Error_CanNotOpenScreenshot" = "Impossibile aprire lo screenshot.";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Me" = "Non hai ancora catturato nessuno screenshot. Dovresti provare. È divertente!";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_Me" = "Non hai ancora registrato nessuno screenshot. Dovresti provare. È divertente!";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Them" = "Nessuno screenshot salvato";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_You" = "Sembra che non abbiano condiviso nessuno screenshot.";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Saved" = "I miei screenshot - salvati";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Recent" = "I miei screenshot - recenti";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Recent" = "Screenshot - recenti";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Saved" = "Screenshot - salvati";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataMeText" = "Condividi le clip di gioco, gli screenshot e gli obiettivi migliori dal feed attività o dai dettagli dell'obiettivo.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataYouText" = "I tuoi amici non hanno ancora condiviso obiettivi, screenshot o clip di gioco nella loro bacheca.";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_Me_Tablet" = "Le mie clip";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_You_Tablet" = "Clip";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Phone" = "Clip di gioco";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Tablet" = "CLIP DI GIOCO";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData" = "Nessuno screenshot da visualizzare. Dai il via al gioco e catturane qualcuno.";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_Community" = "Nessuno screenshot catturato per questo gioco.";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_CommunityButtonText" = "Visualizza gli screenshot della community";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Saved" = "Screenshot della community - salvati";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Recent" = "Screenshot della community - recenti";
+    /* iOS,ANDROID, */
+    "Screenshot_Saving" = "Salvataggio...";
+    /* iOS,ANDROID, */
+    "Screenshot_ChooseAction" = "Scegli";
+    /* iOS,ANDROID, */
+    "Screenshot_Sharing" = "Condivisione...";
+    /* iOS,ANDROID, */
+    "Screenshot_Share" = "Condividi";
+    /* iOS,ANDROID, */
+    "Screenshots_Saved" = "Screenshot salvato";
+    /* iOS,ANDROID, */
+    "Screenshots_SavedError" = "Impossibile salvare lo screenshot, riprova";
+    /* iOS,ANDROID, */
+    "Screenshots_ShareError" = "Impossibile salvare lo screenshot, riprova";
+    /* iOS,ANDROID, */
+    "Screenshot_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Share" = "Share real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Update" = "Name sharing settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateRealNameSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_TryAgain" = "Try again in a while";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChooseWhoSeesYourName" = "Choose who sees your name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_WhatYouChose" = "Here's what you chose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description1" = "You can share your real name with your friends on Xbox - you choose who to share it with. Your name doesn't show up in games, and you can always change these settings in your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description2" = "Choose Set up name sharing to pick the people you want to share your name with.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EnforcementBanned_Description" = "You can't share your real name because of your past behavior.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ErrorAtStartup_Description" = "We can't set up or change your real name sharing settings right now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLook_Description" = "This is how you'll appear to other people on Xbox, using the real name from your Microsoft account. If it doesn't look right, you can edit it now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EditHowYouLook" = "This will change the name on the Microsoft account for {0}. This name is used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithFriendsOfFriends" = "When you share your name with friends, their friends see it, too. You can change these settings any time from your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveName" = "Sorry, we can't change your name right now. Click Save to try again or go back.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveSharing" = "Sorry, we can't save your name sharing settings right now. Select Done to try saving again.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Everyone" = "Everyone on Xbox";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChosenFriends" = "Only friends I choose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWith" = "Share with: {0}";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ZeroFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_OneFriend" = "{0} friend";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ManyFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NextWithSelectedCount" = "Next ({0} selected)";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Edit" = "Edit";
+    /* iOS,ANDROID, */
+    "RealNameSharing_FirstName" = "First name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_LastName" = "Last name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSettings" = "Update settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NoThanks" = "No, thanks";
+    /* iOS,ANDROID, */
+    "RealNameSharing_SetUpNameSharing" = "Set up name sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StopSharing" = "Stop sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_GoBack" = "Go back";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Next" = "Next";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithSettings" = "Share with";
+    /* iOS,ANDROID, (Used to indicate how your name appears to others) */
+    "RealNameSharing_HowYouLook" = "How you look";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLookDetail" = "The name is from the Microsoft account and used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, (First placeholder is for the users First Name, the second placeholder is for their Last Name) */
+    "RealNameSharing_SettingsRealNameConcatentation" = "%1$@ %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_ChangeFriendship" = "Change friendship";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorRealNameSave" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorAddingFriend" = "Sorry, we can't add this person right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorChangeRemove" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorPartialFail" = "Sorry, we could only save some of your changes. Try saving again.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Friend" = "Friend";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Favorite" = "Favorite";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_FriendsofFriends" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_AddFriendDescription" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Favorite" = "Favorite friends go first on your friends list. You'll see when they go online or start broadcasting.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Friend" = "Friends show up on your friends list and activity feed. They see you as a new follower.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Everyone" = "Your real name is shared with everyone on Xbox. You can make changes in Settings.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName" = "Let {0} see my real name. It might help them recognize who you are.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Alt" = "{0} may not recognize you as {1}. They're sharing their name with you. Check the box to share with them.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Friends" = "Your real name is shared with all your friends on Xbox. You can make changes in Settings.";

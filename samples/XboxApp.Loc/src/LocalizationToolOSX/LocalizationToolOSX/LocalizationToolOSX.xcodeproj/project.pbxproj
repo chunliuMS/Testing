@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D01C501CA0AF97003952C3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D01C4F1CA0AF97003952C3 /* main.swift */; };
+		F5D01C661CA0B435003952C3 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D01C651CA0B435003952C3 /* SWXMLHash.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5D01C4A1CA0AF97003952C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5D01C4C1CA0AF97003952C3 /* LocalizationToolOSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocalizationToolOSX; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D01C4F1CA0AF97003952C3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F5D01C651CA0B435003952C3 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = "SWXMLHash-master/Source/SWXMLHash.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D01C491CA0AF97003952C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D01C431CA0AF97003952C3 = {
+			isa = PBXGroup;
+			children = (
+				F5D01C4E1CA0AF97003952C3 /* LocalizationToolOSX */,
+				F5D01C4D1CA0AF97003952C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D01C4D1CA0AF97003952C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D01C4C1CA0AF97003952C3 /* LocalizationToolOSX */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D01C4E1CA0AF97003952C3 /* LocalizationToolOSX */ = {
+			isa = PBXGroup;
+			children = (
+				F5D01C641CA0B421003952C3 /* SWXMLHash */,
+				F5D01C4F1CA0AF97003952C3 /* main.swift */,
+			);
+			path = LocalizationToolOSX;
+			sourceTree = "<group>";
+		};
+		F5D01C641CA0B421003952C3 /* SWXMLHash */ = {
+			isa = PBXGroup;
+			children = (
+				F5D01C651CA0B435003952C3 /* SWXMLHash.swift */,
+			);
+			name = SWXMLHash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D01C4B1CA0AF97003952C3 /* LocalizationToolOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D01C531CA0AF97003952C3 /* Build configuration list for PBXNativeTarget "LocalizationToolOSX" */;
+			buildPhases = (
+				F5D01C481CA0AF97003952C3 /* Sources */,
+				F5D01C491CA0AF97003952C3 /* Frameworks */,
+				F5D01C4A1CA0AF97003952C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizationToolOSX;
+			productName = LocalizationToolOSX;
+			productReference = F5D01C4C1CA0AF97003952C3 /* LocalizationToolOSX */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D01C441CA0AF97003952C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Xbox;
+				TargetAttributes = {
+					F5D01C4B1CA0AF97003952C3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F5D01C471CA0AF97003952C3 /* Build configuration list for PBXProject "LocalizationToolOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5D01C431CA0AF97003952C3;
+			productRefGroup = F5D01C4D1CA0AF97003952C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D01C4B1CA0AF97003952C3 /* LocalizationToolOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D01C481CA0AF97003952C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D01C501CA0AF97003952C3 /* main.swift in Sources */,
+				F5D01C661CA0B435003952C3 /* SWXMLHash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5D01C511CA0AF97003952C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/LocalizationToolOSX/Modules/**";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D01C521CA0AF97003952C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/LocalizationToolOSX/Modules/**";
+			};
+			name = Release;
+		};
+		F5D01C541CA0AF97003952C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5D01C551CA0AF97003952C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D01C471CA0AF97003952C3 /* Build configuration list for PBXProject "LocalizationToolOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D01C511CA0AF97003952C3 /* Debug */,
+				F5D01C521CA0AF97003952C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D01C531CA0AF97003952C3 /* Build configuration list for PBXNativeTarget "LocalizationToolOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D01C541CA0AF97003952C3 /* Debug */,
+				F5D01C551CA0AF97003952C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D01C441CA0AF97003952C3 /* Project object */;
+}

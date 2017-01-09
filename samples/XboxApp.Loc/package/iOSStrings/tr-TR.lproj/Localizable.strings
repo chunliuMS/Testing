@@ -1,0 +1,3623 @@
+    //
+    // version 1.0
+    //
+    /* WINDOWS,iOS,ANDROID, Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language */
+    "ResourceFlowDirection" = "LeftToRight";
+    /* WINDOWS,iOS,ANDROID, Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language. */
+    "ResourceLanguage" = "tr-TR";
+    /* WINDOWS,iOS,ANDROID, If we don't find a valid rating to string mapping, we'll return this string. */
+    "PARENTAL_RATING_NOT_RATED" = "Derecelendirilmemiş";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_EC" = "Küçük Çocuk";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E" = "Herkes";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10" = "10+ Herkes";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10_RP" = "Derecelendirme Beklemede";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_T" = "Genç";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_M" = "Yetişkin";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_AO" = "Yalnızca Yetişkinler";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_RP" = "Derecelendirme Beklemede veya Derecelendirilmemiş";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_A" = "CERO A / CERO All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_B" = "CERO B / CERO 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_C" = "CERO C / CERO 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_D" = "CERO D / CERO 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_Z" = "CERO Z";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_ALL_AGES" = "USK 0";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_6" = "USK 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_12" = "USK 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_16" = "USK 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_NO_YOUTH" = "USK 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_4" = "PEGI 4";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_6" = "PEGI 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_11" = "PEGI 11";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_12" = "PEGI 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_15" = "PEGI 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_18" = "PEGI 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_U" = "BBFC U";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_PG" = "BBFC PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_12" = "PEGI 12 / BBFC 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_15" = "BBFC 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_18" = "PEGI 18 / BBFC 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_E" = "E - Sınıflandırmadan Muaf";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G" = "G - Genel";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G8" = "Ebeveyn Gözetimi Önerilir";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M15" = "Yetişkin İzleyiciler için Önerilen";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_MA15" = "MA 15+ - Yetişkin Birinin Gözetiminde";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_PG" = "PG - Ebeveyn Gözetimi";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M" = "M - Yetişkin";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_R18" = "R 18+ - Sınırlı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_X18" = "X 18+ - Müstehcen";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_REFUSED" = "Sınıflandırılmamış";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_G" = "Genel";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_PG" = "Ebeveyn Gözetimi Önerilir";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_M" = "16 Yaşın Üzerindeki Yetişkinler için Uygun";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R15" = "15+ İzleyicilere Sınırlı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R" = "Sınırlı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R13" = "13+ İzleyicilere Sınırlı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R16" = "16+ İzleyicilere Sınırlı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R18" = "18+ İzleyicilere Sınırlı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_ALL" = "GRB All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_12" = "GRB 12+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_15" = "GRB 15+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_18" = "GRB 18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_A" = "FPB A";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_PG" = "FPB PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_10" = "FPB 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_13" = "FPB 13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_16" = "FPB 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_18" = "FPB 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_ER" = "DJCTQ ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_L" = "DJCTQ L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_10" = "DJCTQ 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_12" = "DJCTQ 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_14" = "DJCTQ 14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_16" = "DJCTQ 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_18" = "DJCTQ 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_GENERAL" = "Genel";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PROTECTED" = "Korumalı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PG" = "Ebeveyn Gözetimi";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_RESTRICTED" = "Sınırlı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_GENERAL" = "Genel";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_AGE_ADVISORY" = "Yaş Önerisi";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_MATURE_18" = "Yetişkin 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING" = "%1$s Derecelendirilmiş";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GAME" = "Derecelendirme: %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_EXPLICIT_EXPLICIT" = "MÜSTEHCEN";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG13" = "PG-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_NC17" = "NC-17";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_AO" = "AO";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_14" = "14A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_18" = "18A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_R18" = "MA18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_X18" = "X18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_UC" = "Uc";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_15A" = "15A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_BTL" = "Btl";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_ST" = "S/T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K3" = "K-3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K7" = "K-7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K11" = "K-11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K13" = "K-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K15" = "K-15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K18" = "K-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_MATURE" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R13" = "R13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R15" = "R15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R16" = "R16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_1" = "1";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_2" = "2";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_3" = "3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_4" = "4";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_5" = "5";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_8" = "8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_0" = "0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_10" = "10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_14" = "14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK0" = "FSK 0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK6" = "FSK 6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK12" = "FSK 12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK16" = "FSK 16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK18" = "FSK 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_SPIO_JK" = "SPIO/JK";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_TP" = "TP/ALL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_13" = "13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_T" = "T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM14" = "VM14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM18" = "VM18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_AL" = "AL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_9" = "9";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y" = "TV-Y";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7" = "TV-Y7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7FV" = "TV-Y7-FV";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_G" = "TV-G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_PG" = "TV-PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_14" = "TV-14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_MA" = "TV-MA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C8" = "C8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_14" = "14+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_18" = "18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_10" = "-10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_P" = "P";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_AV15" = "AV15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_R18" = "R18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_ER" = "ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_L" = "L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_10" = "10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_12" = "12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_14" = "14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_16" = "16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_18" = "18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_MINOR" = "Çocuklar için";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_GP" = "Tümü";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_7" = "+7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_13" = "+13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_18" = "+18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_X" = "X";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_MINOR" = "Yeşil";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_14" = "Sarı";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_ADULT" = "Kırmızı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED" = "Derecelendirilmemiş";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED_OR_PENDING" = "Beklemede veya Derecelendirilmemiş";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_0" = "Alkol Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_1" = "Kanlı Animasyon";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2" = "Kan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_3" = "Kan ve Vahşet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4" = "Şiddet İçeren Çizgi Film";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5" = "Komik Haylazlık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6" = "Kaba Mizah";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_7" = "Uyuşturucu Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_8" = "Eğitici-Eğlendirici";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_9" = "Hayal Ürünü Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10" = "Bilgilendirici";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_11" = "Yoğun Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_12" = "Dil";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_13" = "Şarkı sözleri";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14" = "Yetişkinlere Yönelik Mizah";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_15" = "Hafif Düzeyde Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_16" = "Çıplaklık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_17" = "Kısmi Çıplaklık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_18" = "Gerçek Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_19" = "Cinsel Temalar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_20" = "Cinsel Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_21" = "Sanal Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_22" = "Kısmen Yetişkin Gözetimi Gerekebilir";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_23" = "Küfürlü Konuşma";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_24" = "Yoğun Küfür veya Şiddet İçeren Şarkı Sözleri";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_25" = "Aşırı Cinsel İçerik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_26" = "Kışkırtıcı Temalar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_27" = "Sigara Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_28" = "Uyuşturucu Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_29" = "Alkol Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_30" = "Sigara Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_31" = "Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_32" = "Cinsel İçerik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_33" = "Hafif Düzeyde Alkol Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_34" = "Hafif Düzeyde Kanlı Animasyon";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_35" = "Hafif Düzeyde Kan";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_36" = "Hafif Düzeyde Kan ve Vahşet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_37" = "Hafif Düzeyde Şiddet İçeren Çizgi Film";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_38" = "Hafif Düzeyde Komik Haylazlık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_39" = "Hafif Düzeyde Kaba Mizah";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_40" = "Hafif Düzeyde Uyuşturucu Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_41" = "Hafif Düzeyde Hayal Ürünü Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_42" = "Hafif Düzeyde Küfürlü Konuşma";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_43" = "Hafif Düzeyde Küfür veya Şiddet İçeren Şarkı Sözleri";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_44" = "Hafif Düzeyde Yetişkinlere Yönelik Mizah";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_45" = "Hafif Düzeyde Çıplaklık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_46" = "Hafif Düzeyde Kısmi Çıplaklık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_47" = "Hafif Düzeyde Gerçek Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_48" = "Hafif Düzeyde Cinsel Temalar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_49" = "Hafif Düzeyde Cinsel Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_50" = "Hafif Düzeyde Sanal Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_51" = "Hafif Düzeyde Kışkırtıcı Temalar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_52" = "Hafif Düzeyde Tütün Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_53" = "Hafif Düzeyde Uyuşturucu Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_54" = "Hafif Düzeyde Alkol Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_55" = "Hafif Düzeyde Sigara Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_56" = "Hafif Düzeyde Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_57" = "Hafif Düzeyde Cinsel İçerik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_58" = "Şiddet Mesajları";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_59" = "Hafif Düzeyde Şiddet Mesajları";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_60" = "Uyuşturucu ve Alkol Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_61" = "Alkol ve Sigara Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_62" = "Alkol ve Sigara Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_63" = "Şiddet İçeren Animasyon";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_64" = "Hafif Düzeyde Şiddet İçeren Animasyon";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_65" = "Kan ve Vahşet İçeren Animasyon";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_66" = "Vahşet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_67" = "Hafif Düzeyde Uyuşturucu ve Alkol Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_68" = "Hafif Düzeyde Uyuşturucu ve Sigara Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_69" = "Hafif Düzeyde Alkol ve Sigara Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_70" = "Hafif Düzeyde Uyuşturucu, Alkol ve Sigara Kullanımı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_71" = "Uyuşturucu ve Alkol Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_72" = "Hafif Düzeyde Uyuşturucu ve Alkol Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_73" = "Uyuşturucu ve Sigara Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_74" = "Hafif Düzeyde Uyuşturucu ve Sigara Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_75" = "Uyuşturucu, Alkol ve Sigara Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_76" = "Hafif Düzeyde Uyuşturucu, Alkol ve Sigara Mesajı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_77" = "Yetişkinlere Yönelik Cinsel Temalar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_78" = "Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_79" = "Çevrimiçi Oyun Sırasında Oyun Deneyimi Değişebilir";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_100" = "Aşk";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_101" = "Cinsellik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_102" = "Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_103" = "Korku";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_104" = "Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_105" = "Suç";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_106" = "Alkol";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_107" = "Sigara";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_108" = "Uyuşturucu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_109" = "Dil";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_110" = "İçki ve Sigara";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2283" = "Örnek Derecelendirme Tanımlayıcısı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4000" = "Küfür";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4001" = "Ayrımcılık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4002" = "Uyuşturucu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4003" = "Korku";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4004" = "Cinsellik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4005" = "Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4006" = "Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4999" = "CWS Örnek Derecelendirme Tanımlayıcısı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5000" = "Küfür";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5001" = "Ayrımcılık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5002" = "Uyuşturucu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5003" = "Korku";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5004" = "Cinsellik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5005" = "Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5006" = "Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6000" = "Küfür";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6001" = "Ayrımcılık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6002" = "Uyuşturucu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6003" = "Korku";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6004" = "Cinsellik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6005" = "Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6006" = "Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10001" = "Yetişkinlere Yönelik Durumlar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10002" = "Kısa Süreli Çıplaklık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10003" = "Çarpıcı Konuşma";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10004" = "Çarpıcı Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10005" = "Dil";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10006" = "Hafif Düzeyde Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10007" = "Çıplaklık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10008" = "Tecavüz";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10009" = "Aşırı Cinsel İçerik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10010" = "Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14000" = "Küfür";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14001" = "Ayrımcılık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14002" = "Uyuşturucu";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14003" = "Korku";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14004" = "Cinsellik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14005" = "Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14006" = "Kumar";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320010" = "Ayrımcılık";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320020" = "Uyuşturucu ve Alkol İstismarı";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320030" = "Korku";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320040" = "Şiddet";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320050" = "Kaba Dil";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320060" = "Cinsellik";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_ALL" = "Tümü";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when the Search service returns an error. */
+    "Search_ErrorText" = "Şu anda arama sonuçları alınamıyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_All" = "Tümü";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Apps" = "Uygulamalar";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Games" = "Oyunlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Movies" = "Filmler";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Music" = "Müzik";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_TV" = "TV Programları";
+    /* WINDOWS,iOS,ANDROID, Failed to retrieve data from the service */
+    "LRC_Error_Code_FailedToRetrieveData" = "Kullanılmıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "RelatedItems_NoResultsFound" = "Şu anda ilgili öğeler alınamıyor.";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_FilterHeader" = "göster";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_PageTitle" = "sonuçlar";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResult_BusyIndicatorText" = "Aranıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Bio_Header" = "Biyografi";
+    /* WINDOWS,iOS,ANDROID, */
+    "Related_Header" = "ilgili";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotFind" = "Konsolunuz bulunamadı";
+    /* WINDOWS,iOS,ANDROID, displayed while waiting for data to load */
+    "BusyIndicator_LoadingText" = "Yükleniyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_DescriptionHeader" = "Açıklama";
+    /* WINDOWS,iOS,ANDROID, */
+    "TVDetails_SeasonsHeader" = "sezonlar";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Text" = "Devam etmek için, bu uygulamayı güncellemeniz gerekir.";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Title" = "Güncelleme gerekiyor";
+    /* WINDOWS,iOS,ANDROID, Shown as header when more than 1 director is involved. */
+    "Directors_Header" = "yönetmenler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Actors_Header" = "OYUNCULAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Synopsis_Header" = "Açıklama";
+    /* iOS,ANDROID,WINDOWS, */
+    "Writers_Header" = "Yazarlar";
+    /* WINDOWS,iOS,ANDROID, */
+    "NowPlaying_MoreInfo" = "Daha fazla";
+    /* WINDOWS,iOS,ANDROID, */
+    "Search_PlayOnXbox" = "Xbox'da yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launch_DifferentTitle_Warning_Message" = "Bu, konsol üzerinde çalışanın yerini alacak. Tamam mı?";
+    /* WINDOWS,iOS,ANDROID, */
+    "OK_Text" = "Tamam";
+    /* WINDOWS,iOS,ANDROID, */
+    "Warning_Title" = "Çıkış?";
+    /* WINDOWS,iOS,ANDROID, Title for the popular search terms list. */
+    "SearchTerms_Title" = "şimdi popüler";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotConnect" = "Konsolunuz bulunamadı";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotSignIn" = "Oturum açamazsınız";
+    /* WINDOWS,iOS,ANDROID, used for grouping details, example:  Year Released - Parent Rating - Movie Duration.  (1992 - PG - 124 min) */
+    "Search_DetailsSeparator" = "|";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_BasicPrompt" = "için Xbox'da ara";
+    /* WINDOWS,iOS,ANDROID, indicates the album, song contains explicit content. */
+    "Content_Explicit" = "müstehcen";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category1" = "filmler için Xbox'da ara,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category2" = "albümler için Xbox'da ara,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category3" = "oyunlar için Xbox'da ara,";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category1" = "filmler, TV için Xbox'da ara...";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category2" = "albümler, sanatçılar için Xbox'da ara...";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category3" = "oyunlar, uygulamalar için Xbox'da ara...";
+    /* WINDOWS,iOS,ANDROID, Shown Provider offers this media for free viewing. */
+    "ProviderOffer_Free" = "Ücretsiz";
+    /* WINDOWS,iOS,ANDROID, */
+    "Achievements_SecretDescription" = "Gizli başarı kilidini açmak için oynamaya devam edin.";
+    /* WINDOWS,iOS,ANDROID, */
+    "FamilyPasscode_Header" = "Devam etmek için Aile Ayarlar'ı geçiş kodunuzu girin.";
+    /* iOS,ANDROID,WINDOWS, ghost text for empty address bar */
+    "WebBrowser_GhostText" = "Xbox'ınızda göz atın";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_fastforward" = "ileri";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_pause" = "duraklat";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_play" = "yürüt";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_rewind" = "geri sar";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Providers" = "bu uygulamalar için:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_RequiresGold" = "Gold gerektiriyor";
+    /* WINDOWS,iOS,ANDROID, Play command */
+    "Activity_Play" = "Başlat";
+    /* iOS,ANDROID,WINDOWS, header/title used on the activity tile */
+    "Activity_SmartGlass_Title" = "Xbox One SmartGlass Yardımcısı";
+    /* WINDOWS,iOS,ANDROID, Controller activity */
+    "Activity_Controller" = "Uzaktan kontrol";
+    /* WINDOWS,iOS,ANDROID, */
+    "MediaState_DragInstruction" = "Daha iyi kontrol için, parmağınızı çubuktan kaldırın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_ProviderSpecific" = "Bu uygulamalar için:";
+    /* WINDOWS,iOS,ANDROID, Title for the Settings page */
+    "Settings_Title" = "ayarlar";
+    /* iOS,ANDROID,WINDOWS, Text for hyperlink in settings page to launch what's new page */
+    "Settings_WhatsNew" = "Başlangıç";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Purchased" = "Satın alma";
+    /* iOS,ANDROID,WINDOWS, Text shown while loading smart glass activity. */
+    "Activity_LoadingText" = "Bu Xbox One SmartGlass etkinlikleri başlıyor...";
+    /* iOS,ANDROID,WINDOWS, Error text shown when an activity fails to load. */
+    "Activity_ErrorText" = "Tüh, bu etkinliği başlatamadık. :(";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_ItemDescription1" = "Xbox One SmartGlass neler yapabilir öğrenin.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription2" = "Favori filmleri, müzik, oyunlar ve uygulamalarınızı yazın, çekin ve dokunun.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription3" = "Cihazınızdan web' e dokunun, yaklaştırın ve çekin.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle1" = "Xbox'ı genişlet";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle2" = "Xbox kontrolü";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle3" = "Web' de gezinin";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl1" = "http://go.microsoft.com/fwlink/?LinkID=266351&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl2" = "http://go.microsoft.com/fwlink/?LinkID=266352&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl3" = "http://go.microsoft.com/fwlink/?LinkID=266353&clcid=0x409";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_Header" = "Başlangıç";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_0" = "0";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_1" = "1";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_2" = "2";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_3" = "3";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_4" = "4";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_5" = "5";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_6" = "6";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_7" = "7";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_8" = "8";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_9" = "9";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_Cancel" = "İptal";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate" = "Taşımak için çekin. Seçmek için dokunun. İki parmağınızı kullanarak kaydırın.";
+    /* WINDOWS,iOS,ANDROID, */
+    "Controller_HelpSelect" = "Seçmek için herhangi bir yere dokunun";
+    /* WINDOWS,iOS,ANDROID, */
+    "TextInput_Help" = "Klavyeyi kapatmak için buraya dokunun.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpNavigate" = "Tek parmağınızla dokunun ve taşıyın.";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpSelect" = "İki parmağınızla yakınlaştırın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ControllerMode_Guide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "XboxSmartGlass" = "Xbox One SmartGlass";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToMain" = "Tamam";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToPrevious" = "İptal";
+    /* WINDOWS,iOS,ANDROID, */
+    "Off" = "Kapalı";
+    /* WINDOWS,iOS,ANDROID, */
+    "On" = "Açık";
+    /* iOS,ANDROID,WINDOWS, */
+    "PivotHeaderFontSize" = "42";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Disconnected" = "Xbox'ınıza bağlanın";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting" = "Bağlanıyor...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting_Tablet" = "BAĞLANIYOR...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected" = "Bağlı";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected_Tablet" = "BAĞLI";
+    /* iOS,ANDROID,WINDOWS, */
+    "MainPage_Connection_State_NoNetwork" = "Ağ bağlantısı kesildi";
+    /* iOS,ANDROID,WINDOWS, Text for the EPG button */
+    "NowPlaying_DiscoverEPGText" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignIn" = "Oturum aç";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignOut" = "Oturumu kapat";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppBar_Remote" = "uzaktan kontrol";
+    /* WINDOWS,iOS,ANDROID, output log location, no need to localize */
+    "TraceService_OutputFile" = "outputFile.log";
+    /* WINDOWS,iOS,ANDROID, Text shown for the calendar app bar button for jumping to a day in the future in the EPG */
+    "AppBar_EpgCalendar" = "başka bir güne git";
+    /* WINDOWS,iOS,ANDROID, Text shown for the Jump to Now app bar button for the EPG */
+    "AppBar_JumpToNow" = "şimdi";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Cancel" = "İptal";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_OK" = "Tamam";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Confirm" = "Onayla";
+    /* WINDOWS,iOS,ANDROID, button for tuning to a TV channel from the details page or EPG */
+    "Epg_TuneToChannel" = "kanal ayarı";
+    /* WINDOWS,iOS,ANDROID, Label for details button on EPG */
+    "Epg_Details" = "ayrıntılar";
+    /* WINDOWS,iOS,ANDROID, header for upcoming showtimes on a TV details page */
+    "TVDetails_Upcoming" = "gelecek";
+    /* WINDOWS,iOS,ANDROID, The content of the retry button when we hit an error loading EPG content. */
+    "Epg_Retry" = "Yeniden dene";
+    /* WINDOWS,iOS,ANDROID, */
+    "Epg_NowButton_Text" = "Şimdi";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STARRING" = "Oyuncular:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDITIONAL" = "Ek ayrıntılar";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GENRES" = "Tarz:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RELEASEDATE" = "Çıkış tarihi:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STUDIOS" = "Stüdyo:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_AWARDS" = "Ödüller";
+    /* iOS,ANDROID,WINDOWS, */
+    "FORWARD_SLASH_SEPARATOR" = "/";
+    /* iOS,ANDROID,WINDOWS, */
+    "COMMA_SEPARATOR" = ",";
+    /* iOS,ANDROID,WINDOWS, */
+    "VERTICAL_BAR_SEPARATOR" = "|";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_ON_XBOX" = "Xbox One'da yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TRAILER" = "Fragmanları oynat";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE" = "Son bölüm";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_MORE" = "Daha fazla";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_RATE" = "Derecelendir";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ALL_SEASONS" = "Tüm sezonlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NEXT_EPISODE" = "Sonraki bölüm";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PREVIOUS_EPISODE" = "Önceki bölüm";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PIN" = "Sabitle";
+    /* iOS,ANDROID,WINDOWS, */
+    "EXTRAS_HEADER" = "ekstralar";
+    /* iOS,ANDROID,WINDOWS, */
+    "REVIEWS_HEADER" = "incelemeler";
+    /* iOS,ANDROID,WINDOWS, */
+    "OVERVIEW_HEADER" = "genel bakış";
+    /* WINDOWS,iOS,ANDROID */
+    "DETAILS_TV_MULTIPLE_SEASON_FORMAT_OTHERS" = "%1$d sezon";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_OOBE_MESSAGE_TEXT" = "Lütfen Xbox'ınızda oturum açın ve bu uygulamayı kullanmadan önce TV bağlantınızı kurun. Bunu sadece bir kez yapmanız gerekecektir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Challenges_Header" = "GÖREVLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_UNPIN" = "Sabitleneni kaldır";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_NoPins" = "Sabitlenmiş hiçbir şeyiniz yok.  Haydi bir şeyler sabitleyin!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle" = "SABİTLENENLERİM";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_DeleteFailed" = "Sabitlenen kaldırılamadı. Lütfen yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_GeneralError" = "Üzgünüz, bu bilgiyi alamadık. Lütfen tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_Title" = "Takipçiler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_List_Empty" = "Takipçi yok";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameConsumables_Header" = "DLC";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Loading" = "Yükleniyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title" = "Gösterim";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title_Tablet" = "GÖSTERİM";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Data_Empty" = "Gösterim verisi yok";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Full" = "Gösteriminiz dolu. Bunu hala eklemek istiyorsanız, gösteriminize gidip bir veya iki şeyi kaldırın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ADD_TO_NOW_PLAYING" = "Şimdi yürütülenlere ekle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Crews_Header" = "SET EKİBİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressTitle" = "İlerleme";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressMostRecent" = "En son";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressXbox360Games" = "Xbox 360 oyunları";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedTitle" = "Öne Çıkanlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedChallenges" = "Öne çıkan görevler";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsAchievementsHeader" = "Arkadaşların başarıları";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAlbumTitle" = "Müzik";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingTVTitle" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAppTitle" = "Uygulama";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingDashTitle" = "Pano";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingErrorTitle" = "Hata";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingGameTitle" = "Oyun";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingMovieTitle" = "Video";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsError" = "Şu anda son başarılarınızı alamıyoruz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostRecent" = "En son";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_HighestRated" = "En yüksek derecelendirme";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostViewed" = "En Çok Görüntülenen";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileRecentTitle" = "En Son";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileTitle" = "Profil";
+    /* iOS,ANDROID,WINDOWS, */
+    "Root_Drawer" = "Alan";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotPlay360" = "Bu Xbox 360 için; burada oynayamayız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotLaunchInDisconnected" = "Şu an bağlı değilsiniz. Konsolunuza bağlanın ve tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_ChangeTitleQuestion" = "Bu, konsol üzerinde çalışanın yerini alacak. Tamam mı?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Movie_Title" = "Film ayrıntıları";
+    /* iOS,ANDROID,WINDOWS, */
+    "Minute_Text" = "dakika";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Series_Title" = "Dizi başlığı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying_Close" = "Şimdi Yürütme Kapalı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying" = "Şimdi yürütülüyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_ARTIST_FORMAT_STRING" = "{0} ile";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_HELP_BUTTON_TEXT" = "Yardım";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_COMPANION_BUTTON_TEXT" = "Yardımcı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_BackButton" = "Geri";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsReward" = "ödül";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsProgress" = "ilerleme";
+    /* iOS,WINDOWS, */
+    "NowPlaying_Tertiary" = "%1$@ ile";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Clear" = "Temizle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Save" = "Kaydet";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_TvHeader" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_MovieHeader" = "Filmler";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_TvListings" = "TV listeleri";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_Favorites" = "Favoriler";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_NetworkError" = "İnternet bağlantısı algılanmadı. Bu uygulamayı kullanmak için bir kablosuz veya hücresel ağa bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_ConsoleConnect" = "Bağlanmak için Xbox One'ı seçin";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Showtime_iOS" = "%1$@-%2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_Showtime_With_ParentalRating" = "%1$@ | %2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_EpisodeName_With_Description" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_AppChannels" = "Uygulama kanalları";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdateAvailable_Title" = "Uygulama güncellemesi kullanılabilir";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateAvailable_Text" = "Bu uygulama için kullanılabilir bir güncelleme var.";
+    /* iOS,ANDROID,WINDOWS, */
+    "General_RemindMe" = "Bana hatırlat";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdate_GetItNow" = "Şimdi indirin";
+    /* iOS,ANDROID,WINDOWS, Profile page Profile pivot header */
+    "Profile_Profile_HeaderTitle" = "PROFİL";
+    /* iOS,ANDROID,WINDOWS, Header for the number of friends that the current user has */
+    "Profile_Profile_Friends" = "Arkadaşlar";
+    /* iOS,ANDROID,WINDOWS, Header for the number of followers that the current user has */
+    "Profile_Profile_Followers" = "Takipçiler";
+    /* iOS,ANDROID,WINDOWS, You profile page send message button text */
+    "Profile_Profile_SendMessage" = "Mesaj gönder";
+    /* iOS,ANDROID,WINDOWS, You profile page favorites button text */
+    "Profile_Profile_Favorite" = "Favorilere ekle";
+    /* iOS,ANDROID,WINDOWS, You profile page unfavorites button text */
+    "Profile_Profile_Unfavorite" = "Favorilerden kaldır";
+    /* iOS,ANDROID,WINDOWS, You profile page add friend button text */
+    "Profile_Profile_AddFriend" = "Arkadaş ekle";
+    /* iOS,ANDROID,WINDOWS, You profile page remove friend button text */
+    "Profile_Profile_RemoveFriend" = "Arkadaşlıktan kaldır";
+    /* iOS,ANDROID,WINDOWS, You profile page block button text */
+    "Profile_Profile_Block" = "Engelle";
+    /* iOS,ANDROID,WINDOWS, You profile page unblock button text */
+    "Profile_Profile_Unblock" = "Engeli kaldır";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Unknown" = "Bilinmeyen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation" = "İtibar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_AvoidMe" = "Benden uzak dursun";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Needs_Improvement" = "Geliştirme Gerektiriyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Good_Player" = "İyi oyuncu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Super_Star" = "Süper Yıldız";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Just_You_Count" = "Siz";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header title cased */
+    "Profile_Recents_HeaderTitle_Phone" = "Son etkinlikler";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header upper cased */
+    "Profile_Recents_HeaderTitle_Tablet" = "SON ETKİNLİKLER";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Android" = "Son oynanan %s";
+    /* iOS,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_iOS" = "Son oynanan %1$@";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Windows" = "Son oynanan {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_GameProgressText" = "Oyunda ilerleme";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_AppProgressText" = "Uygulamada ilerleme";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Recents no data string */
+    "Profile_Recents_NoData_Me" = "Xbox One 'da bir şey oynadığınız zaman, o burada görünür.";
+    /* iOS,ANDROID,WINDOWS, You Profile page Recents no data string */
+    "Profile_Recents_NoData_You" = "Onlar Xbox One'larında bir şey oynadıkları zaman, o burada görünür.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_Stats_You" = "Siz";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_Me_Phone" = "Oyun kliplerim";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_You_Phone" = "Oyun klipleri";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_Me_Tablet" = "OYUN KLİPLERİM";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_You_Tablet" = "OYUN KLİPLERİ";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_Me_Tablet" = "Oyun kliplerim";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_You_Tablet" = "Oyun klipleri";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_iOSAndroid" = "%1$d oynandı";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_Windows" = "{0} oynandı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_Me" = "Henüz hiç oyun klibi kaydetmediniz. Denemelisiniz, eğlenceli!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_You" = "Hiç oyun klibi yayınlamamışlar gibi görünüyor.";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header title cased */
+    "Profile_Achievements_HeaderTitle_Phone" = "Başarılar";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header upper cased */
+    "Profile_Achievements_HeaderTitle_Tablet" = "BAŞARILAR";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Achievements no data string */
+    "Profile_Achievements_NoData_Me" = "Oyun oynayın ve başarıların kilidini açın!";
+    /* iOS,ANDROID,WINDOWS, You Profile page Achievements no data string */
+    "Profile_Achievements_NoData_You" = "Arkadaşınız son zamanlarda hiç bir başarı kilidini açamadı.";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header title cased */
+    "Profile_Friends_HeaderTitle_Phone" = "Arkadaşlar";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header upper cased */
+    "Profile_Friends_HeaderTitle_Tablet" = "ARKADAŞLAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_HeaderTitle" = "Arkadaşlar";
+    /* iOS,ANDROID,WINDOWS, friends hub pivot header */
+    "FriendsHub_HeaderTitle_Phone" = "ARKADAŞLAR";
+    /* iOS,ANDROID,WINDOWS, friends hub header */
+    "FriendsHub_HeaderTitle_Tablet" = "Arkadaşlar";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Phone" = "Etkinlik haber akışı";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Tablet" = "ETKİNLİK HABER AKIŞI";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderFriendsList_Phone" = "Arkadaşlar listesi";
+    /* iOS,ANDROID,WINDOWS, friends hub friends pivot search button text, phone only */
+    "FriendsHub_SearchButton_Phone" = "Arkadaşları bul";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFavorites" = "Favoriler";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFriends" = "Arkadaşlar";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFollowers" = "Takipçiler";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_NoData" = "Arkadaşlarınız, başarıların kilidini açmak, oyun klipleri kaydetmek ve arkadaşlar eklemek gibi şeyler yaptıklarında hepsini burada göreceksiniz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Friends_NoData" = "Burada kimse görünmüyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Favorite_NoData" = "Arkadaşlarınızı burada görmek için profillerini favorilere ekleyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Follower_NoData" = "Burada kimse görünmüyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_CouldNotFindGamer" = "Bu kişi bulunamadı. Oyuncu etiketini girdiniz mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchBoxHint" = "Tam oyuncu etiketini girin";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchingText" = "Aranıyor...";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Phone" = "MESAJLAR";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Tablet" = "Mesajlar";
+    /* iOS,ANDROID,WINDOWS, messages list section header */
+    "Messages_SectionHeaderAllMessages_Tablet" = "TÜM MESAJLAR";
+    /* iOS,ANDROID,WINDOWS, new message button text */
+    "Messages_NewMessageButton" = "Yeni";
+    /* iOS,ANDROID,WINDOWS, reply message button text */
+    "Messages_ReplyMessageButton" = "Yanıtla";
+    /* iOS,ANDROID,WINDOWS, delete message button text */
+    "Messages_DeleteMessageButton" = "Sil";
+    /* iOS,ANDROID,WINDOWS, block user button text */
+    "Messages_BlockButton" = "Engelle";
+    /* iOS,ANDROID,WINDOWS, unblock user button text */
+    "Messages_UnblockButton" = "Engeli kaldır";
+    /* iOS,ANDROID,WINDOWS, view sender profile button text */
+    "Messages_ViewProfileButton" = "Profil";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Phone" = "YENİ MESAJ";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Tablet" = "Yeni Mesaj";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Phone" = "YANITLA";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Tablet" = "Yanıtla";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ConfirmDeleteMessage" = "Bu mesajı silmek istediğinizden emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToDeleteMessage" = "Mesaj silinemedi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToBlockUser" = "Kullanıcı engellenemedi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToUnblockUser" = "Kullanıcı engellenemedi";
+    /* iOS,ANDROID,WINDOWS, new message add a recipient control hint text */
+    "Messages_ComposeMessage_AddRecipientHintText" = "Bir alıcı ekleyin";
+    /* iOS,ANDROID,WINDOWS, new message enter message control hint text */
+    "Messages_ComposeMessage_EnterMessageHintText" = "Mesaj girin";
+    /* iOS,ANDROID,WINDOWS, new message send button */
+    "Messages_ComposeMessage_SendButton" = "Gönder";
+    /* iOS,ANDROID,WINDOWS, new message cancel button */
+    "Messages_ComposeMessage_CancelButton" = "İptal";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Phone" = "ALICILARI SEÇİN";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Tablet" = "Alıcıları seçin";
+    /* iOS,ANDROID,WINDOWS, choose recipients done button text */
+    "Messages_ComposeMessage_ChooseRecipients_DoneButton" = "Bitti";
+    /* iOS,ANDROID,WINDOWS, generic error for failing to send a message */
+    "Messages_ComposeMessage_GenericError" = "Bu mesaj gönderilemedi. Daha sonra tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_iOS" = "%1$d seçildi";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_Windows" = "{0} seçili";
+    /* iOS,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_Windows" = "{0}/{1}";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogTitle" = "Değişiklikler atılsın mı?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogBody" = "Değişiklikleri henüz kaydetmediniz. Eğer devam ederseniz, onları kaybedeceksiniz.";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError_DialogTitle" = "Mesaj gönderilemiyor";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError" = "Bu mesajı gönderemiyoruz. Alıcı yok, arkadaş listenizde değil ya da hizmete ulaşamıyoruz.";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogTitle" = "Emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogBody" = "Bu göndereni engellemek istediğinizden emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported message */
+    "Messages_Error_ViewUnsupportedMessage" = "Bu mesajı konsolunuzda görüntüleyin.";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported legacy message */
+    "Messages_Error_ViewUnsupportedLegacyMessage" = "Bu mesajı Xbox 360 veya Xbox One'ınızda görüntüleyin.";
+    /* iOS,ANDROID,WINDOWS, error message for no messages retrieved */
+    "Messages_Error_NoMessages" = "Buradaki şeyler kesin yolunda. Bir mesaj göndermeyi deneyin!";
+    /* iOS,ANDROID,WINDOWS, Drawer - Home */
+    "Drawer_Home" = "Giriş";
+    /* iOS,ANDROID,WINDOWS, Drawer - TV Program Guide */
+    "Drawer_TV" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Drawer - Friends */
+    "Drawer_Friends" = "Arkadaşlar";
+    /* iOS,ANDROID,WINDOWS, Drawer - Achievements */
+    "Drawer_Achievements" = "Başarılar";
+    /* iOS,ANDROID,WINDOWS, Drawer - Pins */
+    "Drawer_Pins" = "Sabitlenenler";
+    /* iOS,ANDROID,WINDOWS, Drawer - Messages */
+    "Drawer_Messages" = "Mesajlar";
+    /* iOS,ANDROID,WINDOWS, Drawer - SmartGlass Settings */
+    "Drawer_Settings" = "Ayarlar";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Now" = "şimdi";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_iOSAndroid" = "%1$d saat önce";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_Windows" = "{0} saat önce";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_iOSAndroid" = "%1$d dakika önce";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_Windows" = "{0} dakika önce";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_iOSAndroid" = "%1$d gün önce";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_Windows" = "{0} gün önce";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE" = "Çevrimiçi";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_OFFLINE" = "Yerel";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE_OFFLINE" = "Çevrimiçi ve yerel";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_NONE" = "Yok";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TryAgain" = "Yeniden deneyin";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PairingErrorMessage" = "Şu anda konsolunuza bağlanamıyoruz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterPin" = "PIN Girin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ApplyPin" = "Uygulamak";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NoConsolesFound" = "Bağlanmak için bir Xbox One bulunamıyor. Konsolunuz açık ve SmartGlass gibi aynı ağa mı bağlı?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect" = "Bağlan";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Cap" = "BAĞLAN";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Tablet" = "XBOX ONE'A BAĞLANIN";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Disconnect" = "Bağlantıyı Kes";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConnectAutomatically" = "Otomatik olarak bağlan";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_Exit" = "Kapat";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsoleWarning" = "Konsolda oturum açmadınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsolePrompt" = "Konsolda oturum açarak veya konuk olarak mı devam etmek istersiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_SignInOnConsole" = "Oturum aç";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ContinueAsGuest" = "Devam";
+    /* iOS,ANDROID,WINDOWS, secret achievement title */
+    "Achievement_SecretAchievement_Title" = "Gizli başarı";
+    /* iOS,ANDROID,WINDOWS, secret achievement description */
+    "Achievement_SecretAchievement_Description" = "Gizli başarı kilidini açmak için oynamaya devam edin.";
+    /* iOS,ANDROID,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_Windows" = "{0}/{1}";
+    /* iOS,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_Windows" = "{0} %";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_iOS" = "%1$d %%";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_Windows" = "{0} gün";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_iOSAndroid" = "%1$d gün";
+    /* iOS,ANDROID,WINDOWS, 1 day */
+    "Challenge_Countdown_OneDay" = "1 gün";
+    /* iOS,ANDROID,WINDOWS, 02:34:56 */
+    "Challenge_Countdown_Timer_Windows" = "{0:hh\:mm\:ss}";
+    /* iOS,ANDROID,WINDOWS, challenge time remaining */
+    "Global_Challenge_TimeRemaining" = "Kalan süre";
+    /* iOS,ANDROID,WINDOWS, challenge starts in */
+    "Global_Challenge_StartsIn" = "Görev başlıyor";
+    /* iOS,ANDROID,WINDOWS, achievements home title */
+    "AchievementsHome_HeaderTitle_Phone" = "BAŞARILAR";
+    /* iOS,ANDROID,WINDOWS, achievements home title for tablet */
+    "AchievementsHome_HeaderTitle_Tablet" = "Başarılar";
+    /* iOS,ANDROID,WINDOWS, achievements home summary page */
+    "AchievementsHome_Summary_HeaderTitle_Phone" = "Özet";
+    /* iOS,ANDROID,WINDOWS, achievements home last game played */
+    "AchievementsHome_LastGamePlayed" = "OYNANAN SON OYUN";
+    /* iOS,ANDROID,WINDOWS, achievements progress */
+    "AchievementsHome_Progress_HeaderTitle_Phone" = "İlerleme";
+    /* iOS,ANDROID,WINDOWS, achievement progress */
+    "AchievementsHome_Progress_HeaderTitle_Tablet" = "İLERLEME";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent" = "En son";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecentDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent360" = "Diğer";
+    /* iOS,ANDROID,WINDOWS, achievement progress gallery */
+    "AchievementsHome_ProgressGallery_HeaderTitle_Tablet" = "İlerleme";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent_Tablet" = "EN SON";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecentDurango_Tablet" = "XBOX ONE";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent360_Tablet" = "DİĞER";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Android" = "Son oynanan %s";
+    /* iOS,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_iOS" = "Son oynanan %1$@";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Windows" = "Son oynanan {0}";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Phone" = "Öne çıkan görevler";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Tablet" = "ÖNE ÇIKAN GÖREVLER";
+    /* iOS,ANDROID,WINDOWS, featured challenge gallery title */
+    "AchievementsHome_ChallengesGallery_HeaderTitle_Tablet" = "Öne çıkan görevler";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Phone" = "Arkadaşların başarıları";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Tablet" = "ARKADAŞLARIN BAŞARILARI";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_LastGamePlayed_NoData" = "Oyun oynayın ve başarıların kilidini açın!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Challenges_NoData" = "Şu anda görevler alınamıyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Progress_NoData" = "Oyun oynayın ve başarıların kilidini açın!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_FriendsAchievements_NoData" = "Arkadaşınız son zamanlarda hiç bir başarı kilidini açamadı.";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Phone" = "İlerleme";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Tablet" = "İLERLEME";
+    /* iOS,ANDROID,WINDOWS, game progress - game clips header title */
+    "GameProgress_Channel_HeaderTitle_Phone" = "Oyun klipleri";
+    /* iOS,ANDROID,WINDOWS, Upload CHANNEL */
+    "GameProgress_Channel_HeaderTitle_Tablet" = "OYUN KLİPLERİ";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Windows" = "{0} görüntü";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_iOS" = "%1$@ görüntü";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Android" = "%s görüntü";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Windows" = "{0} görüntü";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_iOS" = "%1$@ görüntü";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Android" = "%s görüntü";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData" = "Görüntülenecek video bulunamadı. Oyununuzu açın ve iyi bir şeyler kaydetmeye başlayın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_Community" = "Bu oyun için henüz hiç bir klip kaydedilmedi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_CommunityButtonText" = "Topluluk kliplerini görün";
+    /* iOS,ANDROID,WINDOWS, Number of views. My Channel filter */
+    "GameProgress_Channel_FilterOptionMyChannel" = "Oyun kliplerim";
+    /* iOS,ANDROID,WINDOWS, Number of views. Community filter */
+    "GameProgress_Channel_FilterOptionCommunity" = "Topluluk klipleri";
+    /* iOS,ANDROID,WINDOWS, Game details */
+    "GameProgress_GameDetails_Button_Text" = "Oyun ayrıntıları";
+    /* iOS,ANDROID,WINDOWS, App details */
+    "GameProgress_AppDetails_Button_Text" = "Uygulama ayrıntıları";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Phone" = "Görevler";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Tablet" = "GÖREVLER";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Phone" = "Başarılar";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Tablet" = "BAŞARILAR";
+    /* iOS,ANDROID,WINDOWS, earned achievement filter for phone */
+    "GameProgress_Achievements_FilterOptionEarned" = "Kazanılan";
+    /* iOS,ANDROID,WINDOWS, locked achievement filter for phone {locked}  */
+    "GameProgress_Achievements_FilterOptionLocked" = "Kilitli";
+    /* iOS,ANDROID,WINDOWS, achievements gallery */
+    "GameProgress_AchievementsGallery_HeaderTitle_Tablet" = "Başarılar";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Challenges_NoData" = "Şu anda hiçbir görev bulunmuyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_NoData" = "Oyun oynayın ve başarıların kilidini açın!";
+    /* iOS,ANDROID,WINDOWS, User doesn't have any earned achievements for this game */
+    "GameProgress_Achievements_NoEarned" = "Oyun oynayın ve başarıların kilidini açın!";
+    /* iOS,ANDROID,WINDOWS, User has earned all achievements for this game */
+    "GameProgress_Achievements_NoLocked" = "Çok iyi! Tüm başarıların kilidini açtınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Phone" = "İlerleme";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Tablet" = "İLERLEME";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Achievements_HeaderTitle" = "Başarılar";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Android" = "Son oynanan %s";
+    /* iOS,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_iOS" = "Son oynanan %1$@";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Windows" = "Son oynanan {0}";
+    /* iOS,ANDROID,WINDOWS, achievement completion: Completed */
+    "Global_Achievements_Completed" = "Tamamlandı";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementDetail_Achievement_HeaderTitle" = "Başarı";
+    /* iOS,ANDROID,WINDOWS, Game progress button */
+    "AchievementDetail_GameProgress_Button_Text" = "Oyunda ilerleme";
+    /* iOS,ANDROID,WINDOWS, App progress button */
+    "AchievementDetail_AppProgress_Button_Text" = "Uygulamada ilerleme";
+    /* iOS,ANDROID,WINDOWS, in game reward page header */
+    "AchievementDetail_Reward_InGame" = "OYUN-İÇİ ÖDÜL";
+    /* iOS,ANDROID,WINDOWS, in app reward page header */
+    "AchievementDetail_Reward_InApp" = "UYGULAMA-İÇİ ÖDÜL";
+    /* iOS,ANDROID,WINDOWS, art reward page header */
+    "AchievementDetail_Reward_Art" = "RESİM ÖDÜLÜ";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-game reward description {locked}  */
+    "AchievementDetail_Reward_InGame_LockedDescription" = "Bu ödülü ortaya çıkarmak için başarı kilidini açın.";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-app reward description {locked}  */
+    "AchievementDetail_Reward_InApp_LockedDescription" = "Bu ödülü ortaya çıkarmak için başarı kilidini açın.";
+    /* iOS,ANDROID,WINDOWS, achievement locked art reward description {locked}  */
+    "AchievementDetail_Reward_Art_LockedDescription" = "Bu ödülü ortaya çıkarmak için başarı kilidini açın.";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Android" = "%s tarihinde kilit açıldı";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_iOS" = "%1$@ kilit açıldı";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Windows" = "{0} kilit açıldı";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_Locked" = "Kilitli";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_InProgress" = "İlerliyor";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-game reward description {locked}  */
+    "ChallengeDetail_Reward_InGame_LockedDescription" = "Bu ödülü ortaya çıkarmak için görev kilidini açın.";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-app reward description {locked}  */
+    "ChallengeDetail_Reward_InApp_LockedDescription" = "Bu ödülü ortaya çıkarmak için görev kilidini açın.";
+    /* iOS,ANDROID,WINDOWS, challenge locked art reward description {locked}  */
+    "ChallengeDetail_Reward_Art_LockedDescription" = "Bu ödülü ortaya çıkarmak için görev kilidini açın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALBUM_TITLE" = "Albüm";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOPLAYLIST" = "Çalma listesine ekle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Cancel" = "İptal";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Yes" = "Evet";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_SwitchToDeveloperMode" = "Geliştirici modunu etkinleştirmek üzeresiniz. Devam etmek için onaylayın veya şu anki ayarlara dönmek için iptal edin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_ExitDeveloperMode" = "Geliştirici modunu devre dışı bırakmak istiyor musunuz?  Devam etmek için onaylayın veya şu anki ayarlara dönmek için iptal edin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Page_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_TV" = "İsteğe bağlı beğenilen TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_Movies" = "İsteğe bağlı beğenilen filmler";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_AppsHeader" = "Uygulamalar";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_TvListings" = "Favori TV listelerinizi görüntülemek için Xbox'ınıza bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites" = "Favori kanallarınızı görüntülemek için Xbox'ınıza bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_AppChannels_Windows" = "Favori uygulama kanallarınızı görüntülemek için Xbox'ınıza bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_AppChannels" = "Uygulama kanallarını görüntülemek için Xbox'ınıza bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_RecentChannels" = "En son baktığınız kanalları görüntülemek için Xbox'ınıza bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Tune" = "Bu gösteriyi seyretmek için Xbox'ınıza bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Add" = "Bunu favorilerinize şu anda ekleyemiyoruz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Remove" = "Şu anda favorilerinizi kaldıramıyoruz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Remote" = "Bu cihazı TV uzaktan kumandanız gibi kullanmak için Xbox'ınıza bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_EXPLICIT_CONTENT" = "Müstehcen içerik";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header" = "GELECEK GÖSTERİMLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat" = "{0}-{1} {2}";
+    /* iOS,WINDOWS, */
+    "FutureShowtimes_TimeFormat_iOS" = "%1$@-%2$@ %3$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowTimes_OnNow" = "Şimdi Yayında";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Percentage_Windows" = "{0}%";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is smartglass companion. */
+    "Home_BAT_SmartGlassCompanion" = "YARDIMCI";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is remote control. */
+    "Home_BAT_RemoteControl" = "Uzaktan kontrol";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is local detail page. */
+    "Home_BAT_Details" = "Ayrıntılar";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is tv guide. */
+    "Home_BAT_TVGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Text displayed in media tray when TV guide option is displayed to the user. */
+    "NOWPLAYING_TVGUIDE_BUTTON_TEXT" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on pins destination or homepage when pins for the user could not be retrieved from service. */
+    "Pins_Error" = "Sabitlenenlerinize şu an erişemiyoruz. Lütfen sonra tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when app failed to retrieved the featured items for homepage. */
+    "Home_Featured_Error" = "Şu anda hiçbir öne çıkan elemana erişemiyoruz.";
+    /* iOS,ANDROID,WINDOWS, Text displayed instead of title on BAT/Console Bar when we could not load the detail for the title. */
+    "NowPlaying_Unavailable" = "Kullanılmıyor";
+    /* iOS,ANDROID,WINDOWS, OOBE string displayed on homepage when user has no recents */
+    "HOME_OOBE" = "Xbox One'a Hoş geldiniz";
+    /* iOS,ANDROID,WINDOWS, Featured section title for homepage */
+    "Home_Featured_PageTitle" = "ÖNE ÇIKANLAR";
+    /* iOS,ANDROID,WINDOWS, Recents section title for homepage */
+    "Home_Recents_PageTitle" = "EN SON";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LearnMore" = "Daha fazla bilgi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist" = "Sanatçı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist_Tablet" = "SANATÇI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game" = "Oyun";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game_Tablet" = "OYUN";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App" = "Uygulama";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App_Tablet" = "UYGULAMA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie" = "Film";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie_Tablet" = "FİLM";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV_Tablet" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album" = "Albüm";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album_Tablet" = "ALBÜM";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Tablet" = "EN İYİ ŞARKILAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Phone" = "En iyi şarkılar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Tablet" = "ALBÜMLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Phone" = "Albümler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Tablet" = "İLGİLİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Phone" = "İlgili";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Tablet" = "EKLENTİLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Phone" = "Eklentiler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Tablet" = "DİĞER AYRINTILAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Phone" = "Diğer ayrıntılar";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv" = "Sezon {0}, Bölüm {1} şu anda yayında olan {2}";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv" = "Sezon {0}, Bölüm {1} yayında {2} {3} üzerinde";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic" = "Gelecek yayınlar {0} {1} üzerinde";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic" = "Şu anda yayın {0} üzerinde";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_LABEL" = "Etiket:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Biography_Phone" = "Biyografi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Tablet" = "PARÇA LİSTESİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Phone" = "Parça listesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DURATION" = "Süre:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RATING" = "Derecelendirme:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION" = "Çözünürlük:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HDANDSD" = "HD ve SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Overview_Phone" = "Genel Bakış";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Tablet" = "OYUNCULAR VE SET EKİBİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Phone" = "Oyuncular ve set ekibi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Tablet" = "BÖLÜMLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Phone" = "Bölümler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Tablet" = "GÖRÜNTÜLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Phone" = "Görüntüler";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DEVELOPER" = "Geliştirici:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_PUBLISHER" = "Yayımcı:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_MULTIPLAYER" = "Çok oyunculu:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_COOP" = "Birlikte:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_GET_ON_XBOX" = "Xbox One'ı getir";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE_WINDOWS" = "En son bölüme git (S{0} Ep{1})";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_NETWORKS" = "Ağlar:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmpty" = "En son etkinlikler burada görüntülenir";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Pins_PageTitle" = "SABİTLENENLERİM";
+    /* iOS,ANDROID,WINDOWS, */
+    "TextInput_Confirm" = "Bitti";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstRun_ContentTitle" = "Xbox One'daki yenilikleri görün";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmptyDesc" = "Burada görünmesini istediğiniz şeyleri yürütün ve seyredin.";
+    /* iOS,ANDROID,WINDOWS, Settings page title */
+    "Settings_PageTitle" = "Ayarlar";
+    /* iOS,ANDROID,WINDOWS, Settings page account section header */
+    "Settings_Account_SectionHeader" = "HESAP";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text */
+    "Settings_SignOutButton" = "Oturumu kapat";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section header */
+    "Settings_Preferences_SectionHeader" = "TERCİHLER";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option */
+    "Settings_Preferences_StayAwakeOption" = "Uyanık kal";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option description */
+    "Settings_Preferences_StayAwakeOptionDescription" = "SmartGlass açıkken kilit ekranı etkinleştirilmeyecektir (Pil ömrünü azaltır).";
+    /* iOS,ANDROID,WINDOWS, Settings page sound section header */
+    "Settings_Sound_SectionHeader" = "SES";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option */
+    "Settings_Sound_DisableSoundOption" = "Ses devre dışı";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option description */
+    "Settings_Sound_DisableSoundOptionDescription" = "SmartGlass uygulamasındaki sesleri devre dışı bırakır.";
+    /* iOS,ANDROID,WINDOWS, Settings page about section header */
+    "Settings_About_SectionHeader" = "HAKKINDA";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Windows */
+    "Settings_About_Version_Windows" = "Sürüm {0}";
+    /* iOS,WINDOWS, Settings page about version, iOS */
+    "Settings_About_Version_iOS" = "Sürüm %1$@";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Android */
+    "Settings_About_Version_Android" = "Sürüm %s";
+    /* iOS,ANDROID,WINDOWS, Settings page get started button text */
+    "Settings_GetStartedButton" = "Başlangıç";
+    /* iOS,ANDROID,WINDOWS, Settings page get started description */
+    "Settings_GetStartedDescription" = "Xbox One SmartGlass neler yapabilir görün.";
+    /* iOS,ANDROID,WINDOWS, Settings page help button text */
+    "Settings_HelpButton_WindowsAndroid" = "Yardım";
+    /* iOS,ANDROID,WINDOWS, Settings page privacy button text */
+    "Settings_PrivacyButton_WindowsAndroid" = "Gizlilik";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy section title */
+    "Settings_HelpAndPrivacySectionTitle_iOS" = "Yardım ve gizlilik";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy description */
+    "Settings_HelpAndPrivacyDescription_iOS" = "Xbox One SmartGlass yardım ve gizlilik ayarlarını yönetmek için lütfen Xbox web sitesini ziyaret edin.";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader" = "GELİŞTİRİCİ";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader_Windows" = "Geliştirici";
+    /* iOS,ANDROID,WINDOWS, Settings page developer sandbox ID */
+    "Settings_Developer_SandboxId" = "Korumalı alan kimliği";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DIRECTOR" = "Yönetmen:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SmartGlassCompanion" = "SmartGlass Yardımcısı";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALLOWEDPROVIDERS" = "Şunun için kullanılabilir:";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv_iOS" = "Sezon %1$d bölüm %2$d şu anda yayın %3$@ üzerinde.";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic_iOS" = "Şu anda yayın %1$@ üzerinde";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic_iOS" = "Gelecek yayınlar %1$@ %2$@ üzerinde";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv_iOS" = "Sezon %1$d bölüm %2$d gelecek yayınlar %3$@ %4$@ üzerinde.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_AchievementProgress_Phone" = "Başarı ilerlemesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Challenges_Phone" = "Görevler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Phone" = "OYUN KLİPLERİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameAchievementProgress_Tablet" = "BAŞARI İLERLEMESİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameChallenges_Tablet" = "GÖREVLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Tablet" = "OYUN KLİPLERİ";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU_IOS" = "Xbox kullanım koşulları güncellendi. Xbox.com'a gidip okuyabilirsiniz.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU" = "Xbox kullanım koşulları güncellendi. Xbox.com'a gidip okuyabilirsiniz.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to displayed whenever we could not log him into app for all the reasons except xsts 401 cases */
+    "Auth_GenericError" = "Şu anda oturum açamıyoruz. Lütfen tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError_IOS" = "Hesabınızla ilgili bir sorun var. Lütfen daha fazla bilgi için xbox.com'da oturum açın.";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError" = "Hesabınızla ilgili bir sorun var. Lütfen daha fazla bilgi için xbox.com'da oturum açın.";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation_IOS" = "Xbox Live hesap ayarlarınızı xbox.com'da yapın.";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation" = "Xbox Live hesap ayarlarınızı xbox.com'da yapın.";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user while they are signing in. This will allow them to cancel the sign in process. */
+    "SignIn_Cancel" = "İptal";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user to prompt them to go to xbox.com */
+    "SignIn_Troubleshoot" = "Xbox.com'a gidin";
+    /* iOS,ANDROID,WINDOWS, Button text for sign in page button's first try. (after that it switches to try again) */
+    "SignIn_SignIn" = "Oturum aç";
+    /* WINDOWS,iOS,ANDROID, Status text shown while trying to sign in. */
+    "SignIn_SigningIn" = "Oturum açılıyor";
+    /* WINDOWS,iOS,ANDROID, Shown while making service calls to get state of console to decide what to do next. */
+    "SignIn_GettingData" = "Xbox hizmetlerine bağlanıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season" = "TV Sezonu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season_Tablet" = "TV SEZONU";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity" = "Xbox One SmartGlass Yardımcısı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity_Tablet" = "XBOX ONE SMARTGLASS YARDIMCISI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series" = "TV Dizileri";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series_Tablet" = "TV DİZİLERİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode" = "TV Bölümleri";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode_Tablet" = "TV BÖLÜMLERİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show" = "TV Programları";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show_Tablet" = "TV PROGRAMI";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC" = "Eklentiler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC_Tablet" = "EKLENTİLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_Studios" = "Stüdyolar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRating" = "Ebeveyn derecelendirmesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRatingColon" = "Ebeveyn derecelendirmesi:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_TVText" = "Ekleyeceğiniz TV gösterilerini bulmak için OneGuide'a göz atın veya Xbox'da arayın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_MoviesText" = "Ekleyeceğiniz filmleri bulmak için OneGuide'a göz atın veya Xbox'da arayın. Bir film seçin ve eklemek için yıldız simgesine basın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Today" = "Bugün";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_GeneralError" = "Kanallarım'a eklenemedi. Lütfen tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteShow_GeneralError" = "Gösterilerim'e eklenemedi. Lütfen tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteShow_GeneralError" = "Gösterilerim'den çıkartılamadı. Lütfen tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteChannel_GeneralError" = "Kanallarım'dan çıkartılamadı. Lütfen tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a page fails to load */
+    "ErrorState_PageError" = "Bu sayfa yüklenirken bir hata oluştu. :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a pivot pane or a section of the panorama fails to load */
+    "ErrorState_PaneError" = "Bu kısım yüklenirken bir hata oluştu. :(";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the retry button */
+    "ErrorState_RetryButton" = "Yeniden deneyin";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the network setting button */
+    "ErrorState_NetworkButton" = "Ağ ayarlarını aç";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToXboxOne" = "Xbox One'da yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SmartGlassCompanionAvailable" = "YARDIMCI MEVCUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFull" = "Xbox One'da yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToSnap" = "Tutturulanda yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Title" = "UZAKTAN KONTROL";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Xbox_Title" = "Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Universal_Title" = "Kablo/TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchSuggestions_Title" = "öneriler";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Windows" = "\"{0}\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Skip_Title" = "Atla";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFill" = "Xbox One'da yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track" = "İzle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track_Tablet" = "PARÇA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras" = "Ekstralar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras_Tablet" = "EKSTRALAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TOP_SONGS_ON_XBOX" = "Xbox One'da yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_SEASON_EPISODES" = "Sezon bölümleri";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LAUNCH_IN_IE" = "Xbox'da açın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NoProvidersOrShowTimesAvailable" = "Xbox One üzerinde henüz bunu yürütecek bir uygulama bulunmuyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title" = "Hoş Geldiniz";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText" = "Devam etmek için çekin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_TitleText" = "Başlama zamanı";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DoneText" = "Xbox One SmartGlass kullanmaya başlayın";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DescriptionText" = "Daha fazla bilgi ve yardım için xbox.com adresine gidin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title" = "Xbox'ınızı kontrol edin";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Description" = "Medya, tutturulan uygulamalarınızı denetlemek, oyunlar hakkında yardım almak ve diğer bilgiler için Şimdi Yürütülüyor çubuğuna dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Description" = "Oyunlar hakkında yardım ve başarıları alın, odanızda ya da hareket halindeyken mesaj alışverişi yapın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Title" = "Bağlı kal";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Title" = "Bulun ve sabitleyin";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Description" = "İçerik araştırın, favorilerinizi Xbox One SmartGlass'da sabitleyin, böylece Xbox One'ınızda görebileceksiniz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Description" = "OneGuide tüm TV programlamanızı bir araya getirir. Programlamanızı görmek için konsol üzerine TV kurun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Select" = "Kontrol için çekin, seçmek için dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Error_CanNotPlayVideo" = "Üzgünüm, bu video çalınamaz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppChannel_Favorite" = "Favori";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNow" = "Şu anda yayınlanıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_ConnectedTo" = "Bağlı";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConsolesOnYourNetwork" = "Ağınızdaki Konsollar:";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_PlayNow" = "Şimdi oynuyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_XboxOneSmartGlass" = "Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Message_Detail_Message" = "MESAJ";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_0" = "0";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_1" = "1";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_2" = "2";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_3" = "3";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_4" = "4";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_5" = "5";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_6" = "6";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_7" = "7";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_8" = "8";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_9" = "9";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_PAGE" = "PAGE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CH" = "CH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_VOL" = "VOL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_ENTER" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DASH" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_INFO" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_EXIT" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_SELECT" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANGE_LAYOUT" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_MENU" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_GUIDE" = "KILAVUZ";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DVR" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.back" = "BACK";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.cancel" = "CANCEL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.ch_enter" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.clear" = "CLEAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_minus" = "DAY-";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_plus" = "DAY+";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.delimiter" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.dvr" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.exit" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.format" = "FORMAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_a" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_b" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_c" = "C";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_d" = "D";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.guide" = "KILAVUZ";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.help" = "HELP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.home" = "GİRİŞ";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.info" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.interactive" = "INTERACTIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.last" = "LAST";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.live" = "LIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.menu" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.options" = "OPTIONS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.plus_100" = "+100";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.sap" = "SAP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.select" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.services" = "SERVICES";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.setup" = "SETUP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.slow" = "SLOW";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.subtitle" = "SUBTITLE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.tools" = "TOOLS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.vod" = "VOD";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.all" = "Tümü";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.avr" = "AV receiver";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.stb" = "Cable/sat";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.tv" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.onoff" = "ON / OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.on" = "ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.off" = "KAPALI";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.ON" = "DONE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.OFF" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcStatus.ErrorLabel" = "ERROR:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneHour_Text" = "1 saat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHoursText_iOSAndroid" = "%1$d saat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneMinute" = "1 dakika";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinutesText_iOSAndroid" = "%1$d dakika";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DESCRIPTION" = "AÇIKLAMA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameHelp" = "Oyun yardımı";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOMYSHOWS" = "Programlarıma ekle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Parent_Title" = "Ebeveyn";
+    /* iOS,WINDOWS, */
+    "SearchResults_PageTitle_iOS" = "\"%1$@\" için sonuçlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Phone_iOS" = "Şunun için arama sonuçları:";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_NoResult" = "Sonuç bulunmadı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SeasonPicker_AllOption" = "Tümü";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on homepage when application failed to retreive the recents */
+    "Home_Recents_RecentsError" = "Şu anda en son etkinliklerinizi alamıyoruz.";
+    /* iOS,WINDOWS, Detail string format used by iOS clients while displaying details text along with media type. Example such as playto, media tray etc */
+    "MediaDetails_Format_iOS" = "%1$@ ayrıntıları";
+    /* iOS,WINDOWS, */
+    "Launcher_CurrentlyPlaying_iOS" = "Şu anda yürütülen: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_ProvidersOrShowTimesError" = "Bu oynanabilir uygulamalar bulunamadı. Daha sonra tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_RecentChannels" = "Son kanallar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_Reload" = "Yenile";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogTitle" = "Engellenen öne çıkanlara erişim";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogBody" = "Hesap ayarlarınız yüzünden bu özelliği kullanamazsınız. Güvenlik ayarlarınızı düzenleyerek bunu değiştirebilirsiniz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_PlaceHolderText" = "Ara";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Phone" = "Şimdi yürütülüyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Tablet" = "Şimdi Xbox One'da yürütülüyor";
+    /* WINDOWS,iOS,ANDROID, */
+    "CloseButtonText" = "Kapat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_RefreshText" = "Yenile";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_UnknownValue_Dash" = "--";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call EDS to get the detail about the media returned no data. */
+    "Launcher_DataNotIngested_Error" = "Hiç bir bilgi bulunmadı.";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call to EDS failed to retrieve the information about the media */
+    "Launcher_ErrorToRetrieveDetail" = "Şu anda ayrıntılara ulaşamıyoruz. Lütfen daha sonra tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Unavailable" = "Bilgi yok";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit" = "Çok fazla kanalınız var. {0}'a eklemek için birini çıkartın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add" = "{0} favorilerinize eklendi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove" = "{0} favorilerinizden çıkartıldı.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add_iOS" = "%1$@ favorilerinize eklendi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove_iOS" = "%1$@ favorilerinizden çıkartıldı.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_AppChannels_NoFavorites_iOS" = "Uygulama kanallarından birini seçin ve kanalı beğenenlere eklemek için %1$@ simgesine dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GeneralError" = "Şu anda kanallarınıza ulaşılamıyor. Tekrar denemek için yenile düğmesini seçin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Unavailable" = "Kullanılmaz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Disconnected" = "Bağlı değil";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Load" = "Ayarlar yükleniyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HD" = "Sadece HD kanallarını göster";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_All" = "Tüm kanalları göster";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HideSD" = "Tekrarlı SD'yi gizle";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Header" = "Tüm uygulamalarınız içinden programları ve filmleri bulun";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Text" = "Yeni kanallar için Xbox'ınızdan uygulamaları yükleyip başlatın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_BtnText" = "Uygulamaları Xbox'a getirin";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Header" = "Sizin için kişiselleştirilmiş bir premium TV deneyimi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_BtnText" = "TV'yi kurun";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_GoldUpsell_BtnText" = "Xbox Live Gold alın";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_RecentChannels_Header" = "En son kanallarınızı görmek için Xbox'ınızdan TV izleyin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_AddFailed" = "Sabitlenemedi. Lütfen yeniden deneyin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ComposeMessage_Sending" = "Gönderiliyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_MessageDetail_Deleting" = "Siliniyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVSeason_Aired_Title" = "Yayınlandı:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_ListFullError" = "200 favori sınırına ulaştınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Busy_Wait" = "Lütfen bekleyin...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connect_Reconnecting" = "Yeniden bağlanıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Title" = "Geçerli olan Yardımcı'dan çıkacak...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Description" = "Yardımcı'dan çıkmak istediğinizden emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MinutesText_Android" = "dakika";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add favorite */
+    "Profile_Profile_Failed_Add_Favorite" = "Favori listenize kullanıcı eklenemedi.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove favorite */
+    "Profile_Profile_Failed_Remove_Favorite" = "Favori listenizden kullanıcı çıkartılamadı.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add friend */
+    "Profile_Profile_Failed_Add_Friend" = "Arkadaşlar listenize kullanıcı eklenemedi.";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove friend */
+    "Profile_Profile_Failed_Remove_Friend" = "Arkadaşlar listenizden kullanıcı çıkartılamadı.";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_OneGuideAvailable" = "OneGuide Kullanılabilir";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_ShowCompanion" = "Yardımcı";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConsoleBar_NowPlaying_SubTitle" = "Şimdi yürütülüyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_UnconfiguredMessage" = "TV'niz uzaktan mesajları almak için yapılandırılmamış";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_SeasonsHeader_Tablet" = "SEZONLAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Gold_Message" = "TV programlamayı görüntülemek için Xbox'ınızdaki veya Xbox web sitesindeki Gold üyeliğini alın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayOnSmartGlass" = "SmartGlass'da Yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Season" = "Sezon";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Episode" = "Bölüm";
+    /* iOS,ANDROID,WINDOWS, */
+    "Dialog_Attention_Title_Android" = "Dikkat";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Got_Gold_Question" = "Gold alındı mı?";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message" = "TV programlamayı görmek için Xbox'ınızdaki veya Xbox web sitesindeki Gold üyeliğini alın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message_iOS" = "TV programlamayı görmek için Xbox'ınızdaki veya Xbox web sitesindeki Gold üyeliğini alın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title_Phone" = "Xbox One SmartGlass'a Hoş Geldiniz";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_Phone" = "Devam etmek için çekin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title_Phone" = "Xbox One'a bağlan";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_SignIn_Phone" = "Oturum aç";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Background_Title" = "XBOX ONE SMARTGLASS";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPlay" = "Bir uygulama seçin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPin" = "Şuradan sabitlenen için bir uygulama seçin";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_ConsoleNotListed" = "Konsol listede yok mu?";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_EnterIPAddress" = "IP adresini girin";
+    /* iOS,ANDROID,WINDOWS, This is the text shown when user tries to pin a media from detail page and there are no providers associated with it. */
+    "Launcher_NoProvidersAvailableForPin" = "Xbox One üzerinde bu medyaya sabitlenen için kullanılan bir uygulama bulunmuyor.";
+    /* iOS,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_iOS" = "%1$@ ile %2$@";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show details option in launcher */
+    "ACTION_DETAILS" = "Ayrıntılar";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show the option to launch remote. */
+    "Launcher_ShowRemote" = "Uzaktan kontrol";
+    /* iOS,ANDROID,WINDOWS, This is the string shown in launcher when OneGuide is the default companion. */
+    "Launcher_ShowOneGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ChannelDialog_Description" = "Kanal";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_iOS" = "Bu cihazda %1$@ uygulamasına başlamak ister misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_iOS" = "Evet, %1$@ uygulamasını başlatın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Windows" = "Bu cihazda {0} uygulamasına başlamak ister misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Windows" = "Evet, {0} uygulamasını başlat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Android" = "Bu cihazda %s uygulamasına başlamak ister misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Android" = "Evet, %s uygulamasını başlat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_No" = "Hayır, SmartGlass'ta kalın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_No" = "Hayır";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressTitle" = "Konsol IP adresinizi girin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_IPAddressLocationOnConsole" = "Konsolunuzun IP adresini bulmak için, konsol ayarlarını açın > Ağ > Gelişmiş Ayarları seçin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressGhostText" = "Ör. 192.168.0.1";
+    /* iOS,ANDROID,WINDOWS, Title for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Title" = "Arkadaş sınırınızı doldurdunuz";
+    /* iOS,ANDROID,WINDOWS, Message for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Message" = "Yeni bir arkadaş eklemek için, şu anki arkadaşlarınızdan birini kaldırmak gerekir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "CONNECTION_REQ_TEXT" = "Bu uygulamanın çalışması için bir internet bağlantısı gerektirir. Devam etmeden önce bağlantı ayarlarını kontrol edin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Explicit" = "Müstehcen";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowMore" = "Daha fazla göster";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowLess" = "Daha az göster";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Providers" = "Uygulamalar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Tablet" = "UYUMLU";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Phone" = "Uyumlu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Tablet" = "EKLENTİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Phone" = "eklenti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Released" = "Çıkış tarihi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Languages" = "Diller";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GetOnXboxOne" = "Xbox One'ı getir";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Genre" = "Tarz";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Help" = "Yardım";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Disconnected" = "Xbox One'a bağlan";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connecting" = "Bağlanıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connected" = "Bağlı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SearchIcon" = "Ara";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RefreshIcon" = "Yenile";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BackIcon" = "Geri";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_IEPlayHere" = "Burada web sayfası açın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeIcon" = "Ses Düzeyi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeUp" = "Sesi yükselt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeDown" = "Sesi kıs";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Mute" = "Sessiz";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Unmute" = "Sesi aç";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ClearText" = "Metni temizle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemoteIcon" = "Uzaktan kontrol";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIcon" = "Oynat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PauseIcon" = "Duraklat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FFW" = "İleri sar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RWD" = "Geri sar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipForward" = "İleri atla";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipBack" = "Geri atla";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Seek" = "Ara";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Close" = "Kapat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ViewButton" = "Görüntüle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MenuButton" = "Menü";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XboxButton" = "Xbox düğmesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AButton" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BButton" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XButton" = "X";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YButton" = "Y";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowUp" = "Yukarı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowDown" = "Aşağı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowLeft" = "Sol";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowRight" = "Sağ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PowerButton" = "Güç";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageUp" = "Üst sayfa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageDown" = "Alt sayfa";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoButton" = "Bilgi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SelectButton" = "Seç";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelUp" = "Kanal yukarı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelDown" = "Kanal aşağı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RedButton" = "Kırmızı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BlueButton" = "Mavi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YellowButton" = "Sarı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GreenButton" = "Yeşil";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RecordButton" = "Kaydet";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InputButton" = "Kaynak";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PreviousChannel" = "Önceki";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_OnOff" = "Açık /  Kapalı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddtoFavorites" = "Favorilere ekle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemovefromFavorties" = "Favorilerden kaldır";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoIcon" = "Ayrıntılar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIconOneGuide" = "Xbox One'da yürüt";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_NewMessage" = "Yeni mesaj";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddRecipient" = "Alıcı ekle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MoreIcon" = "Daha fazla";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GotoLive" = "Canlı yayına geç";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_FirstRun" = "Xbox One'a bağlanın ve en favori TV programları, filmler, müzik ve oyunlarınız ile etkileşim kurun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Tablet" = "Sabitlenenlerim";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Phone" = "SABİTLENENLERİM";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber" = "Kanal {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_iOS" = "Kanal %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_Android" = "Kanal %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ParentalControls_BlockedTitle" = "Müstehcen Program";
+    /* iOS,ANDROID,WINDOWS, {locked}  */
+    "EPG_ParentalControls_BlockedDetails" = "Bu bilgi engellendi. Bunu değiştirmek için, Xbox'ınızdan, Ayarlar > Gizlilik ve çevrim içi güvenliğine gidin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Settings" = "TV ayarlarınızı yükleyemezsiniz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Channels" = "Şu anda kanallarınız alınamıyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TryAgain" = "Yeniden denemek için yenile düğmesini seçin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Shows_Generic" = "Şu anda programlara ulaşılamıyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_NoShows" = "Bu kanalda programlar bulunamadı.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_NoShowInfo" = "Program bilgisi mevcut değil.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_iOS" = "Çok fazla kanalınız var. %1$@'a eklemek için birini çıkartın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_Android" = "Çok fazla kanalınız var. Birini çıkarın şuna ekleyin: %1$s.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Channels" = "Şu anda uygulama kanallarınız alınamıyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Remote_Console_Setup" = "Xbox'ınızda TV ayarlarınızı kurun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Console_Setup_Directions_STB" = "Xbox'ınızdan, Ayarlar > TV ve OneGuide > Kablo veya yayın kutusu modeline gidin";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_Header" = "Favori uygulama kanallarınız tek bir yerde";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_AppChannels_Text_First" = "Uygulama kanallarında bir kanala dokunun ve";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_AppChannels_Text_Second" = "simgesine dokunarak favorilere ekleyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_TextIcon_iOS" = "Uygulama kanallarında bir kanala dokunun ve %1$@ simgesine dokunarak favorilere ekleyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_iOS" = "TV listelerinde veya uygulama kanallarındaki bir programa ve ardından favorilere eklemek için %1$@ dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_Android" = "TV listelerinde veya uygulama kanallarında bir programa dokunun ve sonra onu favori yapmak için %1$s dokunun.";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_Text_First" = "TV listelerinde bir programa veya uygulama kanalına dokunun ve ardından şuna dokunun";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_Text_Second" = "onu favoriye ekleyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Header" = "Favori TV kanallarınız tek bir yerde";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_TvListings_Text_First" = "TV listelerinde bir programa dokunun ve ardından şuna dokunun";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_TvListings_Text_Second" = "onu favoriye ekleyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Code_iOS" = "Hata %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header_NotAllCaps" = "Gelecek gösterimler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_FirstLine" = "Taşımak için çekin, seçmek için dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_SecondLine" = "Kaydırmak için iki parmağınızı kullanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateSwipe" = "Taşımak için çekin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateTap" = "Seçmek için dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Unsupported" = "Internet Explorer uzaktan kumandası dokunmatik olmayan cihazları desteklemez.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_DefaultText" = "Oyunlar, filmler, TV, müzik ve uygulamaları bulun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Header" = "Gold alındı mı?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_Offline" = "Çevrimdışı";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Windows" = "Son görülme: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_iOS" = "Son görülme: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Android" = "Son görülme: %s";
+    /* iOS,ANDROID,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_Windows" = "{1} üzerinde {0} yayınlanıyor";
+    /* iOS,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_iOS" = "%1$@ üzerinde %2$@ yayınlanıyor";
+    /* iOS,ANDROID,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_iOS" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Windows" = "{0} (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_iOS" = "%1$@ (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Android" = "%s (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Windows" = "{0} eklendi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_iOS" = "%1$@ eklendi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Android" = "%s eklendi";
+    /* iOS,ANDROID,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_iOS" = "%1$@ - %2$@";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsOption" = "Bildirimlere izin verin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsDescription" = "Bu uygulamanın bildirimlerde gösterilmesine izin verin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptTitle" = "Bildirimlere izin verilsin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptDescription" = "Bu uygulamanın bildirimlerde gösterilmesine izin verin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_FilterOptionAll" = "Tümü";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionBroadcasting" = "Yayınlanıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionRecentPlayers" = "Son oyuncular";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_OnlineFriendsCount_iOSAndroid" = "%1$d ÇEVRİMİÇİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_NewFollowersCount_iOSAndroid" = "%1$d YENİ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_Unsnap" = "Ayır";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_RecentPlayers_NoData" = "Çok oyunculu oyunlarda diğer oyuncularla bir araya gelince, onları burada göreceksiniz.";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Today" = "bugün";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_iOSAndroid" = "%1$d gün önce";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_Windows" = "{0} yıl önce";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_ChallengesGallery_HeaderTitle_Tablet" = "Görevler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Phone" = "İlerleme";
+    /* iOS,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_2_iOS" = "Windows 8, Windows Phone veya Xbox 360 için bir hesabınız varsa, var olan hesabınızla oturum açacaksınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_Wifi_Needed_Error" = "Xbox One'ınız üzerinden aynı ağa bu cihazı bağlayın. SmartGlass için bir kablosuz ağ bağlantısı gerekir - Bir hücresel veri ağı çalışmayacaktır.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_GameClips" = "Oyun klipleri";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text when signing out */
+    "Settings_SignOutButton_SigningOut" = "Oturumu kapatılıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_Windows" = "{0}, {2} üzerinden {1} oyununu yayınlıyor";
+    /* iOS,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_iOS" = "%1$@, %3$@ üzerinden %2$@ oyununu yayınlıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LinktoFAQ" = "Daha fazla bilgi için, sorun giderme rehberini açmak için dokunun";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FeedbackIcon" = "Geri bildirim";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epgl_NHoursText_iOSAndroid" = "%1$d saat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_iOSAndroid" = "%1$d dk.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat_Android" = "%1$s-%2$s %3$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NHoursText_Android" = "%d saat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_Android" = "%d dk.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_OneHour_Text" = "1 saat";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgDetails_Showtime_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Recents" = "En son kanallarınız yükleniyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_AppChannels" = "Uygulama kanalları yükleniyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TVListings" = "TV listeleri yükleniyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Favorites" = "Favori kanallarınız yükleniyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TakeSomeTime" = "Bu işlem birkaç dakika sürebilir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddedFavoriteChannel_Message_Text" = "Bu kanal favorilerinize eklendi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_SectionHeader" = "ONEGUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Message_Text" = "OneGuide kullanımı kolay, özelleştirilebilir ve tek bir listede tüm TV programlarınızı önünüze getiren bir program rehberidir. Burada TV listelerinizi görmek için konsolda Canlı TV'yi kurun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_iOSAndroid" = "%1$d saat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_iOSAndroid" = "%1$d saat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_iOSAndroid" = "%1$d dk";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_iOSAndroid" = "%1$d dk.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_iOSAndroid" = "%1$d sn";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_iOSAndroid" = "%1$d sn";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_Windows" = "{0} sn.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_Windows" = "{0} sn.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_Windows" = "{0} dk.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_Windows" = "{0} dk.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_Windows" = "{0} saat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_Windows" = "{0} saat";
+    /* iOS,WINDOWS, */
+    "Global_NHrsMMinsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Windows" = "{0} {1}";
+    /* iOS,WINDOWS, */
+    "Global_NMinsMSecsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Windows" = "{0} {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_Broadcasting" = "Canlı yayınlanıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_WatchBroadcast" = "Yayını izle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_Error_MovePin" = "Üzgünüz, sabitlenenlerinizi taşıyamadık.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Header" = "Favori TV ve uygulama kanallarınız";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title" = "BİLDİRİMLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description_iOS" = "Kapalıysa, İOS ayarları bu ayarları geçersiz kılar.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Description" = "Favori arkadaşlar yayına başladığında bildirim alırsınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Title" = "Twitch yayını başladı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Description" = "Favori arkadaşlar çevrimiçi olduklarında bildirim alırsınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Title" = "Favori çevrimiçi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Description" = "Mesaj listenizde yeni bir mesaj göründüğünde bildirim alırsınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Title" = "Mesaj";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_iOS" = "Şu anda %1$@ yayınlanıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Android" = "Şu anda %s yayınlanıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Windows" = "Şu anda {0} yayınlanıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_iOS" = "%1$@ çevrimiçi";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Android" = "%s çevrimiçi";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Windows" = "{0} çevrimiçi";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_PageTitle" = "Karşılaştır";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_NoAchievementsAvailable" = "Bu başlık için başarı bulunmuyor... çok üzücü";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_YouGamertagDisplayText" = "Siz";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_TimePlayed" = "Oynanan süre";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_GameProgress" = "İlerleme";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_UnlockedWithTime_Tablet_iOS" = "%1$@ kilit açıldı";
+    /* iOS,ANDROID,WINDOWS, Locked */
+    "CompareGame_AchievementItem_Locked_Tablet" = "Kilitli";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_LockedWithPercentage_Tablet_iOSAndroid" = "(%1$d%%) tarihinde kilitlendi";
+    /* iOS,ANDROID,WINDOWS, - - (20%) */
+    "CompareGame_AchievementItem_LockedWithPercentage_Phone_iOSAndroid" = "-- (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialTitle" = "Şimdi sabitlenenlerinizi yeniden düzenleyebilirsiniz!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialText" = "Tutun ve istediğiniz konuma bir sabitlenen sürükleyin. Bu aynı zamanda Xbox One'ınızdan sabitlenenlerinizi günceller.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackTitleText" = "Geri bildirim gönder";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashTitleText" = "Bir sorun oldu.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_NoThanksButtonText" = "Hayır Teşekkürler";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashBodyText" = "Bu tamamen bizim hatamız gibi görünüyor. Ne olduğunu anlamamıza yardımcı olun. Aşağıdaki bilgilerle geri bildiriminizi gönderin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ScreenshotText" = "Ekran görüntüsü";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ProcessorArchitectureText" = "Cihaz İşlemci Mimarisi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SGVersionText" = "SmartGlass Sürümü";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_OSVersionText" = "Cihaz İşletim Sistemi Sürümü";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareManufacturerText" = "Cihaz Donanım Üreticisi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareModelText" = "Cihaz Donanım Modeli";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CurrentCultureText" = "Geçerli Kültür";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LayoutOrientationText" = "Yerleşim Düzeni";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_GamerTagText" = "Oyuncu Etiketiniz";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LogFileDataText" = "Günlük Verileri";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_MailBodyStep1Text" = "1. Adım: Geri bildiriminizi yazın.";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneNoScreenshotText" = "Geri bildiriminizi buraya yazın.";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8MailBodyStep2Text" = "2. Adım: Lütfen geri bildiriminizi göndermek için:";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneStep2Text" = "2. Adım: Lütfen ekran görüntüsü ekleyin: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Windows" = "Xbox One SmartGlass Beta Geri Bildirimi : {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_iOS" = "Xbox One SmartGlass Beta Geri Bildirimi : %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Android" = "Xbox One SmartGlass Beta Geri Bildirimi : %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashSubject" = "Xbox One SmartGlass Kilitlenme Raporu";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8Description" = "Windows'da Xbox One SmartGlass hakkında Microsoft'a geri bildirim gönderin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Phone" = "Puan tablosu";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Tablet" = "PUAN TABLOSU";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoData" = "Üzgünüz, bu oyun veya uygulama için kullanılabilir bir derecelendirme yok. Şimdi oynayın ve birinci siz olun!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoStats" = "Üzgünüz, bu oyun veya uygulama için kullanılabilir bir derecelendirme yok.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Friends_Online_Windows" = "{0} çevrimiçi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Messages_Unread_Windows" = "{0} okunmamış";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_PrivacyStatement" = "Görüşlerinize kişisel ve hassas bilgileri dahil etmeyiniz. Microsoft, yazılım ile ilgili geri bildirim için şifreleri, kredi kartı bilgileri, ya da resmi kimlik numaralarını asla sormaz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Featured" = "Öne Çıkanlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Featured_Landing_PageTitle" = "Öne Çıkanlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "TOU_Accept" = "Kabul et";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description" = "Cihazınızın bildirimlerini kapatmak, aynı zamanda SmartGlass'dan gelecek bildirimleri de durduracaktır.";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD_BRACKETED" = "[HD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD_BRACKETED" = "[SD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Buy" = "Satın al";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Preorder" = "Ön sipariş";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_GetItFree" = "Ücretsiz al";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Purchased" = "Satın alma";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Available_Header" = "KULLANILABİLİR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete" = "Satın Alma Tamamlandı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue" = "Yükle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Done" = "Bitti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Message" = "Bu, oyunlarınıza & uygulamalarınıza Xbox One'ınız üzerinden eklenecektir. Xbox'ınız açık veya beklemedeyse ve yeterli alanınız varsa, otomatik olarak yüklenecektir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Andriod" = "Xbox One'ınızdan %s yüklensin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Windows" = "Xbox One'ınızdan {0} yüklensin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_iOS" = "Xbox One'ınızdan %1$@ yüklensin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Recent" = "Topluluk klipleri - en son";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Saved" = "Topluluk klipleri - kayıtlı";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Saved" = "Oyun kliplerim - kayıtlı";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Recent" = "Oyun kliplerim - en son";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Recent" = "Oyun klipleri - en son";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Saved" = "Oyun klipleri - kayıtlı";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogTitle" = "Emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogBody" = "Bu kişi arkadaşlar listenizden çıkarılacaktır.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_NoData" = "Arkadaşlar görünmüyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_NoData" = "Arkadaşlar görünmüyor.";
+    /* iOS,ANDROID,WINDOWS, number of allowable recipient left */
+    "Messages_ComposeMessage_ChooseRecipients_NumRemaining_iOSAndroid" = "%1$d kaldı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Thanks" = "Teşekkür Ederiz!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Collection" = "Onu bulmak için, Xbox One'ınızdan oyunlarınız ve uygulamalarınıza gidin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Popular" = "Popüler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Recent" = "En Son";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Popular" = "Popüler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Recent" = "En Son";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Tablet" = "Mağaza";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Phone" = "MAĞAZA";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Games_Store" = "Mağaza";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Featured" = "Öne Çıkanlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackBodyText" = "Bir kahraman olun! Geri bildirim göndermeniz SmartGlass'ı geliştirmemize yardımcı olacaktır. Geri bildirim gönderdiğinizde, bizde aşağıdaki verileri toplayacağız:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableTVProviderText" = "Kablo TV Sağlayıcısı";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableBoxText" = "Kablo kutu modeli";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ZipCodeText" = "Posta Kodu";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_RateText" = "Deneyiminizi nasıl derecelendirirsiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ChooseOneText" = "birini seçin";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CategoryText" = "Bize ne söylemek istersiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ReportProblemText" = "Bir sorunu bildirmek istiyorum";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SuggestionText" = "Bir önerim ya da yeni bir özellik isteğim var";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationHeaderText" = "Geri bildirim gönderildi!";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationText_iOSAndroid" = "Geri bildiriminiz için teşekkürler! Daha fazla bilgiye ihtiyacımız olursa size bir Xbox Live mesajı gönderebiliriz. Şifre veya fatura bilgilerinizi asla sormayız, yine de bu tür mesajlar için kimseye bilgi vermeyin!\nSaygılarımızla,\nSmartGlass Takımı";
+    /* iOS,WINDOWS, */
+    "FirstRun_Favorites_Channel_TextIcon_iOS" = "TV listelerinde veya uygulama kanallarındaki bir kanala ve ardından favorilere eklemek için %1$@ dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Channel_Text_First" = "TV listelerinde bir kanala veya uygulama kanallarına dokunun ve ardından şuna dokunun";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Channel_Text_First" = "TV listelerinde bir kanala dokunun ve ardından şuna dokunun";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Phone" = "İçerir";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Tablet" = "İÇERİR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Phone" = "Yığın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Tablet" = "YIĞIN";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_AttachmentFailed" = "Üzgünüz, eki gösteremiyoruz. Daha sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Me" = "Henüz hiç oyun klibi kaydetmediniz. Denemelisiniz, eğlenceli!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_DeviceTime_Incorrect" = "Doğru zaman ve günde olduğunuzdan emin olun ve yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Millions" = "M";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Thousands" = "K";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_ServiceFailure_Playback_Error" = "Daha sonra yeniden deneyin. Şu anda onu yürütemiyoruz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_DeletedClip_Playback_Error" = "Üzgünüz, bu klip artık kullanılmıyor";
+    /* iOS, */
+    "Purchase_Title_Purchased_iOS" = "%1$@ aldınız";
+    /* iOS,WINDOWS */
+    "Purchase_Confirmation_NoHome" = "Satın almanız başarılı oldu. Konsolunuza indirmek için, Oyunlarım ve uygulamalarım'a gidin ve \"Yüklemeye hazır\" listesinden onu seçin (en sağda!). Gelecekteki satın alımları otomatik olarak indirmek isterseniz, konsolunuzu Ayarlar > Giriş Xbox'ımdan giriş Xbox'ınız yapın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Queued" = "Bu giriş Xbox'ınıza otomatik olarak yüklenecektir. Xbox'ınız açık veya anlık açık olarak ayarlanmışsa, otomatik güncellemeler ve satın alımlar açık olarak ayarlanmışsa ve yeterli alanı varsa, indirmeye başlayacaktır. Konsoldan giriş Xbox'ınızı değiştirmek isterseniz, Ayarlar > Giriş Xbox'ıma gidin. Açma-kapama seçeneklerinizi değiştirmek için, Ayarlar > Açma-kapama ve başlangıç'a gidin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Consumable" = "Bunlar gibi öğeler istediğiniz kadar satın alınabilir. Geri gelebilir ve her zaman yeniden satın alabilirsiniz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Error_NoResults" = "Öğe bulunamadı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse" = "Göz at";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons" = "Eklentiler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games" = "Oyunlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse_Tablet" = "GÖZ AT";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Tablet" = "EKLENTİLER";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Tablet" = "OYUNLAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Popular" = "En popüler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Recent" = "Çıkış tarihi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader" = "UYANIK KAL";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader_Windows" = "Uyanık kal";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOption" = "Her zaman";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOptionDescription" = "SmartGlass açıkken ekran zaman aşımına uğramaz (düşük pil ömrü)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOption" = "Sadece uzaktan kontrol";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOptionDescription" = "Xbox uzaktan kontrol olarak kullanıldığında ekran zaman aşımına uğramaz (daha iyi pil ömrü)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOption" = "Cihaz ayarlarını kullan";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOptionDescription" = "Ekran zaman aşımı normal (iyi pil ömrü)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title_Windows" = "Bildirimler";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackForm_CrashTellUsText" = "Ne yapıyordun?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_SupportLink" = "Daha fazla öğrenmek için, buraya dokunun";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Them" = "Kaydedilmiş klip yok";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase" = "Satın alımları tamamlamadan önce oturum açmak için bana sorun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase_Header" = "Satın alımlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NOT_AIRING" = "Şu anda yayınlanmıyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Description" = "TV izle";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANNEL" = "KANAL";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Coming_Soon" = "çok yakında";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Error_Not_Supported" = "Konsolda TV'nin çevrimiçi yürütülmesi etkin değildir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Copy_Text" = "Metni kopyala";
+    /* iOS,ANDROID,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_Windows" = "{1} sanatçısından {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_EntryText" = "Söylenecek bir şey var mı?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Header" = "Mesaj silinsin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Body" = "Henüz mesajınızı göndermediniz. Devam ederseniz, mesajınız kaybolacaktır.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Send_ErrorText" = "Şu anda gönderilemiyor. Yeniden denemek için dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_Profile_NoData" = "Başarıların kilidini açmak, oyun klipleri kaydetmek ve arkadaşlar eklemek gibi şeyler yaptığınızda hepsini burada göreceksiniz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionsScreen_HeaderText" = "Paylaşın...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ActivityFeedText" = "Etkinlik haber akışı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_MessageText" = "Mesaj";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_HeaderText" = "Etkinlik haber akışını paylaş";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_TextEntryWatermark" = "Bir başlık ekle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShareButtonText" = "Bunu paylaş";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Header" = "Paylaşmak istemiyor musunuz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Body" = "Bunu henüz paylaşmadınız. Devam ederseniz, bu paylaşılmayacaktır.";
+    /* iOS, */
+    "ActivityFeed_YouLikedText_iOS" = "Siz ve diğer %1$@ kişi bunu beğendi";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1LikeText" = "1 Beğenilen";
+    /* iOS, */
+    "ActivityFeed_LikesText_iOS" = "%1$@ Beğenilen";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1ShareText" = "1 Paylaşılan";
+    /* iOS, */
+    "ActivityFeed_SharesText_iOS" = "%1$@ Paylaşılan";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1CommentText" = "1 Yorum";
+    /* iOS, */
+    "ActivityFeed_CommentsText_iOS" = "%1$@ Yorum";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_TextEntryWatermark" = "Bir yorum yazın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorText" = "Üzgünüz, bir şeyler ters gitti. Bir süre sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Share_ServiceFailure" = "Üzgünüz, şu anda bunu paylaşamayız. Bir süre sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Post_ServiceFailure" = "Üzgünüz, şu anda yorumunuzu yayınlayamıyoruz. Bir süre sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_Filter_Header" = "Beğenilenler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_Filter_Header" = "Paylaşımlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_Filter_Header" = "Yorumlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_HeaderText" = "Etkinlik uyarısı";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_LikedText" = "etkinliğinizi beğendi";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_SharedText" = "etkinliğinizi paylaştı";
+    /* iOS, */
+    "ActivityAlerts_List_2People_iOS" = "%1$@ + 1 diğer kişi";
+    /* iOS, */
+    "ActivityAlerts_List_NPeople_iOS" = "%1$@ + %2$@ diğerleri";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_Empty" = "UYARILAR";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_1Alert" = "1 YENİ UYARI";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_iOS" = "%1$@ YENİ UYARI";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_Header_iOS" = "ETKİNLİK HABER AKIŞI (%1$@)";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedText_iOS" = "etkinliğiniz yorumlandı: \"%1$@\"";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedOthersText_iOS" = "%1$@ adlı kişinin etkinliği yorumlandı: \"%2$@\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_AddedFriendText" = "sizi bir arkadaş olarak ekledi";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Header" = "Haber akışı öğesi silinsin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Body" = "Bu etkinlik haber akışı öğesini silmek istediğinizden emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Header" = "Yorum silinsin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Body" = "Bu yorumu silmek istediğinizden emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_ServiceFailure" = "Üzgünüz, şu anda etkinlik uyarılarınızı alamıyoruz. Bir süre sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityItem_ServiceFailure" = "Üzgünüz, şu anda etkinlik öğenizi alamıyoruz. Bir süre sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_NoData" = "Kişiler, etkinlik haber akışınızdaki şeyler için,  beğendikleri, paylaştıkları, yorum yaptıkları veya sizi arkadaş olarak eklediklerinde burada göreceksiniz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_List_NoData" = "Bunu beğenmek için ilk olun";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_List_NoData" = "Bunu paylaşmak için ilk olun";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_List_NoData" = "Yorum yapmak için ilk olun";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Confirmation_Success" = "Bu kaldırıldı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Header" = "Bir şeyler ters gitti";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Body" = "Üzgünüz, şu anda bunu silemiyoruz. Bir süre sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_Failure_Body" = "Üzgünüz, şu anda yorumunuzu yayınlayamıyoruz. Bir süre sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_DisplayError_Body" = "Şu anda bunu gösteremiyoruz.";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header" = "Popüler oyunlar (10 gün)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header_Tablet" = "POPÜLER OYUNLAR (10 GÜN)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Plays_1Friend" = "1 arkadaş oynadı";
+    /* iOS, */
+    "PopularGames_Plays_NFriends_iOS" = "%1$@ arkadaş oynadı";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Playing_1Friend" = "Şimdi 1 arkadaş oynuyor";
+    /* iOS, */
+    "PopularGames_Playing_NFriends_iOS" = "Şimdi %1$@ arkadaş oynuyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_ServiceError" = "Üzgünüz, şu anda popüler oyunları gösteremiyoruz. Tekrar denemek için yenileyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_NoData" = "Son zamanlarda, siz ve arkadaşlarınız hiçbir şey oynamadınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header" = "En iyi oyunlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header_Tablet" = "EN İYİ OYUNLAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Played_Once" = "Bir kez oynandı";
+    /* iOS, */
+    "TopGames_PlayedN_iOS" = "%1$@ kez oynandı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Header" = "Konuşma silinsin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Body" = "Bu konuşmayı silmek istediğinizden emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Delete_MenuText" = "Konuşmayı sil";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Reply_Failure" = "Bu gönderilemedi. Yeniden denemek için dokunun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Link" = "Yenilikler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Description" = "Bu güncellemede yeni özelliklere bakın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_title" = "Eylül ayındaki yenilikler";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_features" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Windows" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_WindowsPhone" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_iOS" = "Sizden ve arkadaşlarınızdan görüntüleyin, yorumlayın, paylaşın ve ekran görüntüleri kaydedin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Android" = "Sizden ve arkadaşlarınızdan görüntüleyin, yorumlayın, paylaşın ve ekran görüntüleri kaydedin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_bug_fixes" = "Hata Düzeltmeleri";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_caveat" = "Bazı özellikler tüm marketlerde kullanılmayabilir";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ERROR" = "Üzgünüz, SmartGlass kaydetmeye başlayamadı";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ACCESSIBILITY" = "Bunu kaydet";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Providers" = "Sağlayıcılar";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Provider" = "Bir sağlayıcı seçin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_General_Error" = "Şu anda kanalınız alınamıyor. Yeniden denemek için yenileyin veya farklı bir sağlayıcı seçin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Different_Provider" = "Farklı bir sağlayıcı seçin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Select_a_Provider" = "Bir sağlayıcı seçin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Connection_Error" = "TV listelerini görüntülemek için Xbox'ınıza bağlayın veya farklı bir sağlayıcı seçin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_All_Providers" = "Tüm sağlayıcılar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Start_Error" = "Üzgünüz, TV'nizin çevrimiçi yürütülmesi başlatılamadı.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDCP_Error" = "Geçerli program HDCP tarafından korunuyor ve çevrimiçi yürütülemedi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Error" = "Bu cihazda TV seyretmek için konsolunuzda oturum açın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Console_Error" = "TV'nin çevrimiçi yürütülmesini sağlayan konsolunuzla ilgili bir sorun var. Daha sonra yeniden deneyin. Olmaya devam ediyorsa, konsolunuzu yeniden başlatmanız gerekebilir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connection_Error" = "Konsolunuza bağlantımızı kaybettik. Lütfen yeniden bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Error" = "Üzgünüz, TV'nin çevrimiçi yürütülmesini başlatmak için konsolunuza bağlanamıyoruz. Ağınızı kontrol edin ve yeniden deneyin. Olmaya devam ediyorsa, yönlendiricinizi yeniden başlatmanız gerekebilir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Parental_Controls_Block" = "Üzgünüz, bu program engellendi. Bunu değiştirmek için, Xbox'ınızdan, Ayarlar > Gizlilik ve çevrimiçi güvenliğine gidin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Too_Slow_Error" = "Ağınız çok yavaş veya TV'nin çevrimiçi yürütülmesini desteklemek için yoğun. Lütfen ağınızı kontrol edin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Interrupted_Error" = "TV'nizin çevrimiçi yürütülmesi kesildi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signed_Out_Error" = "TV'nizin çevrimiçi yürütülmesi durdu çünkü konsoldaki oturumunuzu kapattınız.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error" = "Bir şeyler çevrimiçi yürütme ile ters gitti. Lütfen daha sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Device_Not_Supported_Error" = "TV'nin çevrimiçi yürütülmesi bu cihazda desteklenmiyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Not_Supported_Error" = "TV'nin çevrimiçi yürütülmesi bu ağda desteklenmiyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Version_Not_Supported_Error" = "Üzgünüz, TV'nin çevrimiçi yürütülmesi SmartGlass'ın bu sürümünde desteklenmiyor. Lütfen SmartGlass uygulamanızı güncelleyin ve yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Region_Not_Supported_Error" = "TV'nin çevrimiçi yürütülmesi bölgenizde desteklenmiyor.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signal_Lost_Error" = "Xbox'ınız TV sinyalini kaybetti.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Restart" = "Çevrimiçi yürütmede bir şeyler ters gitti. SmartGlass'ı yeniden başlatın ve tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Resources_Error" = "Bu cihaz üzerinde çalışan birçok şey var. Bazı uygulamaları kapatın ve yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_By_User_Error" = "Çevrimiçi yürütmeniz konsoldaki başka biri tarafından durduruldu.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_Error" = "Konsoldan bağlantınız kesildi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Lost_Network_Error" = "Konsoldan bağlantınız kesildi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnect_To_Stream" = "TV izlemeye devam etmek için yeniden bağlanın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Try_Again_Later" = "Lütfen daha sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Header" = "TV çevrimiçi yürütülüyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Begin_Header" = "İzlemeye başlayın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_TV" = "TV izle";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_Header" = "TV'nin çevrimiçi yürütülmesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Currently_Playing" = "Şimdi yürütülüyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_On_Next" = "Sonrakinde";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Close_Stream" = "İzlemeyi durdur";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Restart_Stream" = "TV'nin çevrimiçi yürütülmesini yeniden başlat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDMI_In" = "HDMI-In";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_TV_Tuner" = "Xbox One Dijital TV Tuner'i";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Video" = "Video'nun çevrimiçi yürütülmesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Current_Source" = "Geçerli kaynak:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Choose_a_Source" = "Bir kaynak seçin:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connecting" = "Bağlanıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnecting" = "Yeniden bağlanıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Attempting_Reconnect" = "Yeniden bağlanıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Buffering" = "Ara belleğe alınıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Quality" = "TV'yi çevrimiçi yürütmenin kalitesi ağınız tarafından etkilenmektedir. Lütfen ağınızı kontrol edin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Remote_Cannot_Control_Source" = "Geçerli kaynak SmartGlass uzaktan kumandası ile kontrol edilemez.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Stop" = "İzlemeyi durdur";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Before_Streaming" = "TV'yi çevrimiçi yürütmenin kurulumu için, burada kullandığınız aynı hesap ile konsolda oturum açın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Header" = "Uygulamamızı derecelendirin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Body" = "SmartGlass'ı beğendiyseniz, uygulamamızı derecelendirmek için, lütfen bir dakikanızı ayırın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_RemindButton" = "Daha sonra hatırlat";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_DontAskButton" = "Tekrar sorma";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_DeleteError" = "Bu etkinlik haber akışı öğesini alamadık. Şu anda kullanılmıyor veya silinmiş olabilir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Resume" = "İzlemeye devam";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Long" = "Çevrimiçi yürütmenizde bir şeyler ters gitti. Durdurmayı ve yeniden başlatmayı deneyin. Olmaya devam ederse, SmartGlass'ı, konsolunuzu ve yönlendiricinizi yeniden başlatın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MHEG_Error" = "Üzgünüz, etkileşimli içeriği yürütemezsiniz. Başka bir kanal deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Content_Error" = "Bu kanal şu anda kullanılmıyor. Diğer kanallarda nelerin kullanılabilir olduğunu görmek için OneGuide'a bakın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MTC_Live" = "CANLI";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_NewMarkets" = "Yeni marketlerde TV ve OneGuide kullanılabilir";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_Streaming" = "Xbox One Dijital TV Tuner'inden canlı TV'nin çevrimiçi yürütülmesi";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Phone" = "Oynayan arkadaşlar";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Tablet" = "OYNAYAN ARKADAŞLAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Radio_NoVideo_Error" = "Radyo kanalı yürütülüyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps" = "Uygulamalar";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps_Tablet" = "UYGULAMALAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold" = "Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold_Tablet" = "GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold" = "Games with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold" = "Deals with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold_Tablet" = "GAMES WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold_Tablet" = "DEALS WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_ComingSoon" = "Çok yakında";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ShowcaseText" = "Gösterim";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShowcaseHeaderText" = "Gösterimde paylaşın";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteHeader" = "Gösterim öğesi silinsin mi?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteBody" = "Bu öğeyi gösteriminizden kaldırmak istediğinizden emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataMeText" = "En iyi oyun kliplerinizi ve başarılarınızı etkinlik haber akışınızdan veya başarı detaylarınızdan paylaşın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataYouText" = "Arkadaşınız henüz hiçbir başarıları veya oyun kliplerini gösterimlerinde paylaşmadı.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_BioHeader" = "Biyografi";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_LocationHeader" = "Konum";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_High_Quality" = "Yüksek kalite";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Best_Quality" = "En iyi kalite";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Medium_Quality" = "Orta kalite";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Quality" = "Düşük kalite";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_New_Feature" = "Yeni: SmartGlass'ta TV izleyin";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Signal" = "TV tarayıcınızdan bir sinyal algılayamadık. Lütfen anteninizi kontrol edin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_No_Info_Available" = "Bilgi yok";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Other_User_Changed_Quality" = "Birisi tüm SmartGlass bağlantılarının çevrimiçi yürütme kalitesini değiştirdi.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Playing_Radio_Channel" = "Radyo kanalı yürütülüyor";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Cannot_Find_Tuner" = "TV tarayıcınızı bulamıyoruz. TV tarayıcınızın Xbox'ınıza bağlı olduğundan emin olun ve yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOn" = "Aç";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOff" = "Kapat";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOn" = "Açılıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOff" = "Kapatılıyor...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOnFailure" = "Konsolunuzu açamayız. Bu cihazın, konsolunuzla aynı ağ üzerinde olduğundan ve konsolunuzun anında açılır olarak ayarlandığından emin olun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOffFailure" = "Xbox'ınızı kapatamadık. Bağlı olduğundan ve konsolda oturum açtığınızdan emin olun sonra yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestNetworkStreaming" = "Çevrimiçi yürütmeyi test et";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_ConnectToTest" = "Multimedya ağ testlerini çalıştırmak için Xbox'ınıza bağlanın";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_BeginTest" = "Test etmeye başla";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestInProgress" = "Test devam ediyor. Bu sayfayı kapatmayın veya dışında gezinmeyin. Test etme 5 dakikaya kadar sürebilir.";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestComplete" = "Test tamamlandı! Çevrimiçi yürütmenin iyileştirilmesine yardım ettiğiniz için teşekkürler!";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_SignInToTest" = "Testi başlatmak için, burada kullandığınız aynı hesap ile konsolda oturum açın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_CancelTest" = "Testi iptal et";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NeedStopGameStreamingError" = "Ağı test etmeye başlatmadan önce lütfen oyun çevrimiçi yürütmesini durdurun.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_StopGameStreamingWarning" = "Ağı test etme başladığında geçerli oyun çevrimiçi yürütmesi oturumdan çıkacaktır, devam etmek istediğinizden emin misiniz?";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_Proceed" = "Evet";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NotProceed" = "Hayır";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_ResumeTest" = "Testi sürdür";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_GenericError" = "Test sırasında bir şeyler ters gitti, lütfen yeniden deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RetryTest" = "Testi yeniden dene";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RebootConsole" = "Bu konsolda çevrimiçi yürütmeyi başlatamıyoruz, lütfen konsolu yeniden başlatın ve tekrar deneyin.";
+    /* iOS,ANDROID,WINDOWS, */
+    "ThirdPartyNotice_Header" = "Üçüncü Taraf Bildirimleri";
+    /* iOS,ANDROID, */
+    "Drawer_Captures" = "Görüntü yakalamaları";
+    /* iOS,ANDROID, Profile page My Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Phone" = "Görüntü yakalamalarım";
+    /* iOS,ANDROID, Profile page Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Phone" = "Görüntü yakalamaları";
+    /* iOS,ANDROID, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Tablet" = "GÖRÜNTÜ YAKALAMALARIM";
+    /* iOS,ANDROID, Profile page Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Tablet" = "GÖRÜNTÜ YAKALAMALARI";
+    /* iOS,ANDROID, Used by activity incase screenshot cannot be opened */
+    "Error_CanNotOpenScreenshot" = "Üzgünüz, ekran görüntüsü açılmıyor.";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Me" = "Henüz herhangi bir ekran görüntüsü almamışsınız. Bunu denemelisiniz. Eğlenceli!";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_Me" = "Henüz herhangi bir ekran görüntüsü kaydetmemişsiniz. Bunu denemelisiniz. Eğlenceli!";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Them" = "Kaydedilen ekran görüntüsü yok";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_You" = "Herhangi bir ekran görüntüsü paylaşmamışlar gibi görünüyor.";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Saved" = "Ekran görüntülerim - kayıtlı";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Recent" = "Ekran görüntülerim - en son";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Recent" = "Ekran görüntüleri - en son";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Saved" = "Ekran görüntüleri - kayıtlı";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataMeText" = "Etkinlik haber akışınızdan veya başarı detaylarınızdan en iyi oyun kliplerinizi, ekran görüntülerinizi ve başarılarınızı paylaşın.";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataYouText" = "Arkadaşınız gösterimi için, henüz herhangi bir başarı, ekran görüntüleri veya oyun klipleri paylaşmadı.";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_Me_Tablet" = "Görüntü yakalamalarım";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_You_Tablet" = "Görüntü yakalamaları";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Phone" = "Oyun Görüntü Yakalamaları";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Tablet" = "OYUN GÖRÜNTÜ YAKALAMALARI";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData" = "Görüntülemek için ekran görüntüsü yok! Oyununuzu açın ve bazı ekran görüntüleri alın.";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_Community" = "Henüz bu oyun için alınan ekran görüntüleri yok.";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_CommunityButtonText" = "Topluluk ekran görüntülerine bakın";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Saved" = "Topluluk ekran görüntüleri - kayıtlı";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Recent" = "Topluluk ekran görüntüleri - en son";
+    /* iOS,ANDROID, */
+    "Screenshot_Saving" = "Kaydediliyor...";
+    /* iOS,ANDROID, */
+    "Screenshot_ChooseAction" = "Seç";
+    /* iOS,ANDROID, */
+    "Screenshot_Sharing" = "Paylaşılıyor...";
+    /* iOS,ANDROID, */
+    "Screenshot_Share" = "Paylaş";
+    /* iOS,ANDROID, */
+    "Screenshots_Saved" = "Ekran görüntüsü kaydedildi";
+    /* iOS,ANDROID, */
+    "Screenshots_SavedError" = "Ekran görüntüsü kaydedilemedi, yeniden deneyin";
+    /* iOS,ANDROID, */
+    "Screenshots_ShareError" = "Ekran görüntüsü kaydedilemedi, yeniden deneyin";
+    /* iOS,ANDROID, */
+    "Screenshot_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Share" = "Share real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Update" = "Name sharing settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateRealNameSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_TryAgain" = "Try again in a while";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChooseWhoSeesYourName" = "Choose who sees your name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_WhatYouChose" = "Here's what you chose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description1" = "You can share your real name with your friends on Xbox - you choose who to share it with. Your name doesn't show up in games, and you can always change these settings in your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description2" = "Choose Set up name sharing to pick the people you want to share your name with.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EnforcementBanned_Description" = "You can't share your real name because of your past behavior.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ErrorAtStartup_Description" = "We can't set up or change your real name sharing settings right now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLook_Description" = "This is how you'll appear to other people on Xbox, using the real name from your Microsoft account. If it doesn't look right, you can edit it now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EditHowYouLook" = "This will change the name on the Microsoft account for {0}. This name is used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithFriendsOfFriends" = "When you share your name with friends, their friends see it, too. You can change these settings any time from your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveName" = "Sorry, we can't change your name right now. Click Save to try again or go back.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveSharing" = "Sorry, we can't save your name sharing settings right now. Select Done to try saving again.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Everyone" = "Everyone on Xbox";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChosenFriends" = "Only friends I choose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWith" = "Share with: {0}";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ZeroFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_OneFriend" = "{0} friend";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ManyFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NextWithSelectedCount" = "Next ({0} selected)";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Edit" = "Edit";
+    /* iOS,ANDROID, */
+    "RealNameSharing_FirstName" = "First name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_LastName" = "Last name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSettings" = "Update settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NoThanks" = "No, thanks";
+    /* iOS,ANDROID, */
+    "RealNameSharing_SetUpNameSharing" = "Set up name sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StopSharing" = "Stop sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_GoBack" = "Go back";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Next" = "Next";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithSettings" = "Share with";
+    /* iOS,ANDROID, (Used to indicate how your name appears to others) */
+    "RealNameSharing_HowYouLook" = "How you look";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLookDetail" = "The name is from the Microsoft account and used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, (First placeholder is for the users First Name, the second placeholder is for their Last Name) */
+    "RealNameSharing_SettingsRealNameConcatentation" = "%1$@ %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_ChangeFriendship" = "Change friendship";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorRealNameSave" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorAddingFriend" = "Sorry, we can't add this person right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorChangeRemove" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorPartialFail" = "Sorry, we could only save some of your changes. Try saving again.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Friend" = "Friend";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Favorite" = "Favorite";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_FriendsofFriends" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_AddFriendDescription" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Favorite" = "Favorite friends go first on your friends list. You'll see when they go online or start broadcasting.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Friend" = "Friends show up on your friends list and activity feed. They see you as a new follower.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Everyone" = "Your real name is shared with everyone on Xbox. You can make changes in Settings.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName" = "Let {0} see my real name. It might help them recognize who you are.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Alt" = "{0} may not recognize you as {1}. They're sharing their name with you. Check the box to share with them.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Friends" = "Your real name is shared with all your friends on Xbox. You can make changes in Settings.";

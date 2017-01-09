@@ -1,0 +1,3623 @@
+    //
+    // version 1.0
+    //
+    /* WINDOWS,iOS,ANDROID, Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language */
+    "ResourceFlowDirection" = "LeftToRight";
+    /* WINDOWS,iOS,ANDROID, Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language. */
+    "ResourceLanguage" = "ja-jp";
+    /* WINDOWS,iOS,ANDROID, If we don't find a valid rating to string mapping, we'll return this string. */
+    "PARENTAL_RATING_NOT_RATED" = "未評価";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_EC" = "Early Childhood";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E" = "すべての人";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10" = "Everyone 10+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_E10_RP" = "審査中";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_T" = "Teen";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_M" = "Mature";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_AO" = "Adults Only";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ESRB_RP" = "審査中または無審査";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_A" = "CERO A / CERO All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_B" = "CERO B / CERO 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_C" = "CERO C / CERO 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_D" = "CERO D / CERO 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_CERO_Z" = "CERO Z";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_ALL_AGES" = "USK 0";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_6" = "USK 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_12" = "USK 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_16" = "USK 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_USK_NO_YOUTH" = "USK 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_4" = "PEGI 4";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_6" = "PEGI 6";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_11" = "PEGI 11";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_12" = "PEGI 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_15" = "PEGI 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGI_18" = "PEGI 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_3" = "PEGI 3";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_U" = "BBFC U";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_7" = "PEGI 7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_PG" = "BBFC PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_12" = "PEGI 12 / BBFC 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_15" = "BBFC 15";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_16" = "PEGI 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_PEGIBBFC_18" = "PEGI 18 / BBFC 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_E" = "E - Exempt from Classification";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G" = "G - General";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_G8" = "Parental Guidance Recommended";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M15" = "Recommended for Mature Audiences";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_MA15" = "MA 15+ - Mature Accompanied";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_PG" = "PG - Parental Guidance";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_M" = "M - Mature";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_R18" = "R 18+ - Restricted";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_X18" = "X 18+ - Explicit";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_AU_REFUSED" = "Not Classified";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_G" = "一般";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_PG" = "Parental Guidance Recommended";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_M" = "Suitable for Mature Audiences 16+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R15" = "Restricted to 15+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R" = "Restricted";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R13" = "Restricted to 13+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R16" = "Restricted to 16+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_OFLC_NZ_R18" = "Restricted to 18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_ALL" = "GRB All";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_12" = "GRB 12+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_15" = "GRB 15+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. KOREA: Please insert the official Korean term from KMRB. */
+    "PARENTAL_RATING_KMRB_18" = "GRB 18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_A" = "FPB A";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_PG" = "FPB PG";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_10" = "FPB 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_13" = "FPB 13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_16" = "FPB 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_FPB_18" = "FPB 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_ER" = "DJCTQ ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_L" = "DJCTQ L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_10" = "DJCTQ 10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_12" = "DJCTQ 12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_14" = "DJCTQ 14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_16" = "DJCTQ 16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZIL_18" = "DJCTQ 18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_GENERAL" = "一般";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PROTECTED" = "Protected";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_PG" = "Parental Guidance";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_TAIWAN_RESTRICTED" = "Restricted";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_GENERAL" = "一般";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_AGE_ADVISORY" = "Age Advisory";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SINGAPORE_MATURE_18" = "Mature 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING" = "年齢区分: %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GAME" = "年齢区分: %1$s";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_EXPLICIT_EXPLICIT" = "露骨/過激な表現";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_PG13" = "PG-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_NC17" = "NC-17";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MPAA_AO" = "AO";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_14" = "14A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_18" = "18A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCE_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_R18" = "MA18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_X18" = "X18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIA_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_UC" = "Uc";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_U" = "U";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_UK_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_12A" = "12A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_15A" = "15A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_IRELAND_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DENMARK_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NORWAY_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_BTL" = "Btl";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_11" = "11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SWEDEN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_ST" = "S/T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K3" = "K-3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K7" = "K-7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K11" = "K-11";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K13" = "K-13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K15" = "K-15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FINLAND_K18" = "K-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_MATURE" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R13" = "R13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R15" = "R15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R16" = "R16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R18" = "R18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NEW_ZEALAND_R" = "R";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_1" = "1";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_2" = "2";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_3" = "3";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_4" = "4";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_5" = "5";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_JAPAN_8" = "8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_0" = "0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_10" = "10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_14" = "14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRIA_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK0" = "FSK 0";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK6" = "FSK 6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK12" = "FSK 12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK16" = "FSK 16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_FSK18" = "FSK 18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GERMANY_SPIO_JK" = "SPIO/JK";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_TP" = "TP/ALL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_7" = "7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_13" = "13";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_SPAIN_X" = "X";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_T" = "T";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM14" = "VM14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_ITALY_VM18" = "VM18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_AL" = "AL";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_6" = "6";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_9" = "9";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_NETHERLANDS_16" = "16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICO_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y" = "TV-Y";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7" = "TV-Y7";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_Y7FV" = "TV-Y7-FV";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_G" = "TV-G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_PG" = "TV-PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_14" = "TV-14";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_USTV_MA" = "TV-MA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_E" = "E";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_C8" = "C8";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_14" = "14+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_CANADATV_18" = "18+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_AA" = "AA";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_A" = "A";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B" = "B";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_B15" = "B15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_MEXICOTV_D" = "D";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_10" = "-10";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_12" = "-12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_16" = "-16";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_FRANCETV_18" = "-18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_P" = "P";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_C" = "C";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_G" = "G";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_PG" = "PG";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_M" = "M";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_MA15" = "MA15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_AV15" = "AV15+";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_AUSTRALIATV_R18" = "R18+";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_ER" = "ER";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_L" = "L";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_10" = "10";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_12" = "12";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_14" = "14";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_16" = "16";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_BRAZILTV_18" = "18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_MINOR" = "For Children";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_GP" = "すべて";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_7" = "+7";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_13" = "+13";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_18" = "+18";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_SPAINTV_X" = "X";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_MINOR" = "緑";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_14" = "黄";
+    /* WINDOWS,iOS,ANDROID, Text returned for the specified rating value. */
+    "PARENTAL_RATING_ITALYTV_ADULT" = "赤";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED" = "未評価";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_UNRATED_OR_PENDING" = "審査中または未審査";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_0" = "アルコール描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_1" = "非現実的な出血描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2" = "出血描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_3" = "過激な出血描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4" = "アニメ的な暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5" = "滑稽な描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6" = "下品なユーモア";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_7" = "麻薬の描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_8" = "エデュテイメント";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_9" = "空想世界の暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10" = "情報";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_11" = "過激な暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_12" = "言語";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_13" = "歌詞";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14" = "成人向けユーモア";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_15" = "軽度の暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_16" = "ヌード";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_17" = "一部ヌード描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_18" = "ギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_19" = "性的テーマ";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_20" = "性的暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_21" = "仮想のギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_22" = "保護者の付き添いを推奨";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_23" = "過激な言葉";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_24" = "過激な歌詞";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_25" = "過激な性的描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_26" = "軽度な刺激";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_27" = "タバコ描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_28" = "麻薬の使用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_29" = "飲酒";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_30" = "喫煙";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_31" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_32" = "性的なコンテンツ";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_33" = "軽度のアルコール描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_34" = "軽度の非現実的な出血描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_35" = "軽度の出血描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_36" = "やや過激な出血描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_37" = "軽度のアニメ的な暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_38" = "軽度の滑稽な描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_39" = "軽度の下品なユーモア";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_40" = "軽度の麻薬描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_41" = "軽度な空想世界の暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_42" = "軽度の言葉";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_43" = "軽度の歌詞表現";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_44" = "軽度の成人向けユーモア";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_45" = "軽度のヌード描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_46" = "軽度な一部ヌード描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_47" = "軽度のギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_48" = "軽度の性的テーマ";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_49" = "軽度の性的暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_50" = "軽度な仮想のギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_51" = "やや刺激的なテーマ";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_52" = "軽度のタバコ描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_53" = "軽度の麻薬使用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_54" = "軽度の飲酒";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_55" = "軽度の喫煙";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_56" = "軽度の暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_57" = "軽度の性的描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_58" = "暴力描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_59" = "軽度の暴力描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_60" = "麻薬とアルコールの使用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_61" = "アルコールとタバコの使用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_62" = "アルコールとタバコに関する描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_63" = "非現実的な暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_64" = "軽度の非現実的暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_65" = "非現実的で過激な出血描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_66" = "出血表現";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_67" = "軽度の麻薬とアルコールの使用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_68" = "軽度の麻薬とタバコの使用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_69" = "軽度のアルコールとタバコの使用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_70" = "軽度の麻薬、アルコール、タバコの使用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_71" = "麻薬とアルコールの描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_72" = "軽度の麻薬とアルコールの描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_73" = "麻薬とタバコの描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_74" = "軽度の麻薬とタバコの描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_75" = "麻薬、アルコール、タバコの描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_76" = "軽度の麻薬、アルコール、タバコの描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_77" = "成人向け性的テーマ";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_78" = "ギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_79" = "オンライン プレイとオフライン プレイでは、ゲーム内容が異なる場合があります。";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_100" = "恋愛";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_101" = "セクシャル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_102" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_103" = "恐怖";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_104" = "ギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_105" = "犯罪";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_106" = "飲酒";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_107" = "喫煙";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_108" = "麻薬";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_109" = "言語";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_110" = "飲酒と喫煙";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_2283" = "レーティング ディスクリプター サンプル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4000" = "暴言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4001" = "差別";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4002" = "麻薬";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4003" = "恐怖";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4004" = "セックス";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4005" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4006" = "ギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_4999" = "CWS サンプル RatingDescriptor";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5000" = "暴言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5001" = "差別";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5002" = "麻薬";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5003" = "恐怖";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5004" = "セックス";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5005" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_5006" = "ギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6000" = "暴言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6001" = "差別";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6002" = "麻薬";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6003" = "恐怖";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6004" = "セックス";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6005" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_6006" = "ギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10001" = "成人向け";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10002" = "軽度のヌード描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10003" = "露骨な言葉";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10004" = "露骨な暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10005" = "言語";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10006" = "軽度の暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10007" = "ヌード";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10008" = "レイプ";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10009" = "過激な性的描写";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_10010" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14000" = "暴言";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14001" = "差別";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14002" = "麻薬";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14003" = "恐怖";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14004" = "セックス";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14005" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_14006" = "ギャンブル";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320010" = "差別";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320020" = "麻薬とアルコールの乱用";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320030" = "恐怖";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320040" = "暴力";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320050" = "下品な言葉";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_DESCRIPTOR_320060" = "セックス";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_12" = "12";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_15" = "15";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_18" = "18";
+    /* WINDOWS,iOS,ANDROID, */
+    "PARENTAL_RATING_GRB_ALL" = "すべて";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when the Search service returns an error. */
+    "Search_ErrorText" = "現在、検索結果を取得できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_All" = "すべて";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Apps" = "アプリ";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Games" = "ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Movies" = "映画";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_Music" = "ミュージック";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResultFilterItem_TV" = "テレビ番組";
+    /* WINDOWS,iOS,ANDROID, Failed to retrieve data from the service */
+    "LRC_Error_Code_FailedToRetrieveData" = "利用不可";
+    /* iOS,ANDROID,WINDOWS, */
+    "RelatedItems_NoResultsFound" = "現在、関連アイテムを取得できません。";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_FilterHeader" = "表示";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResults_PageTitle" = "結果";
+    /* WINDOWS,iOS,ANDROID, */
+    "SearchResult_BusyIndicatorText" = "検索中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Bio_Header" = "バイオ";
+    /* WINDOWS,iOS,ANDROID, */
+    "Related_Header" = "関連";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotFind" = "本体が見つかりません";
+    /* WINDOWS,iOS,ANDROID, displayed while waiting for data to load */
+    "BusyIndicator_LoadingText" = "読み込み中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_DescriptionHeader" = "説明";
+    /* WINDOWS,iOS,ANDROID, */
+    "TVDetails_SeasonsHeader" = "シーズン";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Text" = "続けるには､アプリをアップデートしてください｡";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateRequired_Title" = "アップデートが必要です";
+    /* WINDOWS,iOS,ANDROID, Shown as header when more than 1 director is involved. */
+    "Directors_Header" = "監督";
+    /* iOS,ANDROID,WINDOWS, */
+    "Actors_Header" = "キャスト";
+    /* iOS,ANDROID,WINDOWS, */
+    "Synopsis_Header" = "説明";
+    /* iOS,ANDROID,WINDOWS, */
+    "Writers_Header" = "脚本";
+    /* WINDOWS,iOS,ANDROID, */
+    "NowPlaying_MoreInfo" = "もっと見る";
+    /* WINDOWS,iOS,ANDROID, */
+    "Search_PlayOnXbox" = "Xbox でプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launch_DifferentTitle_Warning_Message" = "本体で実行中のアプリが置き換えられます。よろしいですか?";
+    /* WINDOWS,iOS,ANDROID, */
+    "OK_Text" = "OK";
+    /* WINDOWS,iOS,ANDROID, */
+    "Warning_Title" = "終了しますか?";
+    /* WINDOWS,iOS,ANDROID, Title for the popular search terms list. */
+    "SearchTerms_Title" = "人気の検索ワード";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotConnect" = "本体が見つかりません";
+    /* WINDOWS,iOS,ANDROID, */
+    "LookForXboxPage_ErrorHeader_CanNotSignIn" = "サインインできません";
+    /* WINDOWS,iOS,ANDROID, used for grouping details, example:  Year Released - Parent Rating - Movie Duration.  (1992 - PG - 124 min) */
+    "Search_DetailsSeparator" = "|";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_BasicPrompt" = "Xbox で検索...";
+    /* WINDOWS,iOS,ANDROID, indicates the album, song contains explicit content. */
+    "Content_Explicit" = "露骨/過激な表現";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category1" = "Xbox で検索... 映画";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category2" = "Xbox で検索... アルバム";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt1_Category3" = "Xbox で検索... ゲーム";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category1" = "Xbox で検索... 映画、テレビ番組";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category2" = "Xbox で検索... アーティスト";
+    /* WINDOWS,iOS,ANDROID, used in the search text box, in rotation, to show bing search categories */
+    "SearchHelpText_Prompt2_Category3" = "Xbox で検索... ゲーム、アプリ";
+    /* WINDOWS,iOS,ANDROID, Shown Provider offers this media for free viewing. */
+    "ProviderOffer_Free" = "無料";
+    /* WINDOWS,iOS,ANDROID, */
+    "Achievements_SecretDescription" = "この秘密の実績を解除するには、引き続きプレイしてください。";
+    /* WINDOWS,iOS,ANDROID, */
+    "FamilyPasscode_Header" = "続けるには､保護者による設定のパスコードを入力してください｡";
+    /* iOS,ANDROID,WINDOWS, ghost text for empty address bar */
+    "WebBrowser_GhostText" = "Xbox で閲覧";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_fastforward" = "早送り";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_pause" = "ポーズ";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_play" = "プレイ";
+    /* WINDOWS,iOS,ANDROID, */
+    "AppBar_Button_rewind" = "巻き戻し";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Providers" = "対応アプリ:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_RequiresGold" = "ゴールドが必要";
+    /* WINDOWS,iOS,ANDROID, Play command */
+    "Activity_Play" = "始める";
+    /* iOS,ANDROID,WINDOWS, header/title used on the activity tile */
+    "Activity_SmartGlass_Title" = "Xbox One SmartGlass コンパニオン";
+    /* WINDOWS,iOS,ANDROID, Controller activity */
+    "Activity_Controller" = "リモコン";
+    /* WINDOWS,iOS,ANDROID, */
+    "MediaState_DragInstruction" = "より細かくコントロールするには、バーで指をゆっくりすべらせてください";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_ProviderSpecific" = "対応アプリ:";
+    /* WINDOWS,iOS,ANDROID, Title for the Settings page */
+    "Settings_Title" = "設定";
+    /* iOS,ANDROID,WINDOWS, Text for hyperlink in settings page to launch what's new page */
+    "Settings_WhatsNew" = "はじめに";
+    /* WINDOWS,iOS,ANDROID, */
+    "Activity_Purchased" = "購入済み";
+    /* iOS,ANDROID,WINDOWS, Text shown while loading smart glass activity. */
+    "Activity_LoadingText" = "Xbox One SmartGlass コンパニオンを開始します...";
+    /* iOS,ANDROID,WINDOWS, Error text shown when an activity fails to load. */
+    "Activity_ErrorText" = "申し訳ありませんが、このコンパニオンを開始できませんでした。";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_ItemDescription1" = "Xbox One SmartGlass について紹介します。";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription2" = "入力､スワイプ､タップで､お気に入りの映画､ミュージック､ゲーム､アプリを操作できます｡";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemDescription3" = "デバイスをタップ､ピンチ､スワイプで Web ページを閲覧できます｡";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle1" = "Xbox を思う存分楽しもう";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle2" = "Xbox を操作";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ItemTitle3" = "Web の閲覧";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl1" = "http://go.microsoft.com/fwlink/?LinkID=266351&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl2" = "http://go.microsoft.com/fwlink/?LinkID=266352&clcid=0x409";
+    /* WINDOWS,iOS,ANDROID, There should be a different fwlink for each language. */
+    "WhatsNew_ItemVideoUrl3" = "http://go.microsoft.com/fwlink/?LinkID=266353&clcid=0x409";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_Header" = "はじめに";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_0" = "0";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_1" = "1";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_2" = "2";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_3" = "3";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_4" = "4";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_5" = "5";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_6" = "6";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_7" = "7";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_8" = "8";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_9" = "9";
+    /* WINDOWS,iOS,ANDROID, text for button on family passcode controller screen */
+    "FamilyPasscode_Cancel" = "キャンセル";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate" = "スワイプで移動、タップで選択。2 本の指を使ってスクロール。";
+    /* WINDOWS,iOS,ANDROID, */
+    "Controller_HelpSelect" = "タップして選択";
+    /* WINDOWS,iOS,ANDROID, */
+    "TextInput_Help" = "キーボードを閉じるには、ここをタップします。";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpNavigate" = "指 1 本で移動とタップ";
+    /* WINDOWS,iOS,ANDROID, */
+    "WebBrowser_HelpSelect" = "指 2 本でズーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "ControllerMode_Guide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "XboxSmartGlass" = "Xbox One SmartGlass";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToMain" = "OK";
+    /* WINDOWS,iOS,ANDROID, */
+    "WhatsNew_ContinueButtonText_ToPrevious" = "キャンセル";
+    /* WINDOWS,iOS,ANDROID, */
+    "Off" = "オフ";
+    /* WINDOWS,iOS,ANDROID, */
+    "On" = "オン";
+    /* iOS,ANDROID,WINDOWS, */
+    "PivotHeaderFontSize" = "42";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Disconnected" = "Xbox に接続すると、";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting" = "接続中...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connecting_Tablet" = "接続中...";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected" = "接続";
+    /* WINDOWS,iOS,ANDROID, */
+    "MainPage_Connection_State_Connected_Tablet" = "接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "MainPage_Connection_State_NoNetwork" = "ネットワークが接続していません";
+    /* iOS,ANDROID,WINDOWS, Text for the EPG button */
+    "NowPlaying_DiscoverEPGText" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignIn" = "サインイン";
+    /* iOS,ANDROID,WINDOWS, */
+    "AccountSettings_SignOut" = "サインアウト";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppBar_Remote" = "リモコン";
+    /* WINDOWS,iOS,ANDROID, output log location, no need to localize */
+    "TraceService_OutputFile" = "outputFile.log";
+    /* WINDOWS,iOS,ANDROID, Text shown for the calendar app bar button for jumping to a day in the future in the EPG */
+    "AppBar_EpgCalendar" = "日付に移動";
+    /* WINDOWS,iOS,ANDROID, Text shown for the Jump to Now app bar button for the EPG */
+    "AppBar_JumpToNow" = "今";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Cancel" = "キャンセル";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_OK" = "OK";
+    /* WINDOWS,iOS,ANDROID, */
+    "MessageDialog_Confirm" = "確定";
+    /* WINDOWS,iOS,ANDROID, button for tuning to a TV channel from the details page or EPG */
+    "Epg_TuneToChannel" = "チャンネルに合わせる";
+    /* WINDOWS,iOS,ANDROID, Label for details button on EPG */
+    "Epg_Details" = "詳細";
+    /* WINDOWS,iOS,ANDROID, header for upcoming showtimes on a TV details page */
+    "TVDetails_Upcoming" = "次回";
+    /* WINDOWS,iOS,ANDROID, The content of the retry button when we hit an error loading EPG content. */
+    "Epg_Retry" = "再試行";
+    /* WINDOWS,iOS,ANDROID, */
+    "Epg_NowButton_Text" = "今";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STARRING" = "出演者:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDITIONAL" = "その他の詳細";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GENRES" = "ジャンル:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RELEASEDATE" = "リリース日:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_STUDIOS" = "作品提供会社:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_AWARDS" = "アワード";
+    /* iOS,ANDROID,WINDOWS, */
+    "FORWARD_SLASH_SEPARATOR" = "/";
+    /* iOS,ANDROID,WINDOWS, */
+    "COMMA_SEPARATOR" = ",";
+    /* iOS,ANDROID,WINDOWS, */
+    "VERTICAL_BAR_SEPARATOR" = "|";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_ON_XBOX" = "Xbox One でプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TRAILER" = "プレビューを再生";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE" = "最新のエピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_MORE" = "もっと見る";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_RATE" = "星付け";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ALL_SEASONS" = "すべてのシーズン";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NEXT_EPISODE" = "次のエピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PREVIOUS_EPISODE" = "前のエピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PIN" = "ピン留め";
+    /* iOS,ANDROID,WINDOWS, */
+    "EXTRAS_HEADER" = "関連コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "REVIEWS_HEADER" = "レビュー";
+    /* iOS,ANDROID,WINDOWS, */
+    "OVERVIEW_HEADER" = "概要";
+    /* WINDOWS,iOS,ANDROID */
+    "DETAILS_TV_MULTIPLE_SEASON_FORMAT_OTHERS" = "%1$d シーズン";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_OOBE_MESSAGE_TEXT" = "このアプリを使用する前に、Xbox にサインインして、テレビの接続を設定してください。1 度設定すれば、OK です。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Challenges_Header" = "チャレンジ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_UNPIN" = "ピン留めを外す";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_NoPins" = "ピン留めがありません。何かピン留めしてみましょう!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle" = "マイピン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_DeleteFailed" = "ピン留めを削除できませんでした。もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_GeneralError" = "この情報を取得できませんでした。もう一度試してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_Title" = "フォロワー";
+    /* iOS,ANDROID,WINDOWS, */
+    "Followers_List_Empty" = "フォロワーなし";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameConsumables_Header" = "DLC";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Loading" = "読み込み中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title" = "ショーケース";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Title_Tablet" = "ショーケース";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Data_Empty" = "ショーケース データがありません";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Full" = "ショーケースがいっぱいです。このアイテムを追加するには、ショーケースに移動して、不要なアイテムを削除してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_ADD_TO_NOW_PLAYING" = "[再生中] に追加";
+    /* iOS,ANDROID,WINDOWS, */
+    "Crews_Header" = "スタッフ";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressTitle" = "進行状況";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressMostRecent" = "最新";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsProgressXbox360Games" = "Xbox 360 ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedTitle" = "注目";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsFeaturedChallenges" = "注目のチャレンジ";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsAchievementsHeader" = "フレンドの実績";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAlbumTitle" = "ミュージック";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingTVTitle" = "テレビ";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingAppTitle" = "アプリ";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingDashTitle" = "ダッシュ";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingErrorTitle" = "エラー";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingGameTitle" = "ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlayingMovieTitle" = "ビデオ";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsError" = "現在、最近の実績を取得することができません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostRecent" = "最新";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_HighestRated" = "評価が高い";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_MostViewed" = "再生回数が多い";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileRecentTitle" = "履歴";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileTitle" = "プロフィール";
+    /* iOS,ANDROID,WINDOWS, */
+    "Root_Drawer" = "ドロワー";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotPlay360" = "これは、Xbox 360 専用のアプリのためここではプレイできません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_CannotLaunchInDisconnected" = "現在接続していません。本体に接続してから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_ChangeTitleQuestion" = "本体で実行中のアプリが置き換えられます。よろしいですか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Movie_Title" = "映画の詳細";
+    /* iOS,ANDROID,WINDOWS, */
+    "Minute_Text" = "分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Detail_Series_Title" = "シリーズのタイトル";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying_Close" = "[プレイ中] を閉じる";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_NowPlaying" = "プレイ中";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_ARTIST_FORMAT_STRING" = "{0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_HELP_BUTTON_TEXT" = "ヘルプ";
+    /* iOS,ANDROID,WINDOWS, */
+    "NOWPLAYING_COMPANION_BUTTON_TEXT" = "コンパニオン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_BackButton" = "戻る";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsReward" = "リワード";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsDetailsProgress" = "進行状況";
+    /* iOS,WINDOWS, */
+    "NowPlaying_Tertiary" = "%1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Clear" = "クリア";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Save" = "保存";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_TvHeader" = "テレビ";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MyShows_MovieHeader" = "映画";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_TvListings" = "テレビ番組表";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_Favorites" = "お気に入り";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_NetworkError" = "インターネット接続が検出されません。このアプリを使用するには、無線ネットワークまたは携帯ネットワークに接続してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Accessibility_ConsoleConnect" = "接続する Xbox One を選択してください";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Showtime_iOS" = "%1$@-%2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_Showtime_With_ParentalRating" = "%1$@ | %2$@";
+    /* iOS,WINDOWS, */
+    "EpgDetails_Concatenate_EpisodeName_With_Description" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_AppChannels" = "アプリ チャンネル";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdateAvailable_Title" = "アプリの更新を利用できます";
+    /* WINDOWS,iOS,ANDROID, */
+    "TitleUpdateAvailable_Text" = "このアプリのアップデートがあります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "General_RemindMe" = "アラーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "TitleUpdate_GetItNow" = "今すぐゲット";
+    /* iOS,ANDROID,WINDOWS, Profile page Profile pivot header */
+    "Profile_Profile_HeaderTitle" = "プロフィール";
+    /* iOS,ANDROID,WINDOWS, Header for the number of friends that the current user has */
+    "Profile_Profile_Friends" = "フレンド";
+    /* iOS,ANDROID,WINDOWS, Header for the number of followers that the current user has */
+    "Profile_Profile_Followers" = "フォロワー";
+    /* iOS,ANDROID,WINDOWS, You profile page send message button text */
+    "Profile_Profile_SendMessage" = "メッセージを送信";
+    /* iOS,ANDROID,WINDOWS, You profile page favorites button text */
+    "Profile_Profile_Favorite" = "お気に入りに追加";
+    /* iOS,ANDROID,WINDOWS, You profile page unfavorites button text */
+    "Profile_Profile_Unfavorite" = "お気に入りから削除";
+    /* iOS,ANDROID,WINDOWS, You profile page add friend button text */
+    "Profile_Profile_AddFriend" = "フレンドを追加";
+    /* iOS,ANDROID,WINDOWS, You profile page remove friend button text */
+    "Profile_Profile_RemoveFriend" = "フレンドを削除";
+    /* iOS,ANDROID,WINDOWS, You profile page block button text */
+    "Profile_Profile_Block" = "拒否";
+    /* iOS,ANDROID,WINDOWS, You profile page unblock button text */
+    "Profile_Profile_Unblock" = "拒否を解除";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Unknown" = "不明";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation" = "評判";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_AvoidMe" = "避けられている";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Needs_Improvement" = "改善が必要";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Good_Player" = "良いプレイヤー";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Reputation_Super_Star" = "スーパースター";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Just_You_Count" = "自分";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header title cased */
+    "Profile_Recents_HeaderTitle_Phone" = "最近のプレイ状況";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents pivot header upper cased */
+    "Profile_Recents_HeaderTitle_Tablet" = "最近のプレイ状況";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Android" = "前回 : %s";
+    /* iOS,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_iOS" = "前回プレイした日: %1$@";
+    /* iOS,ANDROID,WINDOWS, Profile page Recents item game last played 3/23/13 text */
+    "Profile_Recents_LastPlayedText_Windows" = "前回: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_GameProgressText" = "ゲームの進行状況";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_AppProgressText" = "アプリの進行状況";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Recents no data string */
+    "Profile_Recents_NoData_Me" = "自分が Xbox One でプレイした内容が、ここに表示されます。";
+    /* iOS,ANDROID,WINDOWS, You Profile page Recents no data string */
+    "Profile_Recents_NoData_You" = "他のユーザーが Xbox One でプレイした内容が、ここに表示されます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Recents_Stats_You" = "自分";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_Me_Phone" = "マイ ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header title cased */
+    "Profile_Channel_HeaderTitle_You_Phone" = "ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_Me_Tablet" = "マイ ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Profile page Channel pivot header upper cased */
+    "Profile_Channel_HeaderTitle_You_Tablet" = "ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_Me_Tablet" = "マイ ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Profile page channel gallery header */
+    "Profile_ChannelGallery_HeaderTitle_You_Tablet" = "ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_iOSAndroid" = "%1$d 回プレイ";
+    /* iOS,ANDROID,WINDOWS, Profile page channel view count text */
+    "Profile_Channel_Views_Windows" = "{0} 回プレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_Me" = "まだゲーム クリップを録画していません。ぜひ試してください!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoData_You" = "誰もゲーム クリップを公開していないようです。";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header title cased */
+    "Profile_Achievements_HeaderTitle_Phone" = "実績";
+    /* iOS,ANDROID,WINDOWS, Profile page Achievements pivot header upper cased */
+    "Profile_Achievements_HeaderTitle_Tablet" = "実績";
+    /* iOS,ANDROID,WINDOWS, Me Profile page Achievements no data string */
+    "Profile_Achievements_NoData_Me" = "ゲームをプレイして実績を解除しよう!";
+    /* iOS,ANDROID,WINDOWS, You Profile page Achievements no data string */
+    "Profile_Achievements_NoData_You" = "フレンドは最近、実績を解除していません。";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header title cased */
+    "Profile_Friends_HeaderTitle_Phone" = "フレンド";
+    /* iOS,ANDROID,WINDOWS, Profile page Friends pivot header upper cased */
+    "Profile_Friends_HeaderTitle_Tablet" = "フレンド";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_HeaderTitle" = "フレンド";
+    /* iOS,ANDROID,WINDOWS, friends hub pivot header */
+    "FriendsHub_HeaderTitle_Phone" = "フレンド";
+    /* iOS,ANDROID,WINDOWS, friends hub header */
+    "FriendsHub_HeaderTitle_Tablet" = "フレンド";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Phone" = "プレイ状況のフィード";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderActivityFeed_Tablet" = "プレイ状況のフィード";
+    /* iOS,ANDROID,WINDOWS, friends hub section header */
+    "FriendsHub_SectionHeaderFriendsList_Phone" = "フレンド リスト";
+    /* iOS,ANDROID,WINDOWS, friends hub friends pivot search button text, phone only */
+    "FriendsHub_SearchButton_Phone" = "フレンドの検索";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFavorites" = "お気に入り";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFriends" = "フレンド";
+    /* iOS,ANDROID,WINDOWS, friends hub filter option */
+    "FriendsHub_FilterOptionFollowers" = "フォロワー";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_NoData" = "フレンドが行った実績の解除、ゲーム クリップの録画、フレンドの追加をここで確認できます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Friends_NoData" = "表示はありません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Favorite_NoData" = "プロフィールからお気に入りのフレンドを追加して、ここに表示しましょう。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Follower_NoData" = "表示はありません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_CouldNotFindGamer" = "該当するゲーマータグがありません。入力は正しいですか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchBoxHint" = "ゲーマータグを正確に入力してください";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsSearch_SearchingText" = "検索中...";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Phone" = "メッセージ";
+    /* iOS,ANDROID,WINDOWS, messages list header */
+    "Messages_HeaderTitle_Tablet" = "メッセージ";
+    /* iOS,ANDROID,WINDOWS, messages list section header */
+    "Messages_SectionHeaderAllMessages_Tablet" = "すべてのメッセージ";
+    /* iOS,ANDROID,WINDOWS, new message button text */
+    "Messages_NewMessageButton" = "新規";
+    /* iOS,ANDROID,WINDOWS, reply message button text */
+    "Messages_ReplyMessageButton" = "返信";
+    /* iOS,ANDROID,WINDOWS, delete message button text */
+    "Messages_DeleteMessageButton" = "削除";
+    /* iOS,ANDROID,WINDOWS, block user button text */
+    "Messages_BlockButton" = "拒否";
+    /* iOS,ANDROID,WINDOWS, unblock user button text */
+    "Messages_UnblockButton" = "拒否を解除";
+    /* iOS,ANDROID,WINDOWS, view sender profile button text */
+    "Messages_ViewProfileButton" = "プロフィール";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Phone" = "新しいメッセージ";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_NewMessage_HeaderTitle_Tablet" = "新しいメッセージ";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Phone" = "返信";
+    /* iOS,ANDROID,WINDOWS, new message header title */
+    "Messages_ReplyMessage_HeaderTitle_Tablet" = "返信";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ConfirmDeleteMessage" = "このメッセージを削除しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToDeleteMessage" = "メッセージを削除できませんでした";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToBlockUser" = "ユーザーを拒否できませんでした";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_FailedToUnblockUser" = "ユーザーの拒否を解除できませんでした";
+    /* iOS,ANDROID,WINDOWS, new message add a recipient control hint text */
+    "Messages_ComposeMessage_AddRecipientHintText" = "宛先を追加";
+    /* iOS,ANDROID,WINDOWS, new message enter message control hint text */
+    "Messages_ComposeMessage_EnterMessageHintText" = "メッセージの入力";
+    /* iOS,ANDROID,WINDOWS, new message send button */
+    "Messages_ComposeMessage_SendButton" = "送信";
+    /* iOS,ANDROID,WINDOWS, new message cancel button */
+    "Messages_ComposeMessage_CancelButton" = "キャンセル";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Phone" = "宛先の選択";
+    /* iOS,ANDROID,WINDOWS, choose recipients header title */
+    "Messages_ComposeMessage_ChooseRecipients_HeaderTitle_Tablet" = "宛先の選択";
+    /* iOS,ANDROID,WINDOWS, choose recipients done button text */
+    "Messages_ComposeMessage_ChooseRecipients_DoneButton" = "完了";
+    /* iOS,ANDROID,WINDOWS, generic error for failing to send a message */
+    "Messages_ComposeMessage_GenericError" = "このメッセージを送信できませんでした。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_iOS" = "選択: %1$d";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected */
+    "Messages_ComposeMessage_ChooseRecipients_NumSelected_Windows" = "選択: {0}";
+    /* iOS,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, choose recipients number of recipients selected, {locked}  */
+    "Messages_ComposeMessage_CharacterCount_Windows" = "{0}/{1}";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogTitle" = "変更を取り消しますか?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for discarding typed message */
+    "Messages_ComposeMessage_DiscardChanges_DialogBody" = "変更を保存していません。操作を続けると、変更は失われます。";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError_DialogTitle" = "メッセージを送信できません";
+    /* iOS,ANDROID,WINDOWS, error message for cannot send message */
+    "Messages_ComposeMessage_CannotSendError" = "メッセージを送信できません。宛先が無効か、フレンドでないか、またはサービスに接続できなかった可能性があります。";
+    /* iOS,ANDROID,WINDOWS, warning message dialog title for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogTitle" = "よろしいですか?";
+    /* iOS,ANDROID,WINDOWS, warning message dialog body for confirming blocking sender */
+    "Messages_BlockUserConfirmation_DialogBody" = "この送信者を拒否しますか?";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported message */
+    "Messages_Error_ViewUnsupportedMessage" = "このメッセージは本体で確認してください。";
+    /* iOS,ANDROID,WINDOWS, error message for viewing an unsupported legacy message */
+    "Messages_Error_ViewUnsupportedLegacyMessage" = "このメッセージは、Xbox 360 またはXbox One で表示してください。";
+    /* iOS,ANDROID,WINDOWS, error message for no messages retrieved */
+    "Messages_Error_NoMessages" = "表示するものがありません。メッセージを送ってみましょう。";
+    /* iOS,ANDROID,WINDOWS, Drawer - Home */
+    "Drawer_Home" = "ホーム";
+    /* iOS,ANDROID,WINDOWS, Drawer - TV Program Guide */
+    "Drawer_TV" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Drawer - Friends */
+    "Drawer_Friends" = "フレンド";
+    /* iOS,ANDROID,WINDOWS, Drawer - Achievements */
+    "Drawer_Achievements" = "実績";
+    /* iOS,ANDROID,WINDOWS, Drawer - Pins */
+    "Drawer_Pins" = "ピン留め";
+    /* iOS,ANDROID,WINDOWS, Drawer - Messages */
+    "Drawer_Messages" = "メッセージ";
+    /* iOS,ANDROID,WINDOWS, Drawer - SmartGlass Settings */
+    "Drawer_Settings" = "設定";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Now" = "今";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_iOSAndroid" = "%1$d 時間前";
+    /* iOS,ANDROID,WINDOWS, 2h ago */
+    "Global_NumberOfHoursAgo_Short_Windows" = "{0} 時間前";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_iOSAndroid" = "%1$d 分前";
+    /* iOS,ANDROID,WINDOWS, 2m ago */
+    "Global_NumberOfMinutesAgo_Short_Windows" = "{0} 分前";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_iOSAndroid" = "%1$d 日前";
+    /* iOS,ANDROID,WINDOWS, 2d ago */
+    "Global_NumberOfDaysAgo_Windows" = "{0} 日前";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE" = "オンライン";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_OFFLINE" = "オフライン";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_ONLINE_OFFLINE" = "オンラインとオフライン";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_GAMEOVERVIEW_NONE" = "なし";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TryAgain" = "もう一度試す";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PairingErrorMessage" = "現在、本体に接続できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterPin" = "PIN の入力:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ApplyPin" = "適用";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NoConsolesFound" = "Xbox One に接続できません。本体の電源がオンになっていて、SmartGlass と同じネットワークに接続されていますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect" = "接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Cap" = "接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Connect_Tablet" = "XBOX ONE に接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_Disconnect" = "接続を切る";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConnectAutomatically" = "自動的に接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_Exit" = "閉じる";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsoleWarning" = "本体にサインインしていません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_NotSignedInOnConsolePrompt" = "本体にサインインしますか、それともゲストとして続けますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_SignInOnConsole" = "サインイン";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ContinueAsGuest" = "続ける";
+    /* iOS,ANDROID,WINDOWS, secret achievement title */
+    "Achievement_SecretAchievement_Title" = "秘密の実績";
+    /* iOS,ANDROID,WINDOWS, secret achievement description */
+    "Achievement_SecretAchievement_Description" = "この秘密の実績を解除するには、引き続きプレイしてください。";
+    /* iOS,ANDROID,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_Windows" = "{0}/{1}";
+    /* iOS,WINDOWS, Gamerscore text 20/100 */
+    "Achievement_Gamerscore_iOS" = "%1$d/%2$d";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_Windows" = "{0} %";
+    /* iOS,ANDROID,WINDOWS, completed gamerscore percentage 20% */
+    "Achievement_ProgressPercentage_iOS" = "%1$d %%";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_Windows" = "{0} 日";
+    /* iOS,ANDROID,WINDOWS, X days */
+    "Challenge_Countdown_Days_iOSAndroid" = "%1$d 日";
+    /* iOS,ANDROID,WINDOWS, 1 day */
+    "Challenge_Countdown_OneDay" = "1 日";
+    /* iOS,ANDROID,WINDOWS, 02:34:56 */
+    "Challenge_Countdown_Timer_Windows" = "{0:hh\:mm\:ss}";
+    /* iOS,ANDROID,WINDOWS, challenge time remaining */
+    "Global_Challenge_TimeRemaining" = "残り時間";
+    /* iOS,ANDROID,WINDOWS, challenge starts in */
+    "Global_Challenge_StartsIn" = "チャレンジ開始まで";
+    /* iOS,ANDROID,WINDOWS, achievements home title */
+    "AchievementsHome_HeaderTitle_Phone" = "実績";
+    /* iOS,ANDROID,WINDOWS, achievements home title for tablet */
+    "AchievementsHome_HeaderTitle_Tablet" = "実績";
+    /* iOS,ANDROID,WINDOWS, achievements home summary page */
+    "AchievementsHome_Summary_HeaderTitle_Phone" = "まとめ";
+    /* iOS,ANDROID,WINDOWS, achievements home last game played */
+    "AchievementsHome_LastGamePlayed" = "最後にプレイしたゲーム";
+    /* iOS,ANDROID,WINDOWS, achievements progress */
+    "AchievementsHome_Progress_HeaderTitle_Phone" = "進行状況";
+    /* iOS,ANDROID,WINDOWS, achievement progress */
+    "AchievementsHome_Progress_HeaderTitle_Tablet" = "進行状況";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent" = "最新";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecentDurango" = "Xbox One";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_Progress_FilterMostRecent360" = "その他";
+    /* iOS,ANDROID,WINDOWS, achievement progress gallery */
+    "AchievementsHome_ProgressGallery_HeaderTitle_Tablet" = "進行状況";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent_Tablet" = "最新";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecentDurango_Tablet" = "XBOX ONE";
+    /* iOS,ANDROID,WINDOWS, achievements home progress filter */
+    "AchievementsHome_ProgressGallery_FilterMostRecent360_Tablet" = "その他";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Android" = "前回 : %s";
+    /* iOS,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_iOS" = "前回プレイした日: %1$@";
+    /* iOS,ANDROID,WINDOWS, achievements home progress last played 3/23/13 text */
+    "AchievementsHome_Progress_LastPlayedText_Windows" = "前回: {0}";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Phone" = "注目のチャレンジ";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_Challenges_Tablet" = "注目のチャレンジ";
+    /* iOS,ANDROID,WINDOWS, featured challenge gallery title */
+    "AchievementsHome_ChallengesGallery_HeaderTitle_Tablet" = "注目のチャレンジ";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Phone" = "フレンドの実績";
+    /* iOS,ANDROID,WINDOWS, challenges */
+    "AchievementsHome_FriendsAchievements_HeaderTitle_Tablet" = "フレンドの実績";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_LastGamePlayed_NoData" = "ゲームをプレイして実績を解除しよう!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Challenges_NoData" = "現在、チャレンジを取得することができません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_Progress_NoData" = "ゲームをプレイして実績を解除しよう!";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementsHome_FriendsAchievements_NoData" = "最近フレンドの実績は解除されていません。";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Phone" = "進行状況";
+    /* iOS,ANDROID,WINDOWS, game progress header title for progress page */
+    "GameProgress_Progress_HeaderTitle_Tablet" = "進行状況";
+    /* iOS,ANDROID,WINDOWS, game progress - game clips header title */
+    "GameProgress_Channel_HeaderTitle_Phone" = "ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Upload CHANNEL */
+    "GameProgress_Channel_HeaderTitle_Tablet" = "ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Windows" = "{0} ビュー";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_iOS" = "%1$@ ビュー";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 0/1 view */
+    "GameProgress_Channel_View_Android" = "%s ビュー";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Windows" = "{0} ビュー";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_iOS" = "%1$@ ビュー";
+    /* iOS,ANDROID,WINDOWS, Number of views. For e.g. 43 views */
+    "GameProgress_Channel_Views_Android" = "%s ビュー";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData" = "表示するビデオがありません! ゲームを開始して、プレイを録画してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_Community" = "このゲームにはまだゲーム クリップが録画されていません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Channel_NoData_CommunityButtonText" = "コミュニティーのクリップを表示";
+    /* iOS,ANDROID,WINDOWS, Number of views. My Channel filter */
+    "GameProgress_Channel_FilterOptionMyChannel" = "マイ ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Number of views. Community filter */
+    "GameProgress_Channel_FilterOptionCommunity" = "コミュニティーのクリップ";
+    /* iOS,ANDROID,WINDOWS, Game details */
+    "GameProgress_GameDetails_Button_Text" = "ゲームの詳細";
+    /* iOS,ANDROID,WINDOWS, App details */
+    "GameProgress_AppDetails_Button_Text" = "アプリの詳細";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Phone" = "チャレンジ";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_Challenges_HeaderTitle_Tablet" = "チャレンジ";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Phone" = "実績";
+    /* iOS,ANDROID,WINDOWS, achievements header */
+    "GameProgress_Achievements_HeaderTitle_Tablet" = "実績";
+    /* iOS,ANDROID,WINDOWS, earned achievement filter for phone */
+    "GameProgress_Achievements_FilterOptionEarned" = "解除済み";
+    /* iOS,ANDROID,WINDOWS, locked achievement filter for phone {locked}  */
+    "GameProgress_Achievements_FilterOptionLocked" = "未解除";
+    /* iOS,ANDROID,WINDOWS, achievements gallery */
+    "GameProgress_AchievementsGallery_HeaderTitle_Tablet" = "実績";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Challenges_NoData" = "現在チャレンジを利用できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_NoData" = "ゲームをプレイして実績を解除しよう!";
+    /* iOS,ANDROID,WINDOWS, User doesn't have any earned achievements for this game */
+    "GameProgress_Achievements_NoEarned" = "ゲームをプレイして実績を解除しよう!";
+    /* iOS,ANDROID,WINDOWS, User has earned all achievements for this game */
+    "GameProgress_Achievements_NoLocked" = "すばらしい。すべての実績を解除できました!";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Phone" = "進行状況";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Progress_HeaderTitle_Tablet" = "進行状況";
+    /* iOS,ANDROID,WINDOWS, */
+    "LegacyGameProgress_Achievements_HeaderTitle" = "実績";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Android" = "前回 : %s";
+    /* iOS,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_iOS" = "前回プレイした日: %1$@";
+    /* iOS,ANDROID,WINDOWS, Last played 3/17/13 text */
+    "LegacyGameProgress_Progress_LastPlayed_Windows" = "前回: {0}";
+    /* iOS,ANDROID,WINDOWS, achievement completion: Completed */
+    "Global_Achievements_Completed" = "100％ 解除";
+    /* iOS,ANDROID,WINDOWS, */
+    "AchievementDetail_Achievement_HeaderTitle" = "実績";
+    /* iOS,ANDROID,WINDOWS, Game progress button */
+    "AchievementDetail_GameProgress_Button_Text" = "ゲームの進行状況";
+    /* iOS,ANDROID,WINDOWS, App progress button */
+    "AchievementDetail_AppProgress_Button_Text" = "アプリの進行状況";
+    /* iOS,ANDROID,WINDOWS, in game reward page header */
+    "AchievementDetail_Reward_InGame" = "ゲーム リワード";
+    /* iOS,ANDROID,WINDOWS, in app reward page header */
+    "AchievementDetail_Reward_InApp" = "アプリ リワード";
+    /* iOS,ANDROID,WINDOWS, art reward page header */
+    "AchievementDetail_Reward_Art" = "アート リワード";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-game reward description {locked}  */
+    "AchievementDetail_Reward_InGame_LockedDescription" = "このリワードを獲得するには、この実績を解除してください。";
+    /* iOS,ANDROID,WINDOWS, achievement locked in-app reward description {locked}  */
+    "AchievementDetail_Reward_InApp_LockedDescription" = "このリワードを獲得するには、この実績を解除してください。";
+    /* iOS,ANDROID,WINDOWS, achievement locked art reward description {locked}  */
+    "AchievementDetail_Reward_Art_LockedDescription" = "このアート リワードを獲得するには、この実績を解除してください。";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Android" = "解除: %s";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_iOS" = "解除: %1$@";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "AchievementDetail_Unlocked_Windows" = "{0} の実績を解除しました";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_Locked" = "未解除";
+    /* iOS,ANDROID,WINDOWS, locked {locked}  */
+    "AchievementDetail_InProgress" = "進行中";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-game reward description {locked}  */
+    "ChallengeDetail_Reward_InGame_LockedDescription" = "このリワードを獲得するには、このチャレンジを解除してください。";
+    /* iOS,ANDROID,WINDOWS, challenge locked in-app reward description {locked}  */
+    "ChallengeDetail_Reward_InApp_LockedDescription" = "このリワードを獲得するには、このチャレンジを解除してください。";
+    /* iOS,ANDROID,WINDOWS, challenge locked art reward description {locked}  */
+    "ChallengeDetail_Reward_Art_LockedDescription" = "このアート リワードを獲得するには、このチャレンジを解除してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALBUM_TITLE" = "アルバム";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOPLAYLIST" = "プレイリストに追加";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Cancel" = "キャンセル";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Yes" = "はい";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_SwitchToDeveloperMode" = "開発者モードを有効にしますか?開発者モードを有効にする場合は確定を、変更しない場合はキャンセルを選んでください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "DeveloperMode_ExitDeveloperMode" = "開発者モードを無効にしますか?開発者モードを無効にする場合は確定を、変更しない場合はキャンセルを選んでください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Page_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_TV" = "人気のオンデマンド テレビ番組";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_PopularOnDemand_Movies" = "人気のオンデマンド映画";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_AppsHeader" = "アプリ";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_TvListings" = "テレビ番組表を表示するには、Xbox に接続してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites" = "お気に入りのチャンネルを表示するには、Xbox に接続してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_AppChannels_Windows" = "Xbox に接続して、お気に入りのアプリ チャンネルをお楽しみください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_AppChannels" = "アプリ チャンネルを表示するには、 Xbox に接続してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_RecentChannels" = "最近見たチャンネルを表示するには、Xbox に接続してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Tune" = "この番組を見るには、Xbox に接続してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Add" = "現在これをお気に入りに追加できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Favorites_Remove" = "現在これをお気に入りから削除できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ConnectionError_Remote" = "このデバイスをテレビのリモコンとして使用するには、Xbox に接続してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_EXPLICIT_CONTENT" = "過激な描写を含むコンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header" = "今後の番組";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat" = "{0}-{1} {2}";
+    /* iOS,WINDOWS, */
+    "FutureShowtimes_TimeFormat_iOS" = "%1$@-%2$@ %3$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowTimes_OnNow" = "現在";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Percentage_Windows" = "{0}%";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is smartglass companion. */
+    "Home_BAT_SmartGlassCompanion" = "コンパニオン";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is remote control. */
+    "Home_BAT_RemoteControl" = "リモコン";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is local detail page. */
+    "Home_BAT_Details" = "詳細";
+    /* iOS,ANDROID,WINDOWS, Text displayed at the bottom of BAT to indicate that the default companion for the title is tv guide. */
+    "Home_BAT_TVGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Text displayed in media tray when TV guide option is displayed to the user. */
+    "NOWPLAYING_TVGUIDE_BUTTON_TEXT" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on pins destination or homepage when pins for the user could not be retrieved from service. */
+    "Pins_Error" = "現在、ピン留めを取得できません。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, Error message displayed when app failed to retrieved the featured items for homepage. */
+    "Home_Featured_Error" = "現在、注目のアイテムを取得できません。";
+    /* iOS,ANDROID,WINDOWS, Text displayed instead of title on BAT/Console Bar when we could not load the detail for the title. */
+    "NowPlaying_Unavailable" = "利用不可";
+    /* iOS,ANDROID,WINDOWS, OOBE string displayed on homepage when user has no recents */
+    "HOME_OOBE" = "Xbox One へようこそ";
+    /* iOS,ANDROID,WINDOWS, Featured section title for homepage */
+    "Home_Featured_PageTitle" = "注目";
+    /* iOS,ANDROID,WINDOWS, Recents section title for homepage */
+    "Home_Recents_PageTitle" = "履歴";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LearnMore" = "もっと詳しく";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist" = "アーティスト";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Artist_Tablet" = "アーティスト";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game" = "ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Game_Tablet" = "ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App" = "アプリ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_App_Tablet" = "アプリ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie" = "映画";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Movie_Tablet" = "映画";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV" = "テレビ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_TV_Tablet" = "テレビ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album" = "アルバム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Album_Tablet" = "アルバム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Tablet" = "トップ ソング";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TopSongs_Phone" = "トップ ソング";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Tablet" = "アルバム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Albums_Phone" = "アルバム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Tablet" = "関連";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Related_Phone" = "関連";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Tablet" = "追加コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Extras_Phone" = "追加コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Tablet" = "もっと詳しく";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Header_Phone" = "もっと詳しく";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv" = "シーズン {0} エピソード {1} は現在 {2} で放送中です";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv" = "シーズン {0} エピソード {1} は {2}、{3} で放送します";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic" = "次回は {0}、{1} で放送";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic" = "現在 {0} で放送中";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_LABEL" = "レーベル:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Biography_Phone" = "バイオ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Tablet" = "トラック リスト";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_TrackList_Phone" = "トラック リスト";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DURATION" = "再生時間:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RATING" = "年齢区分:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION" = "解像度:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HDANDSD" = "HD と SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Overview_Phone" = "概要";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Tablet" = "キャストとスタッフ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CastAndCrew_Phone" = "キャストとスタッフ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Tablet" = "エピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Episodes_Phone" = "エピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Tablet" = "イメージ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Gallery_Phone" = "イメージ";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DEVELOPER" = "開発元:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_PUBLISHER" = "発売元:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_MULTIPLAYER" = "マルチプレイヤー:";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_COOP" = "協力プレイ:";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_GET_ON_XBOX" = "Xbox One でゲット";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LATEST_EPISODE_WINDOWS" = "最新のエピソードに移動 (S{0} Ep{1})";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_NETWORKS" = "ネットワーク:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmpty" = "最近のプレイ状況がここに表示されます";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Pins_PageTitle" = "マイピン";
+    /* iOS,ANDROID,WINDOWS, */
+    "TextInput_Confirm" = "完了";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstRun_ContentTitle" = "Xbox One の新機能を見る";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_Recents_RecentsEmptyDesc" = "プレイしたり視聴したものをここに表示します。";
+    /* iOS,ANDROID,WINDOWS, Settings page title */
+    "Settings_PageTitle" = "設定";
+    /* iOS,ANDROID,WINDOWS, Settings page account section header */
+    "Settings_Account_SectionHeader" = "アカウント";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text */
+    "Settings_SignOutButton" = "サインアウト";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section header */
+    "Settings_Preferences_SectionHeader" = "プレイ環境";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option */
+    "Settings_Preferences_StayAwakeOption" = "スリープを抑止";
+    /* iOS,ANDROID,WINDOWS, Settings page preferences section, stay awake option description */
+    "Settings_Preferences_StayAwakeOptionDescription" = "SmartGlass を使用している間は、ロック画面になりません (バッテリーの消費がはやくなります)。";
+    /* iOS,ANDROID,WINDOWS, Settings page sound section header */
+    "Settings_Sound_SectionHeader" = "サウンド";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option */
+    "Settings_Sound_DisableSoundOption" = "サウンドを無効にする";
+    /* iOS,ANDROID,WINDOWS, Settings page sound disable sound option description */
+    "Settings_Sound_DisableSoundOptionDescription" = "SmartGlass アプリのサウンドをオフにします。";
+    /* iOS,ANDROID,WINDOWS, Settings page about section header */
+    "Settings_About_SectionHeader" = "情報";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Windows */
+    "Settings_About_Version_Windows" = "バージョン {0}";
+    /* iOS,WINDOWS, Settings page about version, iOS */
+    "Settings_About_Version_iOS" = "バージョン %1$@";
+    /* iOS,ANDROID,WINDOWS, Settings page about version, Android */
+    "Settings_About_Version_Android" = "バージョン %s";
+    /* iOS,ANDROID,WINDOWS, Settings page get started button text */
+    "Settings_GetStartedButton" = "はじめに";
+    /* iOS,ANDROID,WINDOWS, Settings page get started description */
+    "Settings_GetStartedDescription" = "Xbox One SmartGlass でできることをご覧ください。";
+    /* iOS,ANDROID,WINDOWS, Settings page help button text */
+    "Settings_HelpButton_WindowsAndroid" = "ヘルプ";
+    /* iOS,ANDROID,WINDOWS, Settings page privacy button text */
+    "Settings_PrivacyButton_WindowsAndroid" = "プライバシー";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy section title */
+    "Settings_HelpAndPrivacySectionTitle_iOS" = "ヘルプおよびプライバシー";
+    /* iOS,ANDROID,WINDOWS, Settings page help and privacy description */
+    "Settings_HelpAndPrivacyDescription_iOS" = "Xbox の Web サイトで Xbox One SmartGlass のヘルプを見て、プライバシーの設定を管理してください。";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader" = "開発者";
+    /* iOS,ANDROID,WINDOWS, Settings page developer section header */
+    "Settings_Developer_SectionHeader_Windows" = "開発者";
+    /* iOS,ANDROID,WINDOWS, Settings page developer sandbox ID */
+    "Settings_Developer_SandboxId" = "サンドボックス ID";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DIRECTOR" = "監督:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SmartGlassCompanion" = "SmartGlass コンパニオン";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ALLOWEDPROVIDERS" = "利用可能:";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Tv_iOS" = "シーズン %1$d エピソード %2$d は現在 %3$@ で放送中です";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringNowFormat_Generic_iOS" = "現在 %1$@ で放送中";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Generic_iOS" = "次回は %1$@ 、%2$@ で放送";
+    /* iOS,WINDOWS, */
+    "VideoDetails_AiringFutureFormat_Tv_iOS" = "シーズン %1$d エピソード %2$d は %3$@、%4$@ で放送します";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_AchievementProgress_Phone" = "実績の進行状況";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Challenges_Phone" = "チャレンジ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Phone" = "ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameAchievementProgress_Tablet" = "実績の進行状況";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameChallenges_Tablet" = "チャレンジ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Channel_Tablet" = "ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU_IOS" = "Xbox 使用条件を更新しました。Xbox.com でお読みください。";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever we could not log him into app because there is TOU update */
+    "Auth_TOU" = "Xbox 使用条件を更新しました。Xbox.com でお読みください。";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to displayed whenever we could not log him into app for all the reasons except xsts 401 cases */
+    "Auth_GenericError" = "現在サインインすることができません。もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError_IOS" = "アカウントに問題があります。Xbox.com にサインインして詳細を確認してください。";
+    /* iOS,ANDROID,WINDOWS, An error message displayed to user whenever xsts returns 401 */
+    "Auth_AccountError" = "アカウントに問題があります。Xbox.com にサインインして詳細を確認してください。";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation_IOS" = "Xbox.com で Xbox Live アカウントを設定してください。";
+    /* iOS,ANDROID,WINDOWS, Message displayed to user when they have a valid MSA account but no Xbox live account. */
+    "Auth_AccountCreation" = "Xbox.com で Xbox Live アカウントを設定してください。";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user while they are signing in. This will allow them to cancel the sign in process. */
+    "SignIn_Cancel" = "キャンセル";
+    /* iOS,ANDROID,WINDOWS, Button text displayed to user to prompt them to go to xbox.com */
+    "SignIn_Troubleshoot" = "Xbox.com に移動";
+    /* iOS,ANDROID,WINDOWS, Button text for sign in page button's first try. (after that it switches to try again) */
+    "SignIn_SignIn" = "サインイン";
+    /* WINDOWS,iOS,ANDROID, Status text shown while trying to sign in. */
+    "SignIn_SigningIn" = "サインイン中";
+    /* WINDOWS,iOS,ANDROID, Shown while making service calls to get state of console to decide what to do next. */
+    "SignIn_GettingData" = "Xbox サービスに接続中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season" = "テレビ シーズン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Season_Tablet" = "テレビ シーズン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity" = "Xbox One SmartGlass コンパニオン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Activity_Tablet" = "XBOX ONE SMARTGLASS コンパニオン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series" = "テレビ シリーズ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Series_Tablet" = "テレビ シリーズ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode" = "テレビ エピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Episode_Tablet" = "テレビ エピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show" = "テレビ番組";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Show_Tablet" = "TV 番組";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC" = "追加コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_DLC_Tablet" = "追加コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_Studios" = "作品提供会社:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRating" = "年齢区分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Title_ParentalRatingColon" = "年齢区分:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_TVText" = "OneGuide でさがすか Xbox を検索して、追加するテレビ番組を見つけましょう。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EmptyState_MyShows_MoviesText" = "OneGuide でさがすか Xbox を検索して、追加する映画を見つけましょう。映画を選択したら、星のアイコンをタップして追加してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Today" = "今日";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_GeneralError" = "マイ チャンネルに追加できませんでした。もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteShow_GeneralError" = "マイ番組に追加できませんでした。もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteShow_GeneralError" = "マイ番組から削除できませんでした。もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_RemoveFavoriteChannel_GeneralError" = "マイ チャンネルから削除できませんでした。もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a page fails to load */
+    "ErrorState_PageError" = "このページの読み込み時に問題が発生しました。";
+    /* iOS,ANDROID,WINDOWS, Text displayed when a pivot pane or a section of the panorama fails to load */
+    "ErrorState_PaneError" = "このセクションの読み込み時に問題が発生しました。";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the retry button */
+    "ErrorState_RetryButton" = "もう一度試す";
+    /* iOS,ANDROID,WINDOWS, Text displayed on the network setting button */
+    "ErrorState_NetworkButton" = "ネットワーク設定を開く";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToXboxOne" = "Xbox One でプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SmartGlassCompanionAvailable" = "コンパニオン利用可";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFull" = "Xbox One でプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToSnap" = "スナップでプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Title" = "リモコン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Xbox_Title" = "Xbox";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Universal_Title" = "ケーブル/テレビ";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchSuggestions_Title" = "検索の候補";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Windows" = "\"{0}\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Skip_Title" = "スキップ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayToFill" = "Xbox One でプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track" = "トラック";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Track_Tablet" = "トラック";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras" = "関連コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_MediaType_Extras_Tablet" = "関連コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_PLAY_TOP_SONGS_ON_XBOX" = "Xbox One でプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_SEASON_EPISODES" = "シーズン エピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_LAUNCH_IN_IE" = "Xbox で開く";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NoProvidersOrShowTimesAvailable" = "これをプレイできる Xbox One アプリはありません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title" = "はじめましょう!";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText" = "続けるには、スワイプしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_TitleText" = "準備完了";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DoneText" = "Xbox One SmartGlass を開始してください";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_LastPage_DescriptionText" = "詳細情報やヘルプについては、xbox.com/smartglass にアクセスしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title" = "Xbox をコントロール";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Description" = "[プレイ中] バーをタップすると、お持ちのメディアをコントロールしたり、アプリのスナップやゲーム ヘルプの表示などができます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Description" = "リビング ルームにいるときや外出時にゲームのヘルプ、実績およびメッセージをゲットしてみてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page2_Title" = "接続を維持";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Title" = "見つけてピン留め";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page3_Description" = "コンテンツを検索し、お気に入りのコンテンツを Xbox One SmartGlass でピン留めすると、Xbox One ですぐに使えます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Description" = "OneGuide はすべてのテレビ番組表をまとめて表示します。テレビ番組表を見るために、本体でテレビを設定してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page4_Title" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Select" = "スワイプしてコントロール、タップして選択します。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Error_CanNotPlayVideo" = "申し訳ありませんが、このビデオは再生できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "AppChannel_Favorite" = "お気に入り";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_AiringNow" = "現在放送中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_ConnectedTo" = "接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_ConsolesOnYourNetwork" = "ネットワーク上の本体:";
+    /* iOS,ANDROID,WINDOWS, */
+    "VideoDetails_PlayNow" = "今すぐプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_XboxOneSmartGlass" = "Xbox One SmartGlass";
+    /* iOS,ANDROID,WINDOWS, */
+    "Message_Detail_Message" = "メッセージ";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_0" = "0";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_1" = "1";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_2" = "2";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_3" = "3";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_4" = "4";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_5" = "5";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_6" = "6";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_7" = "7";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_8" = "8";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_9" = "9";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_PAGE" = "PAGE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CH" = "CH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_VOL" = "VOL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_ENTER" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DASH" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_INFO" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_EXIT" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_SELECT" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANGE_LAYOUT" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_MENU" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_GUIDE" = "GUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DVR" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.back" = "BACK";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.cancel" = "CANCEL";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.ch_enter" = "ENTER";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.clear" = "CLEAR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_minus" = "DAY-";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.day_plus" = "DAY+";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.delimiter" = "DASH";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.dvr" = "DVR";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.exit" = "EXIT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.format" = "FORMAT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_a" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_b" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_c" = "C";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.func_d" = "D";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.guide" = "GUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.help" = "HELP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.home" = "HOME";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.info" = "INFO";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.interactive" = "INTERACTIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.last" = "LAST";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.live" = "LIVE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.menu" = "MENU";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.options" = "OPTIONS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.plus_100" = "+100";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.sap" = "SAP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.select" = "SELECT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.services" = "SERVICES";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.setup" = "SETUP";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.slow" = "SLOW";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.subtitle" = "SUBTITLE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.tools" = "TOOLS";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_btn.vod" = "VOD";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.all" = "All";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.avr" = "AV receiver";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.stb" = "Cable/sat";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_DeviceType.tv" = "TV";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.onoff" = "ON / OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.on" = "ON";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_UrcPower.off" = "OFF";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.ON" = "DONE";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcReorder.OFF" = "CHANGE LAYOUT";
+    /* iOS,ANDROID,WINDOWS, */
+    "UrcStatus.ErrorLabel" = "ERROR:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneHour_Text" = "1 時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHoursText_iOSAndroid" = "%1$d 時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_OneMinute" = "1 分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinutesText_iOSAndroid" = "%1$d 分";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_DESCRIPTION" = "説明";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameHelp" = "ゲームのヘルプ";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_ADDTOMYSHOWS" = "マイ番組に追加";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Parent_Title" = "保護者";
+    /* iOS,WINDOWS, */
+    "SearchResults_PageTitle_iOS" = "\"%1$@\" の結果";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_PageTitle_Phone_iOS" = "検索結果:";
+    /* iOS,ANDROID,WINDOWS, */
+    "SearchResults_NoResult" = "検索結果が見つかりません";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_SeasonPicker_AllOption" = "すべて";
+    /* iOS,ANDROID,WINDOWS, Error message displayed on homepage when application failed to retreive the recents */
+    "Home_Recents_RecentsError" = "現在、最近のプレイ状況を取得できません。";
+    /* iOS,WINDOWS, Detail string format used by iOS clients while displaying details text along with media type. Example such as playto, media tray etc */
+    "MediaDetails_Format_iOS" = "%1$@ の詳細";
+    /* iOS,WINDOWS, */
+    "Launcher_CurrentlyPlaying_iOS" = "現在再生中: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_ProvidersOrShowTimesError" = "これをプレイできるアプリが見つかりません。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Headers_RecentChannels" = "最近見たチャンネル";
+    /* iOS,ANDROID,WINDOWS, */
+    "Activity_Reload" = "更新";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogTitle" = "制限されている機能へのアクセス";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MissingPrivilegeError_DialogBody" = "アカウントの設定内容により、この機能にアクセスできません。アカウントの設定内容はプライバシー設定で変更できます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_PlaceHolderText" = "検索";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Phone" = "プレイ中";
+    /* iOS,ANDROID,WINDOWS, */
+    "NowPlaying_Title_Tablet" = "Xbox One でプレイ中";
+    /* WINDOWS,iOS,ANDROID, */
+    "CloseButtonText" = "閉じる";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_RefreshText" = "更新";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_UnknownValue_Dash" = "--";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call EDS to get the detail about the media returned no data. */
+    "Launcher_DataNotIngested_Error" = "情報が見つかりません。";
+    /* iOS,ANDROID,WINDOWS, Message displayed as part of play to experience when call to EDS failed to retrieve the information about the media */
+    "Launcher_ErrorToRetrieveDetail" = "現在、詳細を取得できませんでした。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgSchedule_Unavailable" = "情報がありません";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit" = "チャンネルが多すぎます。{0} を追加するには、チャンネルを 1 つ削除してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add" = "{0} がお気に入りに追加されました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove" = "{0} がお気に入りから削除されました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Add_iOS" = "%1$@ がお気に入りに追加されました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_Remove_iOS" = "%1$@ がお気に入りから削除されました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Favorites_AppChannels_NoFavorites_iOS" = "アプリ チャンネルを選択した後、この %1$@ アイコンをタップするとチャンネルをお気に入りに登録できます";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GeneralError" = "現在、チャンネルを取得できません。更新ボタンを選択して、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Unavailable" = "利用できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Disconnected" = "未接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Load" = "設定の読み込み中";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HD" = "HD チャンネルのみ表示";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_All" = "すべてのチャンネルを表示";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_HideSD" = "HD チャンネルと重複している SD チャンネルを非表示";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_HD" = "HD";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_SD" = "SD";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Header" = "すべてのアプリからテレビ番組や映画を見つけよう";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_Text" = "Xbox にアプリをインストールして、起動してから新しいチャンネルを入手してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_AppChannels_BtnText" = "Xbox でアプリを入手";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Header" = "自分だけのためにカスタマイズされた特別なテレビ体験";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_BtnText" = "テレビの設定";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_GoldUpsell_BtnText" = "Xbox Live ゴールドをゲット";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_RecentChannels_Header" = "Xbox でテレビを見ると、最近見たチャンネルが表示されます";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_AddFailed" = "ピン留めを追加できませんでした。もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_ComposeMessage_Sending" = "送信中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_MessageDetail_Deleting" = "削除中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVSeason_Aired_Title" = "放送日:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddFavoriteChannel_ListFullError" = "お気に入りの上限 200 に達しました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_Busy_Wait" = "お待ちください...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connect_Reconnecting" = "再接続中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Title" = "コンパニオンを終了します...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Companion_Exit_Description" = "コンパニオンを終了しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_MinutesText_Android" = "分";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add favorite */
+    "Profile_Profile_Failed_Add_Favorite" = "お気に入りリストにユーザーを追加できませんでした。";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove favorite */
+    "Profile_Profile_Failed_Remove_Favorite" = "お気に入りリストからユーザーを削除できませんでした。";
+    /* iOS,ANDROID,WINDOWS, error message when fail to add friend */
+    "Profile_Profile_Failed_Add_Friend" = "フレンド リストにユーザーを追加できませんでした。";
+    /* iOS,ANDROID,WINDOWS, error message when fail to remove friend */
+    "Profile_Profile_Failed_Remove_Friend" = "フレンド リストからユーザーを削除できませんでした。";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_OneGuideAvailable" = "OneGuide 利用可";
+    /* iOS,WINDOWS,ANDROID, */
+    "Launcher_ShowCompanion" = "コンパニオン";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConsoleBar_NowPlaying_SubTitle" = "プレイ中";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_UnconfiguredMessage" = "お使いのテレビはリモコン メッセージを受信するように設定されていません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "TVDetails_SeasonsHeader_Tablet" = "シーズン";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Gold_Message" = "テレビ番組表を見るには、Xbox または Xbox  Web サイトでゴールド メンバーシップを入手してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_PlayOnSmartGlass" = "SmartGlass でプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Season" = "シーズン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_Episode" = "エピソード";
+    /* iOS,ANDROID,WINDOWS, */
+    "Dialog_Attention_Title_Android" = "注意";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Got_Gold_Question" = "ゴールド メンバーシップをお持ちですか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message" = "テレビの番組情報を見るには、Xbox または Xbox.com でゴールド メンバーシップを入手してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Get_Gold_Message_iOS" = "テレビの番組情報を見るには、Xbox または Xbox Web サイトでゴールド メンバーシップを入手してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_Title_Phone" = "Xbox One SmartGlass へようこそ";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_Phone" = "続けるには、スワイプしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Page1_Title_Phone" = "Xbox One に接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_SignIn_Phone" = "サインイン";
+    /* iOS,ANDROID,WINDOWS, */
+    "OOBE_Background_Title" = "XBOX ONE SMARTGLASS";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPlay" = "アプリを選択";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_SelectProviderToPin" = "ピン留めするアプリを選択";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_ConsoleNotListed" = "本体がリストに表示されませんか?";
+    /* iOS,ANDROID,WINDOWS, Text shown to user in connection dialog to prompt them to enter IP address */
+    "ConnectDialog_EnterIPAddress" = "IP アドレスの入力";
+    /* iOS,ANDROID,WINDOWS, This is the text shown when user tries to pin a media from detail page and there are no providers associated with it. */
+    "Launcher_NoProvidersAvailableForPin" = "このメディアにピン留めできる Xbox One のアプリがありません。";
+    /* iOS,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_iOS" = "%1$@ / %2$@";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show details option in launcher */
+    "ACTION_DETAILS" = "詳細";
+    /* iOS,ANDROID,WINDOWS, This is the string used to show the option to launch remote. */
+    "Launcher_ShowRemote" = "リモコン";
+    /* iOS,ANDROID,WINDOWS, This is the string shown in launcher when OneGuide is the default companion. */
+    "Launcher_ShowOneGuide" = "OneGuide";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ChannelDialog_Description" = "チャンネル";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_iOS" = "このデバイスで %1$@ アプリを起動しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_iOS" = "はい、%1$@ アプリを起動します";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Windows" = "このデバイスで {0} のアプリを起動しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Windows" = "はい、{0} のアプリを起動します";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Android" = "このデバイスで %s のアプリを起動しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_Yes_Android" = "はい、%s のアプリを起動します";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_NativeCompanionConfirmationMessage_No" = "いいえ、SmartGlass をやめません";
+    /* iOS,ANDROID,WINDOWS, */
+    "Generic_No" = "いいえ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressTitle" = "本体の IP アドレスの入力";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_IPAddressLocationOnConsole" = "本体の IP アドレスを見つけるには、本体の [設定] > [ネットワーク] > [詳細設定] を開きます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_EnterIPAddressGhostText" = "例 192.168.0.1";
+    /* iOS,ANDROID,WINDOWS, Title for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Title" = "フレンドの数が上限に達しました";
+    /* iOS,ANDROID,WINDOWS, Message for dialog when you maxed out your friends list */
+    "Profile_Profile_AddFriend_MaxReached_Message" = "新しいフレンドを追加するには、現在のフレンドの中の 1 人を削除する必要があります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "CONNECTION_REQ_TEXT" = "このアプリはインターネット接続が必要です。続ける前に接続の設定を確認してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Explicit" = "露骨/過激な表現";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowMore" = "もっと見る";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_ShowLess" = "隠す";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Providers" = "アプリ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Tablet" = "対応";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_CompatibleWith_Phone" = "対応";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Tablet" = "追加コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_AddOn_Phone" = "追加コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Released" = "リリース";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Languages" = "言語";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GetOnXboxOne" = "Xbox One でゲット";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Genre" = "ジャンル";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Help" = "ヘルプ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Disconnected" = "Xbox One に接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connecting" = "接続中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ConnectIcon_Connected" = "接続";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SearchIcon" = "検索";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RefreshIcon" = "更新";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BackIcon" = "戻る";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_IEPlayHere" = "ここで Web ページを開く";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeIcon" = "ボリューム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeUp" = "ボリューム アップ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_VolumeDown" = "ボリューム ダウン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Mute" = "ミュート";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Unmute" = "ミュート オフ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ClearText" = "テキストをクリア";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemoteIcon" = "リモコン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIcon" = "プレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PauseIcon" = "ポーズ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FFW" = "早送り";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RWD" = "巻き戻し";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipForward" = "早送りスキップ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SkipBack" = "巻き戻しスキップ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Seek" = "シーク";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_Close" = "閉じる";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ViewButton" = "表示";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MenuButton" = "メニュー";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XboxButton" = "Xbox ボタン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AButton" = "A";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BButton" = "B";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_XButton" = "X";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YButton" = "Y";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowUp" = "上";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowDown" = "下";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowLeft" = "左";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ArrowRight" = "右";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PowerButton" = "電源";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageUp" = "上のページ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PageDown" = "下のページ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoButton" = "情報";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_SelectButton" = "選択";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelUp" = "チャンネル アップ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_ChannelDown" = "チャンネル ダウン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RedButton" = "赤";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_BlueButton" = "青";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_YellowButton" = "黄";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GreenButton" = "緑";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RecordButton" = "録画";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InputButton" = "入力";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PreviousChannel" = "前へ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_OnOff" = "オン / オフ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddtoFavorites" = "お気に入りに追加";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_RemovefromFavorties" = "お気に入りから削除";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_InfoIcon" = "詳細";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_PlayIconOneGuide" = "Xbox One でプレイ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_NewMessage" = "新しいメッセージ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_AddRecipient" = "宛先を追加";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_MoreIcon" = "もっと見る";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_GotoLive" = "ライブ映像に移動";
+    /* iOS,ANDROID,WINDOWS, */
+    "Home_FirstRun" = "Xbox One に接続して、お気に入りのテレビ番組、映画およびゲームをお楽しみください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Tablet" = "マイピン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_PageTitle_Phone" = "マイピン";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber" = "チャンネル {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_iOS" = "チャンネル %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_MiniDetails_ChannelNumber_Android" = "チャンネル %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_ParentalControls_BlockedTitle" = "過激な描写のある番組";
+    /* iOS,ANDROID,WINDOWS, {locked}  */
+    "EPG_ParentalControls_BlockedDetails" = "この情報は制限されています。この設定を変更するには、Xbox で [設定] > [プライバシーとオンラインの安心設定] の順に選択します。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Settings" = "テレビ設定が読み込めません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TvListings_Channels" = "現在、チャンネルを取得できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_TryAgain" = "更新ボタンを選択して、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Shows_Generic" = "現在、番組を取得できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AppChannels_NoShows" = "このチャンネルには番組がありません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_NoShowInfo" = "番組情報を利用できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_iOS" = "チャンネルが多すぎます。%1$@ を追加するには、チャンネルを 1 つ削除してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Favorites_ChannelLimit_Android" = "チャンネルが多すぎます。%1$s を追加するには、チャンネルを 1 つ削除してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_AppChannels_Channels" = "現在、アプリ チャンネルを取得できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Remote_Console_Setup" = "Xbox でテレビの設定を行ってください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Console_Setup_Directions_STB" = "Xbox で、[設定] > [テレビと OneGuide] > [外付けテレビ チューナーの型番] に移動してください";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_Header" = "お気に入りのアプリのチャンネルを 1 箇所にまとめよう";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_AppChannels_Text_First" = "アプリ チャンネルでチャンネルをタップしてから";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_AppChannels_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_AppChannels_Text_Second" = "をタップして、お気に入りに追加してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_AppChannels_TextIcon_iOS" = "アプリ チャンネルでチャンネルをタップしてから、この %1$@ アイコンをタップするとお気に入りに登録できます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_iOS" = "テレビ番組表またはアプリ チャンネルで番組をタップしてから %1$@ をタップして、お気に入りに追加してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TextIcon_Android" = "TV 番組表の番組またはアプリ チャンネルをタップして、%1$s をタップするとお気に入りに追加できます。";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_Text_First" = "テレビ番組表またはアプリ チャンネルで番組をタップしてから";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_Text_Second" = "をタップして、お気に入りに追加してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Header" = "お気に入りのテレビ チャンネルを 1 つの場所に";
+    /* iOS,ANDROID,WINDOWS, This is the first half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes before the */
+    "FirstRun_Favorites_TvListings_Text_First" = "テレビ番組表で番組をタップしてから";
+    /* iOS,ANDROID,WINDOWS, This is the second half of FirstRun_Favorites_TvListings_TextIcon. It should contain whatever comes after the */
+    "FirstRun_Favorites_TvListings_Text_Second" = "をタップして、お気に入りに追加してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Error_Code_iOS" = "エラー %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_Header_NotAllCaps" = "今後の番組";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_FirstLine" = "スワイプで移動、タップで選択。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigate_SecondLine" = "2 本の指を使ってスクロール。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateSwipe" = "スワイプで移動。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Controller_HelpNavigateTap" = "タップして選択。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Remote_Unsupported" = "Internet Explorer のリモコン操作はタッチ デバイスでのみサポートしています。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Search_DefaultText" = "ゲーム、映画、テレビ番組、アプリを検索します。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_GoldGating_Header" = "ゴールド メンバーシップをお持ちですか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_Offline" = "オフライン";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Windows" = "前回: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_iOS" = "前回: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_Presence_LastSeen_Android" = "前回: %s";
+    /* iOS,ANDROID,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_Windows" = "{1} で {0} を配信中です";
+    /* iOS,WINDOWS, Broadcasting */
+    "FriendsHub_FriendsList_Presence_Broadcasting_iOS" = "%1$@ を %2$@ で配信中";
+    /* iOS,ANDROID,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - rich presence */
+    "FriendsHub_FriendsList_Presence_RichPresence_iOS" = "%1$@ - %2$@";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Windows" = "{0} (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_iOS" = "%1$@ (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, title (Xbox 360) */
+    "FriendsHub_FriendsList_Presence_Device_Xbox360_Android" = "%s (Xbox 360)";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Windows" = "{0} に追加されました";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_iOS" = "%1$@ に追加されました";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_FollowerAddedDate_Android" = "%s に追加されました";
+    /* iOS,ANDROID,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Windows" = "{0} - {1}";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_iOS" = "%1$@ - %2$@";
+    /* iOS,WINDOWS, title - last met on date */
+    "FriendsHub_FriendsList_RecentPlayer_LastMetOn_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsOption" = "通知を許可";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_AllowNotificationsDescription" = "このアプリの通知を許可する。";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptTitle" = "通知を許可しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "AllowNotificationsPromptDescription" = "このアプリの通知を許可する。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameProgress_Achievements_FilterOptionAll" = "すべて";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionBroadcasting" = "配信中";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FilterOptionRecentPlayers" = "プレイヤーの履歴";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_OnlineFriendsCount_iOSAndroid" = "オンライン %1$d 人";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_NewFollowersCount_iOSAndroid" = "新規 %1$d 人";
+    /* iOS,ANDROID,WINDOWS, */
+    "Launcher_Unsnap" = "スナップをやめる";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_FriendsList_RecentPlayers_NoData" = "マルチプレイヤー ゲームで他のプレイヤーに会うと、そのプレイヤーがここに表示されます。";
+    /* iOS,ANDROID,WINDOWS, now */
+    "Global_Today" = "今日";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_iOSAndroid" = "%1$d 年前";
+    /* iOS,ANDROID,WINDOWS, 2y ago */
+    "Global_NumberOfYearsAgo_Windows" = "{0} 年前";
+    /* iOS,ANDROID,WINDOWS, challenges header title */
+    "GameProgress_ChallengesGallery_HeaderTitle_Tablet" = "チャレンジ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_GameProgress_Phone" = "進行状況";
+    /* iOS,WINDOWS, */
+    "OOBE_FirstPage_SwipeText_2_iOS" = "Windows 8、Windows Phone または Xbox 360のアカウントをお持ちの場合は、既存のアカウントでサインインしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_Wifi_Needed_Error" = "Xbox One と同じネットワークにこのデバイスを接続してください。SmartGlass にはワイヤレス ネットワーク接続が必要です - 携帯データネットワークには対応していません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_GameClips" = "ゲーム クリップ";
+    /* iOS,ANDROID,WINDOWS, Settings page signout button text when signing out */
+    "Settings_SignOutButton_SigningOut" = "サインアウト中";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_Windows" = "{0} さんが {2} で {1} を配信中です";
+    /* iOS,WINDOWS, */
+    "FriendsHub_ActivityFeed_Broadcasting_iOS" = "%1$@ さんが %2$@ を %3$@ で配信中です";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_LinktoFAQ" = "詳しくは、タップして問題解決 ガイドをご覧ください";
+    /* iOS,ANDROID,WINDOWS, */
+    "Narrator_FeedbackIcon" = "フィードバック";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epgl_NHoursText_iOSAndroid" = "%1$d 時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_iOSAndroid" = "%1$d 分";
+    /* iOS,ANDROID,WINDOWS, */
+    "FutureShowtimes_TimeFormat_Android" = "%1$s-%2$s %3$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NHoursText_Android" = "%d 時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_NMinutesText_Android" = "%d 分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Epg_OneHour_Text" = "1 時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "EpgDetails_Showtime_Android" = "%1$s - %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Recents" = "最近見たチャンネルを読み込み中です。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_AppChannels" = "アプリ チャンネルを読み込み中です。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TVListings" = "テレビ番組表を読み込み中です。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_Favorites" = "お気に入りのチャンネルを読み込み中です。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_LoadingMessage_TakeSomeTime" = "読み込みには数分かかる場合があります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_AddedFavoriteChannel_Message_Text" = "このチャンネルをお気に入りに追加しました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Settings_Filter_SectionHeader" = "ONEGUIDE";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_TVListings_Message_Text" = "OneGuide は、お好きなテレビ番組情報を 1 つのリストにしたり、カスタマイズできる便利な機能です。本体でテレビの設定をすると、テレビ番組表を見ることができます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_iOSAndroid" = "%1$d 時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_iOSAndroid" = "%1$d 時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_iOSAndroid" = "%1$d 分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_iOSAndroid" = "%1$d 分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_iOSAndroid" = "%1$d 秒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_iOSAndroid" = "%1$d 秒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecText_Windows" = "{0} 秒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NSecsText_Windows" = "{0} 秒";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinText_Windows" = "{0} 分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsText_Windows" = "{0} 分";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsText_Windows" = "{0} 時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrText_Windows" = "{0} 時間";
+    /* iOS,WINDOWS, */
+    "Global_NHrsMMinsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NHrsMMinsText_Windows" = "{0} {1}";
+    /* iOS,WINDOWS, */
+    "Global_NMinsMSecsText_iOS" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Android" = "%1$s %2$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "Global_NMinsMSecsText_Windows" = "{0} {1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_Broadcasting" = "ライブ配信中";
+    /* iOS,ANDROID,WINDOWS, */
+    "ProfileButton_WatchBroadcast" = "配信を見る";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_Error_MovePin" = "申し訳ありませんが、ピン留めを移動できませんでした。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Header" = "テレビとアプリ チャンネルのお気に入り";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title" = "通知";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description_iOS" = "電源がオンになっている場合、iOS の設定が優先され、この設定は無効になります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Description" = "お気に入りのフレンドが配信を開始したときに通知を受け取ります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Broadcast_Title" = "Twitch 配信開始";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Description" = "お気に入りのフレンドがオンラインになったときに通知を受け取ります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Presence_Title" = "お気に入りのオンライン";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Description" = "メッセージリストに新しいメッセージを受信したときに通知を受け取ります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Message_Title" = "メッセージ";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_iOS" = "%1$@ さんが配信中です";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Android" = "%s さんが配信中です";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Broadcast_Format_Windows" = "{0} さんが配信中です";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_iOS" = "%1$@ さんはオンラインです";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Android" = "%s さんはオンラインです";
+    /* iOS,ANDROID,WINDOWS, */
+    "PushNotification_Online_Format_Windows" = "{0} さんはオンラインです";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_PageTitle" = "比較";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_NoAchievementsAvailable" = "残念ながらこのタイトルの実績はありません";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_YouGamertagDisplayText" = "自分";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_TimePlayed" = "プレイ時間";
+    /* iOS,ANDROID,WINDOWS, */
+    "CompareGame_TitleStat_GameProgress" = "進行状況";
+    /* iOS,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_UnlockedWithTime_Tablet_iOS" = "解除: %1$@";
+    /* iOS,ANDROID,WINDOWS, Locked */
+    "CompareGame_AchievementItem_Locked_Tablet" = "未解除";
+    /* iOS,ANDROID,WINDOWS, Unlocked 3/12/13 {locked}  */
+    "CompareGame_AchievementItem_LockedWithPercentage_Tablet_iOSAndroid" = "未解除 (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, - - (20%) */
+    "CompareGame_AchievementItem_LockedWithPercentage_Phone_iOSAndroid" = "-- (%1$d%%)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialTitle" = "ピン留めの位置を変更できます";
+    /* iOS,ANDROID,WINDOWS, */
+    "Pins_TutorialText" = "長押ししながら好きな位置にピン留めをドラッグします。同時に Xbox One のピン留め位置も変更されます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackTitleText" = "フィードバックを送信";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashTitleText" = "問題が発生しました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_NoThanksButtonText" = "今はやめておく";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashBodyText" = "ご迷惑をおかけして申し訳ありません。問題の原因を調査しますので、以下の情報の提供にご協力ください:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ScreenshotText" = "スクリーン ショット";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ProcessorArchitectureText" = "デバイス プロセッサー アーキテクチャ";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SGVersionText" = "SmartGlass バージョン";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_OSVersionText" = "デバイスの OS バージョン";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareManufacturerText" = "デバイス ハードウェア メーカー";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_HarwareModelText" = "デバイス ハードウェア モデル";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CurrentCultureText" = "現在のカルチャー";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LayoutOrientationText" = "レイアウトの方向";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_GamerTagText" = "ゲーマータグ";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_LogFileDataText" = "ログ データ";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_MailBodyStep1Text" = "ステップ 1: フィードバックを入力してください。";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneNoScreenshotText" = "こちらにフィードバックを入力してください。";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8MailBodyStep2Text" = "ステップ 2: フィードバック送信先:";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_WinPhoneStep2Text" = "ステップ 2: スクリーンショットを添付してください: {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Windows" = "Xbox One SmartGlass ベータ版フィードバック : {0}";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_iOS" = "Xbox One SmartGlass ベータ版フィードバック: %1$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackSubject_Android" = "Xbox One SmartGlass ベータ版フィードバック: %1$s";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CrashSubject" = "Xbox One SmartGlass 問題報告";
+    /* iOS,WINDOWS, */
+    "FeedbackDialog_Win8Description" = "Windows の Xbox One SmartGlass の問題を Microsoft に報告する。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Phone" = "ランキング";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_HeaderTitle_Tablet" = "ランキング";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoData" = "申し訳ありませんが、このゲームまたはアプリにはランキングの登録がありません。今すぐプレイして 1 番になりましょう!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Leaderboard_NoStats" = "申し訳ありませんが、このゲームまたはアプリにはランキングがありません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Friends_Online_Windows" = "オンライン {0} 人";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Messages_Unread_Windows" = "未読 {0} 件";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_PrivacyStatement" = "フィードバックに個人情報や重要情報を入力しないでください。 Microsoft はフィードバックの目的のために、パスワード、クレジットカード情報、官公署発行の ID 番号等をお尋ねすることはありません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Featured" = "注目";
+    /* iOS,ANDROID,WINDOWS, */
+    "Featured_Landing_PageTitle" = "注目";
+    /* iOS,ANDROID,WINDOWS, */
+    "TOU_Accept" = "同意する";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Description" = "デバイスへの通知をオフにすると、SmartGlass からの通知も届かなくなります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_HD_BRACKETED" = "[HD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "DETAILS_RESOLUTION_SD_BRACKETED" = "[SD]";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Buy" = "購入";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Preorder" = "予約購入";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_GetItFree" = "無料でゲット";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Purchased" = "購入済み";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Available_Header" = "入手可能";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete" = "購入完了";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue" = "インストール";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Done" = "完了";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Message" = "Xbox One のマイ コレクションに追加されます。 Xbox がオンまたはスタンバイの状態で、十分な空き容量がある場合は、自動的にインストールされます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Andriod" = "Xbox One に %s をインストールしますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_Windows" = "Xbox One に {0} をインストールしますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_AddToQueue_Question_iOS" = "Xbox One に %1$@ をインストールしますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Recent" = "コミュニティー クリップ -  新着";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_CommunityClips_Saved" = "コミュニティー クリップ -  保存済み";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Saved" = "マイ ゲーム クリップ - 保存済み";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_Filter_MyGameClips_Recent" = "マイ ゲーム クリップ - 新着";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Recent" = "ゲーム クリップ - 新着";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_GameDVR_Filter_YouGameClips_Saved" = "ゲーム クリップ - 保存済み";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogTitle" = "よろしいですか?";
+    /* iOS,ANDROID,WINDOWS, warning message confirming removing friend */
+    "Profile_Profile_RemoveFriendConfirmation_DialogBody" = "フレンド リストから削除されます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_NoData" = "フレンドはいません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Friends_Gallery_NoData" = "フレンドはいません";
+    /* iOS,ANDROID,WINDOWS, number of allowable recipient left */
+    "Messages_ComposeMessage_ChooseRecipients_NumRemaining_iOSAndroid" = "残り %1$d";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Thanks" = "ありがとうございます!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Complete_Collection" = "入手したコンテンツは、Xbox One のマイ コレクションにあります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Popular" = "人気";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Recent" = "リリース日順";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Popular" = "人気";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Recent" = "リリース日順";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Tablet" = "ストア";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Header_Phone" = "ストア";
+    /* iOS,ANDROID,WINDOWS, */
+    "Drawer_Games_Store" = "ストア";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Featured" = "注目";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_FeedbackBodyText" = "SmartGlass 品質向上のため、フィードバックを送信して下さい。フィードバックを送信すると、以下の情報がが収集されます:";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableTVProviderText" = "ケーブル テレビ サービス提供会社";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CableBoxText" = "外付けテレビ チューナー型番";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ZipCodeText" = "郵便番号";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_RateText" = "評価してください";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ChooseOneText" = "１ つ選択";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_CategoryText" = "ご意見をお聞かせください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ReportProblemText" = "問題を報告する";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_SuggestionText" = "改善や新機能の提案をする";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationHeaderText" = "フィードバックを送信しました";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackDialog_ConfirmationText_iOSAndroid" = "フィードバックを送信いただきありがとうございます。フィードバックの内容について、Xbox Live メッセージで確認させていただく場合があります。パスワードや課金情報について尋ねることはありません。それらの情報を、メッセージで他人に送らないでください。\n\nSmartGlass チーム";
+    /* iOS,WINDOWS, */
+    "FirstRun_Favorites_Channel_TextIcon_iOS" = "テレビ番組表またはアプリ チャンネルでチャンネルをタップしてから %1$@ をタップして、お気に入りに追加してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_Channel_Text_First" = "テレビ番組表またはアプリ チャンネルでチャンネルをタップしてから";
+    /* iOS,ANDROID,WINDOWS, */
+    "FirstRun_Favorites_TvListings_Channel_Text_First" = "テレビ番組表でチャンネルをタップしてから";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Phone" = "セット内容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_IncludedContent_Tablet" = "セット内容";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Phone" = "セット";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Bundles_Tablet" = "セット";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Error_AttachmentFailed" = "申し訳ありませんが、表示するものがありません。しばらくしてからもう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Me" = "まだゲーム クリップを録画していません。ぜひ試してください!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Connection_DeviceTime_Incorrect" = "時間と日付が正しいことを確認してからもう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Millions" = "M";
+    /* iOS,ANDROID,WINDOWS, */
+    "Like_Count_Thousands" = "K";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_ServiceFailure_Playback_Error" = "しばらくしてからもう一度お試しください。現在、再生することができません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameDVR_DeletedClip_Playback_Error" = "申し訳ありませんが、このクリップはご利用いただけなくなりました。";
+    /* iOS, */
+    "Purchase_Title_Purchased_iOS" = "%1$@ を購入しました";
+    /* iOS,WINDOWS */
+    "Purchase_Confirmation_NoHome" = "購入が完了しました。 本体にダウンロードするには、マイ コレクションに移動して \"インストールできます\" リスト (右側) から選択してください。[設定] > [ホーム Xbox] で本体をホーム Xbox として登録すると、購入したものを自動的に本体にダウンロードできます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Queued" = "これは自動的にホーム Xbox にインストールされます。Xbox の電源が入っているか、クイック起動に設定されていて、アップデートと購入したコンテンツを自動的にダウンロードする設定で、かつ十分な空き容量がある場合は、ダウンロードが開始されます。本体のホーム Xbox を変更したい場合は[設定] > [ホーム Xbox] で変更できます。電源オプションは[設定] > [電源と起動] で変更できます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_Consumable" = "こちらのアイテムは、繰り返し何回でも購入できます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Error_NoResults" = "アイテムは見つかりませんでした";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse" = "探す";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons" = "追加コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games" = "ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Browse_Tablet" = "探す";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Add_ons_Tablet" = "追加コンテンツ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Games_Tablet" = "ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Popular" = "人気順";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Recent" = "リリース日順";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader" = "スリープを抑止";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwake_SectionHeader_Windows" = "スリープを抑止";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOption" = "スリープしない";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeAlwaysOptionDescription" = "SmartGlass を使用している間、画面はタイムアウトしません (バッテリー消費: 大)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOption" = "リモコン使用時のみ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeRemoteOptionDescription" = "Xbox のリモコンとして使用している間、画面はタイムアウトしません (バッテリー消費: 中)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOption" = "デバイス設定に依存";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Preferences_StayAwakeSystemOptionDescription" = "画面は通常の設定に従いタイムアウトします (バッテリー消費: 小)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Notification_Title_Windows" = "通知";
+    /* iOS,ANDROID,WINDOWS, */
+    "FeedbackForm_CrashTellUsText" = "どんな状況でしたか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Purchase_Confirmation_SupportLink" = "詳細情報については、ここをタップしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_Channel_NoSavedData_Them" = "保存されたクリップはありません";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase" = "購入には、サインインを要求する";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_Purchase_Header" = "購入";
+    /* iOS,ANDROID,WINDOWS, */
+    "ACTION_NOT_AIRING" = "現在放送されていません";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Description" = "テレビを見る";
+    /* iOS,ANDROID,WINDOWS, */
+    "UniversalRemote_Button_CHANNEL" = "チャンネル";
+    /* iOS,ANDROID,WINDOWS, */
+    "Details_Coming_Soon" = "近日発売予定";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Streaming_Error_Not_Supported" = "本体ではテレビをストリーミングできません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Messages_Copy_Text" = "文字をコピー";
+    /* iOS,ANDROID,WINDOWS, This is the string format used to display album and artist name in now playing */
+    "NowPlaying_TrackSubtitleTablet_Windows" = "{0}/{1}";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_EntryText" = "フォロワーへのメッセージ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Header" = "メッセージの削除";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_StatusPost_DiscardTextError_Body" = "メッセージは送信されていません。操作を続けると、メッセージは削除されます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Send_ErrorText" = "現在、送信できません。タップして、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_Profile_NoData" = "実績を解除、ゲーム クリップを録画、フレンドを追加すると、ここで確認できます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionsScreen_HeaderText" = "共有先...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ActivityFeedText" = "プレイ状況のフィード";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_MessageText" = "メッセージ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_HeaderText" = "プレイ状況のフィードに共有";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_TextEntryWatermark" = "タイトルを追加";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShareButtonText" = "共有";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Header" = "共有の取り消し";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_DiscardTextError_Body" = "まだ共有されていません。操作を続けると共有されません。";
+    /* iOS, */
+    "ActivityFeed_YouLikedText_iOS" = "あなたと %1$@ 人のユーザーがこれに「いいね!」を付けました";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1LikeText" = "いいね! (1)";
+    /* iOS, */
+    "ActivityFeed_LikesText_iOS" = "いいね! (%1$@)";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1ShareText" = "共有 (1)";
+    /* iOS, */
+    "ActivityFeed_SharesText_iOS" = "共有 (%1$@)";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_1CommentText" = "コメント (1)";
+    /* iOS, */
+    "ActivityFeed_CommentsText_iOS" = "コメント (%1$@)";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_TextEntryWatermark" = "コメントする";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorText" = "問題が発生しました。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Share_ServiceFailure" = "申し訳ありませんが、現在、共有できません。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Service_ErrorTextBody_Post_ServiceFailure" = "申し訳ありませんが、現在、コメントを投稿できません。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_Filter_Header" = "いいね!";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_Filter_Header" = "共有";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_Filter_Header" = "コメント";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_HeaderText" = "プレイ状況のお知らせ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_LikedText" = "プレイ状況に「いいね!」を付けました";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_SharedText" = "プレイ状況を共有しました";
+    /* iOS, */
+    "ActivityAlerts_List_2People_iOS" = "%1$@ + 他 1 人";
+    /* iOS, */
+    "ActivityAlerts_List_NPeople_iOS" = "%1$@ + 他 %2$@ 人";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_Empty" = "お知らせ";
+    /* iOS,ANDROID,WINDOWS */
+    "ActivityAlerts_ListEntry_1Alert" = "新着お知らせ (1)";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_iOS" = "新着お知らせ (%1$@)";
+    /* iOS, */
+    "ActivityAlerts_ListEntry_Header_iOS" = "プレイ状況のフィード (%1$@)";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedText_iOS" = "プレイ状況についてコメント: \"%1$@\"";
+    /* iOS, */
+    "ActivityAlerts_List_CommentedOthersText_iOS" = "%1$@ さんのプレイ状況についてコメント: \"%2$@\"";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_List_AddedFriendText" = "フレンドに追加されました";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Header" = "フィードの削除";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteItem_Body" = "このプレイ状況のフィードを削除しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Header" = "コメントの削除";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_ConfirmDeleteComment_Body" = "このコメントを削除しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_ServiceFailure" = "申し訳ありませんが、現在、プレイ状況のお知らせを取得できません。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityItem_ServiceFailure" = "申し訳ありませんが、現在、プレイ状況を取得できません。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityAlerts_NoData" = "他のユーザーがプレイ状況のフィードに「いいね!」を付けたり、共有やコメントをしたり、フレンドに追加すると、ここで確認できます。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Likes_List_NoData" = "1 番に「いいね!」を付けましょう";
+    /* iOS,ANDROID,WINDOWS, */
+    "Shares_List_NoData" = "1 番に共有しましょう";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comments_List_NoData" = "1 番にコメントしましょう";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Confirmation_Success" = "削除されました";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Header" = "問題が発生しました";
+    /* iOS,ANDROID,WINDOWS, */
+    "Delete_Failure_Body" = "現在、削除できません。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Comment_Failure_Body" = "現在、コメントを投稿できません。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_DisplayError_Body" = "現在これを表示できません";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header" = "人気のゲーム (10 日間)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Header_Tablet" = "人気のゲーム (10 日間)";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Plays_1Friend" = "1 人のフレンドがプレイしました";
+    /* iOS, */
+    "PopularGames_Plays_NFriends_iOS" = "%1$@ 人のフレンドがプレイしました";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_Playing_1Friend" = "1 人のフレンドがプレイ中";
+    /* iOS, */
+    "PopularGames_Playing_NFriends_iOS" = "%1$@ 人のフレンドがプレイ中";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_ServiceError" = "申し訳ありませんが、現在、人気のゲームを表示できません。更新してから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "PopularGames_NoData" = "フレンドも、最近何もプレイしていません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header" = "トップ ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Header_Tablet" = "トップ ゲーム";
+    /* iOS,ANDROID,WINDOWS, */
+    "TopGames_Played_Once" = "1 回プレイしました";
+    /* iOS, */
+    "TopGames_PlayedN_iOS" = "%1$@ 回プレイしました";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Header" = "会話の削除";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_DeleteConfirmation_Body" = "この会話を削除しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Delete_MenuText" = "会話を削除";
+    /* iOS,ANDROID,WINDOWS, */
+    "Conversation_Reply_Failure" = "送信できませんでした。タップしてもう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Link" = "新機能の紹介";
+    /* iOS,ANDROID,WINDOWS, */
+    "Settings_WhatsNew_Description" = "このアップデートの新機能を見る";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_title" = "9 月の新機能";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_features" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Windows" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_WindowsPhone" = "";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_iOS" = "自分とフレンドのスクリーンショットを見る、コメントする、共有する、保存する";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_Android" = "自分とフレンドのスクリーンショットを見る、コメントする、共有する、保存する";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_bug_fixes" = "バグ修正";
+    /* iOS,ANDROID,WINDOWS, */
+    "Current_release_caveat" = "一部の機能は、お住まいの国や地域によってご利用いただけない場合があります";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ERROR" = "申し訳ありませんが、SmartGlass から録画開始できませんでした。";
+    /* iOS,ANDROID,WINDOWS, */
+    "RECORD_THAT_ACCESSIBILITY" = "クリップ";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Providers" = "サービス提供会社";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Provider" = "サービス提供会社を選択してください:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_General_Error" = "現在、チャンネルを取得できません。更新してから、もう一度やり直すか、別のサービス提供会社を選択してください:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Choose_a_Different_Provider" = "別のサービス提供会社を選択してください:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Select_a_Provider" = "サービス提供会社を選択してください:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_Connection_Error" = "Xbox に接続してテレビ番組表を見るか、 別のサービス提供会社を選択してください:";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Multi_Headend_All_Providers" = "すべてのサービス提供会社";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Start_Error" = "申し訳ありませんが、テレビのストリーミングを開始できませんでした。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDCP_Error" = "この番組は HDCP で保護されているため、ストリーミングすることができません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Error" = "このデバイスでテレビを見るには本体にサインインしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Console_Error" = "本体で問題が発生したため、テレビのストリーミングができません。しばらくしてから、もう一度お試しください。問題が解決しない場合は、本体を再起動してみてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connection_Error" = "本体との接続が切れました。接続しなおしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Error" = "申し訳ありませんが、本体に接続できないので、テレビのストリーミングができません。ネットワークを確認して、もう一度お試しください。問題が解決しない場合は、ルーターを再起動してみてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Parental_Controls_Block" = "申し訳ありませんが、この番組は制限されています。 この設定を変更するには、Xbox で [設定] > [プライバシーとオンラインの安心設定] の順に選択します。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Too_Slow_Error" = "ネットワークが遅すぎるまたは混雑しているので、テレビをストリーミングできません。ネットワークを確認してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Interrupted_Error" = "テレビのストリーミングは中断されました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signed_Out_Error" = "本体からサインアウトしたので、テレビのストリーミングを停止しました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error" = "ストリーミングで問題が発生しました。しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Device_Not_Supported_Error" = "このデバイスでは、テレビのストリーミングに対応していません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Not_Supported_Error" = "このネットワークでは、テレビのストリーミングに対応していません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Version_Not_Supported_Error" = "申し訳ありませんが、このバージョンの SmartGlass はテレビのストリーミングに対応していません。SmartGlass アプリをアップデートしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Region_Not_Supported_Error" = "こお住まいの国や地域では、テレビのストリーミングに対応していません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Signal_Lost_Error" = "Xbox へのテレビ信号がありません";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Restart" = "ストリーミングで問題が発生しました。SmartGlass を再起動してから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Resources_Error" = "このデバイスで実行中のアプリが多すぎます。いくつかアプリを終了してから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_By_User_Error" = "他のユーザーが本体を操作したため、ストリーミングが停止しました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Disconnect_Error" = "本体との接続が切れました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Lost_Network_Error" = "本体との接続が切れました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnect_To_Stream" = "引き続きテレビを見るには、接続しなおしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Try_Again_Later" = "しばらくしてから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Header" = "テレビのストリーミング";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Begin_Header" = "視聴を開始";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_TV" = "テレビを見る";
+    /* iOS,ANDROID,WINDOWS, */
+    "Stream_Header" = "テレビのストリーミング";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Currently_Playing" = "プレイ中";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_On_Next" = "次のストリーミング";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Close_Stream" = "視聴を停止";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Restart_Stream" = "テレビのストリーミングを再開する";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_HDMI_In" = "HDMI-IN";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_TV_Tuner" = "Xbox One デジタル テレビ チューナー";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Video" = "ビデオのストリーミング";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Current_Source" = "現在の映像ソース:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Choose_a_Source" = "映像ソースを選択:";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Connecting" = "接続中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Reconnecting" = "再接続中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Attempting_Reconnect" = "再接続中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Buffering" = "バッファ中...";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Network_Quality" = "テレビのストリーミングの画質はネットワークの影響を受けます。ネットワークを確認してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Remote_Cannot_Control_Source" = "この映像ソースは SmartGlass でリモート操作できません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Stop" = "視聴を停止";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Sign_In_Before_Streaming" = "テレビのストリーミングを設定するには、ここで使用しているアカウントで本体にサインインしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Header" = "SmartGlass アプリの評価";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_Body" = "SmartGlass アプリについて評価してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_RemindButton" = "後で評価する";
+    /* iOS,ANDROID,WINDOWS, */
+    "Rate_App_DontAskButton" = "次回から表示しない";
+    /* iOS,ANDROID,WINDOWS, */
+    "ActivityFeed_DeleteError" = "このプレイ状況のフィードを取得できません。現在、ご利用いただけないか、または、削除された可能性があります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Resume" = "視聴を再開";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_General_Error_Long" = "ストリーミングで問題が発生しました。いったん停止し、再生し直してください。それでも問題が解決しない場合は、SmartGlass を終了してから再起動するか、本体を再起動するか、またはルーターを再起動してみてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MHEG_Error" = "申し訳ありませんが、インタラクティブ コンテンツはプレイできません。他のチャンネルをお試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Content_Error" = "このチャンネルは現在利用できません。OneGuide で利用可能なチャンネルを確認してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_MTC_Live" = "ライブ";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_NewMarkets" = "さらに多くの国や地域で [テレビと OneGuide] が利用可能";
+    /* iOS,ANDROID,WINDOWS, */
+    "WhatsNew_OneGuide_Streaming" = "Xbox One デジタル テレビ チューナーからライブ テレビをストリーミング";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Phone" = "プレイしたフレンド";
+    /* iOS,ANDROID,WINDOWS, */
+    "FriendsWhoPlay_Header_Tablet" = "プレイしたフレンド";
+    /* iOS,ANDROID,WINDOWS, */
+    "Radio_NoVideo_Error" = "ラジオ を聴く";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps" = "アプリ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Apps_Tablet" = "アプリ";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold" = "ゴールド";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_Gold_Tablet" = "ゴールド";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold" = "Games with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold" = "Deals with Gold";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_GamesWithGold_Tablet" = "GAMES WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_DealsWithGold_Tablet" = "DEALS WITH GOLD";
+    /* iOS,ANDROID,WINDOWS, */
+    "Browse_ComingSoon" = "近日発売予定";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_OptionScreen_ShowcaseText" = "ショーケース";
+    /* iOS,ANDROID,WINDOWS, */
+    "Share_CaptionScreen_ShowcaseHeaderText" = "ショーケースを公開";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteHeader" = "ショーケースのアイテムを削除しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_Delete_ShowcaseDeleteBody" = "ショーケースからこのアイテムを削除しますか?";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataMeText" = "プレイ状況のフィードや実績の詳細から会心のゲーム クリップや解除した実績を共有しましょう。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_NoDataYouText" = "フレンドは実績、ゲーム クリップをショーケースにまだ共有していません。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_BioHeader" = "自己紹介";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_LocationHeader" = "場所";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_High_Quality" = "高品質";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Best_Quality" = "最高品質";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Medium_Quality" = "中品質";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Low_Quality" = "低品質";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_New_Feature" = "新: SmartGlass でテレビを視聴";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_No_Signal" = "現在、テレビ チューナーからの信号を検出できません。アンテナを確認してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_No_Info_Available" = "情報がありません";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Other_User_Changed_Quality" = "他のユーザーがすべての SmartGlass 接続のストリーミングを変更しました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Streaming_Playing_Radio_Channel" = "ラジオ チャンネルを再生中";
+    /* iOS,ANDROID,WINDOWS, */
+    "EPG_Cannot_Find_Tuner" = "テレビ チューナーが見つかりませんでした。Xbox に接続されているか確認してから、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOn" = "電源オン";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_TurnOff" = "電源オフ";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOn" = "電源オン...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PoweringOff" = "電源オフ...";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOnFailure" = "本体の電源をオンにできません。デバイスと本体が同一のネットワークに接続していて、本体が自動的にオンになることを確認してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ConnectDialog_PowerOffFailure" = "Xbox の電源をオフにできませんでした。Xbox がネットワークに接続されており、本体にサインインしていることを確認してから、もう一度お試し下さい。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestNetworkStreaming" = "テスト ストリーミング";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_ConnectToTest" = "Xbox に接続してマルチメディア ネットワークのテストを行う";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_BeginTest" = "テストを開始する";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestInProgress" = "テスト実行中。このページを閉じたり、移動したりしないでください。テスト終了までに最長5分かかる場合があります。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_TestComplete" = "テストが終了しました! ストリーミングの最適化へのご協力、ありがとうございました。";
+    /* iOS,ANDROID,WINDOWS, */
+    "GameStreaming_SignInToTest" = "テストを開始するには、ここで使用しているアカウントで本体にサインインしてください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_CancelTest" = "テストをキャンセル";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NeedStopGameStreamingError" = "ネットワーク テスティング開始前にゲーム ストリーミングを終了してください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_StopGameStreamingWarning" = "ネットワーク テスティングを開始すると現在プレイ中のゲーム セッションが終了します。続けますか？";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_Proceed" = "はい";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_NotProceed" = "いいえ";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_ResumeTest" = "テストを続行";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_GenericError" = "テスト中に問題が発生しました。もう一度、お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RetryTest" = "テスト再試行";
+    /* iOS,ANDROID,WINDOWS, */
+    "NetworkTest_RebootConsole" = "本体上でストリーミングができません。本体を再起動して、もう一度お試しください。";
+    /* iOS,ANDROID,WINDOWS, */
+    "ThirdPartyNotice_Header" = "サード パーティー向け通知";
+    /* iOS,ANDROID, */
+    "Drawer_Captures" = "キャプチャ";
+    /* iOS,ANDROID, Profile page My Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Phone" = "マイ キャプチャ";
+    /* iOS,ANDROID, Profile page Channel pivot header title cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Phone" = "キャプチャ";
+    /* iOS,ANDROID, Profile page My Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_Me_Tablet" = "マイ キャプチャ";
+    /* iOS,ANDROID, Profile page Channel pivot header upper cased */
+    "Profile_Channel_Capture_HeaderTitle_You_Tablet" = "キャプチャ";
+    /* iOS,ANDROID, Used by activity incase screenshot cannot be opened */
+    "Error_CanNotOpenScreenshot" = "申し訳ありませんが、スクリーンショットを開くことができません。";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Me" = "まだスクリーンショットを作成していません。試してみませんか。楽しいですよ。";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_Me" = "まだスクリーンショットを録画していません。試してみませんか。楽しいですよ。";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoSavedData_Screenshots_Them" = "保存したスクリーンショットはありません";
+    /* iOS,ANDROID, */
+    "Profile_Channel_NoData_Screenshots_You" = "共有できるスクリーンショットはないようです。";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Saved" = "マイ スクリーンショット - 保存済み";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_MyScreenShots_Recent" = "マイ スクリーンショット - 新着";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Recent" = "スクリーンショット - 新着";
+    /* iOS,ANDROID, */
+    "Profile_GameDVR_Filter_YouMyScreenShots_Saved" = "スクリーンショット- 保存済み";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataMeText" = "プレイ状況のフィードや実績の詳細から最高のゲームクリップや、スクリーンショット、実績を共有しましょう。";
+    /* iOS,ANDROID,WINDOWS, */
+    "Showcase_WithScreenshots_NoDataYouText" = "フレンドがショーケースで共有している実績や、スクリーンショット、ゲーム クリップはまだありません。";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_Me_Tablet" = "マイ キャプチャ";
+    /* iOS,ANDROID, */
+    "Profile_ChannelGallery_Captures_HeaderTitle_You_Tablet" = "キャプチャ";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Phone" = "ゲーム キャプチャ";
+    /* iOS,ANDROID, */
+    "GameProgress_Captures_Channel_HeaderTitle_Tablet" = "ゲーム キャプチャ";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData" = "表示できるスクリーンショットがまだありません! プレイしてスクリーンショットをとりましょう。";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_Community" = "このゲームのスクリーンショットはまだ作成されていません。";
+    /* iOS,ANDROID, */
+    "GameProgress_Channel_Screenshots_NoData_CommunityButtonText" = "コミュニティー スクリーンショットを表示";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Saved" = "コミュニティー スクリーンショット - 保存済み";
+    /* iOS,ANDROID, */
+    "GameDVR_Filter_CommunityScreenShots_Recent" = "コミュニティー スクリーンショット -  新着";
+    /* iOS,ANDROID, */
+    "Screenshot_Saving" = "保存中...";
+    /* iOS,ANDROID, */
+    "Screenshot_ChooseAction" = "選択";
+    /* iOS,ANDROID, */
+    "Screenshot_Sharing" = "共有中...";
+    /* iOS,ANDROID, */
+    "Screenshot_Share" = "共有";
+    /* iOS,ANDROID, */
+    "Screenshots_Saved" = "スクリーンショットが保存されました";
+    /* iOS,ANDROID, */
+    "Screenshots_SavedError" = "スクリーンショットが保存できませんでした。もう一度お試しください。";
+    /* iOS,ANDROID, */
+    "Screenshots_ShareError" = "スクリーンショットが保存できませんでした。もう一度お試しください。";
+    /* iOS,ANDROID, */
+    "Screenshot_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Share" = "Share real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Update" = "Name sharing settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateRealNameSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartSharing" = "Help your friends recognize you";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSharing" = "You're sharing your real name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_TryAgain" = "Try again in a while";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChooseWhoSeesYourName" = "Choose who sees your name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_WhatYouChose" = "Here's what you chose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description1" = "You can share your real name with your friends on Xbox - you choose who to share it with. Your name doesn't show up in games, and you can always change these settings in your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StartRealNameSharing_Description2" = "Choose Set up name sharing to pick the people you want to share your name with.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EnforcementBanned_Description" = "You can't share your real name because of your past behavior.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ErrorAtStartup_Description" = "We can't set up or change your real name sharing settings right now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLook_Description" = "This is how you'll appear to other people on Xbox, using the real name from your Microsoft account. If it doesn't look right, you can edit it now.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_EditHowYouLook" = "This will change the name on the Microsoft account for {0}. This name is used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithFriendsOfFriends" = "When you share your name with friends, their friends see it, too. You can change these settings any time from your profile.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveName" = "Sorry, we can't change your name right now. Click Save to try again or go back.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Error_SaveSharing" = "Sorry, we can't save your name sharing settings right now. Select Done to try saving again.";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Everyone" = "Everyone on Xbox";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ChosenFriends" = "Only friends I choose";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWith" = "Share with: {0}";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ZeroFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_OneFriend" = "{0} friend";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ManyFriends" = "{0} friends";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NextWithSelectedCount" = "Next ({0} selected)";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Edit" = "Edit";
+    /* iOS,ANDROID, */
+    "RealNameSharing_FirstName" = "First name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_LastName" = "Last name";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Save" = "Save";
+    /* iOS,ANDROID, */
+    "RealNameSharing_UpdateSettings" = "Update settings";
+    /* iOS,ANDROID, */
+    "RealNameSharing_NoThanks" = "No, thanks";
+    /* iOS,ANDROID, */
+    "RealNameSharing_SetUpNameSharing" = "Set up name sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_StopSharing" = "Stop sharing";
+    /* iOS,ANDROID, */
+    "RealNameSharing_GoBack" = "Go back";
+    /* iOS,ANDROID, */
+    "RealNameSharing_Next" = "Next";
+    /* iOS,ANDROID, */
+    "RealNameSharing_ShareWithSettings" = "Share with";
+    /* iOS,ANDROID, (Used to indicate how your name appears to others) */
+    "RealNameSharing_HowYouLook" = "How you look";
+    /* iOS,ANDROID, */
+    "RealNameSharing_HowYouLookDetail" = "The name is from the Microsoft account and used to identify you across a broad range of Microsoft products and services.";
+    /* iOS,ANDROID, (First placeholder is for the users First Name, the second placeholder is for their Last Name) */
+    "RealNameSharing_SettingsRealNameConcatentation" = "%1$@ %2$@";
+    /* iOS,ANDROID,WINDOWS, */
+    "Profile_ChangeFriendship" = "Change friendship";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorRealNameSave" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorAddingFriend" = "Sorry, we can't add this person right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorChangeRemove" = "Sorry, we can't save your changes right now. Try again in a while.";
+    /* iOS,ANDROID,WINDOWS, */
+    "RealNameSharing_ErrorPartialFail" = "Sorry, we could only save some of your changes. Try saving again.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Friend" = "Friend";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Label_Favorite" = "Favorite";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_FriendsofFriends" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "RealNameSharing_AddFriendDescription" = "Friends of friends";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Favorite" = "Favorite friends go first on your friends list. You'll see when they go online or start broadcasting.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_RadioButton_Subtext_Friend" = "Friends show up on your friends list and activity feed. They see you as a new follower.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Everyone" = "Your real name is shared with everyone on Xbox. You can make changes in Settings.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName" = "Let {0} see my real name. It might help them recognize who you are.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Alt" = "{0} may not recognize you as {1}. They're sharing their name with you. Check the box to share with them.";
+    /* iOS,ANDROID,WINDOWS */
+    "ChangeRelationship_Checkbox_Subtext_ShareRealName_Friends" = "Your real name is shared with all your friends on Xbox. You can make changes in Settings.";
